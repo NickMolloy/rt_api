@@ -1,0 +1,7 @@
+requests
+m3u8
+requests_oauthlib
+httmock
+pytest
+flaky
+vcrpy

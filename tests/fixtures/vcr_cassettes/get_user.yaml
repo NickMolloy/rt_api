@@ -1,0 +1,39 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer qoS7ryKiKAuruJc6jxf6R5FAWp9zK5hGfcm4Imy1]
+      Connection: [keep-alive]
+      Cookie: [__cfduid=dd2763910164e32ec1a985eb775046b601486786718; rt_production_session=eyJpdiI6InNIQkwweTFwXC9wOUhRcW9Pdlp6MCtpb3pIWWNFK2RlQlZiRnZkOWo0b2RBPSIsInZhbHVlIjoiV2F1dVpQcUlnMXk1bm9BZU5LZUI0bVZOMXV0MnZkSk1hSElFK3B4U1R0aFwva3MwVWljZStIZWdXUDFGSjRsRnhSK2hUeGUwS25LS0RxUHo2OVc2dlN3PT0iLCJtYWMiOiJiZjJkYTUyYzliMzk5NzQ0YmEwOTg5OWU1ODUyMTJjNzdiOTEwYmQ4MjdhY2E1NGY1NGEzZmVhMjBkMzk2ZjNlIn0%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2269568
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA7ySz27CMAzG38XnlNDSsZKn2AFuuTiJoZHyT0mqjaG++1QGgkk7c/Tnz/59snyB
+        qVAO6AkEYMaCamqBgbElOTzvbXVLJ2FG3wGDm/NaL75CX0sJDFzUWG0M9+4ADKLWU/qj9sAAVZwq
+        iAuM1TsQAAy0I1w8MDOwBkTXbXdv24FByvFoHX1YXadMy1A9p2uCm8JAx1ApXBdWBQLGWpOQXPKy
+        WaHH7xjws6x09JJrE1Y5xlIpV6I6/qpTchFNkdx6PFGRfI26VZuBmrUyuumpo2a3e2+b/mhU/z6o
+        djCd5FVJTl6RWc7gXwgu/gH25oVgbx5gd3ohOGZ7sgHdHT/PDEqKocQM4oiuEAONIQar0R2ye472
+        T4hCWfKnZx+xHAqZfbboQNQ80fwDAAD//wMAw8DEmRgDAAA=
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      CF-RAY: [32f4ff8489fc652d-SYD]
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json]
+      Date: ['Sat, 11 Feb 2017 04:18:39 GMT']
+      Server: [cloudflare-nginx]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InduS3M1RUVMREhhbjRqd3o0eHVmNGFYSkNDOHo4UzRpS0RQdTBtNkpSajg9IiwidmFsdWUiOiI4ZjBkQ3BxaXZ1WFJtd0xkaU5VUEp5YmNObE1hNkJnaVBHV1FJSm5teWtoaXZNb01ta0IxeFo4QnF4N21VbUFcL0NJd3NnQlwvRURBdVwveGlTSnpVUEd4Zz09IiwibWFjIjoiMTAzMzY3ZjhlNGM3Y2NkMGRhMmNiZGY0NzEwMmI0ZDM2MGJiNGE1OTA3ZTNlYjZkOTBlYTQ3MjU4ZjBjNWI3NCJ9;
+          expires=Fri, 12-May-2017 04:18:39 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/2269568]
+    status: {code: 200, message: OK}
+version: 1

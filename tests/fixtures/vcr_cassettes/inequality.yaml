@@ -1,0 +1,169 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer cUTuGTgMTKNebHkG9ydLfB8Fc5erpQxK65vlf01h]
+      Connection: [keep-alive]
+      Cookie: [__cfduid=d39d1c367ca2a3aa78b99012afe1fb0381486786722; rt_production_session=eyJpdiI6IkdLWTFRSW5JOTVYRGlEeHNleHhZXC95V2pMcGN3N00ydWc2bWVRcWNcL3I0MD0iLCJ2YWx1ZSI6IktXWDdTdGNwK1l1QlpVaVVPeVk5Yk4yVDRcL0x0MVdwVFVrUklcL0l5WkJPRGFZMFk3V1MyYk9ZSHREOHdoZDhHcUtjV1VBQnN5bUZXY0xKMVpGbzZBZmc9PSIsIm1hYyI6IjZkODMwMzgxNTVkNTlkMWJmNzQ3OTRhY2ZhZTg4MGEyZWIwZmRhNmE1Y2I4ZmYxOTAyOWYwZTE5YjljY2ZmNzQifQ%3D%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/episodes/50
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+xYXa/jNBD9K5ZfeImbzyZptFoJECAkEIgLQojsw8SeJuY6dmQ77XZX/e/IbZd7
+        u8tyi1QuWqlv0TiZczI5c2aUt9RLr5A29KtJOiOQ5MuG/DqA/8yR76VGIh35zczW0YhymLw0mjb0
+        Ize4yWhn7A9a7WizBuUwogIdt/L04Fs6+FHRhr6YXt7JcTTaEdCCfGPlmnSS36MlZoOWuNn2aHdk
+        O0iF5A5sj0RIx5Vx6IgfwJPvzIRvAvoghdQ9ccgtejIp0G7xoo2nl4GyQgiE/1Mwuo+oU3NPG2pR
+        sI1jnZqROQRnNMsYHkvL8mWokfSh3NYY59H+jOgHGlEpaLNMIqrnsUNLm7SKqELd+4E2WZ1EdLJm
+        LRX+KLmfLYZK+t0UEk2nSES50R61P5x1tKGD91PTxm3s8gWM8MZo2LoFN2Mbc6EXJwY+MDhG50kZ
+        EK6N5Qg9ujbu6qrqMOUMOUdWLLsl6yBHJrIkL1dVuVqJqo1918Y4LZPFH1MfXnB8Rmw3nmGP4hmx
+        R3GGrfpnxDZW9lKDesRgH1Q4mG34/hrGoI2fUJCNW5Av1BwE4uZxBLs7b8NvNfHDQe8etCfrOagp
+        In5rSG/NPDli1sQZJSRaRzrwXiFZG0uC3KxR4TgkUAjOE4FOWugUkkkix3BoERRB58EjkUewe222
+        msxabtA6bAiQzrwmHPTO6Hf3jFIIdUigzXZAix/09KfDPBhE6PD073wifJiDU3xp5tC9aRFaeYP2
+        eXu97jhURQKs7lY1KzDnDCBZsywpiowXAGnHj72eJWm+SjOWFmW2LMu0Kst8xeymS4vrWsBllIIF
+        PE3pSs5wGaXgDE9TupJhXEbpwTCeIhZ85H+ZNiuo67pMU7bs0ooVK+gYiGLFOCQgSqhLxPSoQLvp
+        yuTK8+Yy9CC2M/Qr6eoy9KCrM/QrSegy9AcJPeIQ1MJBGy05qF+sesznQ+Qwn9r4sfnt37nfQUin
+        XfTuECEZfW99pKdNKXtYlLJ/XL3obSTeRuJtJN5G4m0k3kbiJzMS/9Xzp58LZyk+8uthRCEhqHMj
+        BRpHm9//EvEh8p6EjydcaBrR+ZzGduKLtCqXny88zKGiGn0b18kh1saHbI+KesRr42zJRcmLjFXp
+        KmdFuq5ZV6c1S9cVwjqpRZGVbSy1wNeLMZ9rut+/iijMQpqvpcLA+FVEldT3h8v9/k8AAAD//wMA
+        n1xcPr8SAAA=
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      CF-RAY: [32f4ff9c8e0e65f9-SYD]
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json]
+      Date: ['Sat, 11 Feb 2017 04:18:43 GMT']
+      Server: [cloudflare-nginx]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkUwOFZLenhsejQ4cDV0ZzAwMFZVcEh0Z1R5aEY4Qmp6VGZiUXdsNnVXXC9zPSIsInZhbHVlIjoiNEp6KzFoZnNhbHhqWHF6VzVjNVF0R2hvaG5majJMUCtlMTZ4NTlHYWpFYXhTcUtEVXk0OHcrTDlvc3dGeVdjTmVsTmM4clBoQ2MwcXJqUkZHV2VLNEE9PSIsIm1hYyI6IjYyOWQ4MDNjNTViZWQ0ZTRmNWFkZjZhOGJmOTRhNGRiMmQxZTM2OTliYjZkOTQ1MWEzZDM5MjM2OGQyNmYzYzEifQ%3D%3D;
+          expires=Fri, 12-May-2017 04:18:43 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/episodes/50]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer cUTuGTgMTKNebHkG9ydLfB8Fc5erpQxK65vlf01h]
+      Connection: [keep-alive]
+      Cookie: [__cfduid=d39d1c367ca2a3aa78b99012afe1fb0381486786722; rt_production_session=eyJpdiI6IkUwOFZLenhsejQ4cDV0ZzAwMFZVcEh0Z1R5aEY4Qmp6VGZiUXdsNnVXXC9zPSIsInZhbHVlIjoiNEp6KzFoZnNhbHhqWHF6VzVjNVF0R2hvaG5majJMUCtlMTZ4NTlHYWpFYXhTcUtEVXk0OHcrTDlvc3dGeVdjTmVsTmM4clBoQ2MwcXJqUkZHV2VLNEE9PSIsIm1hYyI6IjYyOWQ4MDNjNTViZWQ0ZTRmNWFkZjZhOGJmOTRhNGRiMmQxZTM2OTliYjZkOTQ1MWEzZDM5MjM2OGQyNmYzYzEifQ%3D%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/50
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA7SUTWvcMBCG/4o7l17stb3ZuI0IObTXHlLa3gxhLI9tNfpwpXHDdvF/L/IGUsgu
+        BS+5SsMzj3hfdABWrAkEfCMMziYlpNBSkF6NrJwFAZCCakFcFynYyTTkQZQpBD31IODXpORj1igO
+        WVgAWQSEwT2BOIBFE9Ff41DySXGId5Mx6PfxemCjQcDtePd9UPYxcV2iOMGQNNjsky/E70Nyr3H/
+        7rbOxztIQWrCqPSfcZiPylenPKPCYvrZTZaXt0j3m/y9kjx5il68H6P2+HwSByxTHD4ANyBgYB5F
+        ndd5uNqgwT/O4lPYSGfqXLZ2450LTJ6JeDiettThpLnOuanznix5JR9weFg2b36OfbQyF5GDOUs2
+        7UVk054l6/4isvOqVxb1Gf48pzB61ylNb5rONGqHbahzZbCnUOd002D18UOXVdvrMtsRlhluK8zK
+        qtrtim1VVNvumOXSq1irqiguynGlQ0z9hMO6xFc6xH6ccFjXjZUOL016ZRJbJNE6qyTqH17/a/V6
+        f/y6niHH72Ke/wIAAP//AwBCDzqOJAUAAA==
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      CF-RAY: [32f4ff9f4ed465f9-SYD]
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json]
+      Date: ['Sat, 11 Feb 2017 04:18:44 GMT']
+      Server: [cloudflare-nginx]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkswWVFBNndodlRyTHlZUjN4S1hjbm9MRlwvSXc3bmI5NUx4a3ROcmk2cFVJPSIsInZhbHVlIjoia1wvTk1YNnRtQlwvQkpMRXZRRlhBS0JyemtQdklKNXlJd1czUFJZOStvZFNcLyszaytmQWtCRkRBRHBPbjYyK1dJajIxeGNyb2Exa0xNUnQyM3Z5SWlKZ3c9PSIsIm1hYyI6IjgwMzU0NWI3Yjk1NDRlZWI5NTczNzZkMzgzYWQzYjVlZWZlYjFmNjQwOTA1MjMxNTc3Y2U1ZjIxYTgwOTJmOGMifQ%3D%3D;
+          expires=Fri, 12-May-2017 04:18:43 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/seasons/50]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer cUTuGTgMTKNebHkG9ydLfB8Fc5erpQxK65vlf01h]
+      Connection: [keep-alive]
+      Cookie: [__cfduid=d39d1c367ca2a3aa78b99012afe1fb0381486786722; rt_production_session=eyJpdiI6IkswWVFBNndodlRyTHlZUjN4S1hjbm9MRlwvSXc3bmI5NUx4a3ROcmk2cFVJPSIsInZhbHVlIjoia1wvTk1YNnRtQlwvQkpMRXZRRlhBS0JyemtQdklKNXlJd1czUFJZOStvZFNcLyszaytmQWtCRkRBRHBPbjYyK1dJajIxeGNyb2Exa0xNUnQyM3Z5SWlKZ3c9PSIsIm1hYyI6IjgwMzU0NWI3Yjk1NDRlZWI5NTczNzZkMzgzYWQzYjVlZWZlYjFmNjQwOTA1MjMxNTc3Y2U1ZjIxYTgwOTJmOGMifQ%3D%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/50
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+yUzWrcMBSFX0Vo7d8Zezw2IVDSByiU0o0319KNrVR/SNeTTsO8e/E4IUOzSSDM
+        qjtxOTrnXPGhJ27BIO/4dycUaPZVRRckBp7wOBsD4ci7Jz6R0bzjN/72bgoqMrCSfYHgLBMBgZCh
+        hsGF5RRXH/ztMSiDlla1D2B/RaYsO9szckw445GQwQjKRmIIYmKOJgzs3gXmnbIUM/ZzcnjAcJZr
+        JIyMJmRueEBB6oBn7TJ5TWT9vCnKLXOBjUir3rhIz5bnG+fe6qDomDAY4hzk+RjpqDFhSCJ7cXlU
+        drEAYuhVdBKzmz73tzzhQiNY3vH/b4IZPyVcSd7VRcKjnkfe8XXrVF4QhRCdvXOzJd5tEi7cAcM3
+        JWgOuGBGR7+g6J8ni8ASLuInTgPv+ETkuz7v87jNwMAfZ+ExZsKZPhfSZsG5SBgIkaZ1OnvtQMY+
+        VwZGjH0uRN3ei7JNG4A6rdq6SNtGyBQLFBu5FY0coM9p6POy2pW7epuWVVXuN82uqqvNPl2Xetkp
+        83Zc9jJX7BbNh7oZecVuRn6omx6v2M0FNSoL+gMNT6eE++DulcYrUwpQVnVbpm0rmrRqpEj3ddGm
+        22GDTQHDvpZypTTKXVFkD/4zMXxX+ILhZfhncfau8IWzy/DPAuld4a8gvVZYSBFgnVUC9I+gL+u8
+        DY6Te+zzf//H018AAAD//wMA9z98hYwHAAA=
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      CF-RAY: [32f4ffa1efce65f9-SYD]
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json]
+      Date: ['Sat, 11 Feb 2017 04:18:44 GMT']
+      Server: [cloudflare-nginx]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkwxTEtjUHNRU2ZIWmVoT2tBZEJIQUZVSnBOcG1XVFZQbEdHanhoc3ppOU09IiwidmFsdWUiOiJ4MkQ3dVdxeGdncmZUKzByd2dKbmIrSE1YMERDMW1ablQ4dFIwXC9LalwvYVNvcUluQWlWK3lPUHJsWlpKamlaVlVOV1VDeWRpK3pYajNRcXhDZ1lBVGNBPT0iLCJtYWMiOiJjNjdkNjllZTQ2ZTBkZjE5NjAxNWYzNzU4MmYzNjczY2Y3ZWU0NzQ0YzJjNWQ2OWJmNGYxZDgxMjBhMTAxMDhmIn0%3D;
+          expires=Fri, 12-May-2017 04:18:44 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/50]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer cUTuGTgMTKNebHkG9ydLfB8Fc5erpQxK65vlf01h]
+      Connection: [keep-alive]
+      Cookie: [__cfduid=d39d1c367ca2a3aa78b99012afe1fb0381486786722; rt_production_session=eyJpdiI6IkwxTEtjUHNRU2ZIWmVoT2tBZEJIQUZVSnBOcG1XVFZQbEdHanhoc3ppOU09IiwidmFsdWUiOiJ4MkQ3dVdxeGdncmZUKzByd2dKbmIrSE1YMERDMW1ablQ4dFIwXC9LalwvYVNvcUluQWlWK3lPUHJsWlpKamlaVlVOV1VDeWRpK3pYajNRcXhDZ1lBVGNBPT0iLCJtYWMiOiJjNjdkNjllZTQ2ZTBkZjE5NjAxNWYzNzU4MmYzNjczY2Y3ZWU0NzQ0YzJjNWQ2OWJmNGYxZDgxMjBhMTAxMDhmIn0%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/50
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA7zRPW/bMBAG4L8i3EyLTmTVsWB7KboUHQLUATpwociTxIJf4FFVlcD/vVDtoBnS
+        jB75HvHiOfIFRsLkpUNo4DQmM0tgoA1FK+eTyXbJgcH1xtfggQHhb2jAAQMblMwmeGjgG06Gfhlr
+        kRWnH8AgKDXG1+n3mTK64jP6jKn44nvjERMrHhOS0SYAA9mGMUPzAkN2FhrYx+PeuL6YjM7DQcDm
+        01pAMaDph3wQUC8nSuogYMg5NoILPk1TSTb00ptnTKXHLDh6wSnPFit22a+MvhdQSLu0vDcR/LgX
+        PB6BgbIoFz6cGRgNTb1mEFPojMVHo/KYcAHnOS6PE68JAxV8Rv93mdxC8w9IVSmdfA5eTlSq4ARX
+        2pcpBMqYMmIeLukYbZCaBDdO9kiCb6ta3u1qvaq7Da42bdetWv2wXbV3aodrjbtdh4LnVvDLKpv7
+        qq6q+231gJ0qf8Z++TZ3Qwq5jyhO35Di9EcU29+QEpLpjZf2/6DzmQHF4CkkaDppCRko6YM3Stqn
+        ZN9i32ERptduYDBIeiLUp2Skvbad/wAAAP//AwA9i1o08gMAAA==
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      CF-RAY: [32f4ffa4887665f9-SYD]
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json]
+      Date: ['Sat, 11 Feb 2017 04:18:44 GMT']
+      Server: [cloudflare-nginx]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ilpja0ZVbVVFbzdpc091WmJNVERTK25IMWlFdWRSRTFmeTRuNXBKblljc2s9IiwidmFsdWUiOiI1Vm92T1J3aW5zdWRvZTJtdWR1bTVwU0ZOSHZqQjNxWStqcm1sbVFKZDNIcFVTd3lYdGk1WW5kaWdNU1dpVHZRTlwvNFhhN0pCMXpqZmphSnlOemNldXc9PSIsIm1hYyI6IjlmYmIzMDE1ZDczZjk4ZDFlYzg0YTE1Y2RmNmU1NjIzYmY2MDIwZGQ5MDRjNmM3Njg0ZDE5ZGYwMWIxZjhiMDIifQ%3D%3D;
+          expires=Fri, 12-May-2017 04:18:44 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/50]
+    status: {code: 200, message: OK}
+version: 1

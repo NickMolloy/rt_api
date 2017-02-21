@@ -1,0 +1,25 @@
+{
+    "about": {
+        "clean": "Blah blah blah",
+        "html": "<p>Blah blah blah</p>"
+    },
+    "canonicalUrl": "http://roosterteeth.com/user/johnSmith112",
+    "displayTitle": "Stuff here",
+    "hasUsedTrial": true,
+    "id": 2269568,
+    "location": "Earth",
+    "name": "John Smith",
+    "occupation": "Accountant",
+    "profilePicture": {
+        "content": {
+            "lg": "http://s3.amazonaws.com/cdn.roosterteeth.com/default/original/user_profile_male.jpg",
+            "md": "http://s3.amazonaws.com/cdn.roosterteeth.com/default/md/user_profile_male.jpg",
+            "sm": "http://s3.amazonaws.com/cdn.roosterteeth.com/default/sm/user_profile_male.jpg",
+            "tb": "http://s3.amazonaws.com/cdn.roosterteeth.com/default/tb/user_profile_male.jpg"
+        },
+        "type": "picture"
+    },
+    "sex": "m",
+    "sponsor": false,
+    "username": "johnSmith112"
+}

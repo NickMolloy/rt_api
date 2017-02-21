@@ -1,0 +1,28 @@
+{
+    "canonicalUrl": "http://roosterteeth.com/show/on-the-spot",
+    "coverPicture": {
+        "content": {
+            "lg": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/14a811b0-b0f1-4b08-a65b-1c565d6d153f/original/21-1458935312881-ots_hero.png",
+            "md": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/14a811b0-b0f1-4b08-a65b-1c565d6d153f/md/21-1458935312881-ots_hero.png",
+            "sm": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/14a811b0-b0f1-4b08-a65b-1c565d6d153f/sm/21-1458935312881-ots_hero.png",
+            "tb": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/14a811b0-b0f1-4b08-a65b-1c565d6d153f/tb/21-1458935312881-ots_hero.png"
+        },
+        "type": "picture"
+    },
+    "id": 55,
+    "profilePicture": {
+        "content": {
+            "lg": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/original/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg",
+            "md": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/md/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg",
+            "sm": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/sm/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg",
+            "tb": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/tb/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg"
+        },
+        "type": "picture"
+    },
+    "seasonCount": 7,
+    "slug": "on-the-spot",
+    "summary": {
+        "clean": "Rooster Teeth's official game show!  A live half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the spot for points and mayhem.",
+        "html": "<p>Rooster Teeth's official game show!  A live half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the spot for points and mayhem.</p>"
+    }
+}

@@ -1,0 +1,175 @@
+{
+	"title": "Crytek SHUTS DOWN Studios",
+	"caption": "Dec 20, 2016",
+	"sponsorOnly": false,
+	"description": {
+		"html": "<p>Remember last week we reported on all those Crytek employees who weren't being paid? Now Crytek is shuttering five studios entirely, right before the holidays... not that they'd been paying their devs anyway...<\/p>",
+		"clean": "Remember last week we reported on all those Crytek employees who weren't being paid? Now Crytek is shuttering five studios entirely, right before the holidays... not that they'd been paying their devs anyway..."
+	},
+	"slug": "the-know-game-news-season-1-crytek-shuts-down-studios",
+	"site": "theKnow",
+	"id": 31020,
+	"number": 402,
+	"length": 402,
+	"profilePicture": {
+		"type": "picture",
+		"content": {
+			"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/sm\/24363-1482281001906-thumbnail.jpg",
+			"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/md\/24363-1482281001906-thumbnail.jpg",
+			"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/original\/24363-1482281001906-thumbnail.jpg"
+		}
+	},
+	"show": {
+		"name": "Game News",
+		"summary": {
+			"html": "<p>The Rooster Teeth crew brings you the biggest news in video games.<\/p>",
+			"clean": "The Rooster Teeth crew brings you the biggest news in video games."
+		},
+		"id": 77,
+		"slug": "game-news",
+		"seasonCount": 2,
+		"coverPicture": {
+			"type": "picture",
+			"content": {
+				"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/tb\/24363-1474392969521-Game_News_-_Background.jpg",
+				"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/sm\/24363-1474392969521-Game_News_-_Background.jpg",
+				"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/md\/24363-1474392969521-Game_News_-_Background.jpg",
+				"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg"
+			}
+		},
+		"profilePicture": {
+			"type": "picture",
+			"content": {
+				"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/tb\/2013912-1475178816211-Game_News_-_Icon.jpg",
+				"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/sm\/2013912-1475178816211-Game_News_-_Icon.jpg",
+				"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/md\/2013912-1475178816211-Game_News_-_Icon.jpg",
+				"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/original\/2013912-1475178816211-Game_News_-_Icon.jpg"
+			}
+		},
+		"canonicalUrl": "http:\/\/roosterteeth.com\/show\/game-news"
+	},
+	"season": {
+		"title": "2016",
+		"description": "",
+		"id": 114,
+		"number": 2,
+		"slug": "the-know-game-news-season-1",
+		"show": {
+			"name": "Game News",
+			"summary": {
+				"html": "<p>The Rooster Teeth crew brings you the biggest news in video games.<\/p>",
+				"clean": "The Rooster Teeth crew brings you the biggest news in video games."
+			},
+			"id": 77,
+			"slug": "game-news",
+			"seasonCount": 2,
+			"coverPicture": {
+				"type": "picture",
+				"content": {
+					"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/tb\/24363-1474392969521-Game_News_-_Background.jpg",
+					"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/sm\/24363-1474392969521-Game_News_-_Background.jpg",
+					"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/md\/24363-1474392969521-Game_News_-_Background.jpg",
+					"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg"
+				}
+			},
+			"profilePicture": {
+				"type": "picture",
+				"content": {
+					"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/tb\/2013912-1475178816211-Game_News_-_Icon.jpg",
+					"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/sm\/2013912-1475178816211-Game_News_-_Icon.jpg",
+					"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/md\/2013912-1475178816211-Game_News_-_Icon.jpg",
+					"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/original\/2013912-1475178816211-Game_News_-_Icon.jpg"
+				}
+			},
+			"canonicalUrl": "http:\/\/roosterteeth.com\/show\/game-news"
+		}
+	},
+	"canonicalUrl": "http:\/\/roosterteeth.com\/episode\/the-know-game-news-season-1-crytek-shuts-down-studios",
+	"media": {
+		"videos": [{
+			"type": "video",
+			"content": {
+				"type": "cdn",
+				"url": "http:\/\/wpc.1765A.taucdn.net\/801765A\/video\/uploads\/videos\/ea6d7410-d237-426a-a383-4884d8188f6d\/index.m3u8"
+			}
+		}],
+		"audioFiles": [],
+		"links": [{
+			"type": "link",
+			"content": {
+				"picture": {
+					"type": "picture",
+					"content": {
+						"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg",
+						"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg",
+						"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg",
+						"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"
+					}
+				},
+				"title": "Crytek's press release",
+				"link": " http:\/\/crytek.com\/news\/crytek-outlines-future-plans-and-focuses-on-return-to-core-competencies"
+			}
+		}, {
+			"type": "link",
+			"content": {
+				"picture": {
+					"type": "picture",
+					"content": {
+						"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg",
+						"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg",
+						"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg",
+						"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"
+					}
+				},
+				"title": "Legal advice Reddit thread",
+				"link": "https:\/\/www.reddit.com\/r\/legaladvice\/comments\/5hg94d\/crytek_hasnt_paid_me_or_my_coworkers_for_almost_6\/"
+			}
+		}, {
+			"type": "link",
+			"content": {
+				"picture": {
+					"type": "picture",
+					"content": {
+						"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg",
+						"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg",
+						"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg",
+						"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"
+					}
+				},
+				"title": "Reports state Crytek is all out of money",
+				"link": "http:\/\/www.kitguru.net\/gaming\/matthew-wilson\/source-crytek-is-sinking-wages-are-unpaid-talent-leaving-on-a-daily-basis\/"
+			}
+		}, {
+			"type": "link",
+			"content": {
+				"picture": {
+					"type": "picture",
+					"content": {
+						"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg",
+						"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg",
+						"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg",
+						"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"
+					}
+				},
+				"title": "Crytek managed to pay Frankfurt employees",
+				"link": "http:\/\/kotaku.com\/1790185053"
+			}
+		}, {
+			"type": "link",
+			"content": {
+				"picture": {
+					"type": "picture",
+					"content": {
+						"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg",
+						"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg",
+						"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg",
+						"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"
+					}
+				},
+				"title": "Obsidian laid of employees",
+				"link": "http:\/\/www.gamasutra.com\/view\/news\/287266\/Obsidian_lays_off_some_Armored_Warfare_devs_as_project_moves_to_Moscow.php"
+			}
+		}]
+	},
+	"watched": "unwatched"
+}

@@ -1,0 +1,31 @@
+interactions:
+- request:
+    body: client_id=aToGIjvJ8Lofqmso&client_secret=oW3CtlpnXRznUUiWLXzmaIQryFBfGmNt&grant_type=password&scope=user.access&username=usernameForUserThatDoesNotExist&password=passwordForUserThatDoesNotExist
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer lXPCmAd547o0QqKkz1YqK1JzTWIsPTgT03FkLj7y]
+      Connection: [keep-alive]
+      Content-Length: ['193']
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [__cfduid=dd0a5190fee4f4948156f379381bbb2e01486787059; rt_production_session=eyJpdiI6ImwxSVwvSlp1c1NjK2FUSWp3YVpTcE10enNxMzZEMWhTR3NpMU94dmdoUldZPSIsInZhbHVlIjoibFg2eEpxcEN1QUg3SEQzV1pPeld0Y0ZYQk53SEhaXC8wT0Y0akVib285Y3V4ajJGWVVVaUY1VWtSZDk1THk5RHl4eW8xVnR1Nk9LcEpWWDJVR2tXUkJ3PT0iLCJtYWMiOiJjZjU2ZGUxNThkNzZhMWVjZGM5MjFkOGJiY2QyMmI5OWU4ZjNiMDI5YTMxNjM1ZDU2MjUwY2M3MmRmZTk2NzkxIn0%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: POST
+    uri: https://roosterteeth.com/authorization/oauth-access-token
+  response:
+    body: {string: '{"error":"invalid_credentials","error_description":"The user credentials
+        were incorrect."}'}
+    headers:
+      '0': [HTTP/1.1 401 Unauthorized]
+      CF-RAY: [32f507d308f465db-SYD]
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Length: ['90']
+      Content-Type: [application/json]
+      Date: ['Sat, 11 Feb 2017 04:24:20 GMT']
+      Server: [cloudflare-nginx]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InV2YUNmcnBiUjVubU9md0xxVUFGQU1jcEQ1RytOTUJTZ2p4UTExRTJEa0U9IiwidmFsdWUiOiJJYlhtOWpjUkJjK3dtWW00aFlNM1wvMlRlZTBUM0pMY2h3eUVTcTJFQ3VqTVVSMTVFdWhnem11RWh2NzZPT0lyZUFacHlwR3pcLzNrdDM0SHhzOUE4c3dBPT0iLCJtYWMiOiJlYWY3MmIwODM3OTQ2ZDg2ZTI5NjViMDUzZWIzZTBlMDY0YzBmYWMxMTg5ZDZmMTczNDBjMTNmMmFmNjZlNGM5In0%3D;
+          expires=Fri, 12-May-2017 04:24:20 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+    status: {code: 401, message: Unauthorized}
+version: 1

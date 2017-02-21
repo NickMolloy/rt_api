@@ -1,0 +1,16 @@
+{
+    "about": {
+        "clean": "Blah blah blah",
+        "html": "<p>Blah blah blah</p>"
+    },
+    "canonicalUrl": "http://roosterteeth.com/user/johnSmith112",
+    "displayTitle": "Stuff here",
+    "hasUsedTrial": true,
+    "id": 2269568,
+    "location": "Earth",
+    "name": "John Smith",
+    "occupation": "Accountant",
+    "sex": "m",
+    "sponsor": false,
+    "username": "johnSmith112"
+}
