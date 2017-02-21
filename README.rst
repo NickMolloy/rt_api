@@ -1,3 +1,13 @@
+.. image:: https://travis-ci.org/NickMolloy/rt_api.svg?branch=master
+    :target: https://travis-ci.org/NickMolloy/rt_api
+ 
+.. image:: https://readthedocs.org/projects/rt-api/badge/?version=latest
+    :target: http://rt-api.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+ 
+.. image:: https://badge.fury.io/py/rt-api.svg
+    :target: https://badge.fury.io/py/rt-api
+ 
 ======
 rt_api
 ======
