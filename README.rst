@@ -66,5 +66,6 @@ For instance, the current user is available through the ``me`` attribute of the 
     my_user.queue  # Get the current user's episode watch list
 
 
-For more information on the available actions, see the `package documentation <Doc_URL>`_,
-or some `examples <Doc_URL>`_.
+For more information on the available actions, see the
+`package documentation <https://rt-api.readthedocs.io/en/latest/rt_api.html>`_,
+or some `examples <https://rt-api.readthedocs.io/en/latest/examples.html>`_.
