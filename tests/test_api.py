@@ -243,7 +243,7 @@ class TestApi(object):
         assert episode == self.api.episode(20434)
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/authenticate.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/authenticate.yaml')
     def test_authenticate(self):
         """Test that we can authenticate to API with user credentials.
 
@@ -346,7 +346,7 @@ class TestApi(object):
             self.api.mark_episode_watched(20434)
 
     @pytest.mark.skipif("rt_token" not in os.environ, reason="'rt_token' not defined in the environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/use_existing_token.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/use_existing_token.yaml')
     def test_exisiting_api_token(self):
         """Test that an existing api token can be used.
 
@@ -357,7 +357,7 @@ class TestApi(object):
         assert r.episode(20434) is not None
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/authenticated_methods_with_authentication.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/authenticated_methods_with_authentication.yaml')
     def test_authenticated_methods_with_authentication(self):
         self.api.authenticate(os.environ["rt_user"], os.environ["rt_pass"])
         user_queue_before = self.api.me.queue
@@ -374,7 +374,7 @@ class TestApi(object):
             assert user_queue_before_count == len(self.api.me.queue)
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/authenticated_methods_with_authentication.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/authenticated_methods_with_authentication.yaml')
     def test_authenticated_methods_with_authentication_on_episode(self):
         """Test add/remove from queue and mark as watched functionality when
         called directly on an episode instance.
@@ -395,7 +395,7 @@ class TestApi(object):
             assert user_queue_before_count == len(self.api.me.queue)
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/mark_as_watched.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/mark_as_watched.yaml')
     def test_mark_as_watched(self):
         self.api.authenticate(os.environ["rt_user"], os.environ["rt_pass"])
         episode = self.api.episode(20434)
@@ -421,7 +421,7 @@ class TestApi(object):
                 api.Api()
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/update_user.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/update_user.yaml')
     def test_update_user(self):
         self.api.authenticate(os.environ["rt_user"], os.environ["rt_pass"])
         user = self.api.me
@@ -441,7 +441,7 @@ class TestApi(object):
         assert self.api.user(self.api.user_id).name == old_name
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/update_user_on_user_object.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/update_user_on_user_object.yaml')
     def test_update_user_on_user_object(self):
         self.api.authenticate(os.environ["rt_user"], os.environ["rt_pass"])
         user_id = self.api.user_id
@@ -458,7 +458,7 @@ class TestApi(object):
         assert retrieved_user.name == old_name
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/update_other_user.yaml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/update_other_user.yaml')
     def test_update_other_user(self):
         """Test that exception is raised if we try to update details of a user that is not us."""
         with pytest.raises(api.NotAuthenticatedError):

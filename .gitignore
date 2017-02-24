@@ -1,3 +1,7 @@
+# Ignore test vcr files that would contain user credentials
+tests/fixtures/vcr_cassettes/credentials/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
