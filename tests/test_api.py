@@ -467,6 +467,37 @@ class TestApi(object):
             user.name = "NotUs"
             user.update()
 
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/search.yml')
+    def test_search(self):
+        results = self.api.search("funny")
+        assert len(results) == 12
+        assert self.api.episode(26133) in results
+        assert self.api.episode(25964) in results
+        assert self.api.show(231) in results
+        assert self.api.user(219541) in results
+        # Test searching with empty query
+        results = self.api.search("")
+        assert len(results) == 0
+
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/search_includes.yml')
+    def test_search_includes(self):
+        results = self.api.search("stuff", include=[rt_api.models.Episode])
+        assert len(results) == 10
+        assert self.api.episode(6241) in results
+        assert self.api.episode(24637) in results
+        results = self.api.search("stuff", include=[rt_api.models.Episode, rt_api.models.User])
+        assert len(results) == 16
+        assert self.api.episode(6241) in results
+        assert self.api.episode(24637) in results
+        assert self.api.user(2490245) in results
+        assert self.api.user(2756581) in results
+        # Test include for model not available in search
+        results = self.api.search("stuff", include=[rt_api.models.Season])
+        assert len(results) == 0
+
+
+
+
 
 @all_requests
 def non_json_episode_response(url, request):

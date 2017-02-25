@@ -4,7 +4,6 @@ Currently access to Episodes, Shows, Seasons, and Users is provided.
 
 Todo:
     * Get live videos
-    * Search
     * Login/Authenticate with Facebook
     * Feed for News
     * Feed for Forum topics
@@ -499,6 +498,52 @@ class Api(object):
         url = os.path.join(END_POINT, path)
         response = self.__session.put(url)
         response.raise_for_status()
+
+    def search(self, query, include=None):
+        """Perform a search for the specified query.
+
+        Currently only supports searching for Episodes, Shows, and Users.
+        Unfortunately, the Api only returns up to 10 of each resource type.
+
+        Args:
+            query (str): The value to search for.
+            include (list, optional): A list of types to include in the results (Default value = None).
+                If ``include`` is specified, only objects of those types will be returned in the results.
+
+        Example:
+            Search for "funny", only in shows and episodes.
+
+            .. code-block::  python
+
+                search("funny", include=[rt_api.models.Show, rt_api.models.Episode])
+
+        Returns:
+            list: The search results.
+
+        """
+        url = os.path.join(END_POINT, "search/?q={0}".format(query))
+        data = self.__get_data(url)
+        mapping = {
+            "episodes": models.Episode,
+            "shows": models.Show,
+            "users": models.User
+        }
+        items = []
+        for result_set in data:
+            # Try to find corresponding model for this result type
+            model_key = None
+            for result_type in mapping:
+                if result_type in result_set.keys():
+                    model_key = result_type
+                    break
+            if model_key:
+                # Check if we are doing any filtering
+                if include and mapping[model_key] not in include:
+                    # This model is not in 'include', so skip it
+                    continue
+                for item in result_set[model_key]:
+                    items.append(mapping[model_key](item))
+        return items
 
 
 class AuthenticationError(Exception):
