@@ -15,7 +15,7 @@ Todo:
 
 """
 
-import os
+import posixpath
 from functools import wraps
 
 import requests
@@ -213,7 +213,7 @@ class Api(object):
             object: Instance of the specified model class.
 
         """
-        data = self.__get_data(os.path.join(END_POINT, path))
+        data = self.__get_data(posixpath.join(END_POINT, path))
         if not data:
             # TODO raise exception complaining that no data was retrieved from api?
             return None
@@ -232,7 +232,7 @@ class Api(object):
             list: A list containing items of type model_class.
 
         """
-        url = os.path.join(END_POINT, path)
+        url = posixpath.join(END_POINT, path)
         data = self.__get_data(url, kwargs)
         if not data:
             return None
@@ -419,7 +419,7 @@ class Api(object):
             # This will result in a 401 response, so don't bother sending request.
             raise NotAuthenticatedError
         path = "users/{0}".format(user_id)
-        url = os.path.join(END_POINT, path)
+        url = posixpath.join(END_POINT, path)
         data = kwargs
         response = self.__session.put(url, data=data)
         response.raise_for_status()
@@ -457,7 +457,7 @@ class Api(object):
 
         """
         path = "episodes/{0}/add-to-queue".format(episode_id)
-        url = os.path.join(END_POINT, path)
+        url = posixpath.join(END_POINT, path)
         response = self.__session.post(url)
         response.raise_for_status()
         # Mark user queue as needing refresh
@@ -479,7 +479,7 @@ class Api(object):
 
         """
         path = "episodes/{0}/remove-from-queue".format(episode_id)
-        url = os.path.join(END_POINT, path)
+        url = posixpath.join(END_POINT, path)
         response = self.__session.delete(url)
         response.raise_for_status()
         # Mark user queue as needing refresh
@@ -495,7 +495,7 @@ class Api(object):
 
         """
         path = "episodes/{0}/mark-as-watched".format(episode_id)
-        url = os.path.join(END_POINT, path)
+        url = posixpath.join(END_POINT, path)
         response = self.__session.put(url)
         response.raise_for_status()
 
@@ -521,7 +521,7 @@ class Api(object):
             list: The search results.
 
         """
-        url = os.path.join(END_POINT, "search/?q={0}".format(query))
+        url = posixpath.join(END_POINT, "search/?q={0}".format(query))
         data = self.__get_data(url)
         mapping = {
             "episodes": models.Episode,
