@@ -245,7 +245,7 @@ class Api(object):
     def __pager(self, model_class, path, count=20, page=1, **kwargs):
         """Paginate an API resource.
 
-        This is a genrator that yields a single result.
+        This is a generator that yields a single result.
         It handles retrieving new pages from the Api as needed.
 
         Args:
