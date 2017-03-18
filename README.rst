@@ -51,8 +51,8 @@ For example:
    from rt_api.api import Api
 
    api = Api()  # Instantiate api. Generates default access token.
-   latest_episodes = api.episodes()  # Get a list of the latest episodes
-   newest_episode = latest_episodes[0]
+   latest_episodes = api.episodes()  # Get an iterable of the latest episodes
+   newest_episode = next(latest_episodes)
    print(newest_episode.title)  # Print out episode title
    show = newest_episode.show  # Get a reference to the show the episode is from
    print(show.name)  # Print out name of the show
