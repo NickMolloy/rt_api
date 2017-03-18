@@ -31,7 +31,7 @@ test_requirements = ['httmock>=1.2.6', 'pytest>=3.0.6', 'flaky>=3.3.0', 'vcrpy>=
 
 setup(
     name='rt_api',
-    version='1.0.0',
+    version='1.0.1',
     description='Unofficial python client for the Rooster Teeth api',
     author='Nicholas Molloy',
     author_email='nick.a.molloy@gmail.com',
