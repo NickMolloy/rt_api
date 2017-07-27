@@ -12,6 +12,8 @@ python:
   - "pypy"
   - "pypy3"
 # command to install dependencies
+before_install:
+  - "pip install -U pytest"
 install:
  - "pip install -U py==1.4.29"
  - "pip install -r requirements.txt"
