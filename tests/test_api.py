@@ -506,7 +506,7 @@ def non_json_episode_response(url, request):
 
 @all_requests
 def unauthorized_episode_response(url, request):
-    return {'status_code': 401, 'content': '{"error": "access_denied", "error_description": "The resource owner or authorization server denied the request."}'}
+    return {'status_code': 401, 'content': '{"error": "access_denied", "error_message": "The resource owner or authorization server denied the request."}'}
 
 
 @all_requests
@@ -516,7 +516,7 @@ def none_ok_episode_response(url, request):
 
 @all_requests
 def fail_get_token(url, request):
-    return {'status_code': 401, 'content': '{"error":"invalid_client","error_description":"Client authentication failed."}'}
+    return {'status_code': 401, 'content': '{"error":"invalid_client","error_message":"Client authentication failed."}'}
 
 
 @all_requests

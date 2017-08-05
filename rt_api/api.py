@@ -148,7 +148,7 @@ class Api(object):
             raise AuthenticationError("Failed to get authentication token: {0}  {1}".format(
                 result.status_code, result.text))
         if result.status_code == 401:
-            error = data["error_description"]
+            error = data.get("error_message")
             raise AuthenticationError(error)
         elif result.status_code == 201:
             # Success

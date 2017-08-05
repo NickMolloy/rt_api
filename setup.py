@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 
 from setuptools import setup
@@ -11,7 +12,15 @@ class PyTest(TestCommand):
 
     def initialize_options(self):
         TestCommand.initialize_options(self)
-        self.pytest_args = []
+        try:
+            from multiprocessing import cpu_count
+            if os.environ.get('TRAVIS') == 'true':
+                cpu_count = 2
+            else:
+                cpu_count = cpu_count()
+            self.pytest_args = ['-n', cpu_count]
+        except (ImportError, NotImplementedError):
+            self.pytest_args = ['-n', '1']
 
     def finalize_options(self):
         TestCommand.finalize_options(self)
@@ -26,7 +35,7 @@ class PyTest(TestCommand):
 
 
 requires = ['requests>=2.12.5', 'm3u8>=0.3.1', 'requests_oauthlib>=0.7.0']
-test_requirements = ['httmock>=1.2.6', 'pytest>=3.0.6', 'flaky>=3.3.0', 'vcrpy>=1.10.5']
+test_requirements = ['httmock>=1.2.6', 'pytest>=3.0.6', 'pytest-xdist>=1.15.0', 'flaky>=3.3.0', 'vcrpy>=1.10.5']
 
 
 setup(
