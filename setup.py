@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 
 from setuptools import setup
@@ -13,7 +14,11 @@ class PyTest(TestCommand):
         TestCommand.initialize_options(self)
         try:
             from multiprocessing import cpu_count
-            self.pytest_args = ['-n', str(cpu_count())]
+            if os.environ.get('TRAVIS') == 'true':
+                cpu_count = 2
+            else:
+                cpu_count = cpu_count()
+            self.pytest_args = ['-n', cpu_count]
         except (ImportError, NotImplementedError):
             self.pytest_args = ['-n', '1']
 
