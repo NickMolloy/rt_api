@@ -247,6 +247,7 @@ class Season(ApiObject):
                 This will be used to make calls to the API when needed.
 
         """
+        super(Season, self).__init__()
         self._api = api
         self.attrs = {
             "id_": "id",
@@ -648,13 +649,12 @@ class Video(object):
         if quality:
             # Return the specified quality
             return self._get_quality(quality)
+        elif self.selected_quality:
+            # Return the previously selected quality
+            return self.base_url + self.selected_quality
         else:
-            if self.selected_quality:
-                # Return the previously selected quality
-                return self.base_url + self.selected_quality
-            else:
-                # A quality hasn't been selected so return default quality
-                return self._get_quality(Video.__default_quality)
+            # A quality hasn't been selected so return default quality
+            return self._get_quality(Video.__default_quality)
 
     def _get_quality(self, quality):
         """Retrieve the video at the specified quality.
