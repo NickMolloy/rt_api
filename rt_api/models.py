@@ -20,10 +20,10 @@ import m3u8
 
 
 def api_method(func):
-    """Decorator for that methods needing access to the api.
+    """Decorate methods needing access to the api.
 
     This decorator ensures that methods that need to make a call to the
-    api are only run if access tot he api is available.
+    api are only run if access to the api is available.
     If access to it is not available, ``NotImplementedError`` will be raised.
 
     """

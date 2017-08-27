@@ -34,7 +34,7 @@ CLIENT_SECRET = "oW3CtlpnXRznUUiWLXzmaIQryFBfGmNt"
 
 
 def authenticated(func):
-    """Decorator for methods that make api calls that need authentication.
+    """Decorate methods that make api calls that need authentication.
 
     This decorator will ensure that methods that need authentication will
     only be called if the api instance is authenticated.
