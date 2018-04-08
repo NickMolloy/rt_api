@@ -16,6 +16,7 @@ needs the api is called.
 import os
 from functools import wraps
 
+import requests
 import m3u8
 
 
@@ -619,7 +620,14 @@ class Video(object):
 
         """
         self._available_qualities = {}
-        m3u8_obj = m3u8.load(self.url)
+        try:
+            url = requests.get(self.url)
+        except requests.exceptions.SSLError:
+            url = requests.get(self.url, verify=False)
+            print "Warning: SSL Certificate Error"
+            pass
+        
+        m3u8_obj = m3u8.loads(url.text)
         for playlist in m3u8_obj.playlists:
             self._available_qualities["%dP" % playlist.stream_info.resolution[1]] = playlist.uri
 
