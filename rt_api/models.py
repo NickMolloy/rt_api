@@ -624,7 +624,7 @@ class Video(object):
             url = requests.get(self.url)
         except requests.exceptions.SSLError:
             url = requests.get(self.url, verify=False)
-            print "Warning: SSL Certificate Error"
+            print("Warning: SSL Certificate Error")
             pass
         
         m3u8_obj = m3u8.loads(url.text)
