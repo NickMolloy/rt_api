@@ -136,12 +136,12 @@ class TestApi(object):
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/season_to_episode_traversal.yaml')
     def test_season_to_episodes_traversal(self):
-        season = self.api.season(231)
+        season = self.api.season(500)
         episodes = season.episodes
         assert episodes is not None
-        assert len(episodes) == 15
-        ep = self.api.episode(20375)
-        assert episodes[1] == ep
+        assert len(episodes) == 52
+        ep = self.api.episode(35560)
+        assert episodes[0] == ep
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/season_to_show_traversal.yaml')
     def test_season_to_show_traversal(self):
