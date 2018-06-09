@@ -23,37 +23,37 @@ class TestApi(object):
 
     def test_non_json_response(self):
         with HTTMock(non_json_episode_response):
-            episode = self.api.episode(20434)
+            episode = self.api.episode(20433)
             assert episode is None
 
     def test_unauthorized(self):
         with HTTMock(unauthorized_episode_response):
             with pytest.raises(requests.exceptions.HTTPError) as excinfo:
-                episode = self.api.episode(20434)
+                episode = self.api.episode(20433)
             assert excinfo.value.response.status_code == 401
 
     def test_other_error_code(self):
         with HTTMock(none_ok_episode_response):
             with pytest.raises(requests.exceptions.HTTPError) as excinfo:
-                episode = self.api.episode(20434)
+                episode = self.api.episode(20433)
             assert excinfo.value.response.status_code == 500
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/get_episode.yaml')
     def test_get_episode(self):
-        episode = self.api.episode(20434)
+        episode = self.api.episode(20433)
         assert episode is not None
-        assert episode.number == 35
-        assert episode.canonical_url == "http://roosterteeth.com/episode/on-the-spot-season-3-15"
-        assert episode.caption == "The only reason Joel let me put out a video like this was because I agreed to let him talk to me about the Fed raising interest rates and how the Chinese economy is affecting the value of gold. I did this for you guys. Please don't let it be in vain."
-        assert episode.show_name == "On The Spot"
-        assert episode.id_ == 20434
-        assert episode.description == "The only reason Joel let me put out a video like this was because I agreed to let him talk to me about the Fed raising interest rates and how the Chinese economy is affecting the value of gold. I did this for you guys. Please don't let it be in vain."
-        assert episode.show_id == 55
+        assert episode.number == 6
+        assert episode.canonical_url == "https://roosterteeth.com/episode/x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world"
+        assert episode.caption == "With his new partner in crime Mogar alongside him, The Mad King stages a coup to get back what was once his, while X-Ray and Vav stumble on to his plot."
+        assert episode.show_name == "X-Ray and Vav"
+        assert episode.id_ == 20433
+        assert episode.description == "With his new partner in crime Mogar alongside him, The Mad King stages a coup to get back what was once his, while X-Ray and Vav stumble on to his plot."
+        assert episode.show_id == 54
         assert episode.site == "roosterTeeth"
         assert episode.is_sponsor_only is False
-        assert episode.season_id == 231
-        assert episode.title == "Shibas Love Joel Heyman - On The Spot: Just the Bits"
-        assert episode.length == 288
+        assert episode.season_id == 94
+        assert episode.title == "Episode 6: It's a Crazy Mad World"
+        assert episode.length == 522
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/get_non_existant_episode.yaml')
     def test_get_nonexistant_episode(self):
@@ -62,10 +62,10 @@ class TestApi(object):
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/episode_equality.yaml')
     def test_episode_equality(self):
-        ep1 = self.api.episode(20434)
+        ep1 = self.api.episode(20433)
         ep2 = self.api.episode(20845)
         assert ep1 != ep2  # Different episodes should not be equal
-        ep3 = self.api.episode(20434)
+        ep3 = self.api.episode(20433)
         assert ep1 == ep3  # Same episode, different objects should be equal
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/season_equality.yaml')
@@ -86,10 +86,10 @@ class TestApi(object):
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/user_equality.yaml')
     def test_user_equality(self):
-        user1 = self.api.user(2269568)
+        user1 = self.api.user(2269567)
         user2 = self.api.user(2269569)
         assert user1 != user2  # Different users should not be equal
-        user3 = self.api.user(2269568)
+        user3 = self.api.user(2269567)
         assert user1 == user3  # Same user, different objects should be equal
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/inequality.yaml')
@@ -106,17 +106,17 @@ class TestApi(object):
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/episode_to_season_traversal.yaml')
     def test_episode_to_season_traversal(self):
-        episode = self.api.episode(20434)
+        episode = self.api.episode(20433)
         season = episode.season
         assert season is not None
-        assert self.api.season(231) == season
+        assert self.api.season(94) == season
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/episode_to_show_traversal.yaml')
     def test_episode_to_show_traversal(self):
-        episode = self.api.episode(20434)
+        episode = self.api.episode(20433)
         show = episode.show
         assert show is not None
-        assert self.api.show(55) == show
+        assert self.api.show(54) == show
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/get_season.yaml')
     def test_get_season(self):
@@ -156,8 +156,8 @@ class TestApi(object):
         assert show is not None
         assert show.id_ == 55
         assert show.name == "On The Spot"
-        assert show.canonical_url == "http://roosterteeth.com/show/on-the-spot"
-        assert show.season_count == 8
+        assert show.canonical_url == "https://roosterteeth.com/show/on-the-spot"
+        assert show.season_count == 12
         assert show.summary == "Rooster Teeth's official game show!  A live half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the spot for points and mayhem."
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/get_shows_with_count.yaml')
@@ -202,9 +202,9 @@ class TestApi(object):
         show = self.api.show(55)
         seasons = show.seasons
         assert seasons is not None
-        assert len(seasons) == 8
+        assert len(seasons) == 12
         season = self.api.season(455)
-        assert season == seasons[1]
+        assert season == seasons[-7]
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/show_to_episodes_traversal.yaml')
     def test_show_to_episodes_traversal(self):
@@ -239,8 +239,8 @@ class TestApi(object):
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/default_api_key.yaml')
     def test_default_api_key(self):
         """Test that we are able to obtain an API token if a token is not specified."""
-        episode = self.api.episode(20434)
-        assert episode == self.api.episode(20434)
+        episode = self.api.episode(20433)
+        assert episode == self.api.episode(20433)
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/authenticate.yaml')
@@ -264,7 +264,7 @@ class TestApi(object):
         # Check that user_id was set
         assert self.api.user_id is not None
         # Check that token is valid
-        episode = self.api.episode(20434)
+        episode = self.api.episode(20433)
         if "rt_id" in os.environ:
             assert self.api.user_id == int(os.environ["rt_id"])
         # Check we can get User object for authenticated user
@@ -287,21 +287,21 @@ class TestApi(object):
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/get_user.yaml')
     def test_get_user(self):
         """Test that we are able to retrieve a user."""
-        user = self.api.user(2269568)
+        user = self.api.user(2044162)
         assert user is not None
-        assert user.id_ == 2269568
-        assert user.username == "arasabu1"
-        assert user.name == "param1"
-        assert user.is_sponsor is False
-        assert user.location == "param8"
+        assert user.id_ == 2044162
+        assert user.username == "xxChinasaurxx"
+        assert user.name == "NewName"
+        assert user.is_sponsor is True
+        assert user.location == "Asdasdasd"
         assert user.occupation == "param4"
         assert user.about == ""
         assert user.sex == "p"
-        assert user.display_title == "param2"
+        assert user.display_title == "George"
         assert user.has_used_trial is True
-        assert user.canonical_url == "http://roosterteeth.com/user/arasabu1"
-        assert user.thumbnail == "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/0ac1b38e-0bdc-4e2e-9971-4fdb478b18d2/tb/embed"
-        assert user.get_thumbnail("md") == "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/0ac1b38e-0bdc-4e2e-9971-4fdb478b18d2/md/embed"
+        assert user.canonical_url == "https://roosterteeth.com/user/xxChinasaurxx"
+        assert user.thumbnail == "http://s3.amazonaws.com/cdn.roosterteeth.com/default/tb/user_profile_female.jpg"
+        assert user.get_thumbnail("md") == "http://s3.amazonaws.com/cdn.roosterteeth.com/default/md/user_profile_female.jpg"
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/get_non_existant_user.yaml')
     def test_non_existant_user(self):
@@ -311,10 +311,10 @@ class TestApi(object):
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/get_user_queue.yaml')
     def test_get_user_queue(self):
-        user = self.api.user(2269568)
+        user = self.api.user(2044162)
         user_queue = user.queue
         assert user_queue is not None
-        ids = [26008, 26013, 20725, 20399, 28767, 3000, 28805, 31430]
+        ids = [26008, 26013, 20725, 20399, 3000, 28805, 31430]
         assert len(ids) == len(user_queue)
         for episode in user_queue:
             assert episode.id_ in ids
@@ -322,7 +322,7 @@ class TestApi(object):
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/paginated_user_queue.yaml')
     def test_multiple_iteration(self):
         """Test that paginted resources can be iterated over multiple times."""
-        user = self.api.user(2269568)
+        user = self.api.user(2044162)
         user_queue = user.queue
         # Iterate once
         count_one = 0
@@ -339,11 +339,11 @@ class TestApi(object):
         """Test that methods requiring an authenticated user work properly."""
         # Attempt authenticated action with no user authenticated
         with pytest.raises(api.NotAuthenticatedError):
-            self.api.add_episode_to_queue(20434)
+            self.api.add_episode_to_queue(20433)
         with pytest.raises(api.NotAuthenticatedError):
-            self.api.remove_episode_from_queue(20434)
+            self.api.remove_episode_from_queue(20433)
         with pytest.raises(api.NotAuthenticatedError):
-            self.api.mark_episode_watched(20434)
+            self.api.mark_episode_watched(20433)
 
     @pytest.mark.skipif("rt_token" not in os.environ, reason="'rt_token' not defined in the environment")
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/use_existing_token.yaml')
@@ -354,7 +354,7 @@ class TestApi(object):
 
         """
         r = api.Api(os.environ["rt_token"])
-        assert r.episode(20434) is not None
+        assert r.episode(20433) is not None
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/authenticated_methods_with_authentication.yaml')
@@ -362,15 +362,15 @@ class TestApi(object):
         self.api.authenticate(os.environ["rt_user"], os.environ["rt_pass"])
         user_queue_before = self.api.me.queue
         user_queue_before_count = len(self.api.me.queue)
-        if self.api.episode(20434) not in user_queue_before:
-            self.api.add_episode_to_queue(20434)
+        if self.api.episode(20433) not in user_queue_before:
+            self.api.add_episode_to_queue(20433)
             assert (user_queue_before_count + 1) == len(self.api.me.queue)
-            self.api.remove_episode_from_queue(20434)
+            self.api.remove_episode_from_queue(20433)
             assert user_queue_before_count == len(self.api.me.queue)
         else:
-            self.api.remove_episode_from_queue(20434)
+            self.api.remove_episode_from_queue(20433)
             assert (user_queue_before_count - 1) == len(self.api.me.queue)
-            self.api.add_episode_to_queue(20434)
+            self.api.add_episode_to_queue(20433)
             assert user_queue_before_count == len(self.api.me.queue)
 
     @pytest.mark.skipif("rt_user" not in os.environ or "rt_pass" not in os.environ, reason="rt_user or rt_pass not defined in environment")
@@ -382,7 +382,7 @@ class TestApi(object):
         self.api.authenticate(os.environ["rt_user"], os.environ["rt_pass"])
         user_queue_before = self.api.me.queue
         user_queue_before_count = len(self.api.me.queue)
-        episode = self.api.episode(20434)
+        episode = self.api.episode(20433)
         if episode not in user_queue_before:
             episode.add_to_queue()
             assert (user_queue_before_count + 1) == len(self.api.me.queue)
@@ -398,12 +398,12 @@ class TestApi(object):
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/credentials/mark_as_watched.yaml')
     def test_mark_as_watched(self):
         self.api.authenticate(os.environ["rt_user"], os.environ["rt_pass"])
-        episode = self.api.episode(20434)
+        episode = self.api.episode(20433)
         episode.mark_as_watched()
         assert episode.is_watched is True
-        # This will fail, becuase API doesn't update the watched status.
+        # This will fail, because API doesn't update the watched status.
         # Not sure why this is the case.
-        # reloaded_episode = r.episode(20434)
+        # reloaded_episode = r.episode(20433)
         # assert reloaded_episode.is_watched is True
 
     def test_get_current_user_when_none(self):
@@ -427,16 +427,16 @@ class TestApi(object):
         user = self.api.me
         old_name = self.api.me.name
         new_name = "NewName"
-        self.api.update_user_details(self.api.user_id, name=new_name, displayTitle=self.api.me.display_title,
-                                     sex=self.api.me.sex, location=self.api.me.location,
-                                     occupation=self.api.me.occupation, about=self.api.me.about)
+        self.api.update_user_details(self.api.user_id, name=new_name, displayTitle=user.display_title,
+                                     sex=user.sex, location=user.location, occupation=user.occupation,
+                                     about=user.about)
         # Test that 'me' is updated
         assert self.api.me.name == new_name
         # Test that re-retrieved user is updated
         assert self.api.user(self.api.user_id).name == new_name
-        self.api.update_user_details(self.api.user_id, name=old_name, displayTitle=self.api.me.display_title,
-                                     sex=self.api.me.sex, location=self.api.me.location,
-                                     occupation=self.api.me.occupation, about=self.api.me.about)
+        self.api.update_user_details(self.api.user_id, name=old_name, displayTitle=user.display_title,
+                                     sex=user.sex, location=user.location, occupation=user.occupation,
+                                     about=user.about)
         assert self.api.me.name == old_name
         assert self.api.user(self.api.user_id).name == old_name
 
