@@ -4,216 +4,275 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer 2KZyCq3FDjW8WzIeV1Zvi9UvaAXhDU551SXn282n]
+      Authorization: [Bearer IHxNdGkj3Yvs6ed9tWAPVoTVqH6ZnVxLm78QASdi]
       Connection: [keep-alive]
-      Cookie: [__cfduid=da261aeb88196f6a008a298bf3632c7941486786727; rt_production_session=eyJpdiI6IkVSZ0VkY2ZScnNvV1dvVXpSb0NlTG1ua2ZHNmYwYzlWdGZLZXNmR0ZwME09IiwidmFsdWUiOiIxU3ZKQ1paQXIwVmRiVFNOaktna3lzRzB3NUNkR090YVJYM3h4SFwvbTVPVUtkcEg4VWptRVJPamRWS0dhTFwvdGI4YlwvNmxtTWowOFNqXC95VTBmMGpqaWc9PSIsIm1hYyI6ImRiNDYwYjViYTdlMjgzODhiNGE5OTg0YTVjNGYyMGU2YjYyOTZmMTFlOTIyM2JmMzU3ZWI5MGZkY2E5ZjAxYjYifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6InpDZTVTRVI3M0JpQ2tXUk5PbG9obFlKM3o0VkQxMDBydGtTbFdnNzVsMU09IiwidmFsdWUiOiJRMzhiRVd4UURscEJiQW5qaG9Gb1RHOG9RTGpMK3pYcW54aUZcL0w2aGpRejdlWjZGOGMwWVN3UEE1T01wNkt4MGhXQ21kSVZLVFFLWktudlE4SlVHY2c9PSIsIm1hYyI6IjRhYWMzNGYzYWU2ZTJjYWNiNTlhNzEyMDdmZmNjOWE4N2Q1N2UzNjJmOWE0Mzg2MWE1Nzc4MjUzZDMxNzg2YzcifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/users/2269568
+    uri: https://roosterteeth.com/api/v1/users/2044162
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA7ySz27CMAzG38XnlNDSsZKn2AFuuTiJoZHyT0mqjaG++1QGgkk7c/Tnz/59snyB
-        qVAO6AkEYMaCamqBgbElOTzvbXVLJ2FG3wGDm/NaL75CX0sJDFzUWG0M9+4ADKLWU/qj9sAAVZwq
-        iAuM1TsQAAy0I1w8MDOwBkTXbXdv24FByvFoHX1YXadMy1A9p2uCm8JAx1ApXBdWBQLGWpOQXPKy
-        WaHH7xjws6x09JJrE1Y5xlIpV6I6/qpTchFNkdx6PFGRfI26VZuBmrUyuumpo2a3e2+b/mhU/z6o
-        djCd5FVJTl6RWc7gXwgu/gH25oVgbx5gd3ohOGZ7sgHdHT/PDEqKocQM4oiuEAONIQar0R2ye472
-        T4hCWfKnZx+xHAqZfbboQNQ80fwDAAD//wMAw8DEmRgDAAA=
+    body: {string: '{"username":"xxChinasaurxx","displayTitle":"George","name":"NewName","sex":"p","location":"Asdasdasd","occupation":"param4","about":{"html":"","clean":""},"id":2044162,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/user_profile_female.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/user_profile_female.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/user_profile_female.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/user_profile_female.jpg"}},"sponsor":true,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/xxChinasaurxx","hasUsedTrial":true}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f4ffb87e456563-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:18:48 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IlU0bys5WHpmYjVyRlwvTXJLZk5maXhlemdIdkNvXC9kYjVuSU5jZXR2SHQzaz0iLCJ2YWx1ZSI6IlJwZWVZMjJGMTlGOEhTdTNZQmRWb2tSeFEwTDFQbXdmZk5FWnp1N1lJU3hhV1ZZWXNSMDVYUVc5N05KUGFcL1I5SVA2RjZjXC9jUHBYXC93VmFnYzRUMGZnPT0iLCJtYWMiOiIxN2Q1OTVkM2Q1ZDBjYWNjOWEyYmM4M2Y1NWRjNmY5N2Y0YzdkZjJmNGJhYzZlOTA2YjNlNDk0ZGYxMTU3NzRkIn0%3D;
-          expires=Fri, 12-May-2017 04:18:48 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:47 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IitubHFkTm1lTVwvdlVMZGJRTEVYVXVpVnpOWnZQbmRDMDJCeVJxVHRCVTlvPSIsInZhbHVlIjoiYWgwNjBZNmJ4ZXhwUDBFRE9UbzRiZndrUXNyRjkzeE9EZ3pQdUU3OVI0b3RyQzEzUlBoMnMwYWI4VGNIQ0o2TVpMd2JzS3MycDJFejdQc3hJMDNEbEE9PSIsIm1hYyI6IjgzNDEyNGJlN2ZhOTBkNmU4Y2FmOTE5YzA1ZDhlMDYwNDhkMjdmNGRlYzZhZjY5ZjViNjQ5N2MzNGNmMTMwYTEifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:45:47 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-request-uri: [/api/v1/users/2269568]
+      X-request-uri: [/api/v1/users/2044162]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer 2KZyCq3FDjW8WzIeV1Zvi9UvaAXhDU551SXn282n]
+      Authorization: [Bearer IHxNdGkj3Yvs6ed9tWAPVoTVqH6ZnVxLm78QASdi]
       Connection: [keep-alive]
-      Cookie: [__cfduid=da261aeb88196f6a008a298bf3632c7941486786727; rt_production_session=eyJpdiI6IlU0bys5WHpmYjVyRlwvTXJLZk5maXhlemdIdkNvXC9kYjVuSU5jZXR2SHQzaz0iLCJ2YWx1ZSI6IlJwZWVZMjJGMTlGOEhTdTNZQmRWb2tSeFEwTDFQbXdmZk5FWnp1N1lJU3hhV1ZZWXNSMDVYUVc5N05KUGFcL1I5SVA2RjZjXC9jUHBYXC93VmFnYzRUMGZnPT0iLCJtYWMiOiIxN2Q1OTVkM2Q1ZDBjYWNjOWEyYmM4M2Y1NWRjNmY5N2Y0YzdkZjJmNGJhYzZlOTA2YjNlNDk0ZGYxMTU3NzRkIn0%3D]
+      Cookie: [rt_production_session=eyJpdiI6IitubHFkTm1lTVwvdlVMZGJRTEVYVXVpVnpOWnZQbmRDMDJCeVJxVHRCVTlvPSIsInZhbHVlIjoiYWgwNjBZNmJ4ZXhwUDBFRE9UbzRiZndrUXNyRjkzeE9EZ3pQdUU3OVI0b3RyQzEzUlBoMnMwYWI4VGNIQ0o2TVpMd2JzS3MycDJFejdQc3hJMDNEbEE9PSIsIm1hYyI6IjgzNDEyNGJlN2ZhOTBkNmU4Y2FmOTE5YzA1ZDhlMDYwNDhkMjdmNGRlYzZhZjY5ZjViNjQ5N2MzNGNmMTMwYTEifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/users/2269568/queue?page=1&count=20
+    uri: https://roosterteeth.com/api/v1/users/2044162/queue?page=1&count=20
   response:
-    body:
-      string: !!binary |
-        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
+    body: {string: '[{"title":"Pi Day with the Cast of Crunch Time \u2013 #51","caption":"Meg
+        forgot to submit an Internet Show and Tell video and someone in Ryan\u2019s
+        home had a little accident. Plus, Meg sits down with the cast of the new Rooster
+        Teeth show Crunch Time. Finally, Crunch Time star Nick Rutherford stops by
+        to test his math skills","sponsorOnly":false,"description":{"html":"<p>It\u2019s
+        Wednesday, my dudes. Meg forgot to submit an Internet Show and Tell video
+        and someone in Ryan\u2019s home had a little accident. Plus, Meg sits down
+        with the cast of the new Rooster Teeth show Crunch Time. Finally, Crunch Time
+        star Nick Rutherford stops by to test his math skills along with the rest
+        of the Free Play gang. <\/p>","clean":"It\u2019s Wednesday, my dudes. Meg
+        forgot to submit an Internet Show and Tell video and someone in Ryan\u2019s
+        home had a little accident. Plus, Meg sits down with the cast of the new Rooster
+        Teeth show Crunch Time. Finally, Crunch Time star Nick Rutherford stops by
+        to test his math skills along with the rest of the Free Play gang. "},"slug":"free-play-season-2-51","site":"roosterTeeth","id":26008,"number":51,"length":1722,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/41bcb52d-18ee-4caa-a436-7321c48ef167\/tb\/2013912-1458149455854-fp51_-_THUMB_v2.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/41bcb52d-18ee-4caa-a436-7321c48ef167\/sm\/2013912-1458149455854-fp51_-_THUMB_v2.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/41bcb52d-18ee-4caa-a436-7321c48ef167\/md\/2013912-1458149455854-fp51_-_THUMB_v2.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/41bcb52d-18ee-4caa-a436-7321c48ef167\/original\/2013912-1458149455854-fp51_-_THUMB_v2.png"}},"show":{"name":"Free
+        Play","summary":{"html":"<p>Meg Turney and Ryan Haywood bring you a fun dose
+        of outrageous Internet videos, gaming news, and zany challenges.  Plus, interviews
+        and exclusive clips from Rooster Teeth''s latest projects.<\/p>","clean":"Meg
+        Turney and Ryan Haywood bring you a fun dose of outrageous Internet videos,
+        gaming news, and zany challenges.  Plus, interviews and exclusive clips from
+        Rooster Teeth''s latest projects."},"id":82,"slug":"free-play","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/tb\/FreePlaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/sm\/FreePlaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/md\/FreePlaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/original\/FreePlaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/free-play"},"season":{"title":"Season
+        2","description":"","id":367,"number":2,"slug":"free-play-season-2","show":{"name":"Free
+        Play","summary":{"html":"<p>Meg Turney and Ryan Haywood bring you a fun dose
+        of outrageous Internet videos, gaming news, and zany challenges.  Plus, interviews
+        and exclusive clips from Rooster Teeth''s latest projects.<\/p>","clean":"Meg
+        Turney and Ryan Haywood bring you a fun dose of outrageous Internet videos,
+        gaming news, and zany challenges.  Plus, interviews and exclusive clips from
+        Rooster Teeth''s latest projects."},"id":82,"slug":"free-play","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/tb\/FreePlaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/sm\/FreePlaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/md\/FreePlaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/original\/FreePlaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/free-play"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/free-play-season-2-51","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/fc2647a2-6b82-4ad0-bba7-93b96abb25c4\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"DISLIKE
+        THIS VIDEO - Funhaus Comments #10","caption":"Or mod it. Since we''re not
+        on YouTube here.","sponsorOnly":false,"description":{"html":"<p>They said
+        it was a crazy idea. They said it would never work. They were wrong. The reverse
+        psychology title bait we''re using today is going to revolutionize Funhaus.
+        Just think about it. By asking - DARING - you guys to dislike the video, we''re
+        drawing your eye. Making you think. Suddenly, you start to consider the ramifications
+        of your action on a global scale. \"How will my thumbs down affect the price
+        of millet in sub-Saharan Africa?\" \"Will my college admissions officer see
+        my thumbs down as a reflection of my potential contribution to my residential
+        house?\" \"Maybe my future spouse and I are thumbs-downing together at this
+        exact second.\" <\/p>\n\n<p><br \/><\/p>\n\n<p>See? Really makes you think.
+        Reverse psychology, huh?<\/p>\n\n<p><br \/><\/p>\n\n<p>Anyway, please dislike
+        this video.<\/p>","clean":"They said it was a crazy idea. They said it would
+        never work. They were wrong. The reverse psychology title bait we''re using
+        today is going to revolutionize Funhaus. Just think about it. By asking -
+        DARING - you guys to dislike the video, we''re drawing your eye. Making you
+        think. Suddenly, you start to consider the ramifications of your action on
+        a global scale. \"How will my thumbs down affect the price of millet in sub-Saharan
+        Africa?\" \"Will my college admissions officer see my thumbs down as a reflection
+        of my potential contribution to my residential house?\" \"Maybe my future
+        spouse and I are thumbs-downing together at this exact second.\" \n\n\n\nSee?
+        Really makes you think. Reverse psychology, huh?\n\n\n\nAnyway, please dislike
+        this video."},"slug":"funhaus-your-comments-season-1-dislike-this-video-funhaus-comments-10","site":"funhaus","id":26013,"number":13,"length":749,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7c58503d-e213-41ba-9041-76dabc1101d1\/tb\/1788484-1458168234516-fh_thumb_9_copy_31.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7c58503d-e213-41ba-9041-76dabc1101d1\/sm\/1788484-1458168234516-fh_thumb_9_copy_31.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7c58503d-e213-41ba-9041-76dabc1101d1\/md\/1788484-1458168234516-fh_thumb_9_copy_31.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7c58503d-e213-41ba-9041-76dabc1101d1\/original\/1788484-1458168234516-fh_thumb_9_copy_31.jpg"}},"show":{"name":"Your
+        Comments","summary":{"html":"<p>You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you.<\/p>","clean":"You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you."},"id":68,"slug":"your-comments","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/tb\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/sm\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/md\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/original\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/tb\/YourCommentsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/sm\/YourCommentsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/md\/YourCommentsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/original\/YourCommentsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/your-comments"},"season":{"title":"2015","description":"","id":105,"number":1,"slug":"funhaus-your-comments-season-1","show":{"name":"Your
+        Comments","summary":{"html":"<p>You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you.<\/p>","clean":"You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you."},"id":68,"slug":"your-comments","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/tb\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/sm\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/md\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/original\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/tb\/YourCommentsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/sm\/YourCommentsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/md\/YourCommentsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/original\/YourCommentsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/your-comments"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/funhaus-your-comments-season-1-dislike-this-video-funhaus-comments-10","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/b8b40460-90e2-464a-8193-9a341d3719cb\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Volume
+        3, Chapter 1: Round One","caption":"\u200bThe Vytal Festival Tournament is
+        the ultimate battle of skill, pitting the world''s most powerful Huntsmen
+        and Huntresses in training against one another... and it''s finally here!","sponsorOnly":false,"description":{"html":"<p>The
+        Vytal Festival Tournament is the ultimate battle of skill, pitting the world''s
+        most powerful Huntsmen and Huntresses in training against one another... and
+        it''s finally here! Ruby, Weiss, Blake, and Yang are back for a season of
+        over-the-top action, and they''re not alone. New fighters from around Remnant
+        are ready to bring glory to their kingdom, but there are those among them
+        with a far more sinister goal in mind<\/p>","clean":"The Vytal Festival Tournament
+        is the ultimate battle of skill, pitting the world''s most powerful Huntsmen
+        and Huntresses in training against one another... and it''s finally here!
+        Ruby, Weiss, Blake, and Yang are back for a season of over-the-top action,
+        and they''re not alone. New fighters from around Remnant are ready to bring
+        glory to their kingdom, but there are those among them with a far more sinister
+        goal in mind"},"slug":"rwby-season-3-chapter-1","site":"roosterTeeth","id":20725,"number":1,"length":1023,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/28805040-8478-4478-baee-01b5df3da024\/tb\/2013912-1445642061380-RWBY_THUMB_Ep01.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/28805040-8478-4478-baee-01b5df3da024\/sm\/2013912-1445642061380-RWBY_THUMB_Ep01.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/28805040-8478-4478-baee-01b5df3da024\/md\/2013912-1445642061380-RWBY_THUMB_Ep01.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/28805040-8478-4478-baee-01b5df3da024\/original\/2013912-1445642061380-RWBY_THUMB_Ep01.png"}},"show":{"name":"RWBY","summary":{"html":"<p>The
+        future-fantasy world of Remnant is filled with ravenous monsters, treacherous
+        terrain, and more villains than you can shake a sniper-scythe at. Fortunately,
+        Beacon Academy is training Huntsmen and Huntresses to battle the evils of
+        the world, and Ruby, Weiss, Blake, and Yang are ready for their first day
+        of class.<\/p>","clean":"The future-fantasy world of Remnant is filled with
+        ravenous monsters, treacherous terrain, and more villains than you can shake
+        a sniper-scythe at. Fortunately, Beacon Academy is training Huntsmen and Huntresses
+        to battle the evils of the world, and Ruby, Weiss, Blake, and Yang are ready
+        for their first day of class."},"id":34,"slug":"rwby","seasonCount":5,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/tb\/RWBY_v5_page_banner_master_updated.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/sm\/RWBY_v5_page_banner_master_updated.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/md\/RWBY_v5_page_banner_master_updated.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/original\/RWBY_v5_page_banner_master_updated.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/tb\/RWBYSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/sm\/RWBYSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/md\/RWBYSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/original\/RWBYSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby"},"season":{"title":"Volume
+        3","description":"","id":229,"number":3,"slug":"rwby-season-3","show":{"name":"RWBY","summary":{"html":"<p>The
+        future-fantasy world of Remnant is filled with ravenous monsters, treacherous
+        terrain, and more villains than you can shake a sniper-scythe at. Fortunately,
+        Beacon Academy is training Huntsmen and Huntresses to battle the evils of
+        the world, and Ruby, Weiss, Blake, and Yang are ready for their first day
+        of class.<\/p>","clean":"The future-fantasy world of Remnant is filled with
+        ravenous monsters, treacherous terrain, and more villains than you can shake
+        a sniper-scythe at. Fortunately, Beacon Academy is training Huntsmen and Huntresses
+        to battle the evils of the world, and Ruby, Weiss, Blake, and Yang are ready
+        for their first day of class."},"id":34,"slug":"rwby","seasonCount":5,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/tb\/RWBY_v5_page_banner_master_updated.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/sm\/RWBY_v5_page_banner_master_updated.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/md\/RWBY_v5_page_banner_master_updated.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/original\/RWBY_v5_page_banner_master_updated.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/tb\/RWBYSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/sm\/RWBYSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/md\/RWBYSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/original\/RWBYSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/rwby-season-3-chapter-1","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/d202e540-168f-45da-9dd1-9a030176d21a\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Let''s
+        Play Live: The Documentary","caption":"Let\u2019s Play Live: The Documentary
+        follows Achievement Hunter as it turns online gaming into a first-of-its-kind
+        live event.","sponsorOnly":true,"description":{"html":"<p>Let''s Play Live:
+        The Documentary follows Achievement Hunter as it turns online gaming into
+        a first-of-its-kind live event. The documentary not only explores why Let''s
+        Plays are so popular, but also how the convergence of gaming and community
+        are redefining the stages once reserved for only the biggest of rock stars.<\/p>","clean":"Let''s
+        Play Live: The Documentary follows Achievement Hunter as it turns online gaming
+        into a first-of-its-kind live event. The documentary not only explores why
+        Let''s Plays are so popular, but also how the convergence of gaming and community
+        are redefining the stages once reserved for only the biggest of rock stars."},"slug":"r-t-docs-let-s-play-live-let-s-play-live-the-documentary","site":"roosterTeeth","id":20399,"number":1,"length":1653,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4cb3b761-81c4-425f-b3a9-57c44f4bd6bc\/tb\/2013912-1444159770978-LPLNewThumbnail2.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4cb3b761-81c4-425f-b3a9-57c44f4bd6bc\/sm\/2013912-1444159770978-LPLNewThumbnail2.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4cb3b761-81c4-425f-b3a9-57c44f4bd6bc\/md\/2013912-1444159770978-LPLNewThumbnail2.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4cb3b761-81c4-425f-b3a9-57c44f4bd6bc\/original\/2013912-1444159770978-LPLNewThumbnail2.jpg"}},"show":{"name":"RT
+        Docs","summary":{"html":"<p>Rooster Teeth''s Documentaries<\/p>","clean":"Rooster
+        Teeth''s Documentaries"},"id":204,"slug":"rt-docs","seasonCount":9,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/tb\/RTDocsHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/sm\/RTDocsHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/md\/RTDocsHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/original\/RTDocsHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/tb\/RTDocsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/sm\/RTDocsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/md\/RTDocsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/original\/RTDocsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-docs"},"season":{"title":"RT
+        Docs","description":"","id":212,"number":1,"slug":"r-t-docs-rt-docs","show":{"name":"RT
+        Docs","summary":{"html":"<p>Rooster Teeth''s Documentaries<\/p>","clean":"Rooster
+        Teeth''s Documentaries"},"id":204,"slug":"rt-docs","seasonCount":9,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/tb\/RTDocsHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/sm\/RTDocsHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/md\/RTDocsHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/original\/RTDocsHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/tb\/RTDocsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/sm\/RTDocsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/md\/RTDocsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/original\/RTDocsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-docs"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/r-t-docs-let-s-play-live-let-s-play-live-the-documentary"},{"title":"Rocketman","caption":"Battle:
+        Los Angeles","sponsorOnly":false,"description":{"html":"<p>Michael and Geoff
+        pretend to be Elton John and grab the Rocketman achievement in Battle: Los
+        Angeles for XBLA.  Fly away with me!<\/p>","clean":"Michael and Geoff pretend
+        to be Elton John and grab the Rocketman achievement in Battle: Los Angeles
+        for XBLA.  Fly away with me!"},"slug":"achievement-hunter-achievement-hunter-rocketman","site":"achievementHunter","id":3000,"number":90,"length":63,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/fe9785a9-ee3a-45b8-81bd-5d350175f124\/tb\/ep3000.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/fe9785a9-ee3a-45b8-81bd-5d350175f124\/sm\/ep3000.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/fe9785a9-ee3a-45b8-81bd-5d350175f124\/md\/ep3000.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/fe9785a9-ee3a-45b8-81bd-5d350175f124\/original\/ep3000.jpg"}},"show":{"name":"Achievement
+        Hunter","summary":{"html":"<p>Achievement walkthroughs, hints, tips and tricks
+        for the Xbox 360. Helping you get those achievements, one game at a time.<\/p>","clean":"Achievement
+        walkthroughs, hints, tips and tricks for the Xbox 360. Helping you get those
+        achievements, one game at a time."},"id":7,"slug":"achievement-hunter","seasonCount":11,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/tb\/AchievementHunterHero1.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/sm\/AchievementHunterHero1.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/md\/AchievementHunterHero1.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/original\/AchievementHunterHero1.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/tb\/AchievementHunterSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/sm\/AchievementHunterSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/md\/AchievementHunterSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/original\/AchievementHunterSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/achievement-hunter"},"season":{"title":"2011","description":"","id":219,"number":2011,"slug":"achievement-hunter-2011","show":{"name":"Achievement
+        Hunter","summary":{"html":"<p>Achievement walkthroughs, hints, tips and tricks
+        for the Xbox 360. Helping you get those achievements, one game at a time.<\/p>","clean":"Achievement
+        walkthroughs, hints, tips and tricks for the Xbox 360. Helping you get those
+        achievements, one game at a time."},"id":7,"slug":"achievement-hunter","seasonCount":11,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/tb\/AchievementHunterHero1.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/sm\/AchievementHunterHero1.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/md\/AchievementHunterHero1.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/original\/AchievementHunterHero1.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/tb\/AchievementHunterSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/sm\/AchievementHunterSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/md\/AchievementHunterSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/original\/AchievementHunterSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/achievement-hunter"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/achievement-hunter-achievement-hunter-rocketman","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/3000.mp4-a1169bd7\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"The
+        HYPE is Real","caption":"\u200bWe''re hours away from the biggest party in
+        video games and we are HYPED.","sponsorOnly":false,"description":{"html":"<p>We''re
+        hours away from the biggest party in video games and we are HYPED.<\/p>\n\n<p>\u25baSGC
+        and RTX 2016 is in July! Come hang out with for a weekend: <a href=\"http:\/\/bit.ly\/SGCRTX2016\">http:\/\/bit.ly\/SGCRTX2016<\/a><\/p>\n\n<p>\u25baWe
+        have a book based on the Video Game Vault series! Learn more about it here:
+        <a href=\"http:\/\/bit.ly\/ScrewAttackN64Book\">http:\/\/bit.ly\/ScrewAttackN64Book<\/a><\/p>\n\n<p>\u25baWatch
+        DEATH BATTLE and all our videos early as a Sponsor (it''s like our Patreon):
+        <a href=\"http:\/\/bit.ly\/SponsorSA\">http:\/\/bit.ly\/SponsorSA<\/a><\/p>","clean":"We''re
+        hours away from the biggest party in video games and we are HYPED.\n\n\u25baSGC
+        and RTX 2016 is in July! Come hang out with for a weekend: http:\/\/bit.ly\/SGCRTX2016\n\n\u25baWe
+        have a book based on the Video Game Vault series! Learn more about it here:
+        http:\/\/bit.ly\/ScrewAttackN64Book\n\n\u25baWatch DEATH BATTLE and all our
+        videos early as a Sponsor (it''s like our Patreon): http:\/\/bit.ly\/SponsorSA"},"slug":"sidescrollers-season-1-the-hype-is-real","site":"screwAttack","id":28805,"number":251,"length":3267,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7b3ffd12-683b-43e3-852d-e6659f6343a1\/tb\/2056961-1467084058486-06_27_16_SideScrollersTHumb.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7b3ffd12-683b-43e3-852d-e6659f6343a1\/sm\/2056961-1467084058486-06_27_16_SideScrollersTHumb.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7b3ffd12-683b-43e3-852d-e6659f6343a1\/md\/2056961-1467084058486-06_27_16_SideScrollersTHumb.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7b3ffd12-683b-43e3-852d-e6659f6343a1\/original\/2056961-1467084058486-06_27_16_SideScrollersTHumb.jpg"}},"show":{"name":"SideScrollers
+        Podcast","summary":{"html":"<p>Craig, Chad and Sam talk stuff. Sometimes games,
+        but mostly just stuff dudes talk about. Fun fact: This is the first show ScrewAttack
+        ever made and it''s still going today.<\/p>","clean":"Craig, Chad and Sam
+        talk stuff. Sometimes games, but mostly just stuff dudes talk about. Fun fact:
+        This is the first show ScrewAttack ever made and it''s still going today."},"id":223,"slug":"sidescrollers","seasonCount":1,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/tb\/2056961-1457245197081-SideScrollersLarge.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/sm\/2056961-1457245197081-SideScrollersLarge.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/md\/2056961-1457245197081-SideScrollersLarge.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/original\/2056961-1457245197081-SideScrollersLarge.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/tb\/SideScrollersPodcastSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/sm\/SideScrollersPodcastSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/md\/SideScrollersPodcastSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/original\/SideScrollersPodcastSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/sidescrollers"},"season":{"title":"Season
+        1","description":"","id":379,"number":1,"slug":"sidescrollers-season-1","show":{"name":"SideScrollers
+        Podcast","summary":{"html":"<p>Craig, Chad and Sam talk stuff. Sometimes games,
+        but mostly just stuff dudes talk about. Fun fact: This is the first show ScrewAttack
+        ever made and it''s still going today.<\/p>","clean":"Craig, Chad and Sam
+        talk stuff. Sometimes games, but mostly just stuff dudes talk about. Fun fact:
+        This is the first show ScrewAttack ever made and it''s still going today."},"id":223,"slug":"sidescrollers","seasonCount":1,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/tb\/2056961-1457245197081-SideScrollersLarge.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/sm\/2056961-1457245197081-SideScrollersLarge.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/md\/2056961-1457245197081-SideScrollersLarge.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/original\/2056961-1457245197081-SideScrollersLarge.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/tb\/SideScrollersPodcastSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/sm\/SideScrollersPodcastSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/md\/SideScrollersPodcastSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/original\/SideScrollersPodcastSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/sidescrollers"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/sidescrollers-season-1-the-hype-is-real","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/fcb37fae-121d-4f74-b569-f453a37b2fcd\/index.m3u8"}}],"audioFiles":[{"type":"audio","content":{"mp3":"https:\/\/soundcloud.com\/screwattack\/the-hype-is-real-sidescrollers-541-062716"}}],"links":[]}},{"title":"32
+        POUND MARSHMALLOW BATH \u2022 Behind the Cow Chop","caption":"How many gallons
+        is that? ","sponsorOnly":false,"description":{"html":"<p>Subscribe<a href=\"http:\/\/bit.ly\/1RQtfNf\">
+        http:\/\/bit.ly\/1RQtfNf<\/a>\u00a0\u00a0<\/p>\n\n<p>Cow Chop Merch:<a href=\"http:\/\/bit.ly\/2dY0HrO\">
+        http:\/\/bit.ly\/2dY0HrO<\/a> \u00a0<br \/>RT First:<a href=\"http:\/\/bit.ly\/2b4bWuW\">
+        http:\/\/bit.ly\/2b4bWuW<\/a> \u00a0<br \/>Discuss:<a href=\"http:\/\/bit.ly\/1qvrlLD\">
+        http:\/\/bit.ly\/1qvrlLD<\/a> \u00a0<br \/>Twitter:<a href=\"https:\/\/twitter.com\/CowChop\">
+        https:\/\/twitter.com\/CowChop<\/a> \u00a0<\/p>\n\n\n\n\n\n<p>Beat Boxing
+        Pro:<a href=\"http:\/\/bit.ly\/1NdSvRO\"> http:\/\/bit.ly\/1NdSvRO<\/a> \u00a0<\/p>\n\n\n\n\n\n<p><br
+        \/><\/p>\n\n\n\n\n\n<p>On this weeks Behind the Cow Chop we take you behind
+        the scenes with 32 Pounds of Marshmallows and we setup for our 1000 degree
+        knife video.\u00a0<\/p>\n\n\n\n\n\n<p>Please support our move to LA! \u00a0Click
+        the link to sign up for Rooster Teeth FIRST and use the referral code \"COWCHOP\"<a
+        href=\"https:\/\/goo.gl\/NVZOT8\"> https:\/\/goo.gl\/NVZOT8<\/a><\/p>\n\n\n\n\n\n<p><br
+        \/><\/p>\n\n\n\n\n\n\n\n<p><span class=\"redactor-unlink\">The<\/span> following
+        is for those multicultural.\u00a0<\/p>\n\n\n\n\n\n<p><br \/><\/p>\n\n\n\n\n\n<p>Dame
+        comida, dame marshmallows. Pega esos malvaviscos por mi culo. Se siente tan
+        bien sentir los malvaviscos suaves insertados en mi tope. Oh, s\u00ed, se
+        siente tan bien.<\/p>\n\n\n\n\n\n<p>Jag hoppas att alla snitches f\u00e5r
+        slag i ansiktet. De \u00e4r alla ett g\u00e4ng j\u00e4vla skitst\u00f6vlar.
+        Ocks\u00e5 tack f\u00f6r att titta p\u00e5 dig sexig r\u00f6v kor.<\/p>\n\n\n\n\n\n<p><br
+        \/><\/p>\n\n\n\n\n\n<p>32 POUND MARSHMALLOW BATH \u2022 Behind the Cow Chop\u00a0<br
+        \/>Thank You <\/p>","clean":"Subscribe http:\/\/bit.ly\/1RQtfNf\u00a0\u00a0\n\nCow
+        Chop Merch: http:\/\/bit.ly\/2dY0HrO \u00a0RT First: http:\/\/bit.ly\/2b4bWuW
+        \u00a0Discuss: http:\/\/bit.ly\/1qvrlLD \u00a0Twitter: https:\/\/twitter.com\/CowChop
+        \u00a0\n\n\n\n\n\nBeat Boxing Pro: http:\/\/bit.ly\/1NdSvRO \u00a0\n\n\n\n\n\n\n\n\n\n\n\nOn
+        this weeks Behind the Cow Chop we take you behind the scenes with 32 Pounds
+        of Marshmallows and we setup for our 1000 degree knife video.\u00a0\n\n\n\n\n\nPlease
+        support our move to LA! \u00a0Click the link to sign up for Rooster Teeth
+        FIRST and use the referral code \"COWCHOP\" https:\/\/goo.gl\/NVZOT8\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe
+        following is for those multicultural.\u00a0\n\n\n\n\n\n\n\n\n\n\n\nDame comida,
+        dame marshmallows. Pega esos malvaviscos por mi culo. Se siente tan bien sentir
+        los malvaviscos suaves insertados en mi tope. Oh, s\u00ed, se siente tan bien.\n\n\n\n\n\nJag
+        hoppas att alla snitches f\u00e5r slag i ansiktet. De \u00e4r alla ett g\u00e4ng
+        j\u00e4vla skitst\u00f6vlar. Ocks\u00e5 tack f\u00f6r att titta p\u00e5 dig
+        sexig r\u00f6v kor.\n\n\n\n\n\n\n\n\n\n\n\n32 POUND MARSHMALLOW BATH \u2022
+        Behind the Cow Chop\u00a0Thank You "},"slug":"behind-the-cow-chop-2016-8","site":"cowChop","id":31430,"number":4,"length":603,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e542a64b-4ed7-414a-a070-c20bdf62605d\/tb\/2516933-1485572881956-32_pound_cereal.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e542a64b-4ed7-414a-a070-c20bdf62605d\/sm\/2516933-1485572881956-32_pound_cereal.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e542a64b-4ed7-414a-a070-c20bdf62605d\/md\/2516933-1485572881956-32_pound_cereal.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e542a64b-4ed7-414a-a070-c20bdf62605d\/original\/2516933-1485572881956-32_pound_cereal.jpg"}},"show":{"name":"Behind
+        the Cow Chop","summary":{"html":"<p>Here is where we throw all the strange
+        things that happen behind the scenes with the Cow Chop crew.<\/p>","clean":"Here
+        is where we throw all the strange things that happen behind the scenes with
+        the Cow Chop crew."},"id":308,"slug":"behind-the-cow-chop","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/tb\/BehindTheCowChopHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/sm\/BehindTheCowChopHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/md\/BehindTheCowChopHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/original\/BehindTheCowChopHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/tb\/BehindTheCowChopSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/sm\/BehindTheCowChopSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/md\/BehindTheCowChopSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/original\/BehindTheCowChopSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/behind-the-cow-chop"},"season":{"title":"2017","description":"","id":532,"number":2,"slug":"behind-the-cow-chop-2016","show":{"name":"Behind
+        the Cow Chop","summary":{"html":"<p>Here is where we throw all the strange
+        things that happen behind the scenes with the Cow Chop crew.<\/p>","clean":"Here
+        is where we throw all the strange things that happen behind the scenes with
+        the Cow Chop crew."},"id":308,"slug":"behind-the-cow-chop","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/tb\/BehindTheCowChopHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/sm\/BehindTheCowChopHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/md\/BehindTheCowChopHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/original\/BehindTheCowChopHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/tb\/BehindTheCowChopSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/sm\/BehindTheCowChopSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/md\/BehindTheCowChopSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/original\/BehindTheCowChopSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/behind-the-cow-chop"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/behind-the-cow-chop-2016-8","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/dace31f5-b094-414e-858c-540dade0b96e\/index.m3u8"}}],"audioFiles":[],"links":[]}}]'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f4ffbb0ea56563-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:18:49 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IjVtTXZjeVZVNDh0Vlk2UkplaDFmdWthWitWbStYUUs3enJZdWFBelNYK0k9IiwidmFsdWUiOiJENVNxc01HWlIrREduMWErZU5GeVFPUjZsZ0ZzZTM3eGF1V2dvT2dobmFDc1B1aU5OWVZ0bVwvMEM3SjRGY1dYejN3WU9UbUpaaUtDXC9vbnpjNzc0Y013PT0iLCJtYWMiOiIxMjJmOTNjMTE0MjM3YmQ5NmFlMDVhMzZjNjc2Y2UwZDYxYTU2MTIyZDJlY2UxNDhjNGRkZTFjMDQxNTFlOTQ4In0%3D;
-          expires=Fri, 12-May-2017 04:18:49 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:48 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Iis3RmRma1RBNFZNU0NvRXhaM0hUd215NEVDYklmanZCbXVuTmUrMzloWkU9IiwidmFsdWUiOiJ2MDZyaVFmXC9ncUQweWE2S0FaUDZoSEVBOWxwRHlBb1VDS0t4QVFxTTdYMTBmSysrTmFLSGtIRkRETFU3QTVOXC94cXM4KzFJXC9kYUpwN1d5NXc5djQ2Zz09IiwibWFjIjoiNjM2MDdjNzI0YzcxYzNjZjljMTcxMTM3M2VlNjRlMzQ5ZDg2MTA3MDZjMTE5MDA2NTU0YmUxZWU5NGRmMWQwOCJ9;
+          expires=Fri, 07-Sep-2018 13:45:46 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-Total-Count: ['8']
-      X-request-uri: ['/api/v1/users/2269568/queue?page=1&count=20']
+      X-Total-Count: ['7']
+      X-request-uri: ['/api/v1/users/2044162/queue?page=1&count=20']
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer 2KZyCq3FDjW8WzIeV1Zvi9UvaAXhDU551SXn282n]
+      Authorization: [Bearer IHxNdGkj3Yvs6ed9tWAPVoTVqH6ZnVxLm78QASdi]
       Connection: [keep-alive]
-      Cookie: [__cfduid=da261aeb88196f6a008a298bf3632c7941486786727; rt_production_session=eyJpdiI6IjVtTXZjeVZVNDh0Vlk2UkplaDFmdWthWitWbStYUUs3enJZdWFBelNYK0k9IiwidmFsdWUiOiJENVNxc01HWlIrREduMWErZU5GeVFPUjZsZ0ZzZTM3eGF1V2dvT2dobmFDc1B1aU5OWVZ0bVwvMEM3SjRGY1dYejN3WU9UbUpaaUtDXC9vbnpjNzc0Y013PT0iLCJtYWMiOiIxMjJmOTNjMTE0MjM3YmQ5NmFlMDVhMzZjNjc2Y2UwZDYxYTU2MTIyZDJlY2UxNDhjNGRkZTFjMDQxNTFlOTQ4In0%3D]
+      Cookie: [rt_production_session=eyJpdiI6Iis3RmRma1RBNFZNU0NvRXhaM0hUd215NEVDYklmanZCbXVuTmUrMzloWkU9IiwidmFsdWUiOiJ2MDZyaVFmXC9ncUQweWE2S0FaUDZoSEVBOWxwRHlBb1VDS0t4QVFxTTdYMTBmSysrTmFLSGtIRkRETFU3QTVOXC94cXM4KzFJXC9kYUpwN1d5NXc5djQ2Zz09IiwibWFjIjoiNjM2MDdjNzI0YzcxYzNjZjljMTcxMTM3M2VlNjRlMzQ5ZDg2MTA3MDZjMTE5MDA2NTU0YmUxZWU5NGRmMWQwOCJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/users/2269568/queue?page=2&count=20
+    uri: https://roosterteeth.com/api/v1/users/2044162/queue?page=2&count=20
   response:
     body: {string: '[]'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f4ffc6898c6563-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Length: ['2']
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:18:50 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6Ik9nME1sZHF4K1RuYmdTZ0lLYmVDaXpxRWFtWE9MRVo3dmNjRkJqU0xBS2M9IiwidmFsdWUiOiJOOHg0ZzBJcU5rdTYzWE83Q0xaY1FiM3o5eXY4UVhpZE5BRXBHWm1Ca1duV0dpMnpkVFdOclUyd1MrOSs2ZWRTYmp4UDkrUWY2TlFCeGJ5WmZDNXVYQT09IiwibWFjIjoiY2YwN2E3MGQ4NzUyODk2MGRhZmQ2ZTUyOGM1ZWIyZmYwZDJlMDZkY2Y2M2ZhMmQ4NTIyNWQyY2IxZmQ2NmQ4YyJ9;
-          expires=Fri, 12-May-2017 04:18:50 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:48 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IldzNFhmaHFtZGxqM3pqZ1p1RTJiTHVremYxSE9iV3Y5M2hvQUlWeVdRbEk9IiwidmFsdWUiOiJOYVJNNlgzeGpvTHhRYzg5bENPY1ZKcmQ1TXVScDJrMUtLNFVqVHRnM1RJR01ZQU00cjV3MEM3SFZzY0xCZ2hmMnk1NWhIRnp6T2VCSGVZTnRMNzZ5QT09IiwibWFjIjoiOGZiZGNlYWY0Y2YyNDQyZGU0N2M4ZWVlYTg3MmUxZWRmOWEzNmRjNDIxYjYxYmQ5ZDNlNjY5MGFkNGI5MmJlMyJ9;
+          expires=Fri, 07-Sep-2018 13:45:48 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-Total-Count: ['8']
-      X-request-uri: ['/api/v1/users/2269568/queue?page=2&count=20']
+      X-Total-Count: ['7']
+      X-request-uri: ['/api/v1/users/2044162/queue?page=2&count=20']
     status: {code: 200, message: OK}
 version: 1

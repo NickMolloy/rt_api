@@ -467,7 +467,7 @@ class TestApi(object):
             user.name = "NotUs"
             user.update()
 
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/search.yml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/search.yaml')
     def test_search(self):
         results = self.api.search("funny")
         assert len(results) == 12
@@ -479,7 +479,7 @@ class TestApi(object):
         results = self.api.search("")
         assert len(results) == 0
 
-    @vcr.use_cassette('tests/fixtures/vcr_cassettes/search_includes.yml')
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/search_includes.yaml')
     def test_search_includes(self):
         results = self.api.search("stuff", include=[rt_api.models.Episode])
         assert len(results) == 10

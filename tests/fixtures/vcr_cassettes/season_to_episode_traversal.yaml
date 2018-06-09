@@ -4,9 +4,9 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer tdJHMCSTH3HNQ3Yan3TyQ3ddrXN4wTBPRIu65O9d]
+      Authorization: [Bearer M4oQ3S75ucv6NSHwU2a6FyxLOOkONIPVMFuDFHKv]
       Connection: [keep-alive]
-      Cookie: [rt_production_session=eyJpdiI6InVTTFBKb2I0dGJ5SzQxRzY0YlMwaSs1NFlvaXhiQTlCNW5YamZyS2VWUWc9IiwidmFsdWUiOiJpcUh3V2FRVENjTXB1WithU3FoRWpQMUxiSldVcXVPc3hNeGx3UnJZRTh4U29lbWNJR1hrSXY5eDBxZnFiTmZmWXlQY1IrbXEzbkhmWE1IcG1GY3lBZz09IiwibWFjIjoiOGVlMzg1ZjY1ZTY5OTdmNjdhOWU0ZGU1NmZjMjQyYjg0OGMwZTBhMDFhNWE5ZWJhMTU3OWI2YWE3NmY3Yzk2NCJ9]
+      Cookie: [rt_production_session=eyJpdiI6IjA0bjIrdDAwQVlONHVXenVBSXpWYU9ndGpqc2RxXC9HTmRcL2E0TWlJR1wvaVU9IiwidmFsdWUiOiJIWFwveW91OG9IbFNSblZ4S2dweTJZZW91MmZUeUF0N2lyaVpNN0VjUVV5eTcxN2N5UjA2RzRTVVN4UzZkNWR5MisyeUxCcEtrU3VDeGs3T3NJczdWRlE9PSIsIm1hYyI6IjQ5YmM1OWRkOWVjOGEwYTljZWUxMTA0ODJhZDZiY2FmMzY1YzJmMjAxNTM2ODlmMzk2Yzk1MmM5ZmI0ZmU2ODMifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/seasons/500
@@ -24,10 +24,10 @@ interactions:
       Cache-Control: [public]
       Connection: [keep-alive]
       Content-Type: [application/json]
-      Date: ['Thu, 07 Jun 2018 13:13:58 GMT']
+      Date: ['Sat, 09 Jun 2018 13:44:00 GMT']
       Server: [nginx/1.10.1]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IktUNStzVVUxV2lYeFVRVkRFZVp6MFFmY3VwTGNYSzRYSkVWTzkrXC9YOGZVPSIsInZhbHVlIjoiY2dSbFdBazlzXC9XUVRNeGJuWFcxOUwwNGtMa0F1ODFSdGlSUmpLZWVFRHNkSnFjQ05YVGFJd2V5aXhjZUxHRk9KYTF0ZXdVTnlYdkNYdGdCbW1oU0RRPT0iLCJtYWMiOiIwOWUwMWRjMDNlOGMwNGU5MTQyMjEyMDA0MjRkYTIyZDM4ZWZkNWM5Mzk2MGQ1MjllYmI5Nzg5MTY4YjhlNDBhIn0%3D;
-          expires=Wed, 05-Sep-2018 13:13:57 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Set-Cookie: ['rt_production_session=eyJpdiI6IllGRVlwcWpvRnBkWnFIWHhja2JYMUdYcm55cnRJTTE2VFo1WFVkcGRkZ2c9IiwidmFsdWUiOiIwM3IrMmlrUXN2c2oxMDhKMjlRNVZ0XC83VzQrUlRzR3ZjZnpCVlI4ZktYbVJyY3JZSTlnQVlsTnpDWWdPUURyMGtvcEJBU0puSXZvSkEzSFdiNEtDNHc9PSIsIm1hYyI6IjMyMzFlN2UxZDIyZTQ5OTgyMTZhM2FkODU1NjVmMGUyZWFhYTU3MjU1M2VhZmVhMGU4Yzc0NmQ0OTE2NWZmNjQifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:44:01 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/seasons/500]
     status: {code: 200, message: OK}
@@ -36,9 +36,9 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer tdJHMCSTH3HNQ3Yan3TyQ3ddrXN4wTBPRIu65O9d]
+      Authorization: [Bearer M4oQ3S75ucv6NSHwU2a6FyxLOOkONIPVMFuDFHKv]
       Connection: [keep-alive]
-      Cookie: [rt_production_session=eyJpdiI6IktUNStzVVUxV2lYeFVRVkRFZVp6MFFmY3VwTGNYSzRYSkVWTzkrXC9YOGZVPSIsInZhbHVlIjoiY2dSbFdBazlzXC9XUVRNeGJuWFcxOUwwNGtMa0F1ODFSdGlSUmpLZWVFRHNkSnFjQ05YVGFJd2V5aXhjZUxHRk9KYTF0ZXdVTnlYdkNYdGdCbW1oU0RRPT0iLCJtYWMiOiIwOWUwMWRjMDNlOGMwNGU5MTQyMjEyMDA0MjRkYTIyZDM4ZWZkNWM5Mzk2MGQ1MjllYmI5Nzg5MTY4YjhlNDBhIn0%3D]
+      Cookie: [rt_production_session=eyJpdiI6IllGRVlwcWpvRnBkWnFIWHhja2JYMUdYcm55cnRJTTE2VFo1WFVkcGRkZ2c9IiwidmFsdWUiOiIwM3IrMmlrUXN2c2oxMDhKMjlRNVZ0XC83VzQrUlRzR3ZjZnpCVlI4ZktYbVJyY3JZSTlnQVlsTnpDWWdPUURyMGtvcEJBU0puSXZvSkEzSFdiNEtDNHc9PSIsIm1hYyI6IjMyMzFlN2UxZDIyZTQ5OTgyMTZhM2FkODU1NjVmMGUyZWFhYTU3MjU1M2VhZmVhMGU4Yzc0NmQ0OTE2NWZmNjQifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/seasons/500/episodes?page=1&count=20
@@ -943,10 +943,10 @@ interactions:
       Cache-Control: [public]
       Connection: [keep-alive]
       Content-Type: [application/json]
-      Date: ['Thu, 07 Jun 2018 13:13:59 GMT']
+      Date: ['Sat, 09 Jun 2018 13:44:01 GMT']
       Server: [nginx/1.10.1]
-      Set-Cookie: ['rt_production_session=eyJpdiI6Ikx4WHdsM3NIalMyN2pKYkxrK2h0WVltbTdNZlpOV0hcL2dZa2RcL2pWNllHYz0iLCJ2YWx1ZSI6IktwXC9GWCtGMHRkM2FWUGV6WDZmT0xodzhIbzFPSExPek84RllGK0N4dFVCbldKRUhWVEJObWtLdUxLeTN2ZEUwa3N6TThVQVwvZUU0N3N3OTBSM3FEYXc9PSIsIm1hYyI6ImM2Y2Y1ZDcxM2U1ODM1MDAxNGYxYTNlNzNhMTdmYzBiY2ZhNjJkZjcwZTFmZWU3OTQ2ZGMxNjczOTdiODZlMzgifQ%3D%3D;
-          expires=Wed, 05-Sep-2018 13:13:58 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Set-Cookie: ['rt_production_session=eyJpdiI6InhhbWI4XC9Kdkl5cjhSQ085NVwvWWRVdzR2Q2hsOXcySnNkelNDSVp3eWNUTT0iLCJ2YWx1ZSI6Ik4zZ1g2cWZXOHNRSDdGdUV0OUtVR3Y3bWVcL3hNQkpqZ3ZXSGhsU1dsOEJhbVwvVjFUZGZtWGd3Tllxb0Q3V1R1MlZkK1RrTDcwWHNRSDFubytpSTVFdUE9PSIsIm1hYyI6IjQ4Y2VlNTNjMTU5NzU5ZWNmYjc1NDk1NWNiYWNlMTZmMzJkMDQ0MjIwYzA3YWRlODg1OGViMmQwMjljNTU5MmQifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:44:01 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-Total-Count: ['52']
       X-request-uri: ['/api/v1/seasons/500/episodes?page=1&count=20']
@@ -956,9 +956,9 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer tdJHMCSTH3HNQ3Yan3TyQ3ddrXN4wTBPRIu65O9d]
+      Authorization: [Bearer M4oQ3S75ucv6NSHwU2a6FyxLOOkONIPVMFuDFHKv]
       Connection: [keep-alive]
-      Cookie: [rt_production_session=eyJpdiI6Ikx4WHdsM3NIalMyN2pKYkxrK2h0WVltbTdNZlpOV0hcL2dZa2RcL2pWNllHYz0iLCJ2YWx1ZSI6IktwXC9GWCtGMHRkM2FWUGV6WDZmT0xodzhIbzFPSExPek84RllGK0N4dFVCbldKRUhWVEJObWtLdUxLeTN2ZEUwa3N6TThVQVwvZUU0N3N3OTBSM3FEYXc9PSIsIm1hYyI6ImM2Y2Y1ZDcxM2U1ODM1MDAxNGYxYTNlNzNhMTdmYzBiY2ZhNjJkZjcwZTFmZWU3OTQ2ZGMxNjczOTdiODZlMzgifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6InhhbWI4XC9Kdkl5cjhSQ085NVwvWWRVdzR2Q2hsOXcySnNkelNDSVp3eWNUTT0iLCJ2YWx1ZSI6Ik4zZ1g2cWZXOHNRSDdGdUV0OUtVR3Y3bWVcL3hNQkpqZ3ZXSGhsU1dsOEJhbVwvVjFUZGZtWGd3Tllxb0Q3V1R1MlZkK1RrTDcwWHNRSDFubytpSTVFdUE9PSIsIm1hYyI6IjQ4Y2VlNTNjMTU5NzU5ZWNmYjc1NDk1NWNiYWNlMTZmMzJkMDQ0MjIwYzA3YWRlODg1OGViMmQwMjljNTU5MmQifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/seasons/500/episodes?page=2&count=20
@@ -1860,10 +1860,10 @@ interactions:
       Cache-Control: [public]
       Connection: [keep-alive]
       Content-Type: [application/json]
-      Date: ['Thu, 07 Jun 2018 13:14:01 GMT']
+      Date: ['Sat, 09 Jun 2018 13:44:03 GMT']
       Server: [nginx/1.10.1]
-      Set-Cookie: ['rt_production_session=eyJpdiI6Imd1UzZZZjZubTQza1pkUm5NWlh4bnBxSkJiRlE2dkpnZE0wTTNcL0lBQ1wvZz0iLCJ2YWx1ZSI6IjBHQXZpUjRwRDlYb3N1OExubENLdHkydzZUUmJZcDl1bDdyaEhHWG9yVmc2bVA2RFY3Q2NGWkZURkRnYks1R1hWcHpMSHdzd0ZvbHYraHF3b2ZzZnFnPT0iLCJtYWMiOiIyMjA1YjI3NTQ2MzIwYzhmNmU2MzFlYzQxZDQ5ODI1MjBlMmJiZThhNGYwOGQ3ODFlODk1YzE2MTZhMGIyYjFmIn0%3D;
-          expires=Wed, 05-Sep-2018 13:14:01 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkExSGdGeW5pUVBKUVdIdFwvbVhyUkFzRVwvSzFNYnRyUGhrRnFEMUVyZHVncz0iLCJ2YWx1ZSI6IkR3TjBVOXFkWFdZS05RZkliQ1hZS21FUytQM2pBaWhcL2hZSlwvUHc4ekRxK2RUQllPekJla0hERU1ac09sTUZRRWQ1bEpRSHZBV3YwQThLSm53MFFiT3c9PSIsIm1hYyI6IjMyYjllNjg5NDFhMDlkYzk3YmRmZjlhNGFkYzM5MzAyMTg4YjdkMzU5M2M2YWU3Yjc2Nzk4YzUyMDM2NjIxMTUifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:44:04 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-Total-Count: ['52']
       X-request-uri: ['/api/v1/seasons/500/episodes?page=2&count=20']
@@ -1873,9 +1873,9 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer tdJHMCSTH3HNQ3Yan3TyQ3ddrXN4wTBPRIu65O9d]
+      Authorization: [Bearer M4oQ3S75ucv6NSHwU2a6FyxLOOkONIPVMFuDFHKv]
       Connection: [keep-alive]
-      Cookie: [rt_production_session=eyJpdiI6Imd1UzZZZjZubTQza1pkUm5NWlh4bnBxSkJiRlE2dkpnZE0wTTNcL0lBQ1wvZz0iLCJ2YWx1ZSI6IjBHQXZpUjRwRDlYb3N1OExubENLdHkydzZUUmJZcDl1bDdyaEhHWG9yVmc2bVA2RFY3Q2NGWkZURkRnYks1R1hWcHpMSHdzd0ZvbHYraHF3b2ZzZnFnPT0iLCJtYWMiOiIyMjA1YjI3NTQ2MzIwYzhmNmU2MzFlYzQxZDQ5ODI1MjBlMmJiZThhNGYwOGQ3ODFlODk1YzE2MTZhMGIyYjFmIn0%3D]
+      Cookie: [rt_production_session=eyJpdiI6IkExSGdGeW5pUVBKUVdIdFwvbVhyUkFzRVwvSzFNYnRyUGhrRnFEMUVyZHVncz0iLCJ2YWx1ZSI6IkR3TjBVOXFkWFdZS05RZkliQ1hZS21FUytQM2pBaWhcL2hZSlwvUHc4ekRxK2RUQllPekJla0hERU1ac09sTUZRRWQ1bEpRSHZBV3YwQThLSm53MFFiT3c9PSIsIm1hYyI6IjMyYjllNjg5NDFhMDlkYzk3YmRmZjlhNGFkYzM5MzAyMTg4YjdkMzU5M2M2YWU3Yjc2Nzk4YzUyMDM2NjIxMTUifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/seasons/500/episodes?page=3&count=20
@@ -2316,10 +2316,10 @@ interactions:
       Cache-Control: [public]
       Connection: [keep-alive]
       Content-Type: [application/json]
-      Date: ['Thu, 07 Jun 2018 13:14:02 GMT']
+      Date: ['Sat, 09 Jun 2018 13:44:04 GMT']
       Server: [nginx/1.10.1]
-      Set-Cookie: ['rt_production_session=eyJpdiI6Im83WU9XTWtPcmtPb24yYWg4NmdMWHlhS24zWkJ5akNoUmNXY082aEhZUGs9IiwidmFsdWUiOiIwZXBMOVhlZWFCVmhObnBOakRkUWRLRHRtbFluQm51QU13aXVnQlwva3UramxSUXFXRXZrMnA5alJwbVczRWVYdUY4ZnNzQU5UVXZwVGpxU1phZ09hZHc9PSIsIm1hYyI6ImMzZmE1ZGQ4YWQ5YTljZTYzODc0MWY1MmI4MzJlZTg2MjIwN2IxNDdhNzFmMDljN2RiN2I3N2FiMWQ3Njc0YjMifQ%3D%3D;
-          expires=Wed, 05-Sep-2018 13:14:00 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkNySXdnRmdPSURFczgxVFVaZHp1Z1VTd3l1b21VRmVGSSt6WmhXc2w5TTg9IiwidmFsdWUiOiJpaXlPVmdqZXBzN2tMNjR0V1JyNTFzOGdJUWw5T2FxaWhmTStoaDZGWHdOVXp0NlhkbEVtYjFpN0h3MlFzWWc4SUFQMmRwWEFFK2FSWFwvcjk2clwvYnRnPT0iLCJtYWMiOiJlNTdlMGM4OTY0OThhN2YzMjkyZDg4ZmJjNTJkY2FlNzEwZWUyMTA2ZjkwNTI2NTBmY2VhMzJjMzFiY2VlMjEzIn0%3D;
+          expires=Fri, 07-Sep-2018 13:44:03 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-Total-Count: ['52']
       X-request-uri: ['/api/v1/seasons/500/episodes?page=3&count=20']
@@ -2329,9 +2329,9 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer tdJHMCSTH3HNQ3Yan3TyQ3ddrXN4wTBPRIu65O9d]
+      Authorization: [Bearer M4oQ3S75ucv6NSHwU2a6FyxLOOkONIPVMFuDFHKv]
       Connection: [keep-alive]
-      Cookie: [rt_production_session=eyJpdiI6Im83WU9XTWtPcmtPb24yYWg4NmdMWHlhS24zWkJ5akNoUmNXY082aEhZUGs9IiwidmFsdWUiOiIwZXBMOVhlZWFCVmhObnBOakRkUWRLRHRtbFluQm51QU13aXVnQlwva3UramxSUXFXRXZrMnA5alJwbVczRWVYdUY4ZnNzQU5UVXZwVGpxU1phZ09hZHc9PSIsIm1hYyI6ImMzZmE1ZGQ4YWQ5YTljZTYzODc0MWY1MmI4MzJlZTg2MjIwN2IxNDdhNzFmMDljN2RiN2I3N2FiMWQ3Njc0YjMifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6IkNySXdnRmdPSURFczgxVFVaZHp1Z1VTd3l1b21VRmVGSSt6WmhXc2w5TTg9IiwidmFsdWUiOiJpaXlPVmdqZXBzN2tMNjR0V1JyNTFzOGdJUWw5T2FxaWhmTStoaDZGWHdOVXp0NlhkbEVtYjFpN0h3MlFzWWc4SUFQMmRwWEFFK2FSWFwvcjk2clwvYnRnPT0iLCJtYWMiOiJlNTdlMGM4OTY0OThhN2YzMjkyZDg4ZmJjNTJkY2FlNzEwZWUyMTA2ZjkwNTI2NTBmY2VhMzJjMzFiY2VlMjEzIn0%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/seasons/500/episodes?page=4&count=20
@@ -2345,10 +2345,10 @@ interactions:
       Cache-Control: [public]
       Connection: [keep-alive]
       Content-Type: [application/json]
-      Date: ['Thu, 07 Jun 2018 13:14:02 GMT']
+      Date: ['Sat, 09 Jun 2018 13:44:04 GMT']
       Server: [nginx/1.10.1]
-      Set-Cookie: ['rt_production_session=eyJpdiI6ImJicUd5bmFhN1h0TUhXVGE1dE9UZDJRaFd3NkhBV3YxY1FSZjlsZ2M3ZHM9IiwidmFsdWUiOiJYM3VzN08ydzhWNnJsUURmc0g3a2d1M1wvRmFSR0VXdDhoTTI0Q2pGSVFmcDZRV3VwcXVpWkNEc3hYMGJjc1NicjJpcnJMd2FGQ2w1VTBWMGZjZFBZNHc9PSIsIm1hYyI6Ijk4ZGM1ZTdhOTI5NGQ2ODc3ZDEwNDgwOGZhNDYwMmFiZjZkYzNjZWQwZDJhNjQ1ZmFiMGRlY2NlNjEyMGNiMmYifQ%3D%3D;
-          expires=Wed, 05-Sep-2018 13:14:03 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImcwWUxpU1pkNE5TN1JyejU3MDlzaUpCY01NZEQxUHQyVGRHWWNwOHJcL3JvPSIsInZhbHVlIjoid2VyYlVwVjRDeW5OT0YwcHdNbXZsYTRlcVJnT3dnWDNHb1JSeW52dzYwUEpPdHJnRVhIMkcxbFwvK1J1THdLZTZoK0R0OUZLXC9ibkRKWUMxT2xCUHRWUT09IiwibWFjIjoiOWFlNzhkYzY3MWNjNjNhNDc2NTUxNzM4YjZiYzI0NzQ5ZmQwNzA5MTg5NzI4NWMzYjk4MjBiMzNlNGFlM2M2NSJ9;
+          expires=Fri, 07-Sep-2018 13:44:04 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-Total-Count: ['52']
       X-request-uri: ['/api/v1/seasons/500/episodes?page=4&count=20']
@@ -2358,9 +2358,9 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer tdJHMCSTH3HNQ3Yan3TyQ3ddrXN4wTBPRIu65O9d]
+      Authorization: [Bearer M4oQ3S75ucv6NSHwU2a6FyxLOOkONIPVMFuDFHKv]
       Connection: [keep-alive]
-      Cookie: [rt_production_session=eyJpdiI6ImJicUd5bmFhN1h0TUhXVGE1dE9UZDJRaFd3NkhBV3YxY1FSZjlsZ2M3ZHM9IiwidmFsdWUiOiJYM3VzN08ydzhWNnJsUURmc0g3a2d1M1wvRmFSR0VXdDhoTTI0Q2pGSVFmcDZRV3VwcXVpWkNEc3hYMGJjc1NicjJpcnJMd2FGQ2w1VTBWMGZjZFBZNHc9PSIsIm1hYyI6Ijk4ZGM1ZTdhOTI5NGQ2ODc3ZDEwNDgwOGZhNDYwMmFiZjZkYzNjZWQwZDJhNjQ1ZmFiMGRlY2NlNjEyMGNiMmYifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6ImcwWUxpU1pkNE5TN1JyejU3MDlzaUpCY01NZEQxUHQyVGRHWWNwOHJcL3JvPSIsInZhbHVlIjoid2VyYlVwVjRDeW5OT0YwcHdNbXZsYTRlcVJnT3dnWDNHb1JSeW52dzYwUEpPdHJnRVhIMkcxbFwvK1J1THdLZTZoK0R0OUZLXC9ibkRKWUMxT2xCUHRWUT09IiwibWFjIjoiOWFlNzhkYzY3MWNjNjNhNDc2NTUxNzM4YjZiYzI0NzQ5ZmQwNzA5MTg5NzI4NWMzYjk4MjBiMzNlNGFlM2M2NSJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/episodes/35560
@@ -2403,10 +2403,10 @@ interactions:
       Cache-Control: [public]
       Connection: [keep-alive]
       Content-Type: [application/json]
-      Date: ['Thu, 07 Jun 2018 13:14:02 GMT']
+      Date: ['Sat, 09 Jun 2018 13:44:04 GMT']
       Server: [nginx/1.10.1]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IjZ0TFhMWlRuNHFqajBaYTNOWGdsa1o4WkRxRVBtcHdhS1l5YzljNzBEVjA9IiwidmFsdWUiOiJVdWg0dTVDMkpScE9lSTV6NUErekcxR1wvbnR1XC9pSFdabTl1c2NtZ0ZFUnV2d0lwaUtad2JtVnFsMjNVb3BaekJxUHJmcElvNCtEMUdjXC83ZXdCQW5ldz09IiwibWFjIjoiODg3ZWIxNmE3ZDQ3MjZhM2UyZTBlNmRhYWQ2MmQ0ZDU2Yjk4OWFiNGYxODRmOWFhNDg5MjRlY2M5ZTYyYzg1ZSJ9;
-          expires=Wed, 05-Sep-2018 13:14:02 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImFtOFwvM1dVUjRvcXpNZFo4M3hubGVobTU0a3c3N2RHOGI3V1wvYU1ocjVlOD0iLCJ2YWx1ZSI6ImxocDdBcU5VXC9WTW1LVm1zNVZEbTlmSmp5NzkzTURhelpSYVpkMWxqenJxVXF2UWxsYitFVk1VZVBCeWorMGJhazZtb0czTzU5ejVtdHdMQm9MOE5HUT09IiwibWFjIjoiZTZhNzg2YWE0YzhjZTRlMGFlYTAxZjBhNGQ5MDE2YTkzNGVkM2MxNzU2MzgxMWUyMzZlMmIxZTU5MTI5NmY0MCJ9;
+          expires=Fri, 07-Sep-2018 13:44:03 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/episodes/35560]
     status: {code: 200, message: OK}

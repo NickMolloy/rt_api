@@ -4,73 +4,55 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer 1LDQAk4w8zsvo0cpBo2J5dQeBQnsSOzP4711DXkv]
+      Authorization: [Bearer c5Lu1WLuZOYWBmKyixoq99U7xlQppJ9wQCRG2pSA]
       Connection: [keep-alive]
-      Cookie: [__cfduid=df6f389f9b0540dd59f034b1c27bbbcfa1486786761; rt_production_session=eyJpdiI6IlgwOExTK1BmbEpXeE1PNjZRVG1DYVA5RFdXNXdVTUs5YU9ZaFJhMmtMY2c9IiwidmFsdWUiOiJ3RmNJTW5OdVVuSXFpTXQ5V2IzZkw2K3VCdGV0RFwvdFpMK0xOcWp0UHFTRjRjelZMa25DaTM0OHVpVklweXMzSVVOWnVBWFhPT3hDaTR1RTJhWkl4Vmc9PSIsIm1hYyI6IjMwYzg1NzBlZTdjMmFhMWE2ZWZjOTBhYjE5MDNkNDhjY2NmODE4ODQwNDRhYWQ3NGJiN2U1N2MwZTU3YTc0NTAifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6Iit2bHN4MFRONHpqUk03bFZSYnlVTlNYVGVXZUNrcHJHSDE4aUE5WVgrUm89IiwidmFsdWUiOiJhaUcxTGFaQitIa1VxenlzTzZ6a21UOFVGZ21WYzZmZitIb2pta1NISHpBUVNtcURRd2tWMlYrTjFrTHZCcVY5N214K2xsTHFKOGZVVlJJMzdJMmpsdz09IiwibWFjIjoiOTZjZDlmZDEyZDMyNTFhODFkYTVhZWYxOTBjYjM4MGQxMjgzMGZkY2EzM2JiMjI4NzlhYjEyNjdjYmMwMTRiOCJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/users/2269568
+    uri: https://roosterteeth.com/api/v1/users/2269567
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA7ySz27CMAzG38XnlNDSsZKn2AFuuTiJoZHyT0mqjaG++1QGgkk7c/Tnz/59snyB
-        qVAO6AkEYMaCamqBgbElOTzvbXVLJ2FG3wGDm/NaL75CX0sJDFzUWG0M9+4ADKLWU/qj9sAAVZwq
-        iAuM1TsQAAy0I1w8MDOwBkTXbXdv24FByvFoHX1YXadMy1A9p2uCm8JAx1ApXBdWBQLGWpOQXPKy
-        WaHH7xjws6x09JJrE1Y5xlIpV6I6/qpTchFNkdx6PFGRfI26VZuBmrUyuumpo2a3e2+b/mhU/z6o
-        djCd5FVJTl6RWc7gXwgu/gH25oVgbx5gd3ohOGZ7sgHdHT/PDEqKocQM4oiuEAONIQar0R2ye472
-        T4hCWfKnZx+xHAqZfbboQNQ80fwDAAD//wMAw8DEmRgDAAA=
+    body: {string: '{"username":"sithyeti","displayTitle":null,"name":"","sex":"m","location":"","occupation":"","about":{"html":"","clean":""},"id":2269567,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/user_profile_male.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/user_profile_male.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/user_profile_male.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/user_profile_male.jpg"}},"sponsor":false,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/sithyeti","hasUsedTrial":true}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f500913dc965f9-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:22 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6ImhzSmFmblNwbVAzMVwvQkhZRTJSNllXMytlajFTUVRlcnE0VHVZRDEwaTVFPSIsInZhbHVlIjoiejZmU3dQamx5TzNPQXBVdGZRUTJIMFMyNlFsN3NtR254UGp6bWkxTXVFR3hxcUxleDMzaUl2QzdXV1ZPeW1uMmlaMWc2N055TnlicVNWTWF2bmFoQWc9PSIsIm1hYyI6IjIzMTg4ZjBjNWRkYjZiMGZmYWNkYTVlZmY1MjEyMDNlNTg2MzZmMzAxZGM0YzNkZWM3MTFiMmZkNDhjNzRjOGIifQ%3D%3D;
-          expires=Fri, 12-May-2017 04:19:22 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:45 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkpNbjl3cEYyRVIrYjh0dUtFcVN1TllJaXVFSEQ5WCt0eHJ3cm1ha0VQSUU9IiwidmFsdWUiOiJ4elN2TXkwTk8zK3p3YVVNWnZvem0xMUg4dTdNb0xZajJcL1Izb2FJSmFYcE13dW1BQnYxZk1KQ3owdFRLOXBNM3NtQ2NqbU9zTStsblRvVUIxUDVTY2c9PSIsIm1hYyI6ImNiNWJkOWNiNzhiN2UyYTJiYmU3MGNmNGZmOTE3NjQ2MTI3YmM3ZmMxYmFkZTU2YWVjYzAwZDViMzZkYjdhZTEifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:43:44 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-request-uri: [/api/v1/users/2269568]
+      X-request-uri: [/api/v1/users/2269567]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer 1LDQAk4w8zsvo0cpBo2J5dQeBQnsSOzP4711DXkv]
+      Authorization: [Bearer c5Lu1WLuZOYWBmKyixoq99U7xlQppJ9wQCRG2pSA]
       Connection: [keep-alive]
-      Cookie: [__cfduid=df6f389f9b0540dd59f034b1c27bbbcfa1486786761; rt_production_session=eyJpdiI6ImhzSmFmblNwbVAzMVwvQkhZRTJSNllXMytlajFTUVRlcnE0VHVZRDEwaTVFPSIsInZhbHVlIjoiejZmU3dQamx5TzNPQXBVdGZRUTJIMFMyNlFsN3NtR254UGp6bWkxTXVFR3hxcUxleDMzaUl2QzdXV1ZPeW1uMmlaMWc2N055TnlicVNWTWF2bmFoQWc9PSIsIm1hYyI6IjIzMTg4ZjBjNWRkYjZiMGZmYWNkYTVlZmY1MjEyMDNlNTg2MzZmMzAxZGM0YzNkZWM3MTFiMmZkNDhjNzRjOGIifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6IkpNbjl3cEYyRVIrYjh0dUtFcVN1TllJaXVFSEQ5WCt0eHJ3cm1ha0VQSUU9IiwidmFsdWUiOiJ4elN2TXkwTk8zK3p3YVVNWnZvem0xMUg4dTdNb0xZajJcL1Izb2FJSmFYcE13dW1BQnYxZk1KQ3owdFRLOXBNM3NtQ2NqbU9zTStsblRvVUIxUDVTY2c9PSIsIm1hYyI6ImNiNWJkOWNiNzhiN2UyYTJiYmU3MGNmNGZmOTE3NjQ2MTI3YmM3ZmMxYmFkZTU2YWVjYzAwZDViMzZkYjdhZTEifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/users/2269569
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA7yTTW/bMAyG/8rAsxxblmRbvu26Uw/tzUBAS0qiTV+QZHRZkf8+pE2BDdsxyIUg
-        X5DE8xLgG2zF5IDewPyeNmJYhWacKbZSBQS0Lcnh+dlWZ2AOm3MEbv1fvT9/+YbqR4kBCBTz87PB
-        RYXVxvBZR6W29JeCa9wqzG9wqt7BDEBAOYPhml4IWA1z3w9SDJJAyvFgnXmyqm7ZXIfqOV0B0k0h
-        oGKoJrwvrCvMcKo1zUu7tIXt0OOvGPC17FT0S6t02OUYSzW5GlNPH+qWXERdltZ6PJqytJIdRKfp
-        1NCDVg3vjGgmXNdGChwp7VZJ5bS0dV1aIcTY82FksqFc8FEMw8gbyfuJdnvKJim6UTAqRMeG/SB5
-        3wsmup7zkXZykuM+7L6n4/WA/oHkxd+R3OsHknt9R3J3fCB5zPZoA7q78V8uBEqKocQM8wFdMQQU
-        hhisQveS3Z/e/uOimPwR//n6E5aXYvRztuhumy+/AQAA//8DAPCeTSQsBAAA
+    body: {string: '{"username":"user-56b5d343c3b1c","displayTitle":null,"name":"Ammy
+        Jackson","sex":null,"location":null,"occupation":null,"about":{"html":"","clean":""},"id":2269569,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/tb\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/sm\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/md\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/original\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg"}},"sponsor":false,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/user-56b5d343c3b1c","hasUsedTrial":false}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f500939e8c65f9-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:23 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6Ilp6NjZiM2wrYitGREN3OVdFMlU0WjdpNndMWW9YallMaGxyWjNvWHVNSHc9IiwidmFsdWUiOiJKYVlia1l0clBodW5pbnFha2FPOVp5VlRvckpGR1FiS2ZtY3hmbURIbG4rWFBmYjdUeHBxYWVXRzhvWUxqVWlOYUUrWUtZZDlBZ0ZGVWZnMjJsRExRUT09IiwibWFjIjoiYjFlMDlkZjI0YjEwNGU5NDg1NmFiZjMyZTJkZDkyNDc4OWFkM2YwMmUxM2EwMjAyYjliOTcwMDhkMDVmOWE0YiJ9;
-          expires=Fri, 12-May-2017 04:19:26 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:45 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ilk2a0d0SktKSzA5SmtaekU2dktSSEZkV0h3dFBPOCt3NHdzSUwranlMbTQ9IiwidmFsdWUiOiJuU2NOUklsYmkzSTN2dFFlUUowRmx6aVZrUkRXTk54MDAxTTN2ekV2MzNxZFI2NWplZXdNajZreklHK21TcEltU2tkd051U3ZMc3BpUStiMlRwVGpwUT09IiwibWFjIjoiYTIyMmNjNzExN2YwNGVmZWU5MDQ4NTk5MTM0MGZkMTE5ZTdiMjY5MDk5NzNjZDZiMDk0YTllMWQ4ZGUxMGZmMSJ9;
+          expires=Fri, 07-Sep-2018 13:43:47 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/users/2269569]
     status: {code: 200, message: OK}
@@ -79,36 +61,27 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer 1LDQAk4w8zsvo0cpBo2J5dQeBQnsSOzP4711DXkv]
+      Authorization: [Bearer c5Lu1WLuZOYWBmKyixoq99U7xlQppJ9wQCRG2pSA]
       Connection: [keep-alive]
-      Cookie: [__cfduid=df6f389f9b0540dd59f034b1c27bbbcfa1486786761; rt_production_session=eyJpdiI6Ilp6NjZiM2wrYitGREN3OVdFMlU0WjdpNndMWW9YallMaGxyWjNvWHVNSHc9IiwidmFsdWUiOiJKYVlia1l0clBodW5pbnFha2FPOVp5VlRvckpGR1FiS2ZtY3hmbURIbG4rWFBmYjdUeHBxYWVXRzhvWUxqVWlOYUUrWUtZZDlBZ0ZGVWZnMjJsRExRUT09IiwibWFjIjoiYjFlMDlkZjI0YjEwNGU5NDg1NmFiZjMyZTJkZDkyNDc4OWFkM2YwMmUxM2EwMjAyYjliOTcwMDhkMDVmOWE0YiJ9]
+      Cookie: [rt_production_session=eyJpdiI6Ilk2a0d0SktKSzA5SmtaekU2dktSSEZkV0h3dFBPOCt3NHdzSUwranlMbTQ9IiwidmFsdWUiOiJuU2NOUklsYmkzSTN2dFFlUUowRmx6aVZrUkRXTk54MDAxTTN2ekV2MzNxZFI2NWplZXdNajZreklHK21TcEltU2tkd051U3ZMc3BpUStiMlRwVGpwUT09IiwibWFjIjoiYTIyMmNjNzExN2YwNGVmZWU5MDQ4NTk5MTM0MGZkMTE5ZTdiMjY5MDk5NzNjZDZiMDk0YTllMWQ4ZGUxMGZmMSJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/users/2269568
+    uri: https://roosterteeth.com/api/v1/users/2269567
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA7ySz27CMAzG38XnlNDSsZKn2AFuuTiJoZHyT0mqjaG++1QGgkk7c/Tnz/59snyB
-        qVAO6AkEYMaCamqBgbElOTzvbXVLJ2FG3wGDm/NaL75CX0sJDFzUWG0M9+4ADKLWU/qj9sAAVZwq
-        iAuM1TsQAAy0I1w8MDOwBkTXbXdv24FByvFoHX1YXadMy1A9p2uCm8JAx1ApXBdWBQLGWpOQXPKy
-        WaHH7xjws6x09JJrE1Y5xlIpV6I6/qpTchFNkdx6PFGRfI26VZuBmrUyuumpo2a3e2+b/mhU/z6o
-        djCd5FVJTl6RWc7gXwgu/gH25oVgbx5gd3ohOGZ7sgHdHT/PDEqKocQM4oiuEAONIQar0R2ye472
-        T4hCWfKnZx+xHAqZfbboQNQ80fwDAAD//wMAw8DEmRgDAAA=
+    body: {string: '{"username":"sithyeti","displayTitle":null,"name":"","sex":"m","location":"","occupation":"","about":{"html":"","clean":""},"id":2269567,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/user_profile_male.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/user_profile_male.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/user_profile_male.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/user_profile_male.jpg"}},"sponsor":false,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/sithyeti","hasUsedTrial":true}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f500965f6c65f9-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:23 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6ImVEWEFjMlZsY0lmM3RseFwvdmVPMUZqRnJFeFQybTF2NVZBbWxCVGk0MnE4PSIsInZhbHVlIjoiS2ZMODhkdE5tdjl1RUN5dDJmN0lGR1I1XC81Z1hWbFZXcWhsXC9lUVpoblZCZUQ3ZzJyZUdWeUJVOUZUeFB6MTdGbCtIdzNMYzRQUkw3NXBmbGNKeTBzUT09IiwibWFjIjoiZTcyY2IyOGQzZjYyODhiNWEwY2I5MGM1M2MwYjE1ZjI4YmViNTcxNjIzMjQ3Y2NjYzU5YmEyZGQ2MjMzNjcxNCJ9;
-          expires=Fri, 12-May-2017 04:19:23 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:46 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjJWSnl2YVZ6cm9VMStcL0srd0RWNE9YVUxCQkFZdk9wSWNoeW1BZjZTTUNnPSIsInZhbHVlIjoiRnlYb24xYXVoeFJVRFExc0M5Q29NNlJ6c1NmcWxuT2o2b1wvaEVYQ3lScDlreHd1VXFEbVZMb204Qk1LQWFmTVg4dEQ0d0o4ZWJKd3NHa1wva1BlaWdrQT09IiwibWFjIjoiYmMzZTk0M2M5NGNiY2ExOTU5ZTI2ZGQ1YzhjZmQ2YmE2Njc1MTQxYjg3YjIzNGRlNDM0ODIyOGZjOTExM2QxYiJ9;
+          expires=Fri, 07-Sep-2018 13:43:45 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-request-uri: [/api/v1/users/2269568]
+      X-request-uri: [/api/v1/users/2269567]
     status: {code: 200, message: OK}
 version: 1
