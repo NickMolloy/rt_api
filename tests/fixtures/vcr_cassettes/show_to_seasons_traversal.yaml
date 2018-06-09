@@ -4,39 +4,30 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer IX0HDbG1DLL1v72WtVj2QA4C0lZqaG1jlTJ7i8Ps]
+      Authorization: [Bearer tHdy4DFCWd37wPGPMPz7LRHuM3AjNL85pu3Lcl4f]
       Connection: [keep-alive]
-      Cookie: [__cfduid=da70072f744718de33ac08c6da804558c1486786751; rt_production_session=eyJpdiI6Ilp6U2RTMkZ1XC9PZWo1Y2xOWGRoME5XQzZvcDBUYmJBdHZ6Qml2dTBIZ2NRPSIsInZhbHVlIjoiUDR4U0hSZk1XT3dueDArb29LdlhHZDJOb0Z1bG9vcHNuMUo0K0pDZWpEQnd6RHlocVJCakdxa2RDZDVVWUJkbThwdkdOQmtkSytmRVBYdW5FbERKNlE9PSIsIm1hYyI6IjMzNjI5MTRmZTM0MGZkNjIyZTRlM2YzZTBhNDYyNzM5ODRkMjliZWY1YjVhMDIwZTRjMGM3ODJhYjAyNWIwOTIifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6InJGa2Vnc0pJaXFEcXRaQ2lGUWtsbU43MlkwXC9YV2ZjZ051RW10SVFORDFFPSIsInZhbHVlIjoiMVwvdHVvXC9uSmROTE91dWNVOFZxQWhpbDhianFabFRDQ2gweWFNYlk5c3hNRU9YUkVqRFZNOEZVbE1QMU9YXC8zTUZUcXhzbzNwb3NTU2kxbitYalFMMkE9PSIsIm1hYyI6Ijc2MjkzNTlhNDFiNjFkMTFlODM0YWViNTAzYzI0NjZhYmY3ZTUxMjQ5YWRlZDhjNzRlMmJhNDI1YTk3ZDg0NmMifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/shows/55
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA8zVz2vbMBTA8X/lTZddoriKf8QxpTB226Wly26G8Gw/WxqSnrHklq7kfx8mZRR6
-        SUsJu/ggdPj46Yv0LDw6EpW49bDXBD9HjmIlwuwcTk+iehY6OisqcT3e3DOHSBPsiaL+GoD73rQG
-        LQzoCILmxy8A38CaBwKNtgfN8wTcQ48hyhFb6sDiPOgAGEBziPCDPdybYPxAE4xzDBAfGe73EAld
-        APYQNUEYOULPE4xsfAyAvgOHT5rc+rpOxhuxEq0l9KIS/6NRHFfCdKLK85UIdh5EJdjLqEmGl2kT
-        BvbfefZRVOVKtPxA051p4zzRcgTxaVyOaHxZWTb4SMvmZxEbUQkd41jVSZ2EdI0O/7DHx7Bu2dVJ
-        2/n1dBpKXGZyWp1Hy9iFOjEOBwp1khdpsyuUktmWtqdP2fa5vOp7IiqxyVOsk9jUyeZKpTu1kSor
-        s2KX7fK8UIXkGA6hPDToPU3r3+Ow/Ja7IC2499Bcd0Ga695Ds8MFaTyZwXi05wOPx5UYJ+6NpQsX
-        qvqs7DZK5q3KZbZRSjYplbJMt2lZNL1q1L9C021ZbqXKiq3KVFnsrtKdvPWHqOmwXHCHO+5aDPGw
-        17NrPBr7ycWeRT0V+1HqZxV8FvVU8Eepn1X0WdTXRX8MvBTeomdvWrS/Jvsa/5a5PCl18vo+P/4F
-        AAD//wMAhVAMx1QHAAA=
+    body: {string: '{"name":"On The Spot","summary":{"html":"<p>Rooster Teeth''s official
+        game show!  A live half hour of fast-paced laughs as host Jon Risinger puts
+        two RT teams on the spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s
+        official game show!  A live half hour of fast-paced laughs as host Jon Risinger
+        puts two RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f50052fd120b14-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:12 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IitLVzZJdGlkZVFadFJFTm9rajc3akdQVWNZTVwvbzd0N1FTWUJQY0o1MWdvPSIsInZhbHVlIjoiYVgyZ25MWUFFVUhRQVZcLzQwbE5xeEZvazNtYXQ3M3FCYStsSVwvRmgzRDJ3eGV0Zk1pVUluZ1B1ZWtuaFl2cUNoaXU5U054VVBsQnc4RTZZUUZhR1wvNVE9PSIsIm1hYyI6Ijk1MDNlNjgxMWI3Yjg1NzZiMWY1ZTQ0YzllOWMxNjI1OWQ1ZmJiNjc4NzcwZjViMmFhOGE2YTIzNzYyMDhiMWQifQ%3D%3D;
-          expires=Fri, 12-May-2017 04:19:12 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:14 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkhvRlZyd3BFekJOQ0RFZHhtaDZnQlwvNURNMHRwZHZjQ2J3VWlSTFp1SjZvPSIsInZhbHVlIjoiSndCOFphMUFuaU02VVVXYytyS0doc2hReXhyS2dsS2llNThVVjhkNnZVN2Z2XC9ZRHY0RTJlRmFWMGRHTnhmbmFcL0tPSk5pajZkYlFxVWpaU3BDOWhWUT09IiwibWFjIjoiZjFiZjhiMmE1YzA3ZDBkNzBlNThkNjY4ZjQ1YTU3NzRjMjUwYWI5ZWVlYTJlYzdhN2IxZDU3NjQyNTBhNzYwYiJ9;
+          expires=Fri, 07-Sep-2018 13:45:14 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/shows/55]
     status: {code: 200, message: OK}
@@ -45,45 +36,99 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer IX0HDbG1DLL1v72WtVj2QA4C0lZqaG1jlTJ7i8Ps]
+      Authorization: [Bearer tHdy4DFCWd37wPGPMPz7LRHuM3AjNL85pu3Lcl4f]
       Connection: [keep-alive]
-      Cookie: [__cfduid=da70072f744718de33ac08c6da804558c1486786751; rt_production_session=eyJpdiI6IitLVzZJdGlkZVFadFJFTm9rajc3akdQVWNZTVwvbzd0N1FTWUJQY0o1MWdvPSIsInZhbHVlIjoiYVgyZ25MWUFFVUhRQVZcLzQwbE5xeEZvazNtYXQ3M3FCYStsSVwvRmgzRDJ3eGV0Zk1pVUluZ1B1ZWtuaFl2cUNoaXU5U054VVBsQnc4RTZZUUZhR1wvNVE9PSIsIm1hYyI6Ijk1MDNlNjgxMWI3Yjg1NzZiMWY1ZTQ0YzllOWMxNjI1OWQ1ZmJiNjc4NzcwZjViMmFhOGE2YTIzNzYyMDhiMWQifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6IkhvRlZyd3BFekJOQ0RFZHhtaDZnQlwvNURNMHRwZHZjQ2J3VWlSTFp1SjZvPSIsInZhbHVlIjoiSndCOFphMUFuaU02VVVXYytyS0doc2hReXhyS2dsS2llNThVVjhkNnZVN2Z2XC9ZRHY0RTJlRmFWMGRHTnhmbmFcL0tPSk5pajZkYlFxVWpaU3BDOWhWUT09IiwibWFjIjoiZjFiZjhiMmE1YzA3ZDBkNzBlNThkNjY4ZjQ1YTU3NzRjMjUwYWI5ZWVlYTJlYzdhN2IxZDU3NjQyNTBhNzYwYiJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/shows/55/seasons/
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA+zZTWvbMBgH8K+i6bJLHEeW32JKYey2S0vbnWYIsi3bGnoxltzSlXz3oaZbAl1C
-        Wpqww3PxwRbibz1//Dv4xxN2wkmOC3zLmTUa5XiGG27rUQxOGI0LjGdYNLhISDrDelIVH3GRz7CV
-        U4cLbHTgeh7YwbjAPm8R+C1sbx5w8YQ1U37zK43ueo5uB+P8w0kpNj76571TEhf4Yri8McY6PqI7
-        zl3/2SLTtqIWTKKOKY78fp8Q+oKkuOeoZ7JFvZlGZFrUMuuCgdW8QZJNXW8Rs6g31qFvRqMbYYXu
-        +IiGyVnkHgy6uUOOM2WR0cj1HPnoqDUjGozQziKmG6TYY8/V/KIMh0s8w7XkzB/F/5gRr1/mk/xr
-        Jv60n6fy1UzaPQ+uNvd8vBa1m0buR+AeBz+i4eWOX6Ad94ufsKtwgXvnhqIMy9DSOVPsl9Hswc5r
-        o8qwbvR83ByK82eyuTsN0rDGlqFQrOO2DJOUVsuUkCDOeLa55HWbBIu25ZznrEooK0NXlWG0IHRJ
-        ooDEeZwu42WSpCQNjLMrm68qpjUf5z+Hzr+WOmM0q94STTVnjKaat0ST3RmjmVF0QjN5fMD1eoaH
-        0bRC8jM3lLRx3kQkSGqSBHFESFBRngc5zWieVi2pyN+G0izPs4DEaUZikqfLBV0GV3rler7yH7jV
-        tWlqZt3qrp9UpZmQH9zYo6JuGvveqB/V4KOibhr83qgf1eijou42+n2BfcNrpo0WNZPfR7kb/nVM
-        T0oZ7n7P1+vZK7OzfWbHHoU/ZmeHzM7AbDAbzAazwWwwG8w+vdnpXrPpYmt2esjsFMwGs8FsMBvM
-        BrPB7NObnewzm6bR1uzkkNkJmA1mg9lgNpgNZoPZpzc73md2RHfMjg+ZHYPZYDaYDWaD2WA2mH16
-        s+l+s8nWbHrIbApmg9lgNpgNZoPZYPbpzY72m73zPzs6ZHYEZoPZYDaYDWaD2WD26c0m+8zOl1uy
-        ySGyCZANZAPZQPYbyP4NAAD//xqtsker7NEqm6gqOxYAAAD//wMAVG1TTqA9AAA=
+    body: {string: '[{"title":"Season 12","description":"","id":730,"number":12,"slug":"on-the-spot-season-12","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        11","description":"","id":658,"number":11,"slug":"on-the-spot-11","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        10","description":"","id":601,"number":10,"slug":"on-the-spot-season-10","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        9","description":"","id":567,"number":9,"slug":"on-the-spot-season-9","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        8","description":"","id":516,"number":8,"slug":"on-the-spot-season-8","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        7","description":"","id":455,"number":7,"slug":"on-the-spot-season-7","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        6","description":"","id":430,"number":6,"slug":"on-the-spot-season-6","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        5","description":"","id":362,"number":5,"slug":"on-the-spot-season-5","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        4","description":"","id":232,"number":4,"slug":"on-the-spot-season-4","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        3","description":"","id":231,"number":3,"slug":"on-the-spot-season-3","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        2","description":"","id":230,"number":2,"slug":"on-the-spot-season-2","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        1","description":"","id":89,"number":1,"slug":"on-the-spot-season-1","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}}]'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f500555d760b14-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:13 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IjZEaWhRTnBJQ3dRUzJqNk0yajdadjJuS1ljcWdIK0lcLyswUTlOejBGOVBZPSIsInZhbHVlIjoiMmlRV1VmakM0UTlja0lXR25OMjhmUGZ6NDNabFV4VnhQUE1LS3ZmV3RpbEZhXC84ZHVzOEYxemx2eitZbmJHbHpWZGRtNEF6ZEszXC93aGZLbTNzODNXZz09IiwibWFjIjoiZTRiMDUxZDVhZDdlYTY2ZGJiN2Q2MmRmZmUxM2Y2ZGQ4Mjc0OTM4YzQ2MWEyODM2YmRhMjg3OWRlMDE1NWMzOSJ9;
-          expires=Fri, 12-May-2017 04:19:13 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:15 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InUza1wvMFFmWGxUd3NFd0ZqbUFtVjlycHJxQTlZTVNWVnJwWjUwV1FaUjY4PSIsInZhbHVlIjoicU12cWpxXC9sdUdkTklHVWRiTWJUbTdUK2FzK1VqTzRobzIyeXdtTFZQV1BaSVdXSlRCbjN6b2lWdFJhZUx0b1wvd1hxellDQVVQMFVDUzBKYk5EaFZ0dz09IiwibWFjIjoiYmQwYjMwNTgxZmMyOTU2MjM5OTU4ZDg4ODUxMDdkYjEyOTRhMDkxNjQzZTQ3ODIwOTNmNjkwYjQwZmRjYWE5OCJ9;
+          expires=Fri, 07-Sep-2018 13:45:15 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-Total-Count: ['8']
+      X-Total-Count: ['12']
       X-request-uri: [/api/v1/shows/55/seasons/]
     status: {code: 200, message: OK}
 - request:
@@ -91,40 +136,31 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer IX0HDbG1DLL1v72WtVj2QA4C0lZqaG1jlTJ7i8Ps]
+      Authorization: [Bearer tHdy4DFCWd37wPGPMPz7LRHuM3AjNL85pu3Lcl4f]
       Connection: [keep-alive]
-      Cookie: [__cfduid=da70072f744718de33ac08c6da804558c1486786751; rt_production_session=eyJpdiI6IjZEaWhRTnBJQ3dRUzJqNk0yajdadjJuS1ljcWdIK0lcLyswUTlOejBGOVBZPSIsInZhbHVlIjoiMmlRV1VmakM0UTlja0lXR25OMjhmUGZ6NDNabFV4VnhQUE1LS3ZmV3RpbEZhXC84ZHVzOEYxemx2eitZbmJHbHpWZGRtNEF6ZEszXC93aGZLbTNzODNXZz09IiwibWFjIjoiZTRiMDUxZDVhZDdlYTY2ZGJiN2Q2MmRmZmUxM2Y2ZGQ4Mjc0OTM4YzQ2MWEyODM2YmRhMjg3OWRlMDE1NWMzOSJ9]
+      Cookie: [rt_production_session=eyJpdiI6InUza1wvMFFmWGxUd3NFd0ZqbUFtVjlycHJxQTlZTVNWVnJwWjUwV1FaUjY4PSIsInZhbHVlIjoicU12cWpxXC9sdUdkTklHVWRiTWJUbTdUK2FzK1VqTzRobzIyeXdtTFZQV1BaSVdXSlRCbjN6b2lWdFJhZUx0b1wvd1hxellDQVVQMFVDUzBKYk5EaFZ0dz09IiwibWFjIjoiYmQwYjMwNTgxZmMyOTU2MjM5OTU4ZDg4ODUxMDdkYjEyOTRhMDkxNjQzZTQ3ODIwOTNmNjkwYjQwZmRjYWE5OCJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/seasons/455
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA8yVTWsbMRCG/8pUl14sb+T99BICpbdeEhL3tmC0u7MrFX0haRPS4P9eFJdiyMUJ
-        wfSigzQMj+Z9kF5IlFEhackD8mAN1GRFRgyDly5Ka0hLyIrIkbRFWa6IWXSPnrT1igS1zKQl1tAo
-        kAZnIw2vLWhqEYR9Iu0LMVyn5rcGdgLhwdmYDhetuX9O5yJqRVpy7W7urQ0RPewQo/gawE6THCRX
-        MHONkPp9AfgGSj4iCK4mEHbxYCeYeIjU8QFHUHyZRQAeQNgQ4Yc1cC+DNDN6cEsMEJ8s3O8gItcB
-        rIEoEBI6TNaDs9LEANyMoPmzQL2+7jJ3Q1ZkUMjTKP5HRnI45pPieZtJmvZrKt/tYiJpmxUZ7CP6
-        OznExWOKID67FJH7u5MKTMRU/EJiT1oiYnRtl3VZyNdc89/W8KewHqzusmE0a38cSkwzOe4uTlk+
-        hi6Tms8Yuqys8n5bMUaLGuvj0gxTSa+mCREb3pc577LYd9nmiuVbtqGsaIpqW2zLsmIVtTHsQ7Pv
-        uTHo17/cnK6lL4gW9HvQ9HhBND2+B03NF0SzXs7ScHU+4OGwIs7bSSq8sKFsKppxw2g5sJIWG8Zo
-        n2NDm7zOm6qfWM/+GZrXTVNTVlQ1K1hTba/yLb01+yhwnx64/Z0dBx7ificW3Rsu1Scbexbq0diP
-        on6WwWehHg3+KOpnGX0W6qnRHwNOhg/cWCMHrn56dQr/FjN9KV12+p4fDn8AAAD//wMA/wekVrMH
-        AAA=
+    body: {string: '{"title":"Season 7","description":"","id":455,"number":7,"slug":"on-the-spot-season-7","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f50059dec30b14-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:13 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IjZHOFZMcFBJUHRPYnVzUFNWUkxlMEllZkw1UjJBOWJ4b2lvRHA2dndpWW89IiwidmFsdWUiOiJ3VkZVbFAxNEkzWElraUI3MnFzcFwvOVVOTXkyTW1uWmN2RGEzYWwrdCtQdXB4ejZ3ZGJWOEw1Wlg1SDNtdldDM09uK1NpSDN3a2xiTFpXZGREN2ltUmc9PSIsIm1hYyI6IjQ3MzQ5NGZmNmNkMjA0MjNjOGQ1MTliYWI3MDk4MGJhYmM4ZDA5YjI4YTI5NWIzMjY1ZmY3Y2U1YTFiMmE0ZmQifQ%3D%3D;
-          expires=Fri, 12-May-2017 04:19:13 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:15 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlhxTHl3MzNzY2NuclIyRkxudWVhVVwvMVRsN3M5UjdrR2I2cG9RQ2ltMTVZPSIsInZhbHVlIjoibEtFb0dFQWQ4akExTlRlQWdBc3VYR0RONGNHaGtibitEZWVib0lvV1JVd1JcL2c2dFNwYmpHeUIrNWF2Qkt4dnNmdGRkSEs3VjRJazBqSFlVXC9ZbjhqQT09IiwibWFjIjoiZTQyZjllNzQxMTRmNDY3Njg5MWE1ZDVhOGY5NmQ4YzU1NTEzODk4OTg5NTJlZjI2OWUzOTQzZDhkZTQ2MGIxZSJ9;
+          expires=Fri, 07-Sep-2018 13:45:16 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/seasons/455]
     status: {code: 200, message: OK}

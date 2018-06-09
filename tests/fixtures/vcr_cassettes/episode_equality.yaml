@@ -4,97 +4,102 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer cSJXgFeJO24HwIK6APtnVQ4QG5Yxag7gvRoCBnyE]
+      Authorization: [Bearer kj8fghtPO03BAqJ4QupEbkXtw3a2ZnxRNkYHdbg7]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d7bdedbcd361f96ef9ef72b6c43a6109b1486786648; rt_production_session=eyJpdiI6InhkQThvM1FhbkNwYTNoa0NWV2RUcmNEZkVMZndDd3BHeFFXbGlXSE16ZXc9IiwidmFsdWUiOiJNSk95T0RsOEhwUFdNSHRweGxTTXFNUlFcL2ZKS3VqOEJDXC85eDRUalBPcWxWUTJleFZIS3dsTlpKa1hueWQydlVHbWxoN05HS2UwTTR3eGI5UmJcL3lzdz09IiwibWFjIjoiYzY0ZmI2MzdhOWNmOGE3NmUxNGZkOTVjNzJmMDYxZWQwMWUxYzY3N2Y5MmQyNmE2MGI5MzU4ZjI1NmQzNWJmZCJ9]
+      Cookie: [rt_production_session=eyJpdiI6InhvXC9wd1B0dndxdkFJUmc0cDN6MU9MdGVBZFBIVHQ5VERTVlpGTEs1YUpNPSIsInZhbHVlIjoia3I4RGxXMUtGZ1wvcjJhR1M5MDM3ZGFpSjlwMkZKc2R0bkNpQjE4bllQeGFHOWdyd1I0eVwvdnNkWXFubXNjeUpDcTl2SXZNMTgrdUNJTDdtSjhcL0pFTUE9PSIsIm1hYyI6ImE4ZjAwNDRmZmM2YTQ0N2I2ZDg2ODRmYTRlY2JmNDlkZGZiY2I0MGFkZTllOGRmYzYxODJlZDU3YzAxY2JhZDIifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/episodes/20434
+    uri: https://roosterteeth.com/api/v1/episodes/20433
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA+yYXW/bNhSG/8oZb3pjWqb1YdkoCnQFijUYkCLNrqbCOBKPLDYUKYhUMrfwfx8o
-        J0WSFm0SGNmA+sawKYl6QL/nOZS+MK+8JrZiHxpVooM/7SXBiSUNf9C2RQMcTg2cNwQfOutXcDI4
-        D74h+F15xyasws4ra9iKhXOs0VvoCZ01+0k0eWgJusGDHTwgXCpJFrS6IPCNcnCFDkqqcHAE7wA3
-        PZEEb8cLG9WCR30RfrcEWIYpwr3fkoQelVNmA8p46sl56NGTAzQSGns1nvamUYYcAVXW2HYLygHW
-        NVU+XBdOuEQ9ENgaNlbLKbwDqeQeq7Y9bO0Am2HrpvBeEzoCac0LP5IpDyWBMnCJykzZhLnOGmf7
-        U6O3bFWjdjRhklzVq+vl+cIa32q2Yi+7V7/uSr0sou5VSI0m/MUzs5swp4cNWzFruG+Iu8567sZ1
-        4DEXaUiV8qE0e2udp/6cyDdswpRkq/ksiZMJM0NbUs9WcTphmszGN2w1z/MJ63pbK03vVeWHnkL8
-        /LYLc3XXIxNWWePJ+PFYyVas8b5bFVERuXiKLX62Bq/ctLJtEVXSTK8hfIDYjw6dtihdEakWN+SK
-        KE8SkWeLBcdqWfEkF8TLNKs5SSrLXMq0zmdF5Msims9EvBRzLpJknollnOYiXnDr3fqTL9e+Gdpy
-        Fk8/dZuwCO0zwrn2cXCtfEa4Vj4OTm+eEc72aqMM6scg7kIRNPYqZNBgG/J5q9mE/35oW+y3d/V5
-        tkeGsR5eOLB1rSqFGjbYEoT5fgN4DVpdEjSoa2js0IeKrdF53mFFEjQOm8YBOmis83BiDZyNbqA+
-        iMeBv7Jwdg6esHVgzVj6oULHKu+sMn7vjRa3DbXfiO3/yBiUE9yRpt9TT1jtUT5v7BCskAdDXFL/
-        vApJs7hcZkLwZEGL/Ude1Smf1TUR5VimMd5XSJ5ky2SZppnIxpS5fF2iMdQfViAPQ7srkJ+hHUgf
-        D0O7q4+foR1IHg9D+548fgwY1PGfNLlU1Eku54KnlUh5MheClzHlPI8XcZ6VtSjF14TGizxfcJFk
-        CxEUupzFS35q1r6hdRDc+r2VFTq/Pg9ONKj0gRP7INR9Yp+KeqgEPwh1n+Cnoh4q0Q9CvZ3opwGH
-        hFdorFEV6r96fRv+W8zQUorots93N0Ifw3/zlLffZ8fs3uMJu9lXxuLWrvKHW1R27N3H3n3s3cfe
-        fezdx9597N2H7d2Pup465aykO1Pce5PUklQYKml8l+bY6u+vBTeO3Cu3/ZFKGjZhw93bX3XVVCyy
-        9PXU4xCW3ZAvonw2jhXRONutld/fr4hKgfWSqOISs5ondUZ8WScLXtVVlidikSSlKCJlJP0zbeMh
-        Z7vdxwnDQSr7VmkKxB8nTCtzMX7d7f4FAAD//wMAJZ3Fp7oWAAA=
+    body: {string: '{"title":"Episode 6: It''s a Crazy Mad World","caption":"With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot.","sponsorOnly":false,"description":{"html":"<p>With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot.<\/p>","clean":"With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot."},"slug":"x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","site":"roosterTeeth","id":20433,"number":6,"length":522,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/tb\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/sm\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/md\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/original\/2013912-1442614348809-xv2_ep6_thumbnail.jpg"}},"show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/tb\/984097-1435869288841-XrayandVav_hero.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/sm\/984097-1435869288841-XrayandVav_hero.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/md\/984097-1435869288841-XrayandVav_hero.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/tb\/XRayAndVavSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/sm\/XRayAndVavSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/md\/XRayAndVavSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"},"season":{"title":"Season
+        2","description":"","id":94,"number":2,"slug":"x-ray-and-vav-season-2","show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/tb\/984097-1435869288841-XrayandVav_hero.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/sm\/984097-1435869288841-XrayandVav_hero.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/md\/984097-1435869288841-XrayandVav_hero.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/tb\/XRayAndVavSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/sm\/XRayAndVavSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/md\/XRayAndVavSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/85068c91-ad40-4b8b-a25a-8efc22790a57\/index.m3u8"}}],"audioFiles":[],"links":[]}}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f4fdcf79906593-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:17:29 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IlVOeWYxd2g5MmQ5OTdpRmI4eEU0OXFsT09URFNWNTlaZkErYW01UlFHd1k9IiwidmFsdWUiOiJ0dk0rMWRGMjc5YnhKRk1UOW9TdjhuM3VSQkRTS2JhcXdqeVI5aDVsMVpWWnpzYloxVmRCYmtJRk9rckZ3OENQdEF5M0Y1UVhLWkJZdzJqdDNMdlZoZz09IiwibWFjIjoiYzEyZWYyY2NlNzlmZDRlZTdlYjJhZDlmMzMxMzk1MjA3MGIyNmViZDcyZmUwMmI4ZWFjZDJiNTE1NmVkZWZhMyJ9;
-          expires=Fri, 12-May-2017 04:17:29 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:38 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImNtUnJHYk5pa3VydDJVUTRQTDdGOHVmeDFqTUxFTE1zVjRQUVhDRWsrWUU9IiwidmFsdWUiOiJ3NUhYa29yVktRbVY4VVdxYnFiTVFsbklMbStpanlZeUZ1VkJiNm1HUXZsUldCZExDOSt5bkFaU0FMUzltRTNtY3RLZDJWUE42U0ZRK3NGQlR4bGlvUT09IiwibWFjIjoiY2NlOGJkOWQzYmU2YzY4N2M0MGQyNDQxODI2ZDMwZWZiNjZlMTkxMmE4MGM5MjcxNDY5NGU1NjUwZjFkYzEyZiJ9;
+          expires=Fri, 07-Sep-2018 13:43:37 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-request-uri: [/api/v1/episodes/20434]
+      X-request-uri: [/api/v1/episodes/20433]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer cSJXgFeJO24HwIK6APtnVQ4QG5Yxag7gvRoCBnyE]
+      Authorization: [Bearer kj8fghtPO03BAqJ4QupEbkXtw3a2ZnxRNkYHdbg7]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d7bdedbcd361f96ef9ef72b6c43a6109b1486786648; rt_production_session=eyJpdiI6IlVOeWYxd2g5MmQ5OTdpRmI4eEU0OXFsT09URFNWNTlaZkErYW01UlFHd1k9IiwidmFsdWUiOiJ0dk0rMWRGMjc5YnhKRk1UOW9TdjhuM3VSQkRTS2JhcXdqeVI5aDVsMVpWWnpzYloxVmRCYmtJRk9rckZ3OENQdEF5M0Y1UVhLWkJZdzJqdDNMdlZoZz09IiwibWFjIjoiYzEyZWYyY2NlNzlmZDRlZTdlYjJhZDlmMzMxMzk1MjA3MGIyNmViZDcyZmUwMmI4ZWFjZDJiNTE1NmVkZWZhMyJ9]
+      Cookie: [rt_production_session=eyJpdiI6ImNtUnJHYk5pa3VydDJVUTRQTDdGOHVmeDFqTUxFTE1zVjRQUVhDRWsrWUU9IiwidmFsdWUiOiJ3NUhYa29yVktRbVY4VVdxYnFiTVFsbklMbStpanlZeUZ1VkJiNm1HUXZsUldCZExDOSt5bkFaU0FMUzltRTNtY3RLZDJWUE42U0ZRK3NGQlR4bGlvUT09IiwibWFjIjoiY2NlOGJkOWQzYmU2YzY4N2M0MGQyNDQxODI2ZDMwZWZiNjZlMTkxMmE4MGM5MjcxNDY5NGU1NjUwZjFkYzEyZiJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/episodes/20845
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA+yY247bNhCGX4XltWhZR0tCkCIpkIsARQpkiwCpgoIiRxK7EqnwENcJ/O4FZW9h
-        7253ndTYBoXvbIoe/hz+8w3lL9gKOwCu8DuAa/QetMIBZnSyQklc4dfK9AH6GboAUcnRe8p6RI0B
-        Y5DtQWjUCiv9t07RwcxzJg0T1YCsQjA2VF8jJRGVSEgL0gCKcrL2a62VvlbOIiGR0hy0/8GgDKA1
-        iK63AVoLiTRlYOa1axcv4xxpYBqoBdTSUTmDRmcEQ58EB2V+xAE2k5JG6Tdy2OCqpYOBAHMwTIv9
-        lr7g3o4DrvCz6flVT+W18Qu/kVJY1CqN9gGE7JDthUEGtADzA/p+MvFgDp7V4fTcH+EA1B/g/3CL
-        eBtgM7gOV7hxbUsax7kAQwxQoySJvAuE9Z7WShkL+grA9jjAguMqXhZpFmDpxgY0rqIADyA72+Mq
-        TcoAT1q1YoBfBLNOg3eL3Uw+1LQfCTBTfm92ftbgCvfWTlUd1qFJFnSkn5Wka7NgaqxDxuVir8F6
-        DbtRNw2KclOHYqQdmDoscgZRFqckYgWQNIlTUhRJRpZpmbY8yosyW9ahbeowXkZJGcUkStN8VcRp
-        tEyygrx0bftyl4TfYYps78Zm8cfU+USMT6jQjN+gcORPqHDk36Bw6J5QodKiE5IOX61z66uiV2vv
-        S0lH71k/F+0ney+4caR6c4zA10rIufDRq4FK2lE5EwBdOS1hcwCCF1KCRnRGweaw2FGnHQweJjfF
-        foOJjw6MvVPpQC3qfHHvgivbexz0QnY+NrWIDqMyFul+M8LiNs++d70eTjvOlPdSyp/DzKmflPMQ
-        iTxQPoF+YuLwtgG+zEkes4ykkJWkoKuc8HzJIcmapshWd4lTJEmyyqM4O3ThO8FhMclzwuYkcbdh
-        85i4c3HmJHG3OfOYuHMh5iRx9yPmYYmeLv9Jb2zyNC85B5LQIiIpi3JSFMBIkbasKTMoec7ud2qe
-        Ravl4WbefnRUn9mrp8m7z6sPyzuTW0+Td59bH5Z3Jr+eJu+f/fqQSO9YRqWSgtHhVz0cCr4rzXfO
-        OjwC9faG1LOb929Jb+cR5O+YR28VeH+9TJL86HL52D310rAvDfvSsC8N+9KwLw370rD/ZcP+qgAw
-        CaM4HMc47M0jcEF9Yez/dap++7t+5pFb1bN7wrjEAXbHi68ntohWefZiYanzmZZg67BYzmN1OEc7
-        SPZuvTps+YpHSRETlkBMUihT0iRZSlY0XqWrsqEtxHUoJIc/F2PiCrzdfggwdVyoV2IAr/hDgAch
-        r+eP2+1fAAAA//8DAOvq6/TtFQAA
+    body: {string: '{"title":"Week Zero","caption":"Josh, Meg, and Zach assess their
+        fitness goals and prepare to embark on an intense 16-week workout in order
+        to lose weight, win races, and\u2026 recreate famous music videos?","sponsorOnly":false,"description":{"html":"<p>Thanks
+        to Onnit for sponsoring this series! Josh, Meg, and Zach assess their fitness
+        goals and prepare to embark on an intense 16-week workout in order to lose
+        weight, win races, and recreate famous music videos<\/p>","clean":"Thanks
+        to Onnit for sponsoring this series! Josh, Meg, and Zach assess their fitness
+        goals and prepare to embark on an intense 16-week workout in order to lose
+        weight, win races, and recreate famous music videos"},"slug":"buff-buddies-season-1","site":"roosterTeeth","id":20845,"number":1,"length":439,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/86ce1524-1c8e-4324-8835-0494fd168950\/tb\/2013912-1446782410358-BuffBuddies_ep1thumb.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/86ce1524-1c8e-4324-8835-0494fd168950\/sm\/2013912-1446782410358-BuffBuddies_ep1thumb.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/86ce1524-1c8e-4324-8835-0494fd168950\/md\/2013912-1446782410358-BuffBuddies_ep1thumb.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/86ce1524-1c8e-4324-8835-0494fd168950\/original\/2013912-1446782410358-BuffBuddies_ep1thumb.jpg"}},"show":{"name":"Buff
+        Buddies","summary":{"html":"<p>Join Josh Flanagan, Meg Turney, and Zach Anner
+        as they embark on a grueling 16-week fitness quest to lose weight, eat great,
+        and other things that almost rhyme.<\/p>","clean":"Join Josh Flanagan, Meg
+        Turney, and Zach Anner as they embark on a grueling 16-week fitness quest
+        to lose weight, eat great, and other things that almost rhyme."},"id":209,"slug":"buff-buddies","seasonCount":1,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/tb\/BuffBuddiesSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/sm\/BuffBuddiesSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/md\/BuffBuddiesSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/original\/BuffBuddiesSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/buff-buddies"},"season":{"title":"Season
+        1","description":"","id":336,"number":1,"slug":"buff-buddies-season-1","show":{"name":"Buff
+        Buddies","summary":{"html":"<p>Join Josh Flanagan, Meg Turney, and Zach Anner
+        as they embark on a grueling 16-week fitness quest to lose weight, eat great,
+        and other things that almost rhyme.<\/p>","clean":"Join Josh Flanagan, Meg
+        Turney, and Zach Anner as they embark on a grueling 16-week fitness quest
+        to lose weight, eat great, and other things that almost rhyme."},"id":209,"slug":"buff-buddies","seasonCount":1,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/tb\/BuffBuddiesSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/sm\/BuffBuddiesSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/md\/BuffBuddiesSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0645135e-4db6-464e-a763-cd2ba1d3080c.jpg\/original\/BuffBuddiesSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/buff-buddies"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/buff-buddies-season-1","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/fd7d1382-c3e2-4e94-b354-7a27479bafe2\/index.m3u8"}}],"audioFiles":[],"links":[]}}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f4fdd1f9f56593-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:17:30 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6InI2WE44MnB5aGVNTlwvTUVHeW9DUTlIUVwvT1BnVk04ME1yc1plZDhmeFJJVT0iLCJ2YWx1ZSI6IkYzTUNXR2YzSVora3A2b1g2MFBQTDZHU1NLWkd1UUZndjRPTkg2N2VIaE8yWWwxaUc4cHVDNzNYV1RWMVBRbDFJZEVLU1wvZG9ka0s0dnFQRmc3MFU1UT09IiwibWFjIjoiOTE1ZmVmMDIxZjI4MDY3MTZiM2YzYThkNTVlYmNjYWEyMmI5MGUwMTYzYzBjYTk0ZmYyODBhYmIwZGU1NTVhNiJ9;
-          expires=Fri, 12-May-2017 04:17:30 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:38 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkZMdVdDMHJyYnVtMzRuWHdveFdKc3lIXC85YW5HOFExOE1sYUNiU2o0aFFrPSIsInZhbHVlIjoiKzNianlEYzBRbk9WdkdxbnVFYjBLNTVJQTQwM1NOTklYekMzN0JZdksxeDRSQVo5Z2hwdkk5VnBcL0tqWE1UZDVBUGQwRTBYTjhYdmJcLzR4WWVDTkwwUT09IiwibWFjIjoiOWMxNTMzMzg0YmZiZmE3ZWFiZGNkOWM5OWVkYWMwZjk0ODk2OThiODk3M2NkNzA1MDA4YmVmMGU1YmUwNjcyYiJ9;
+          expires=Fri, 07-Sep-2018 13:43:39 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/episodes/20845]
     status: {code: 200, message: OK}
@@ -103,49 +108,56 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer cSJXgFeJO24HwIK6APtnVQ4QG5Yxag7gvRoCBnyE]
+      Authorization: [Bearer kj8fghtPO03BAqJ4QupEbkXtw3a2ZnxRNkYHdbg7]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d7bdedbcd361f96ef9ef72b6c43a6109b1486786648; rt_production_session=eyJpdiI6InI2WE44MnB5aGVNTlwvTUVHeW9DUTlIUVwvT1BnVk04ME1yc1plZDhmeFJJVT0iLCJ2YWx1ZSI6IkYzTUNXR2YzSVora3A2b1g2MFBQTDZHU1NLWkd1UUZndjRPTkg2N2VIaE8yWWwxaUc4cHVDNzNYV1RWMVBRbDFJZEVLU1wvZG9ka0s0dnFQRmc3MFU1UT09IiwibWFjIjoiOTE1ZmVmMDIxZjI4MDY3MTZiM2YzYThkNTVlYmNjYWEyMmI5MGUwMTYzYzBjYTk0ZmYyODBhYmIwZGU1NTVhNiJ9]
+      Cookie: [rt_production_session=eyJpdiI6IkZMdVdDMHJyYnVtMzRuWHdveFdKc3lIXC85YW5HOFExOE1sYUNiU2o0aFFrPSIsInZhbHVlIjoiKzNianlEYzBRbk9WdkdxbnVFYjBLNTVJQTQwM1NOTklYekMzN0JZdksxeDRSQVo5Z2hwdkk5VnBcL0tqWE1UZDVBUGQwRTBYTjhYdmJcLzR4WWVDTkwwUT09IiwibWFjIjoiOWMxNTMzMzg0YmZiZmE3ZWFiZGNkOWM5OWVkYWMwZjk0ODk2OThiODk3M2NkNzA1MDA4YmVmMGU1YmUwNjcyYiJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/episodes/20434
+    uri: https://roosterteeth.com/api/v1/episodes/20433
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA+yYXW/bNhSG/8oZb3pjWqb1YdkoCnQFijUYkCLNrqbCOBKPLDYUKYhUMrfwfx8o
-        J0WSFm0SGNmA+sawKYl6QL/nOZS+MK+8JrZiHxpVooM/7SXBiSUNf9C2RQMcTg2cNwQfOutXcDI4
-        D74h+F15xyasws4ra9iKhXOs0VvoCZ01+0k0eWgJusGDHTwgXCpJFrS6IPCNcnCFDkqqcHAE7wA3
-        PZEEb8cLG9WCR30RfrcEWIYpwr3fkoQelVNmA8p46sl56NGTAzQSGns1nvamUYYcAVXW2HYLygHW
-        NVU+XBdOuEQ9ENgaNlbLKbwDqeQeq7Y9bO0Am2HrpvBeEzoCac0LP5IpDyWBMnCJykzZhLnOGmf7
-        U6O3bFWjdjRhklzVq+vl+cIa32q2Yi+7V7/uSr0sou5VSI0m/MUzs5swp4cNWzFruG+Iu8567sZ1
-        4DEXaUiV8qE0e2udp/6cyDdswpRkq/ksiZMJM0NbUs9WcTphmszGN2w1z/MJ63pbK03vVeWHnkL8
-        /LYLc3XXIxNWWePJ+PFYyVas8b5bFVERuXiKLX62Bq/ctLJtEVXSTK8hfIDYjw6dtihdEakWN+SK
-        KE8SkWeLBcdqWfEkF8TLNKs5SSrLXMq0zmdF5Msims9EvBRzLpJknollnOYiXnDr3fqTL9e+Gdpy
-        Fk8/dZuwCO0zwrn2cXCtfEa4Vj4OTm+eEc72aqMM6scg7kIRNPYqZNBgG/J5q9mE/35oW+y3d/V5
-        tkeGsR5eOLB1rSqFGjbYEoT5fgN4DVpdEjSoa2js0IeKrdF53mFFEjQOm8YBOmis83BiDZyNbqA+
-        iMeBv7Jwdg6esHVgzVj6oULHKu+sMn7vjRa3DbXfiO3/yBiUE9yRpt9TT1jtUT5v7BCskAdDXFL/
-        vApJs7hcZkLwZEGL/Ude1Smf1TUR5VimMd5XSJ5ky2SZppnIxpS5fF2iMdQfViAPQ7srkJ+hHUgf
-        D0O7q4+foR1IHg9D+548fgwY1PGfNLlU1Eku54KnlUh5MheClzHlPI8XcZ6VtSjF14TGizxfcJFk
-        CxEUupzFS35q1r6hdRDc+r2VFTq/Pg9ONKj0gRP7INR9Yp+KeqgEPwh1n+Cnoh4q0Q9CvZ3opwGH
-        hFdorFEV6r96fRv+W8zQUorots93N0Ifw3/zlLffZ8fs3uMJu9lXxuLWrvKHW1R27N3H3n3s3cfe
-        fezdx9597N2H7d2Pup465aykO1Pce5PUklQYKml8l+bY6u+vBTeO3Cu3/ZFKGjZhw93bX3XVVCyy
-        9PXU4xCW3ZAvonw2jhXRONutld/fr4hKgfWSqOISs5ondUZ8WScLXtVVlidikSSlKCJlJP0zbeMh
-        Z7vdxwnDQSr7VmkKxB8nTCtzMX7d7f4FAAD//wMAJZ3Fp7oWAAA=
+    body: {string: '{"title":"Episode 6: It''s a Crazy Mad World","caption":"With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot.","sponsorOnly":false,"description":{"html":"<p>With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot.<\/p>","clean":"With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot."},"slug":"x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","site":"roosterTeeth","id":20433,"number":6,"length":522,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/tb\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/sm\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/md\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/original\/2013912-1442614348809-xv2_ep6_thumbnail.jpg"}},"show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/tb\/984097-1435869288841-XrayandVav_hero.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/sm\/984097-1435869288841-XrayandVav_hero.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/md\/984097-1435869288841-XrayandVav_hero.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/tb\/XRayAndVavSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/sm\/XRayAndVavSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/md\/XRayAndVavSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"},"season":{"title":"Season
+        2","description":"","id":94,"number":2,"slug":"x-ray-and-vav-season-2","show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/tb\/984097-1435869288841-XrayandVav_hero.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/sm\/984097-1435869288841-XrayandVav_hero.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/md\/984097-1435869288841-XrayandVav_hero.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/tb\/XRayAndVavSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/sm\/XRayAndVavSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/md\/XRayAndVavSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/85068c91-ad40-4b8b-a25a-8efc22790a57\/index.m3u8"}}],"audioFiles":[],"links":[]}}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f4fdd50a7f6593-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:17:30 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IkllN1g1QXhYZnRQcTBXbEM1V3k4WG9QUzRGVk5lakVHRUFxQ2JWdVRVZmM9IiwidmFsdWUiOiJJc0JwZkVEOWdwVTZGTG5cL1AxdTZWWU5oNjZvXC9LYzJTK2pXdHJMT1FEWnE5Ym1RRU1ORkErU0x5WDBwUE5aSFhpQXJxMDd2b1Jjd1dpUFlhdWV0YjlBPT0iLCJtYWMiOiJhZDAwNmQ4OGMwMDMwMzE4YmE1NzYzYzI4YTgxYzM5ZjUzZWU0ZmRmNjQ2NWE3YTNlNGU3MDJhNWQyYzY1MDU0In0%3D;
-          expires=Fri, 12-May-2017 04:17:30 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:38 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImM4blVKaytjdzFiSVpIczdla013Z3FQZzh3QllENFB0ejZ1cUlENTgrQ3c9IiwidmFsdWUiOiI1Z0x4eUprczErXC94YjkzRHhzSGI0Tm5qeWFNOGlHdVFXbVl1RkN1NVoraXNmd3lzS3RvZ05lOUZER0tLUzZ4QmxzMTZncTJzcVJ4Q0tITVwvdE5teW13PT0iLCJtYWMiOiJhZDQyMWJlOWUwN2VjODgzYjU4OTg2ZTM4NmFjZTJkNjEwNzNiZTQ5NzNjODg4MGUwYTZhNDM1YjY3YjU0MDc3In0%3D;
+          expires=Fri, 07-Sep-2018 13:43:39 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-request-uri: [/api/v1/episodes/20434]
+      X-request-uri: [/api/v1/episodes/20433]
     status: {code: 200, message: OK}
 version: 1
