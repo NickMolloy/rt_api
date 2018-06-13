@@ -40,8 +40,9 @@ test_requirements = ['httmock>=1.2.6', 'pytest>=3.0.6', 'pytest-xdist>=1.15.0', 
 
 setup(
     name='rt_api',
-    version='1.0.1',
+    version='1.1.0',
     description='Unofficial python client for the Rooster Teeth api',
+    long_description='Unofficial python client for the Rooster Teeth api',
     author='Nicholas Molloy',
     author_email='nick.a.molloy@gmail.com',
     packages=['rt_api'],
@@ -50,7 +51,7 @@ setup(
     url='https://github.com/NickMolloy/rt_api',
     zip_safe=False,
     classifiers=(
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Operating System :: OS Independent',
         'Topic :: Utilities',
         'Topic :: Software Development :: Libraries :: Python Modules',
