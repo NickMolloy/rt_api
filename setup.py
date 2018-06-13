@@ -42,6 +42,7 @@ setup(
     name='rt_api',
     version='1.1.0',
     description='Unofficial python client for the Rooster Teeth api',
+    long_description='Unofficial python client for the Rooster Teeth api',
     author='Nicholas Molloy',
     author_email='nick.a.molloy@gmail.com',
     packages=['rt_api'],
