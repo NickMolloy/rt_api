@@ -37,12 +37,15 @@ class PyTest(TestCommand):
 requires = ['requests>=2.12.5', 'm3u8>=0.3.1', 'requests_oauthlib>=0.7.0']
 test_requirements = ['httmock>=1.2.6', 'pytest>=3.0.6', 'pytest-xdist>=1.15.0', 'flaky>=3.3.0', 'vcrpy>=1.10.5']
 
+this_directory = os.path.abspath(os.path.dirname(__file__))
+with open(os.path.join(this_directory, 'README.rst')) as f:
+    long_description = f.read()
 
 setup(
     name='rt_api',
     version='1.1.0',
     description='Unofficial python client for the Rooster Teeth api',
-    long_description='Unofficial python client for the Rooster Teeth api',
+    long_description=long_description,
     author='Nicholas Molloy',
     author_email='nick.a.molloy@gmail.com',
     packages=['rt_api'],
