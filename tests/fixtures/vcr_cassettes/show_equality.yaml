@@ -4,39 +4,30 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer xGuusOkcwQwV6mNrGJMpKdzDDvy7vkW3hyJUqtx4]
+      Authorization: [Bearer fo7CpKH9dOVH6UnZZQKY7qxsTpkppY2fe29tHs5G]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d0ddc6d4503b98c6dc3e47add22653b051486786743; rt_production_session=eyJpdiI6IjBQZFdRZkp2Nm5ad1dJOHU1c2taUkZPcWdLaDhnOWhNNnpJN1lremZnVlU9IiwidmFsdWUiOiIrN1liSW9xUmt4c0hzOERHdjZMc1R3bFJJeGRYcmU2cXV2dnd2RldmVlVtdFNCOTc3QWFpbnBtaEpEN3RaN1NGQjRTa0ZDeUpPMDY0ZHFcL2h2MElqM1E9PSIsIm1hYyI6IjAyMjcwMDczN2U5MjU1MGU2ZGU4MmRlYjkyYTg1ZTA4MzI5MDRhMWEzZGZjMzdmYTMyOWNhMzc5ODAxNDE2NzkifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6IitzWmZsUWViU2ZGcHpMQ2NxU1wvY1Q4NEgzTE9SaVl3WlJEanE5enlrNW5JPSIsInZhbHVlIjoiVXIySENQbXFBZmxQWVJFTFpxc3JLdWxOWnNZWnRHbUVLZ2ZsQ0kwMk5ub0k5ZjlsMURmVkJXdG5PakZlTkFBbm5IRkthREdxU1U4bGJRSHRvdHRsckE9PSIsIm1hYyI6Ijc3ZTg1NjJhZTRiOTNlZDU0MDkwNjllZDBkOGJjZTc4ZWRiOWNlODJmZWExMjMxZjNlMWRjMjJlY2IwN2QzM2MifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/shows/55
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA8yVTWvcMBCG/8pUl15W62j9sV4TAqW3XhLS7c2wjO2xpaIvLDkhDfvfi9gSArls
-        Qlh60WGYwzN6H42emUVDrGG3FvaS4Kd3ka1YWIzB+Yk1z0xGo1nDrv3NvXMh0gx7oii/BnDjqHqF
-        GiY0BEG6xy8A30CrBwKJegTplhncCCOGyD32NIDGZZIBMIB0IcIPZ+FeBWUnmsEvMUB8dHC/h0ho
-        AjgLURIE7yKMbgbvlI0B0A5g8EmSWV+3mb9hK9ZrQssa9j8ysuOKqYE1ZbliQS8Ta5izPEriabB0
-        24TB2e9usZE19Yr17oHmO9XHZaYUQXzyKSL/r5IabKTU/MxixxomY/RNm7VZyNdo8I+z+BjWvTNt
-        1g92PZ+Ciym3U3Xx2uEQ2kwZnCi0WVnl3a4Sghdb2p6Ouh9LfjWORFRjV+bYZrFrs82VyHdiw0VR
-        F9Wu2JVlJSruYjiE+tChtTSvf/spjWUuiBbMe9DMcEE0M7wHTSc/LhWom9WkLOrzAY/HFfOzG5Wm
-        CxsqxqIeNoKXvSh5sRGCdznVvM63eV11o+jEi6H5tq63XBTVVhSirnZX+Y7f2kOUdEgL7nDnhh5D
-        POzlYjqLSn+ysWehnoz9KOpnGXwW6sngj6J+ltFnob42+mPAyfAerbOqR/1rTp/fy3N8u0nTt9dm
-        r/f58S8AAAD//wMAhVAMx1QHAAA=
+    body: {string: '{"name":"On The Spot","summary":{"html":"<p>Rooster Teeth''s official
+        game show!  A live half hour of fast-paced laughs as host Jon Risinger puts
+        two RT teams on the spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s
+        official game show!  A live half hour of fast-paced laughs as host Jon Risinger
+        puts two RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f5001e2bbf658d-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:04 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IjV6Y2l6cnk5dzJid2N5YUxRbjA4b1c1Q1M4SHM2N1NPazVMK3duMEU5U3M9IiwidmFsdWUiOiJGaWs3NTdnOVpIbHZvT1NcL0RcL1ppM2cwbjJPUjdWOFFPUkNZNmp5UVBLdVdqY21xMkhcL1M4em1DS0U2NEZkWnFtKzM1clYzWTZMZGZsSERYSnpIUmpxQT09IiwibWFjIjoiMWQ2NGNiYzQ2MjA5ZGQzZWQwM2QzNzU5OWIxMTgzZjk1NThjN2FiZGE4YWQxODgwNjNiOGZmMzg5ZDQ1MjA2ZSJ9;
-          expires=Fri, 12-May-2017 04:19:04 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:43 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImZKcHpEMUlnSkZOOTdDVFlUcjNiUjl2M0FnSFI4Y3p3bEVjaVpYbkVDM009IiwidmFsdWUiOiJ4QXQzZ1lpRUhkUkpwRU5SVkZtaHA4NWFxN2Nuem1mNmhsVUl6VWpZK2NYcWlxK2FReTNKangydFVYaTlnMlUya2UwSlEzSHViYkRUSWZTa3RhNGxldz09IiwibWFjIjoiNjlhNDczOGE5MWI4NTIxZDBiNTIxNjgzZTk4ZDY4NTFlM2NmNDE4YTBiMTFlYmQyMjNjYWMwNjg5NDFhOTBiOCJ9;
+          expires=Fri, 07-Sep-2018 13:43:43 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/shows/55]
     status: {code: 200, message: OK}
@@ -45,40 +36,32 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer xGuusOkcwQwV6mNrGJMpKdzDDvy7vkW3hyJUqtx4]
+      Authorization: [Bearer fo7CpKH9dOVH6UnZZQKY7qxsTpkppY2fe29tHs5G]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d0ddc6d4503b98c6dc3e47add22653b051486786743; rt_production_session=eyJpdiI6IjV6Y2l6cnk5dzJid2N5YUxRbjA4b1c1Q1M4SHM2N1NPazVMK3duMEU5U3M9IiwidmFsdWUiOiJGaWs3NTdnOVpIbHZvT1NcL0RcL1ppM2cwbjJPUjdWOFFPUkNZNmp5UVBLdVdqY21xMkhcL1M4em1DS0U2NEZkWnFtKzM1clYzWTZMZGZsSERYSnpIUmpxQT09IiwibWFjIjoiMWQ2NGNiYzQ2MjA5ZGQzZWQwM2QzNzU5OWIxMTgzZjk1NThjN2FiZGE4YWQxODgwNjNiOGZmMzg5ZDQ1MjA2ZSJ9]
+      Cookie: [rt_production_session=eyJpdiI6ImZKcHpEMUlnSkZOOTdDVFlUcjNiUjl2M0FnSFI4Y3p3bEVjaVpYbkVDM009IiwidmFsdWUiOiJ4QXQzZ1lpRUhkUkpwRU5SVkZtaHA4NWFxN2Nuem1mNmhsVUl6VWpZK2NYcWlxK2FReTNKangydFVYaTlnMlUya2UwSlEzSHViYkRUSWZTa3RhNGxldz09IiwibWFjIjoiNjlhNDczOGE5MWI4NTIxZDBiNTIxNjgzZTk4ZDY4NTFlM2NmNDE4YTBiMTFlYmQyMjNjYWMwNjg5NDFhOTBiOCJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/shows/56
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA9SUS4vbMBCA/4oq2Fvkd5zYpLks9FB66KGlF8MylsaxWj2MJGebLfnvRd6FLZSF
-        dFkCPUloRtKn0cf8ogY00pZ+ggd05AuCpivqZ63BnWj7i45BK9rS3bT/YGdHZqPkD1QnMqKz6MkI
-        RyTBEr+MI5JJgcGQkG8jhhEduUcSdxAZiHXE2JCQWwh8JPNErCGg1LKtx1EasUw9R4OeHKVAS8AI
-        gj+DA8KtCWgCGaxb0p6BibZHie/IRysNkSYeGxO4NUd0HoKM9wSyAzI6HN53dAxharu0S3sZEnXq
-        UhXPCgi6o/uXg7suhX2y69JpT1eUKwRDW/q/l+Xl9yb0vKJS0HZdr6hX84G2dAmy8KQJgrfm1s4m
-        0DZfUW6P6D5LHmaH0Z1wmqJa09NKTFhgl1hP2+eP8GUCGh6sgXufcKu7lAuTOGt9iCwYxsfVeVIW
-        hO9SqeGAvksbDkPBs4Kts6Fk1abcMOixZvlQb4qhEmJosEtD36XNtsqaDcurcr2tm7Ipy7piS7VY
-        rNZd/LmbYpvfFE0ymUN8nr4iotevQdTiiohavAZRHa6IaJ08SAPq30HP5xWdnB2kwusanGfrHsqS
-        szrnG1bVomHbokYmNqIq+1xs66J4NLjI8rLJC5ZX66zImk1ZVEXFVLiDIwRwWZ58n97Q28vAoreX
-        gr2RrZeBRVsvBXsjRy8De3b0MrxoJgdjjeSgvjr1J+rfUH609089/LFNn38DAAD//wMAcVGrxOMH
-        AAA=
+    body: {string: '{"name":"Lazer Team","summary":{"html":"<p>Four unlikely heroes
+        have to save the planet. Whether we like it or not. Catch up on all the behind
+        the scenes video and extra content for the Lazer Team movie! Join in on the
+        conversation at <a href=\"http:\/\/bit.ly\/lazerteam\">http:\/\/bit.ly\/lazerteam<\/a>.<\/p>","clean":"Four
+        unlikely heroes have to save the planet. Whether we like it or not. Catch
+        up on all the behind the scenes video and extra content for the Lazer Team
+        movie! Join in on the conversation at http:\/\/bit.ly\/lazerteam."},"id":56,"slug":"lazer-team","seasonCount":1,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d2ae218c-693a-4f5f-ae3c-9417661323b0.jpg\/tb\/LazerTeamSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d2ae218c-693a-4f5f-ae3c-9417661323b0.jpg\/sm\/LazerTeamSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d2ae218c-693a-4f5f-ae3c-9417661323b0.jpg\/md\/LazerTeamSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d2ae218c-693a-4f5f-ae3c-9417661323b0.jpg\/original\/LazerTeamSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/lazer-team"}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f50020ac4e658d-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:04 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6InNha2pYQkV5YnhYWEw2NnkyQzFaSnhNMVhlRjVXMDhrUFlmR3F6XC9PdEFNPSIsInZhbHVlIjoiU1Ryd3RhSlwvNFdFMGpvVlE3dWpVcTZzU3ZaMkRjbHhSaFZMZnFxaDQ3Zm9cL0ZDMHhHMmk0WkZXa2FFS0FvS0pRbERwK3B5bGR3M1ZpdEdFeDArUnZsdz09IiwibWFjIjoiMzNiYWE0YmViMDY0ZDg4OWUxMmZiZjRlZmNjODIyMTM5NGZmOWY3YmFhZTM5NzdkYmEwY2YyYWZkMjRkNDcyOSJ9;
-          expires=Fri, 12-May-2017 04:19:04 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:43 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlRadCtEdDVaUnl2VWZhOXNTOXRLbUZTZGFPQ055TFwvdCtmSnluWU1nWW5JPSIsInZhbHVlIjoiTncrSnVGV0lGOEJUMjVjQTAzWnp0YzZqcVZUeWFLVTZMcHJScyt1OGdpbzhCd2h3cWh3NDhaTUp1SHNaUlRKNEJEMFk1Y1Z5OFBobG8raE9rb1VzdHc9PSIsIm1hYyI6ImQ2ZDQ4MGYzMThkMDFjYjg4MTljYzE5OGRmMTlkNGUwMjdjNGRhYjE2MDU3ZTFkNzM1MDI2YmNjMTFkMGM0N2QifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:43:42 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/shows/56]
     status: {code: 200, message: OK}
@@ -87,39 +70,30 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer xGuusOkcwQwV6mNrGJMpKdzDDvy7vkW3hyJUqtx4]
+      Authorization: [Bearer fo7CpKH9dOVH6UnZZQKY7qxsTpkppY2fe29tHs5G]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d0ddc6d4503b98c6dc3e47add22653b051486786743; rt_production_session=eyJpdiI6InNha2pYQkV5YnhYWEw2NnkyQzFaSnhNMVhlRjVXMDhrUFlmR3F6XC9PdEFNPSIsInZhbHVlIjoiU1Ryd3RhSlwvNFdFMGpvVlE3dWpVcTZzU3ZaMkRjbHhSaFZMZnFxaDQ3Zm9cL0ZDMHhHMmk0WkZXa2FFS0FvS0pRbERwK3B5bGR3M1ZpdEdFeDArUnZsdz09IiwibWFjIjoiMzNiYWE0YmViMDY0ZDg4OWUxMmZiZjRlZmNjODIyMTM5NGZmOWY3YmFhZTM5NzdkYmEwY2YyYWZkMjRkNDcyOSJ9]
+      Cookie: [rt_production_session=eyJpdiI6IlRadCtEdDVaUnl2VWZhOXNTOXRLbUZTZGFPQ055TFwvdCtmSnluWU1nWW5JPSIsInZhbHVlIjoiTncrSnVGV0lGOEJUMjVjQTAzWnp0YzZqcVZUeWFLVTZMcHJScyt1OGdpbzhCd2h3cWh3NDhaTUp1SHNaUlRKNEJEMFk1Y1Z5OFBobG8raE9rb1VzdHc9PSIsIm1hYyI6ImQ2ZDQ4MGYzMThkMDFjYjg4MTljYzE5OGRmMTlkNGUwMjdjNGRhYjE2MDU3ZTFkNzM1MDI2YmNjMTFkMGM0N2QifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/shows/55
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA8yVTWvcMBCG/8pUl15W62j9sV4TAqW3XhLS7c2wjO2xpaIvLDkhDfvfi9gSArls
-        Qlh60WGYwzN6H42emUVDrGG3FvaS4Kd3ka1YWIzB+Yk1z0xGo1nDrv3NvXMh0gx7oii/BnDjqHqF
-        GiY0BEG6xy8A30CrBwKJegTplhncCCOGyD32NIDGZZIBMIB0IcIPZ+FeBWUnmsEvMUB8dHC/h0ho
-        AjgLURIE7yKMbgbvlI0B0A5g8EmSWV+3mb9hK9ZrQssa9j8ysuOKqYE1ZbliQS8Ta5izPEriabB0
-        24TB2e9usZE19Yr17oHmO9XHZaYUQXzyKSL/r5IabKTU/MxixxomY/RNm7VZyNdo8I+z+BjWvTNt
-        1g92PZ+Ciym3U3Xx2uEQ2kwZnCi0WVnl3a4Sghdb2p6Ouh9LfjWORFRjV+bYZrFrs82VyHdiw0VR
-        F9Wu2JVlJSruYjiE+tChtTSvf/spjWUuiBbMe9DMcEE0M7wHTSc/LhWom9WkLOrzAY/HFfOzG5Wm
-        CxsqxqIeNoKXvSh5sRGCdznVvM63eV11o+jEi6H5tq63XBTVVhSirnZX+Y7f2kOUdEgL7nDnhh5D
-        POzlYjqLSn+ysWehnoz9KOpnGXwW6sngj6J+ltFnob42+mPAyfAerbOqR/1rTp/fy3N8u0nTt9dm
-        r/f58S8AAAD//wMAhVAMx1QHAAA=
+    body: {string: '{"name":"On The Spot","summary":{"html":"<p>Rooster Teeth''s official
+        game show!  A live half hour of fast-paced laughs as host Jon Risinger puts
+        two RT teams on the spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s
+        official game show!  A live half hour of fast-paced laughs as host Jon Risinger
+        puts two RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/tb\/OnTheSpotHero2.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/sm\/OnTheSpotHero2.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/md\/OnTheSpotHero2.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/tb\/OnTheSpotSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/sm\/OnTheSpotSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/md\/OnTheSpotSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f500239d16658d-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:05 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IldVQWZZVkRON0ZVUWp4cFlqTTA5dmltZXA1VFY1YnArM2pVaVFpa1JkUFE9IiwidmFsdWUiOiJFTTFDY1lqS0xoeE1lOU4raTNZamxkY1wvZURRbzdWWFdnTDNZOWo1OGZIbFJtWGJyUnFOWjZHcGFIdEs5ODFLVW5mN09yOFpSSW1VXC9GdGZydXNZSXhnPT0iLCJtYWMiOiIzMzY3ZjgxMGYwYTRiYzkyNWIyMDk5OTU4YmZlYmY1MjIyNWM1YTc3OGFlYmIyNWU5ZTJkNTMyNjI1ZDg1YTlhIn0%3D;
-          expires=Fri, 12-May-2017 04:19:05 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:43:43 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Iml4WVVXUHE5bjRsTkdDbmhSVFlZTWhSR1kyTk5WdXZqYmRwK1BSNW1ZeGs9IiwidmFsdWUiOiJCNWVoNm5abzV1bTFCUGVDUXNta2hHQXQ3WTZyazF5NElPdjRGUGtBVGFlTEd6dUtzcTR5UDZmWGFwQjU3czVSWXE1UWNVa1dWWXVDNVJrVlh3cURoUT09IiwibWFjIjoiMDk1NzZlMjQwODkyMjJiODU5MDQyODcyOGZiMjRkN2ZjOGVlNDAzOGM1MmIxODNlM2M4YmRhMWY5NDg2Yjk2YyJ9;
+          expires=Fri, 07-Sep-2018 13:43:44 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/shows/55]
     status: {code: 200, message: OK}

@@ -4,38 +4,28 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer ddW0SuU9xaODcgpbmGSUMdt1w8WX4GGvHQqBNb87]
+      Authorization: [Bearer SValFp80O3AePw4VdQido8MnihcrBE6ur0y2iswg]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d2b8016ded8201e5646aa1a5dbf548dda1486786745; rt_production_session=eyJpdiI6IkNCNWVZOWNFNG1aTEIrUjd1dmRidDU5VkoyMnZSWGhHdFRBR3hBaDExK2c9IiwidmFsdWUiOiJ1NXhuZUxmRzBKdWQ3M0dLeVRRZlJzYzVjdm5ZTlwvSG1ra3lUSkN0ZVRvNjkxa09nZysxTFJUWGh3VjlJd0ZjcVwvTnMzMk5jM1pyeHNZY1RmSzZJNVVBPT0iLCJtYWMiOiJkMDEyNTU2Nzg1OWFjNDQxNjAwYzRlN2ZiZmJkOGUxMGQ3YjQ3MDI5OGQ5NmFlYjI4MDE2MzI3MjNhN2VhZjM3In0%3D]
+      Cookie: [rt_production_session=eyJpdiI6ImUyeXJicnRKTDlMR0NVVVpKODUrNUxldnlXbnFpTk9lUVFTY0xIMFFkK1U9IiwidmFsdWUiOiJYSkU1OWtJTlcyMndcL0FBRXROQ0FtaE42N1o3ZnhoQ3BqVUFVazM2UmhcLzFOVTRVQVhRN3ZhU1FWUm40Z3gwNDRJdnlKNWtBK1c5ZHA3RGg2bitxWXl3PT0iLCJtYWMiOiI1YTYxZTE2Y2MxMWIzMDQ4MDE0ZjhhOWRhNmE4NWUwOGZiOWU1M2FmNWMxMzMwOWViYjYwNjY1MzdlYTJmMTU3In0%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/shows/52
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA7zUTWvbMBjA8a/iPZddrDi2ZMc2pZft0MMGhdGboTyWZFugFyPJDVnIdx9eB+vY
-        xYSQqxDi90h/dAaLRkIL35VVBqNyNkAKYTEG/QnaM0zRaGjhYX58UuOk1TjFkAzemSQ4IxM3JCe3
-        +GTAN+dVlMk3GT+H5FnjKaSJdceEfk3w99lSfHrosvkRUuBaooUWbnAkXFJQAtqySCHoZYQWzL+z
-        SAzOfnGLjdAWKXD3Jv2z4nHxch0wnub1AuY/K+sGG+W6+QyxhxamGOe2y7os0B0a/OksHsOOO9Nl
-        XNiddy5E6aOUcXpfXWbtUIQuUwZHGbqs4Lzui2IgVbnnhA0lEqRMkr7nZS1439Bq6LLYd1nOqrwq
-        KckZbei+PFS0KSj58DivP1SUr08ShfS72Y7rgOaOyGCuQxpxR6QR1yH1eEek82pUFvU11Mslhdm7
-        QWl535JF2Vcc84aU1VAThn1OeiaQ1NhQWtaUswN9L7mp2b45kJyxnOa0yqtDxciLjSpqKUh+23a3
-        sdZ2t7FuVOs21lrrNtaN+tzG+tvnFtxaJEfrrOKoX7z+CP2fFCZ37LKP//TlFwAAAP//AwDeKWCf
-        igYAAA==
+    body: {string: '{"name":"Minimations","summary":{"html":"<p>Highlights from some
+        of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f5002f2aed65a5-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:07 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IjZ1c244eXNBWmhtSFh0MUhSdUFRRWdhdFd2NFwvSUlBVDZnWTFOckxVRlRFPSIsInZhbHVlIjoiZVltM1JOdk9vXC80TkNuZmtuajg5YU9lXC9rVmRrajRZNmlkemhBc21NY1dCdlFpQjdPZUFjRW1rTmpuZDhaNGwwQ2NlOFVHWWdlXC9jb0RXOEhuVEJZUmc9PSIsIm1hYyI6IjA1YWE4M2M3ZjM3YTAwZWQ0NTE0ZTcxNmE3NmE5ODUwYWQzZDJiNDA4NTRmN2RjZTg1YzE0NTFlY2RiZTU3YzQifQ%3D%3D;
-          expires=Fri, 12-May-2017 04:19:07 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:17 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImhxQ1dhS1JreUNNWmpYcHNNZWFublBHcFpWbW9KMmtGYVwvSXVSdk9OQUNVPSIsInZhbHVlIjoiWWVqczBoVzdUQjcyejNnWXBwdWNIbE1vcE9uZGYrVHR6QnVEM2tFK0VGRFhaQkhLSk8zYzYwTGtCbDhPZDhjQ0dLMFo3dmZYcGtVUXE5aHIzVnFYamc9PSIsIm1hYyI6Ijg0MTUzOGVjYmEyNzU1YjhjMGRlNDE0MDhiMzhkOGIzOTcyNjIxY2M1NWJjZTE4ZmZiNjMxMTQ4Y2IzODI0NDQifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:45:19 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/shows/52]
     status: {code: 200, message: OK}
@@ -44,39 +34,31 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer ddW0SuU9xaODcgpbmGSUMdt1w8WX4GGvHQqBNb87]
+      Authorization: [Bearer SValFp80O3AePw4VdQido8MnihcrBE6ur0y2iswg]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d2b8016ded8201e5646aa1a5dbf548dda1486786745; rt_production_session=eyJpdiI6IjZ1c244eXNBWmhtSFh0MUhSdUFRRWdhdFd2NFwvSUlBVDZnWTFOckxVRlRFPSIsInZhbHVlIjoiZVltM1JOdk9vXC80TkNuZmtuajg5YU9lXC9rVmRrajRZNmlkemhBc21NY1dCdlFpQjdPZUFjRW1rTmpuZDhaNGwwQ2NlOFVHWWdlXC9jb0RXOEhuVEJZUmc9PSIsIm1hYyI6IjA1YWE4M2M3ZjM3YTAwZWQ0NTE0ZTcxNmE3NmE5ODUwYWQzZDJiNDA4NTRmN2RjZTg1YzE0NTFlY2RiZTU3YzQifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6ImhxQ1dhS1JreUNNWmpYcHNNZWFublBHcFpWbW9KMmtGYVwvSXVSdk9OQUNVPSIsInZhbHVlIjoiWWVqczBoVzdUQjcyejNnWXBwdWNIbE1vcE9uZGYrVHR6QnVEM2tFK0VGRFhaQkhLSk8zYzYwTGtCbDhPZDhjQ0dLMFo3dmZYcGtVUXE5aHIzVnFYamc9PSIsIm1hYyI6Ijg0MTUzOGVjYmEyNzU1YjhjMGRlNDE0MDhiMzhkOGIzOTcyNjIxY2M1NWJjZTE4ZmZiNjMxMTQ4Y2IzODI0NDQifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/shows/52/seasons/
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA+yVTYvbMBCG/4o7l16sOI5sxzbLXtrDHlq6dLunuixjWXYE+jCSvCEN+e9FyUK2
-        lNKwhNBDrvoYPzN+0fN9C154yaGGB29RDCsffZm8x+jrN4ih445ZMXphNNQAMYgO6sU8i0FPquUW
-        6kUMTk4D1CC5d2SUuCFKaKEwXHLEvVQlJlQl1kMMbmXWUG9Bowof/nw8HjYnpdBuwv7KKwk13Iy3
-        d2JYyVDGRb01KnJG8cj00cZMNurx2VjhefSJ+/cuupe4cXGkzTqiHyPc1+bdu5smGW8hBiY5hmbO
-        UBJ2h4HkxyGo33vh6Iz+YCbt95Ni5pnbe8H8ZHlo0G/GMIDxZSUc0J6Hw1vwLdSw8n6sm6RJHJ2h
-        wp9G49rNmFFNwjo9s8Y4z63n3K8Oq9MoDXauSYTCgbsmWTBWtotFT4p8zkjW50iQZpy0LcvLjrUV
-        Lfom8W2TpFmRFjklaUYrOs+XBa0WlLz6OU8PwvOnO44dt7NRD6FBdUFIp94GqboLQqrubZByuCCk
-        sWIQGuVbUHe7GEZreiH5ZZPc5W3BMK1IXvQlybBNSZt1SEqsKM1LyrIlPSS5KrN5tSRplqU0pUVa
-        LIuMPOr9Q9eR9LzZPQ0rZPc0rDOl9TSskNbTsM6Uz9Owjvk8BS4kkqE2WjCUj1a+Bv0TKcinSV6/
-        07tdfLTg8cH/m/7K/Gi/9F/22wuApFfpXaV3ld5VelfpXaX3v0jvxy8AAAD//wMAfx9tj/wNAAA=
+    body: {string: '[{"title":"Straight Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}}]'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f500360c7c65a5-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:08 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IjlJVk1PYjh6aFFNWFdacXJUeWhNWGdEbWora2NjSkRLcElrZUFqNDJKZUE9IiwidmFsdWUiOiJwaVZObzB0TFpXZ1NIbVQ2cXEwdDZ5VmNhaEdNYVh4bkxjdlRjVnhtd0JcL3A2cE5TbysyWTNlS3ZsVGRhdm40c3JIRktqMERHMUgzYlVrSmRhY1p1a1E9PSIsIm1hYyI6ImU5YWI1ZjhiNGI4MjljOTBmYjYyNWNkOTVmYWU4MjE4ODk1MmJlMTEzOWMxODZmY2IzMTdhYWQ2ZmEyMGIzN2QifQ%3D%3D;
-          expires=Fri, 12-May-2017 04:19:08 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:18 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InhWbGgrT3dsYjlDVkR6RUc1Vjdlb3AwY29scTNhZkhHb0s5SVcxcGFBM2M9IiwidmFsdWUiOiJCWGZPM3I1UDNDaWo1d2VUdHRGS1o0QitxOFhtakI5dmltdVFmdWF0d3ZKcGRQVXFoZHVvUFRlUHlKaGJWOGtpOEZhcTZndm00WFhZcW42NWlvQTZlUT09IiwibWFjIjoiNmM4ODIwZjRkMDkwODE1NDE1ZTA3NmEyYjg4NTUzMGY2YjEwZjEzY2NjYzQyYmU5MTFlOTNmMmI3ZGU2YjkxNSJ9;
+          expires=Fri, 07-Sep-2018 13:45:18 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-Total-Count: ['2']
       X-request-uri: [/api/v1/shows/52/seasons/]
@@ -86,255 +68,461 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer ddW0SuU9xaODcgpbmGSUMdt1w8WX4GGvHQqBNb87]
+      Authorization: [Bearer SValFp80O3AePw4VdQido8MnihcrBE6ur0y2iswg]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d2b8016ded8201e5646aa1a5dbf548dda1486786745; rt_production_session=eyJpdiI6IjlJVk1PYjh6aFFNWFdacXJUeWhNWGdEbWora2NjSkRLcElrZUFqNDJKZUE9IiwidmFsdWUiOiJwaVZObzB0TFpXZ1NIbVQ2cXEwdDZ5VmNhaEdNYVh4bkxjdlRjVnhtd0JcL3A2cE5TbysyWTNlS3ZsVGRhdm40c3JIRktqMERHMUgzYlVrSmRhY1p1a1E9PSIsIm1hYyI6ImU5YWI1ZjhiNGI4MjljOTBmYjYyNWNkOTVmYWU4MjE4ODk1MmJlMTEzOWMxODZmY2IzMTdhYWQ2ZmEyMGIzN2QifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6InhWbGgrT3dsYjlDVkR6RUc1Vjdlb3AwY29scTNhZkhHb0s5SVcxcGFBM2M9IiwidmFsdWUiOiJCWGZPM3I1UDNDaWo1d2VUdHRGS1o0QitxOFhtakI5dmltdVFmdWF0d3ZKcGRQVXFoZHVvUFRlUHlKaGJWOGtpOEZhcTZndm00WFhZcW42NWlvQTZlUT09IiwibWFjIjoiNmM4ODIwZjRkMDkwODE1NDE1ZTA3NmEyYjg4NTUzMGY2YjEwZjEzY2NjYzQyYmU5MTFlOTNmMmI3ZGU2YjkxNSJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/seasons/204/episodes
+    uri: https://roosterteeth.com/api/v1/seasons/204/episodes?page=1&count=20
   response:
-    body:
-      string: !!binary |
-        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
+    body: {string: '[{"title":"Deconstruction Crew","caption":"It''s metal against
+        metal in an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine
+        witness the construction feud of the century!","sponsorOnly":false,"description":{"html":"<p>It''s
+        metal against metal in an all-out bulldozer demolition derby! Gus, Burnie,
+        Gavin, and Blaine witness the construction feud of the century!<\/p>\n\n<p>Made
+        by the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Audio
+        from <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-373\">The
+        Rooster Teeth Podcast #373<\/a><\/p>","clean":"It''s metal against metal in
+        an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine witness
+        the construction feud of the century!\n\nMade by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.\n\nAudio from The Rooster Teeth Podcast
+        #373"},"slug":"lets-play-minimations-straight-outta-rt-deconstruction-crew","site":"roosterTeeth","id":28661,"number":11,"length":138,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/tb\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/sm\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/md\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/original\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-deconstruction-crew","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/43d3ae66-10c3-41d1-88f0-640b8229c4a6\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Gavin''s
+        Driving Dilemma","caption":"\u200bGavin finally explains his fear of driving
+        in America: Deportation!","sponsorOnly":false,"description":{"html":"<p>Gavin
+        finally explains his fear of driving in America: Deportation!<\/p>\n\n<p>Made
+        by the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Audio
+        from <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-season-1-rt-podcast-311\">The
+        Rooster Teeth Podcast #311<\/a><\/p>","clean":"Gavin finally explains his
+        fear of driving in America: Deportation!\n\nMade by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.\n\nAudio from The Rooster Teeth Podcast
+        #311"},"slug":"lets-play-minimations-straight-outta-rt-gavin-s-driving-dilemma","site":"roosterTeeth","id":26547,"number":10,"length":109,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/a71c913f-67eb-481a-b7f9-d910bfbc68aa\/tb\/2013912-1462821616632-SoRT_10_THUMBNAIL.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/a71c913f-67eb-481a-b7f9-d910bfbc68aa\/sm\/2013912-1462821616632-SoRT_10_THUMBNAIL.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/a71c913f-67eb-481a-b7f9-d910bfbc68aa\/md\/2013912-1462821616632-SoRT_10_THUMBNAIL.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/a71c913f-67eb-481a-b7f9-d910bfbc68aa\/original\/2013912-1462821616632-SoRT_10_THUMBNAIL.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-gavin-s-driving-dilemma","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/4920efe4-a152-4616-8ef2-8113da8a1e31\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Stories
+        for the Road","caption":"The Podcast Crew shares their experiences with the
+        terror that is the open road! Cars, bikes, cars hitting cars, cars hitting
+        bikes, we''ve got it all on this episode of Minimations!","sponsorOnly":false,"description":{"html":"<p>The
+        Podcast Crew shares their experiences with the terror that is the open road!
+        Cars, bikes, cars hitting cars, cars hitting bikes, we''ve got it all on this
+        episode of Minimations!<\/p>\n\n<p>Made by the Rooster Teeth community GTA5
+        machinima team: The Lone Few.<\/p>\n\n<p>Audio from The <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-367\">Rooster
+        Teeth Podcast #367<\/a><\/p>","clean":"The Podcast Crew shares their experiences
+        with the terror that is the open road! Cars, bikes, cars hitting cars, cars
+        hitting bikes, we''ve got it all on this episode of Minimations!\n\nMade by
+        the Rooster Teeth community GTA5 machinima team: The Lone Few.\n\nAudio from
+        The Rooster Teeth Podcast #367"},"slug":"lets-play-minimations-straight-outta-rt-stories-for-the-road","site":"roosterTeeth","id":26279,"number":9,"length":132,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/74d97463-be12-4a17-980a-a39e39cf575a\/tb\/2013912-1460398442928-SORT_EP09_THUMB.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/74d97463-be12-4a17-980a-a39e39cf575a\/sm\/2013912-1460398442928-SORT_EP09_THUMB.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/74d97463-be12-4a17-980a-a39e39cf575a\/md\/2013912-1460398442928-SORT_EP09_THUMB.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/74d97463-be12-4a17-980a-a39e39cf575a\/original\/2013912-1460398442928-SORT_EP09_THUMB.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-stories-for-the-road","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/2410364b-6d3a-4fc7-9e7c-3f1e78311274\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Static
+        Death and the Crime Switch","caption":"\u200bGavin ponders the inevitability
+        of death, fearing that ''final resting place'' might be more literal than
+        once thought. Gavin also theorizes that being a criminal is simply a ''switch''
+        inside one''s self. Is he correct? Gus demonstrates!","sponsorOnly":false,"description":{"html":"<p>Gavin
+        ponders the inevitability of death, fearing that ''final resting place'' might
+        be more literal than once thought. Gavin also theorizes that being a criminal
+        is simply a ''switch'' inside one''s self. Is he correct? Gus demonstrates!<\/p>\n\n<p><br
+        \/><\/p>\n\n<p>Featuring audio from: <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-357\">The
+        Rooster Teeth Podcast #357<\/a>, done by the community machinima team ''The
+        Lone Few''!<\/p>","clean":"Gavin ponders the inevitability of death, fearing
+        that ''final resting place'' might be more literal than once thought. Gavin
+        also theorizes that being a criminal is simply a ''switch'' inside one''s
+        self. Is he correct? Gus demonstrates!\n\n\n\nFeaturing audio from: The Rooster
+        Teeth Podcast #357, done by the community machinima team ''The Lone Few''!"},"slug":"lets-play-minimations-straight-outta-rt-static-death-and-the-crime-switch","site":"roosterTeeth","id":25985,"number":8,"length":99,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b29bea66-3bc3-4158-a1ff-d99faa227d11\/tb\/2013912-1457987479693-SoRT_8_THUMBNAIL.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b29bea66-3bc3-4158-a1ff-d99faa227d11\/sm\/2013912-1457987479693-SoRT_8_THUMBNAIL.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b29bea66-3bc3-4158-a1ff-d99faa227d11\/md\/2013912-1457987479693-SoRT_8_THUMBNAIL.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b29bea66-3bc3-4158-a1ff-d99faa227d11\/original\/2013912-1457987479693-SoRT_8_THUMBNAIL.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-static-death-and-the-crime-switch","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/70911821-270e-487f-af2b-fbc551a94e40\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"El
+        Trumpo","caption":"On an On The Spot Edition of Minimations, we join Miles
+        Luna and Shannon McCormick as they share the complex story of the one and
+        only Donald Trump. Vengeance, Romance, and Twists? We have it all!","sponsorOnly":false,"description":{"html":"<p>On
+        an On The Spot Edition of Minimations, we join Miles Luna and Shannon McCormick
+        as they share the complex story of the one and only Donald Trump. Vengeance,
+        Romance, and Twists? We have it all!<\/p>\n\n<p><br \/><\/p>\n\n<p>Made by
+        the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p><br
+        \/><\/p>\n\n<p>Includes audio from: <a href=\"http:\/\/roosterteeth.com\/episode\/on-the-spot-season-3-7\">On
+        The Spot #27<\/a><\/p>","clean":"On an On The Spot Edition of Minimations,
+        we join Miles Luna and Shannon McCormick as they share the complex story of
+        the one and only Donald Trump. Vengeance, Romance, and Twists? We have it
+        all!\n\n\n\nMade by the Rooster Teeth community GTA5 machinima team: The Lone
+        Few.\n\n\n\nIncludes audio from: On The Spot #27"},"slug":"lets-play-minimations-straight-outta-rt-el-trumpo","site":"roosterTeeth","id":21522,"number":7,"length":112,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ca13c920-af04-4ee8-b126-50267d8bd0ad\/tb\/2013912-1454949137757-SOORT_EP07_TUMB.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ca13c920-af04-4ee8-b126-50267d8bd0ad\/sm\/2013912-1454949137757-SOORT_EP07_TUMB.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ca13c920-af04-4ee8-b126-50267d8bd0ad\/md\/2013912-1454949137757-SOORT_EP07_TUMB.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ca13c920-af04-4ee8-b126-50267d8bd0ad\/original\/2013912-1454949137757-SOORT_EP07_TUMB.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-el-trumpo","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/0d58a762-19c9-4f72-acfc-7fa0224a212c\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Organ
+        Zombie Apocalypse","caption":"This week on \u201cStraight Outta RT\u201d,
+        the zombie apocalypse has ravaged the planet! Jack, Adam, Bruce, Jeremy, and
+        Ryan roam the planet looking for supplies, fixing cars, and trying to stay
+        alive!","sponsorOnly":false,"description":{"html":"<p>This week on \u201cStraight
+        Outta RT\u201d, the zombie apocalypse has ravaged the planet! Jack, Adam,
+        Bruce, Jeremy, and Ryan roam the planet looking for supplies, fixing cars,
+        and trying to stay alive!<\/p>\n\n<p><br \/><\/p>\n\n<p>Made by the Rooster
+        Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p><br \/><\/p>\n\n<p>Includes
+        audio from <a href=\"http:\/\/achievementhunter.com\/episode\/lets-play-let-s-play-2-organ-trail\">Let\u2019s
+        Watch - Organ Trail with Funhaus<\/a>.<\/p>","clean":"This week on \u201cStraight
+        Outta RT\u201d, the zombie apocalypse has ravaged the planet! Jack, Adam,
+        Bruce, Jeremy, and Ryan roam the planet looking for supplies, fixing cars,
+        and trying to stay alive!\n\n\n\nMade by the Rooster Teeth community GTA5
+        machinima team: The Lone Few.\n\n\n\nIncludes audio from Let\u2019s Watch
+        - Organ Trail with Funhaus."},"slug":"lets-play-minimations-straight-outta-rt-oregon-zombie-apocalypse","site":"roosterTeeth","id":21324,"number":6,"length":207,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/70916382-ab61-41b3-b9c8-b84639f5c1c5\/tb\/2013912-1452539849844-SoRT_EP06_THUMB.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/70916382-ab61-41b3-b9c8-b84639f5c1c5\/sm\/2013912-1452539849844-SoRT_EP06_THUMB.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/70916382-ab61-41b3-b9c8-b84639f5c1c5\/md\/2013912-1452539849844-SoRT_EP06_THUMB.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/70916382-ab61-41b3-b9c8-b84639f5c1c5\/original\/2013912-1452539849844-SoRT_EP06_THUMB.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-oregon-zombie-apocalypse","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/06b3cb05-b852-48ef-8fb6-195e6be36787\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Off
+        Topic Mountain Monsters","caption":"This week on \u201cStraight Outta RT\u201d,
+        Michael tells the tale of the legendary Mountain Monsters hunting team. Experience
+        the terror of Bigfoot, The Mothman, and poor trigger finger safety!","sponsorOnly":false,"description":{"html":"<p>This
+        week on Straight Outta RT, Michael tells the tale of the legendary Mountain
+        Monsters hunting team. Experience the terror of Bigfoot, The Mothman, and
+        poor trigger finger safety!<\/p>\n\n<p>Made by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Includes audio from The Off-Topic
+        Podcast #0.1 <a href=\"http:\/\/achievementhunter.com\/episode\/off-topic-the-achievement-hunter-podcast-2015-mountain-monsters-01\">http:\/\/achievementhunter.com\/episode\/off-topic-the...<\/a><\/p>","clean":"This
+        week on Straight Outta RT, Michael tells the tale of the legendary Mountain
+        Monsters hunting team. Experience the terror of Bigfoot, The Mothman, and
+        poor trigger finger safety!\n\nMade by the Rooster Teeth community GTA5 machinima
+        team: The Lone Few.\n\nIncludes audio from The Off-Topic Podcast #0.1 http:\/\/achievementhunter.com\/episode\/off-topic-the..."},"slug":"lets-play-minimations-straight-outta-rt-off-topic-mountain-monsters","site":"roosterTeeth","id":21145,"number":5,"length":141,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0e1dffb8-66c3-4c20-8901-79841c33fd61\/tb\/2013912-1450119506651-SoRT_EP05_THUMB.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0e1dffb8-66c3-4c20-8901-79841c33fd61\/sm\/2013912-1450119506651-SoRT_EP05_THUMB.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0e1dffb8-66c3-4c20-8901-79841c33fd61\/md\/2013912-1450119506651-SoRT_EP05_THUMB.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0e1dffb8-66c3-4c20-8901-79841c33fd61\/original\/2013912-1450119506651-SoRT_EP05_THUMB.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-off-topic-mountain-monsters","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/dc97ddf1-8708-4c5b-8905-3ac59b09e089\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Straight
+        Outta RT","caption":"Burnie swims for his life, as Gavin, Gus, and Brandon
+        debate if he can make it back to shore. Meanwhile Geoff and Michael become
+        top tier investigators, armed with their new truck technology.","sponsorOnly":false,"description":{"html":"<p>Burnie
+        swims for his life, as Gavin, Gus, and Brandon debate if he can make it back
+        to shore. Meanwhile Geoff and Michael become top tier investigators, armed
+        with their new truck technology. <\/p>\n\n<p>Made by Rooster Teeth community
+        GTA machinima team The Lone Few.<\/p>\n\n<p>Includes audio from The Rooster
+        Teeth Podcast #313 % Sunday Driving - How Muddy do You Like It<\/p>","clean":"Burnie
+        swims for his life, as Gavin, Gus, and Brandon debate if he can make it back
+        to shore. Meanwhile Geoff and Michael become top tier investigators, armed
+        with their new truck technology. \n\nMade by Rooster Teeth community GTA machinima
+        team The Lone Few.\n\nIncludes audio from The Rooster Teeth Podcast #313 %
+        Sunday Driving - How Muddy do You Like It"},"slug":"lets-play-minimations-straight-outta-rt-minimations-straight-outta-rt","site":"roosterTeeth","id":20865,"number":4,"length":111,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e9e672d4-e3dd-4e02-a8ec-a8db78752125\/tb\/2013912-1447095266678-SoRT_EP04_THUMB.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e9e672d4-e3dd-4e02-a8ec-a8db78752125\/sm\/2013912-1447095266678-SoRT_EP04_THUMB.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e9e672d4-e3dd-4e02-a8ec-a8db78752125\/md\/2013912-1447095266678-SoRT_EP04_THUMB.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/e9e672d4-e3dd-4e02-a8ec-a8db78752125\/original\/2013912-1447095266678-SoRT_EP04_THUMB.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-minimations-straight-outta-rt","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/2629eeeb-9f85-436d-ad95-ea3a2f0980b6\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Cards
+        Against Humanity Edition","caption":"This week on \"Straight Outta RT\", we
+        live through the crazy Cards Against Humanity scenarios played by the RT gang
+        and special guests Game Grumps.","sponsorOnly":false,"description":{"html":"<p>This
+        week on \"Straight Outta RT\", we live through the crazy Cards Against Humanity
+        scenarios played by the RT gang and special guests Game Grumps. Like the clips
+        you heard in this video Watch all of the hilarious moments in CAH with a Rooster
+        Teeth sponsorship! On the fence No Problem! Try being a sponsor with a 30-Day
+        trial!<\/p>\n\n<p>Sign up here at: <a href=\"http:\/\/bit.ly\/Become_A_Sponsor\">http:\/\/bit.ly\/Become_A_Sponsor<\/a><\/p>\n\n<p>Made
+        by Rooster Teeth community GTA5 machinima team The Lone Few.<\/p>\n\n<p>Includes
+        audio from RT Sponsor Cut: Cards Against Humanity #1, #8, RTX2014 &amp; RTX2015<\/p>","clean":"This
+        week on \"Straight Outta RT\", we live through the crazy Cards Against Humanity
+        scenarios played by the RT gang and special guests Game Grumps. Like the clips
+        you heard in this video Watch all of the hilarious moments in CAH with a Rooster
+        Teeth sponsorship! On the fence No Problem! Try being a sponsor with a 30-Day
+        trial!\n\nSign up here at: http:\/\/bit.ly\/Become_A_Sponsor\n\nMade by Rooster
+        Teeth community GTA5 machinima team The Lone Few.\n\nIncludes audio from RT
+        Sponsor Cut: Cards Against Humanity #1, #8, RTX2014 &amp; RTX2015"},"slug":"lets-play-minimations-straight-outta-rt-cards-against-humanity-edition","site":"roosterTeeth","id":20615,"number":3,"length":128,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/273e701c-a2d9-420c-8186-4cd5adf55929\/tb\/2013912-1444676634634-MM_SoRT_EP03_THUMB.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/273e701c-a2d9-420c-8186-4cd5adf55929\/sm\/2013912-1444676634634-MM_SoRT_EP03_THUMB.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/273e701c-a2d9-420c-8186-4cd5adf55929\/md\/2013912-1444676634634-MM_SoRT_EP03_THUMB.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/273e701c-a2d9-420c-8186-4cd5adf55929\/original\/2013912-1444676634634-MM_SoRT_EP03_THUMB.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-cards-against-humanity-edition","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/eefdcda7-de16-42fd-8c90-ebb447c4e586\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Halo
+        Desynced - Combat Devolved","caption":"\u200bIn this installation of \"Straight
+        Outta RT\", Gavin Free and Daniel Gruchy must deal with themselves from another
+        dimension while surviving the horrors of being split apart!","sponsorOnly":false,"description":{"html":"<p>In
+        this installation of \"Straight Outta RT\", Gavin Free and Daniel Gruchy must
+        deal with themselves from another dimension while surviving the horrors of
+        being split apart! <\/p>\n\n<p>Made by Rooster Teeth community GTA5 machinima
+        team The Lone Few.<\/p>\n\n<p>Includes audio from Rooster Teeth Podcast #322.<\/p>","clean":"In
+        this installation of \"Straight Outta RT\", Gavin Free and Daniel Gruchy must
+        deal with themselves from another dimension while surviving the horrors of
+        being split apart! \n\nMade by Rooster Teeth community GTA5 machinima team
+        The Lone Few.\n\nIncludes audio from Rooster Teeth Podcast #322."},"slug":"lets-play-minimations-straight-outta-rt-halo-desynced-combat-devolved","site":"roosterTeeth","id":20396,"number":2,"length":117,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/6cd5b8dd-6b79-4b8d-add1-c3edf31f7b04\/tb\/2013912-1442250340527-MM-SoRT_e2_THUMBNAIL-LOGO.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/6cd5b8dd-6b79-4b8d-add1-c3edf31f7b04\/sm\/2013912-1442250340527-MM-SoRT_e2_THUMBNAIL-LOGO.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/6cd5b8dd-6b79-4b8d-add1-c3edf31f7b04\/md\/2013912-1442250340527-MM-SoRT_e2_THUMBNAIL-LOGO.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/6cd5b8dd-6b79-4b8d-add1-c3edf31f7b04\/original\/2013912-1442250340527-MM-SoRT_e2_THUMBNAIL-LOGO.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-halo-desynced-combat-devolved","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/e34e6a2b-2712-4ecf-9972-423c183f812d\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Grand
+        Theft of Gus'' Auto","caption":"Minimations continues, with this premiere
+        installment of \"Straight Outta RT!\"","sponsorOnly":false,"description":{"html":"<p>Minimations
+        continues, with this premiere installment of \"Straight Outta RT!\" Made by
+        Rooster Teeth community GTA5 machinima team The Lone Few, this episode showcases
+        the tale of Gus'' car getting stolen, as well as FunHaus'' Lawrence staycation
+        at an \"Air BnB.\"<\/p>\n\n<p>Includes audio from Rooster Teeth Podcast #238:
+        <a href=\"http:\/\/bit.ly\/RTP238\">http:\/\/bit.ly\/RTP238<\/a> and Dude
+        Soup #23: <a href=\"http:\/\/bit.ly\/DS23yt\">http:\/\/bit.ly\/DS23yt<\/a>  ||
+        PEOPLE LIKE GRAPES: <a href=\"http:\/\/bit.ly\/Roosterteeth\">http:\/\/bit.ly\/Roosterteeth<\/a>
+        || Join in on the conversation at: <a href=\"http:\/\/bit.ly\/roosterteethcommunity\">http:\/\/bit.ly\/roosterteethcommunity<\/a><\/p>","clean":"Minimations
+        continues, with this premiere installment of \"Straight Outta RT!\" Made by
+        Rooster Teeth community GTA5 machinima team The Lone Few, this episode showcases
+        the tale of Gus'' car getting stolen, as well as FunHaus'' Lawrence staycation
+        at an \"Air BnB.\"\n\nIncludes audio from Rooster Teeth Podcast #238: http:\/\/bit.ly\/RTP238
+        and Dude Soup #23: http:\/\/bit.ly\/DS23yt  || PEOPLE LIKE GRAPES: http:\/\/bit.ly\/Roosterteeth
+        || Join in on the conversation at: http:\/\/bit.ly\/roosterteethcommunity"},"slug":"lets-play-minimations-straight-outta-rt-grand-theft-of-gus-auto","site":"roosterTeeth","id":20147,"number":1,"length":116,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/181abcb6-c30d-4bef-a86b-1f1eebc9e627\/tb\/1461653-1439234547541-MM-SoRT_e1_THUMBNAIL-LOGO.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/181abcb6-c30d-4bef-a86b-1f1eebc9e627\/sm\/1461653-1439234547541-MM-SoRT_e1_THUMBNAIL-LOGO.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/181abcb6-c30d-4bef-a86b-1f1eebc9e627\/md\/1461653-1439234547541-MM-SoRT_e1_THUMBNAIL-LOGO.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/181abcb6-c30d-4bef-a86b-1f1eebc9e627\/original\/1461653-1439234547541-MM-SoRT_e1_THUMBNAIL-LOGO.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-grand-theft-of-gus-auto","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/eb55db52-5b00-4df6-b021-21b09799ea66\/index.m3u8"}}],"audioFiles":[],"links":[]}}]'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f50038bd7665a5-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:09 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6ImRPZFwvdXNcL01ROFgxUWdVYnB1NnVDYmcxbXpNd1FEdVlwaWJWZkltOW5XZz0iLCJ2YWx1ZSI6IkpxeEY5VmJFRHVoOFc0dnZDcGVja042WFM5OUw5UmdWQTdOMTBMTnlzd3Q0Z2M5RnpcL2w5SFZKOHhUQWVuZXlQYlJFalRGT0hxMHl5dHBSNnlhWDNwZz09IiwibWFjIjoiYjg4Nzc0OThhNWU2Y2Y2MjAyZDNiOTdkZTJlZTVjZTZlZTYxMTM0MTA0ZDNjM2Y3NzQwZGVlNTMzY2RhOTM2MyJ9;
-          expires=Fri, 12-May-2017 04:19:09 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:18 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlVvK3RuRDFUTkZjWVNCMVFFTXRldzNsUGpkQ244WXpsTnVraEVKcThiYVk9IiwidmFsdWUiOiJqbUxCY3ZkdXVtUkZGVmFaaUpnaW9Hcm5KdjM2d1dlTVdrUU15VTNNQlVxdFlubXZQVFEwN2dmcnZuMVdkMGtxaTRwanlmakluMXBYS1p2MkhKU2I2Zz09IiwibWFjIjoiZGE4MmIxNWNkZDcxNGFmOTNhOGIwZWM5YzBhMTAxODA3OWY3NzY4Y2MyMGE0MjBlYmU3M2YyNWRjNTIyMWVkNyJ9;
+          expires=Fri, 07-Sep-2018 13:45:18 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-Total-Count: ['11']
-      X-request-uri: [/api/v1/seasons/204/episodes]
+      X-request-uri: ['/api/v1/seasons/204/episodes?page=1&count=20']
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer ddW0SuU9xaODcgpbmGSUMdt1w8WX4GGvHQqBNb87]
+      Authorization: [Bearer SValFp80O3AePw4VdQido8MnihcrBE6ur0y2iswg]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d2b8016ded8201e5646aa1a5dbf548dda1486786745; rt_production_session=eyJpdiI6ImRPZFwvdXNcL01ROFgxUWdVYnB1NnVDYmcxbXpNd1FEdVlwaWJWZkltOW5XZz0iLCJ2YWx1ZSI6IkpxeEY5VmJFRHVoOFc0dnZDcGVja042WFM5OUw5UmdWQTdOMTBMTnlzd3Q0Z2M5RnpcL2w5SFZKOHhUQWVuZXlQYlJFalRGT0hxMHl5dHBSNnlhWDNwZz09IiwibWFjIjoiYjg4Nzc0OThhNWU2Y2Y2MjAyZDNiOTdkZTJlZTVjZTZlZTYxMTM0MTA0ZDNjM2Y3NzQwZGVlNTMzY2RhOTM2MyJ9]
+      Cookie: [rt_production_session=eyJpdiI6IlVvK3RuRDFUTkZjWVNCMVFFTXRldzNsUGpkQ244WXpsTnVraEVKcThiYVk9IiwidmFsdWUiOiJqbUxCY3ZkdXVtUkZGVmFaaUpnaW9Hcm5KdjM2d1dlTVdrUU15VTNNQlVxdFlubXZQVFEwN2dmcnZuMVdkMGtxaTRwanlmakluMXBYS1p2MkhKU2I2Zz09IiwibWFjIjoiZGE4MmIxNWNkZDcxNGFmOTNhOGIwZWM5YzBhMTAxODA3OWY3NzY4Y2MyMGE0MjBlYmU3M2YyNWRjNTIyMWVkNyJ9]
       User-Agent: [python-requests/2.13.0]
     method: GET
-    uri: https://roosterteeth.com/api/v1/seasons/85/episodes
+    uri: https://roosterteeth.com/api/v1/seasons/204/episodes?page=2&count=20
   response:
-    body:
-      string: !!binary |
-        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
-        0jY4Riu/AAA=
+    body: {string: '[]'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f50044482c65a5-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:10 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6ImlCQjczWHRRR2pwK29kdWFPWVgwUllVZDRSclhGdDc1VWx4eVVCOGN1RVE9IiwidmFsdWUiOiJJWElUdEp0WnBnVW9RVTdZeXIwRUdzSG9DeDltWVJtR0FOUVwveXlxbklmVERjU2N3NzY4NzJsS2ZuMVwvMDRrN2tUQTZ0ZEJBc3pMbGNDd1laaWllWEJRPT0iLCJtYWMiOiJjYzE1MDEyZDFkMjc3MDZiN2JmNTU3YzYwNzMwYmEzZmI4ODQ4MjQwNDQ1NGExYmFlMWNiZTE2NDk2Mzg1YWJjIn0%3D;
-          expires=Fri, 12-May-2017 04:19:10 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:19 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InpEOXA0NFIyUVBZS2x2a2syNkI1VDlQUXZNRTJNOTdzODFCT1lZUEM4dlU9IiwidmFsdWUiOiJDbmxQNyswTUZIWDBBcVc4Mkc0Znl0V1lqNjJkSHl0cHFRWUNWWnhBRTdPbHlxR3ZpZHJHV3JjWXVlOFNieTN5OW40aEloZ25EWFNjZG1KUVZoRFlLdz09IiwibWFjIjoiZjU3YTIyNzEwMDA5MmM1Y2VlMmQ1ZGI2NGQ1YWMyOThiYzFkZjVjODdjNWYzM2ZhZGRiMmZlNmFhMzMwYjE1YSJ9;
+          expires=Fri, 07-Sep-2018 13:45:20 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-Total-Count: ['10']
-      X-request-uri: [/api/v1/seasons/85/episodes]
+      X-Total-Count: ['11']
+      X-request-uri: ['/api/v1/seasons/204/episodes?page=2&count=20']
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer ddW0SuU9xaODcgpbmGSUMdt1w8WX4GGvHQqBNb87]
+      Authorization: [Bearer SValFp80O3AePw4VdQido8MnihcrBE6ur0y2iswg]
       Connection: [keep-alive]
-      Cookie: [__cfduid=d2b8016ded8201e5646aa1a5dbf548dda1486786745; rt_production_session=eyJpdiI6ImlCQjczWHRRR2pwK29kdWFPWVgwUllVZDRSclhGdDc1VWx4eVVCOGN1RVE9IiwidmFsdWUiOiJJWElUdEp0WnBnVW9RVTdZeXIwRUdzSG9DeDltWVJtR0FOUVwveXlxbklmVERjU2N3NzY4NzJsS2ZuMVwvMDRrN2tUQTZ0ZEJBc3pMbGNDd1laaWllWEJRPT0iLCJtYWMiOiJjYzE1MDEyZDFkMjc3MDZiN2JmNTU3YzYwNzMwYmEzZmI4ODQ4MjQwNDQ1NGExYmFlMWNiZTE2NDk2Mzg1YWJjIn0%3D]
+      Cookie: [rt_production_session=eyJpdiI6InpEOXA0NFIyUVBZS2x2a2syNkI1VDlQUXZNRTJNOTdzODFCT1lZUEM4dlU9IiwidmFsdWUiOiJDbmxQNyswTUZIWDBBcVc4Mkc0Znl0V1lqNjJkSHl0cHFRWUNWWnhBRTdPbHlxR3ZpZHJHV3JjWXVlOFNieTN5OW40aEloZ25EWFNjZG1KUVZoRFlLdz09IiwibWFjIjoiZjU3YTIyNzEwMDA5MmM1Y2VlMmQ1ZGI2NGQ1YWMyOThiYzFkZjVjODdjNWYzM2ZhZGRiMmZlNmFhMzMwYjE1YSJ9]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/85/episodes?page=1&count=20
+  response:
+    body: {string: '[{"title":"The Birds''n''Bees - Let''s Play Minimations #10","caption":"The
+        Birds''n''Bees","sponsorOnly":false,"description":{"html":"<p>In this final
+        episode, Geoff does his best \"Attack on Titan\" impression, the Hunters play
+        \"Hide the Handgrenade,\" and a couple villagers teach Ryan about the birds''n''bees.
+        The blocky, pixelated birds''n''bees...<\/p>","clean":"In this final episode,
+        Geoff does his best \"Attack on Titan\" impression, the Hunters play \"Hide
+        the Handgrenade,\" and a couple villagers teach Ryan about the birds''n''bees.
+        The blocky, pixelated birds''n''bees..."},"slug":"lets-play-minimations-season-1-lets-play-minimations-10","site":"roosterTeeth","id":11645,"number":10,"length":80,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/030a78b0-f4eb-47f2-8f1b-f1ef799bf284.jpg\/tb\/maxresdefault.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/030a78b0-f4eb-47f2-8f1b-f1ef799bf284.jpg\/sm\/maxresdefault.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/030a78b0-f4eb-47f2-8f1b-f1ef799bf284.jpg\/md\/maxresdefault.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/030a78b0-f4eb-47f2-8f1b-f1ef799bf284.jpg\/original\/maxresdefault.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-10","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/11645.mp4-7fedf18b\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Technical
+        Difficulties - Let''s Play Minimations #9","caption":"Technical Difficulties","sponsorOnly":false,"description":{"html":"<p>Geoff,
+        Ryan, Jack and the gang form their own \"Glitch Mob\" as they battle game
+        bugs.<\/p>","clean":"Geoff, Ryan, Jack and the gang form their own \"Glitch
+        Mob\" as they battle game bugs."},"slug":"lets-play-minimations-season-1-lets-play-minimations-9","site":"roosterTeeth","id":11510,"number":9,"length":91,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/07fff653-7625-4e29-8e05-36c6faeb1d4e\/tb\/ep11510.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/07fff653-7625-4e29-8e05-36c6faeb1d4e\/sm\/ep11510.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/07fff653-7625-4e29-8e05-36c6faeb1d4e\/md\/ep11510.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/07fff653-7625-4e29-8e05-36c6faeb1d4e\/original\/ep11510.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-9","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/11510.mp4-e101a0df\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Mind
+        the Gap - Let''s Play Minimations #8","caption":"Mind the Gap","sponsorOnly":false,"description":{"html":"<p>Gavin''s
+        wish is Geoff''s command.... much to Gavin''s regret. Meanwhile, Jack asks
+        \"How does cake\"<\/p>","clean":"Gavin''s wish is Geoff''s command.... much
+        to Gavin''s regret. Meanwhile, Jack asks \"How does cake\""},"slug":"lets-play-minimations-season-1-lets-play-minimations-8","site":"roosterTeeth","id":10867,"number":8,"length":76,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7ff7ca26-4609-4b0d-9e71-3ed0bd529063\/tb\/ep10867.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7ff7ca26-4609-4b0d-9e71-3ed0bd529063\/sm\/ep10867.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7ff7ca26-4609-4b0d-9e71-3ed0bd529063\/md\/ep10867.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7ff7ca26-4609-4b0d-9e71-3ed0bd529063\/original\/ep10867.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-8","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10867.mp4-a68e56ef\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Gavin
+        vs. Shelving - Let''s Play Minimations #7","caption":"Gavin vs. Shelving","sponsorOnly":false,"description":{"html":"<p>Achievement
+        Hunter takes on their ancient nemesis, gravity, as Gavin fights a bookshelf,
+        Ryan parachutes, and Geoff jumps around, jumps around, gets up, gets up and
+        gets down. RT 12th ANNIVERSARY SALE! Save 12% on your entire purchase using
+        code RT12YEARS. Hurry... ends April 12th! <a href=\"http:\/\/bit.ly\/1OWSBLe\">http:\/\/bit.ly\/1OWSBLe<\/a><\/p>","clean":"Achievement
+        Hunter takes on their ancient nemesis, gravity, as Gavin fights a bookshelf,
+        Ryan parachutes, and Geoff jumps around, jumps around, gets up, gets up and
+        gets down. RT 12th ANNIVERSARY SALE! Save 12% on your entire purchase using
+        code RT12YEARS. Hurry... ends April 12th! http:\/\/bit.ly\/1OWSBLe"},"slug":"lets-play-minimations-season-1-lets-play-minimations-7","site":"roosterTeeth","id":10621,"number":7,"length":106,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f5f92558-4df3-4ea2-86bb-ab88f538d70c\/tb\/ep10621.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f5f92558-4df3-4ea2-86bb-ab88f538d70c\/sm\/ep10621.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f5f92558-4df3-4ea2-86bb-ab88f538d70c\/md\/ep10621.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f5f92558-4df3-4ea2-86bb-ab88f538d70c\/original\/ep10621.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-7","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10621.mp4-e0c26105\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Gavin
+        vs. Ryan - Let''s Play Minimations #6","caption":"Gavin vs. Ryan","sponsorOnly":false,"description":{"html":"<p>Two
+        moments from Minecraft Let''s Plays of Gavin killing Ryan and Ryan killing
+        Gavin. Can''t we all just get a long Gavin kills the king, but Ryan doesn''t
+        \"miss\" an opportunity to get even.<\/p>","clean":"Two moments from Minecraft
+        Let''s Plays of Gavin killing Ryan and Ryan killing Gavin. Can''t we all just
+        get a long Gavin kills the king, but Ryan doesn''t \"miss\" an opportunity
+        to get even."},"slug":"lets-play-minimations-season-1-lets-play-minimations-6","site":"roosterTeeth","id":10497,"number":6,"length":83,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7611b774-78d3-432e-9146-1c1c29a08289\/tb\/ep10497.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7611b774-78d3-432e-9146-1c1c29a08289\/sm\/ep10497.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7611b774-78d3-432e-9146-1c1c29a08289\/md\/ep10497.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/7611b774-78d3-432e-9146-1c1c29a08289\/original\/ep10497.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-6","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10497.mp4-4fe6ef68\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Friendly?
+        Friendly - Let''s Play Minimations #5","caption":"Friendly? Friendly","sponsorOnly":false,"description":{"html":"<p>Ryan
+        gives Gavin a friendly greeting. Later, Jack makes an alliance with Gavin
+        which Ryan quickly cuts short.\n<\/p>","clean":"Ryan gives Gavin a friendly
+        greeting. Later, Jack makes an alliance with Gavin which Ryan quickly cuts
+        short.\n"},"slug":"lets-play-minimations-season-1-lets-play-minimations-5","site":"roosterTeeth","id":10374,"number":5,"length":85,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b8232638-8566-4299-b370-a8883fa3f3c2\/tb\/ep10374.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b8232638-8566-4299-b370-a8883fa3f3c2\/sm\/ep10374.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b8232638-8566-4299-b370-a8883fa3f3c2\/md\/ep10374.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b8232638-8566-4299-b370-a8883fa3f3c2\/original\/ep10374.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-5","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10374.mp4-2e1d42a0\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Cake
+        and Death - Let''s Play Minimations #4","caption":"Cake and Death","sponsorOnly":false,"description":{"html":"<p>The
+        AH lads and gents learn how deadly eating cake can be.<\/p>","clean":"The
+        AH lads and gents learn how deadly eating cake can be."},"slug":"lets-play-minimations-season-1-lets-play-minimations-4","site":"roosterTeeth","id":10279,"number":4,"length":71,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9f12710d-1f9e-4143-8701-196c7705a981\/tb\/ep10279.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9f12710d-1f9e-4143-8701-196c7705a981\/sm\/ep10279.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9f12710d-1f9e-4143-8701-196c7705a981\/md\/ep10279.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9f12710d-1f9e-4143-8701-196c7705a981\/original\/ep10279.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-4","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10279.mp4-8b16d50a\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Bananigans
+        - Let''s Play Minimations #3","caption":"Bananigans","sponsorOnly":false,"description":{"html":"<p>In
+        this let''s play minimation, the gang is on the look out for a British banana
+        on the run!<\/p>\n\n<p>Lets Play - Prop Hunt Part 1\n<\/p>","clean":"In this
+        let''s play minimation, the gang is on the look out for a British banana on
+        the run!\n\nLets Play - Prop Hunt Part 1\n"},"slug":"lets-play-minimations-season-1-lets-play-minimations-3","site":"roosterTeeth","id":10130,"number":3,"length":71,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f88f1879-7409-484e-8ab1-c8c07ebd6ceb\/tb\/ep10130.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f88f1879-7409-484e-8ab1-c8c07ebd6ceb\/sm\/ep10130.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f88f1879-7409-484e-8ab1-c8c07ebd6ceb\/md\/ep10130.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f88f1879-7409-484e-8ab1-c8c07ebd6ceb\/original\/ep10130.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-3","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10130.mp4-692da352\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Destiny
+        Calls - Let''s Play Minimations #2","caption":"Destiny Calls","sponsorOnly":false,"description":{"html":"<p>The
+        fun never ends in Let''s Play Minimations #2! This time, Ray does some spins,
+        Michael throws an ill-advised grenade, and Gavin wastes his golden gun.<\/p>","clean":"The
+        fun never ends in Let''s Play Minimations #2! This time, Ray does some spins,
+        Michael throws an ill-advised grenade, and Gavin wastes his golden gun."},"slug":"lets-play-minimations-season-1-lets-play-minimations-2","site":"roosterTeeth","id":9978,"number":2,"length":91,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0a9f998c-a8b4-4fb6-9f72-8ff4eb507ba2\/tb\/ep9978.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0a9f998c-a8b4-4fb6-9f72-8ff4eb507ba2\/sm\/ep9978.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0a9f998c-a8b4-4fb6-9f72-8ff4eb507ba2\/md\/ep9978.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/0a9f998c-a8b4-4fb6-9f72-8ff4eb507ba2\/original\/ep9978.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-2","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/9978.mp4-a3852c61\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Capture
+        the Flag Shenanigans - Let''s Play Minimations #1","caption":"Capture the
+        Flag Shenanigans","sponsorOnly":false,"description":{"html":"<p>The Lads and
+        Gents face off in a game of CTF, and hilarity ensues. Check out Let''s Play
+        Minecraft #117: <a href=\"http:\/\/bit.ly\/1qxOZ35\">http:\/\/bit.ly\/1qxOZ35<\/a><\/p>","clean":"The
+        Lads and Gents face off in a game of CTF, and hilarity ensues. Check out Let''s
+        Play Minecraft #117: http:\/\/bit.ly\/1qxOZ35"},"slug":"lets-play-minimations-season-1-lets-play-minimations-1","site":"roosterTeeth","id":9790,"number":1,"length":94,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ae9ec2a5-bc77-49b9-aa6d-50830444cece\/tb\/ep9790.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ae9ec2a5-bc77-49b9-aa6d-50830444cece\/sm\/ep9790.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ae9ec2a5-bc77-49b9-aa6d-50830444cece\/md\/ep9790.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ae9ec2a5-bc77-49b9-aa6d-50830444cece\/original\/ep9790.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-1","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/9790.mp4-fca88aef\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 09 Jun 2018 13:45:20 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ik5IalJhSkltaEVEbmVzWHZSUTR2WDc3VklvRFBlV0d4bW04TjV2R29Ealk9IiwidmFsdWUiOiJFcnVSZ1R3bW02NHBcL3oxajBTYm9QUGFOblFMbDJLaHY2dUJUcUl3YkhYM0NHeVEyT2FQcTVnSGdScGJXekZseWpYbTU4OXk4bFJxWE0xZlwvVkZSNWV3PT0iLCJtYWMiOiJkNGYzOTJkZmY4NGVjYmFjZGRlOTVmYmZkN2QxNGZjYjA4ZTFkOWY0N2M3ZmI2NjIxMDNkZWI4M2IzODg0ZDg1In0%3D;
+          expires=Fri, 07-Sep-2018 13:45:20 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['10']
+      X-request-uri: ['/api/v1/seasons/85/episodes?page=1&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer SValFp80O3AePw4VdQido8MnihcrBE6ur0y2iswg]
+      Connection: [keep-alive]
+      Cookie: [rt_production_session=eyJpdiI6Ik5IalJhSkltaEVEbmVzWHZSUTR2WDc3VklvRFBlV0d4bW04TjV2R29Ealk9IiwidmFsdWUiOiJFcnVSZ1R3bW02NHBcL3oxajBTYm9QUGFOblFMbDJLaHY2dUJUcUl3YkhYM0NHeVEyT2FQcTVnSGdScGJXekZseWpYbTU4OXk4bFJxWE0xZlwvVkZSNWV3PT0iLCJtYWMiOiJkNGYzOTJkZmY4NGVjYmFjZGRlOTVmYmZkN2QxNGZjYjA4ZTFkOWY0N2M3ZmI2NjIxMDNkZWI4M2IzODg0ZDg1In0%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/85/episodes?page=2&count=20
+  response:
+    body: {string: '[]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 09 Jun 2018 13:45:20 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImdoTmdhY09EXC91UFA2dkNPWGFFQVJDbDRydVwvZ3Z5UHNDMDBcL29DVWJaUk09IiwidmFsdWUiOiJkMmpJWWFlTXhcL0pmVk96STJvUGkyMU9LMU9XTW9KeWhhN1VQQVloTENsTEVkWXV1Vnp1a2lWdUcwbHJQekVPeXhDNkMySkNROWlVczZENXhpSTdNVmc9PSIsIm1hYyI6IjYyMmU3N2NkN2JiMTRkZGFiNmFkNDI0YzNmMzk3MjNmY2JkMWQ2YTQ5ZWQ5MjRmMDIxYTlkZDcwNmU0M2NkNWEifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:45:20 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['10']
+      X-request-uri: ['/api/v1/seasons/85/episodes?page=2&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer SValFp80O3AePw4VdQido8MnihcrBE6ur0y2iswg]
+      Connection: [keep-alive]
+      Cookie: [rt_production_session=eyJpdiI6ImdoTmdhY09EXC91UFA2dkNPWGFFQVJDbDRydVwvZ3Z5UHNDMDBcL29DVWJaUk09IiwidmFsdWUiOiJkMmpJWWFlTXhcL0pmVk96STJvUGkyMU9LMU9XTW9KeWhhN1VQQVloTENsTEVkWXV1Vnp1a2lWdUcwbHJQekVPeXhDNkMySkNROWlVczZENXhpSTdNVmc9PSIsIm1hYyI6IjYyMmU3N2NkN2JiMTRkZGFiNmFkNDI0YzNmMzk3MjNmY2JkMWQ2YTQ5ZWQ5MjRmMDIxYTlkZDcwNmU0M2NkNWEifQ%3D%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/episodes/28661
   response:
-    body:
-      string: !!binary |
-        H4sIAAAAAAAAA+yYXW/bNhSG/wrLXexGtERRkmUjC5C26AfQrkXjXk1FQJHHNjeKFEgqnlv4vw+U
-        03y0wOB0RtaL3Fmkffj48H3PofgFBxU04Dl+DsIaH9wggrIGPXOwwQkWvI+PeI5fh1896iBwjfiK
-        K+PD1ZMyiBvEtSZ2CKgdtJb2MzgkobNajcEkuHb7BL0cfIKeDs4oSNBLfqlMgriR6KnmygDaqGDA
-        exTWgO6wLGGQyC73E2DC4LZPcIJ9b4237p3RWzxfcu0hwRK8cOqK+Qteh07jOT7pT38y/JMm7U8b
-        05iT/vQtl4Da7Tj/wVofwKEFQFgjYbtuMCps0cvFWYk6LtbKqI6jALybo8Ua0BtrAL2AzeR2xLNB
-        KouWznbohKO1g+VvDV6H0M+btEndfo0Ql5gI2zUp9MpbCU3qAumtFNwHkme0ImzKGny6+A7s/f5L
-        6Bc2ZSdNyk/H1aNeNPCfUC0xL8dJc4x0K73/nhq8S7DXwwrPsYbgSa/5lnRj7IjqiQ+Oq9U6xGQE
-        Tlwg8o4Nidjb0KsQPXq1c+NCOMFK4nleVxVNsBm6FhyeU5pgDWYV1nhOWZ3g3tml0vBeiTA4iJ4I
-        2z7G6q9GEiysCWDCONfi+Y1QPJvwjn+2hm/8XihCmsn38hl6bbn0Tao6vgLfpGUFNWQtJyBKToop
-        zQifFiWhWc7FrC1kJssmDW2T5hllM5oTWlRlXRSzKZvWFTm3HxYXlF4sXn18+/T3s9dvJn/2q5iG
-        7gHxfHdfvE4+IF4n74unVw+IZ51aKcP1/SB30TBru4laNLyLOn17Y5eogKHruNvere2v1Gqto438
-        3pTedhArwNYODi35pXUqAHoDsSa913zrE2TsBrHniI+xQT75tn4dIWQ0f3RomV8Xge7ufwHurXlm
-        h+i9PPrwEtzDGjUXom7zfEmqMhOkWJaccFYAaVtR1lK0M1Yt90alRUWrkhFasBnLymnFZjkjtzbn
-        4lwFuHgFXIKb9OaIdj0MMtr1RyCPZNrDIKNpfwTySNY9DPLGuvdHjQb+X1qOLNtKcDojZbWsScFb
-        StpCclLzGWNlzUQxZXslz+oim00JLQrKKKtoNa0K8tGM52BJ6HG1exhW1O5hWEdS62FYUa2HYR1J
-        n4dh3ejzELioSMGNNUpw/dHp26DfI8Xm06S36/Tua6EexXr1snR+dW5D7+K5DX1Y4G9ePfDX41lW
-        3BzO8vueBvFjN3zsho/d8LEbPnbDx274c3TDe/3++l7pv91+dCAVj+64VBKsx/M/rk00jnxjof2M
-        kAYneLiLuOnFhE6r8mwS+BC3wUBo0jobx5p0jHZrJ/brNWnBJONQVYRmgpGCSkrqepmRqsjaOs9n
-        ouBVkyoj4e9Jx4Ya73afEszjNdELpSESf0qwVuav8eNu9w8AAAD//wMA8ERmw3cVAAA=
+    body: {string: '{"title":"Deconstruction Crew","caption":"It''s metal against
+        metal in an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine
+        witness the construction feud of the century!","sponsorOnly":false,"description":{"html":"<p>It''s
+        metal against metal in an all-out bulldozer demolition derby! Gus, Burnie,
+        Gavin, and Blaine witness the construction feud of the century!<\/p>\n\n<p>Made
+        by the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Audio
+        from <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-373\">The
+        Rooster Teeth Podcast #373<\/a><\/p>","clean":"It''s metal against metal in
+        an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine witness
+        the construction feud of the century!\n\nMade by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.\n\nAudio from The Rooster Teeth Podcast
+        #373"},"slug":"lets-play-minimations-straight-outta-rt-deconstruction-crew","site":"roosterTeeth","id":28661,"number":11,"length":138,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/tb\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/sm\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/md\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/original\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg"}},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/generic_rt_cover.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/generic_rt_cover.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/generic_rt_cover.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/generic_rt_cover.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/tb\/MinimationsSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/sm\/MinimationsSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/md\/MinimationsSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-deconstruction-crew","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/43d3ae66-10c3-41d1-88f0-640b8229c4a6\/index.m3u8"}}],"audioFiles":[],"links":[]}}'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [32f5004b8a4265a5-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 11 Feb 2017 04:19:11 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6IkNuZ2JhazEwTFg5NDRuZ1ArV3NPQmIzTk9xWTJcL01oWjI5QjBhYitkWUpBPSIsInZhbHVlIjoiSDVjeTdqRUNpZGVna1dRYmx3TkFGZ1JOSFQ2RXZoK1wvc3V5anBNOERkRlpYVDRhNTN5cEJMOFZBQ2tpVkhHXC9remtnazJBa2dhUWdiNjZJVzJZWWU3QT09IiwibWFjIjoiNDU1MTM5YTA2OGFmODdmNDRiZWQxYTM4NWVkNDZjOWJhZTQwY2IxMmRhYjg0YWU4Njg5YjQ3ODJmZjcyNjhjZCJ9;
-          expires=Fri, 12-May-2017 04:19:11 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:20 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImxYNk5VVnJhNWNLV09FU2JWYjlFN01pQmtxMHEzdmxCM1VHT1c5WlBVbWc9IiwidmFsdWUiOiIyWmFtcDJDYURTXC9mcThJNFFYVXArZFNsUWVqeGVyMDVBOU95UmZCS3VGV21xMUZpV2hXRVZMVmtkcVVYNlRUM29zQW5EZW5qODFUMzlUMit1S0l1R2c9PSIsIm1hYyI6ImY2MDg5YjI3NGJhYTA2Y2YwMzlhZWU2NzE2YzM0ODlhNTViYTNhYmQ2YmZjOWYwOWQ1MDc4YWVjZWJhMzlhZjIifQ%3D%3D;
+          expires=Fri, 07-Sep-2018 13:45:21 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
       X-request-uri: [/api/v1/episodes/28661]
     status: {code: 200, message: OK}

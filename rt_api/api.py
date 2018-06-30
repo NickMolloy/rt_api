@@ -34,7 +34,7 @@ CLIENT_SECRET = "oW3CtlpnXRznUUiWLXzmaIQryFBfGmNt"
 
 
 def authenticated(func):
-    """Decorator for methods that make api calls that need authentication.
+    """Decorate methods that make api calls that need authentication.
 
     This decorator will ensure that methods that need authentication will
     only be called if the api instance is authenticated.
@@ -318,7 +318,10 @@ class Api(object):
             list: A list of :class:`~rt_api.models.Episode` objects.
 
         """
-        return self.__get_multiple(models.Episode, "seasons/{0}/episodes".format(season_id))
+        res = []
+        for episode in self.__pager(models.Episode, "seasons/{0}/episodes".format(season_id), count=20, page=1):
+            res.append(episode)
+        return res
 
     def show_seasons(self, show_id):
         """Get the seasons belonging to show with specified ID.

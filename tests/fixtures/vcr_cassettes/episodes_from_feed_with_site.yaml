@@ -4,266 +4,462 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
-      Authorization: [Bearer 16XNakD5KhUEfW0Vid7g5ipliulr1O8PMewG08sD]
+      Authorization: [Bearer W5XHP3xT7y4EdsX05hjc0Wz3syoJaV9tAjS2PLiV]
       Connection: [keep-alive]
-      Cookie: [__cfduid=db2194a93ee42c30ea29988e7f16d3b5f1487400256; rt_production_session=eyJpdiI6IldFMGIwRmdQdVZpZzNKajVrZWpHZnJ4R3pEWkdNZ3lhK1N5M0pcL1hlRkJNPSIsInZhbHVlIjoiajZ3Uk9TR3E1WW83Z2hzV0l0UkRUQzluamJLWDFFSGM3WjRcL0ZDdDBERXBnOTgxdkRibTlqYXVtXC9pM0ZRR09FcW5mZjVHeXdWMGFIeUwzSFwvcWNvS0E9PSIsIm1hYyI6IjU0MzY2ZDY1MjhlN2IxNzA4ZjE1NzY1NWVhYzFmOTk5ZmFiNTA1MWJhOWViOGZiYmM3MWE5M2QxNTEwMDJiOTQifQ%3D%3D]
+      Cookie: [rt_production_session=eyJpdiI6ImJ0dElIdngyMVdVM2RDXC9FNFhCR0c4OTNqQ1h6MVBDUEQ4ZUdYSnYxMWg0PSIsInZhbHVlIjoia3JWakU1RTNvU2IweGl6MjlSSmhyUVd6RHUxNnhGdUJCY3VBWkJtWHFjcHdreFwvcVNVRTFDUEFpaWFVeGViRlFZbkhOQk1TYWdQaGRYM2pHNzl2eWl3PT0iLCJtYWMiOiI2MzUyNWNkNjQ4N2EwNmEyNzI3Y2M5ZmM4ZjA2NjU0ODc2M2U3NWFiNTc0ZmZkZjNhZTk3NjVkZWY5YWYxNWM3In0%3D]
       User-Agent: [python-requests/2.13.0]
     method: GET
     uri: https://roosterteeth.com/api/v1/feed/?page=1&count=20&type=Episode&site=funhaus
   response:
-    body:
-      string: !!binary |
-        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
+    body: {string: '[{"type":"Episode","item":{"title":"The Pilgrim''s Progress Gameplay","caption":"","sponsorOnly":true,"description":{"html":"<p>Religion''s
+        the name of the game, so get ready for the headiest of Fullhauses!<\/p>","clean":"Religion''s
+        the name of the game, so get ready for the headiest of Fullhauses!"},"slug":"fullhaus-2018-the-pilgrim-s-progress-gameplay","site":"funhaus","id":37686,"number":50,"length":3656,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c28a7f14-5745-4622-a74b-1c7f2e96729e.jpg\/tb\/fullhauspilgrims.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c28a7f14-5745-4622-a74b-1c7f2e96729e.jpg\/sm\/fullhauspilgrims.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c28a7f14-5745-4622-a74b-1c7f2e96729e.jpg\/md\/fullhauspilgrims.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c28a7f14-5745-4622-a74b-1c7f2e96729e.jpg\/original\/fullhauspilgrims.jpg"}},"show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"},"season":{"title":"2018","description":"","id":645,"number":3,"slug":"fullhaus-2018","show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/fullhaus-2018-the-pilgrim-s-progress-gameplay"}},{"type":"Episode","item":{"title":"AMBER
+        ROSE VS RWBY ROSE - Google Trends Show","caption":"\"Women hate women.\"","sponsorOnly":false,"description":{"html":"<p>Wanna
+        save money on the things you already buy? Get online coupon codes automatically
+        when you download HONEY at http:\/\/www.joinhoney.com\/trends <\/p>\n\n<p>I
+        also have a hot, shapely muse who inspires everything I create here at Funhaus.
+        His name is Jacob Fullerton. And in addition to that rump, he''s got a full
+        head of hair.<\/p>\n\n<p>Follow us on Twitter: \nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttp:\/\/twitter.com\/elysewillems\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Wanna
+        save money on the things you already buy? Get online coupon codes automatically
+        when you download HONEY at http:\/\/www.joinhoney.com\/trends \n\nI also have
+        a hot, shapely muse who inspires everything I create here at Funhaus. His
+        name is Jacob Fullerton. And in addition to that rump, he''s got a full head
+        of hair.\n\nFollow us on Twitter: \nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttp:\/\/twitter.com\/elysewillems\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-trendsrwby","site":"funhaus","id":37685,"number":124,"length":1806,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4819251e-df97-4797-974e-368e462bd0a0.png\/tb\/rwby.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4819251e-df97-4797-974e-368e462bd0a0.png\/sm\/rwby.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4819251e-df97-4797-974e-368e462bd0a0.png\/md\/rwby.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4819251e-df97-4797-974e-368e462bd0a0.png\/original\/rwby.png"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-trendsrwby","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/a6681547f52b9b797608e7ba12059ff2-605fe243\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"DYSFUNCTIONAL
+        FAMILY - Overwatch Gameplay w\/ Let''s Play","caption":"\"I hate this mouse!\"","sponsorOnly":false,"description":{"html":"<p>I
+        will give anyone out there a shiny new buffalo nickel if you can provide me
+        with video evidence that Adam has ever shown joy while playing this game.<\/p>\n\n<p>Follow
+        us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttps:\/\/twitter.com\/CrikMaster\nhttps:\/\/twitter.com\/ChilledChaos\nhttps:\/\/twitter.com\/JTMusicTeam\nhttps:\/\/twitter.com\/ZeRoyalViking\nhttps:\/\/twitter.com\/ShaunBolen<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"I
+        will give anyone out there a shiny new buffalo nickel if you can provide me
+        with video evidence that Adam has ever shown joy while playing this game.\n\nFollow
+        us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttps:\/\/twitter.com\/CrikMaster\nhttps:\/\/twitter.com\/ChilledChaos\nhttps:\/\/twitter.com\/JTMusicTeam\nhttps:\/\/twitter.com\/ZeRoyalViking\nhttps:\/\/twitter.com\/ShaunBolen\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-owlp","site":"funhaus","id":37666,"number":121,"length":1141,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d8be64a1-4071-4905-b602-ca9f9ca27e37.png\/tb\/owlp.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d8be64a1-4071-4905-b602-ca9f9ca27e37.png\/sm\/owlp.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d8be64a1-4071-4905-b602-ca9f9ca27e37.png\/md\/owlp.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/d8be64a1-4071-4905-b602-ca9f9ca27e37.png\/original\/owlp.png"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-owlp","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/522a8d7ffeaf56799049813af5d72047-90e5aeca\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"NO
+        TURNING BACK - Beware Gameplay","caption":"\"Don''t go in Bruce''s mudhole.\"","sponsorOnly":false,"description":{"html":"<p>Wait.
+        This Russian Horror\/Driving Sim gameplay has references to Robert Frost,
+        \"A Goofy Movie\", AND the 1996 Travolta vehicle \"Phenomenon\"? Please, millenials,
+        one at a time. We don''t want you to crash the website.<\/p>\n\n<p>Follow
+        us on Twitter:\nhttp:\/\/twitter.com\/elysewillems\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/adamkovic<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Wait.
+        This Russian Horror\/Driving Sim gameplay has references to Robert Frost,
+        \"A Goofy Movie\", AND the 1996 Travolta vehicle \"Phenomenon\"? Please, millenials,
+        one at a time. We don''t want you to crash the website.\n\nFollow us on Twitter:\nhttp:\/\/twitter.com\/elysewillems\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/adamkovic\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-beware","site":"funhaus","id":37668,"number":122,"length":809,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/89aa985f-cbb2-4726-9598-4e49976ddc62.png\/tb\/beware.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/89aa985f-cbb2-4726-9598-4e49976ddc62.png\/sm\/beware.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/89aa985f-cbb2-4726-9598-4e49976ddc62.png\/md\/beware.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/89aa985f-cbb2-4726-9598-4e49976ddc62.png\/original\/beware.png"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-beware","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/d7dd11e7eb8896d8acabb0bf743cf35e-9a5c68d0\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"Funhaus
+        TV - Drunk Souls Remastered","caption":"","sponsorOnly":false,"description":{"html":"<p>Drunk
+        Souls is back, and we get as close to beating the game as ever! Stay ''til
+        the end for some good old-fashioned roughhousing and mouth to mouth string
+        cheese transfers.<\/p>","clean":"Drunk Souls is back, and we get as close
+        to beating the game as ever! Stay ''til the end for some good old-fashioned
+        roughhousing and mouth to mouth string cheese transfers."},"slug":"fullhaus-2018-funhaus-tv-drunk-souls-remastered","site":"funhaus","id":37630,"number":47,"length":9762,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e25f4b01-085d-42cc-bb4b-479bbaa42cf4.jpg\/tb\/fhtvdarksouls.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e25f4b01-085d-42cc-bb4b-479bbaa42cf4.jpg\/sm\/fhtvdarksouls.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e25f4b01-085d-42cc-bb4b-479bbaa42cf4.jpg\/md\/fhtvdarksouls.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/e25f4b01-085d-42cc-bb4b-479bbaa42cf4.jpg\/original\/fhtvdarksouls.jpg"}},"show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"},"season":{"title":"2018","description":"","id":645,"number":3,"slug":"fullhaus-2018","show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/fullhaus-2018-funhaus-tv-drunk-souls-remastered","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/61ab11b462a80352792dda518fc0a42a-e82a1900\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"WE
+        ARE EARTHY","caption":"","sponsorOnly":true,"description":{"html":"<p>All
+        new fan art, comments, and questions just for you Rooster Teeth First Members!<\/p>","clean":"All
+        new fan art, comments, and questions just for you Rooster Teeth First Members!"},"slug":"dude-soup-post-show-2018-ps177","site":"funhaus","id":37656,"number":177,"length":2689,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/884332e5-2c3f-4923-a602-3c6436869ade.png\/tb\/ps177thumb.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/884332e5-2c3f-4923-a602-3c6436869ade.png\/sm\/ps177thumb.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/884332e5-2c3f-4923-a602-3c6436869ade.png\/md\/ps177thumb.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/884332e5-2c3f-4923-a602-3c6436869ade.png\/original\/ps177thumb.png"}},"show":{"name":"Dude
+        Soup Post Show","summary":{"html":"<p>DaVinci. Michaelangelo. Monet. Some
+        dude on Reddit. These are the greatest artists of all time, and we highlight
+        the very best fan art our community produces every week. Submit your art to
+        our subreddit at reddit.com\/r\/funhaus.<\/p>","clean":"DaVinci. Michaelangelo.
+        Monet. Some dude on Reddit. These are the greatest artists of all time, and
+        we highlight the very best fan art our community produces every week. Submit
+        your art to our subreddit at reddit.com\/r\/funhaus."},"id":69,"slug":"fan-show","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/tb\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/sm\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/md\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/original\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/tb\/DudeSoupPostShowSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/sm\/DudeSoupPostShowSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/md\/DudeSoupPostShowSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/original\/DudeSoupPostShowSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fan-show"},"season":{"title":"2018","description":"","id":663,"number":4,"slug":"dude-soup-post-show-2018","show":{"name":"Dude
+        Soup Post Show","summary":{"html":"<p>DaVinci. Michaelangelo. Monet. Some
+        dude on Reddit. These are the greatest artists of all time, and we highlight
+        the very best fan art our community produces every week. Submit your art to
+        our subreddit at reddit.com\/r\/funhaus.<\/p>","clean":"DaVinci. Michaelangelo.
+        Monet. Some dude on Reddit. These are the greatest artists of all time, and
+        we highlight the very best fan art our community produces every week. Submit
+        your art to our subreddit at reddit.com\/r\/funhaus."},"id":69,"slug":"fan-show","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/tb\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/sm\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/md\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/9ce5d311-8af8-47fc-9165-b5269d72d5ca\/original\/1788482-1479403629622-RT_Site_Hero_Post_Show.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/tb\/DudeSoupPostShowSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/sm\/DudeSoupPostShowSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/md\/DudeSoupPostShowSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1ad3c652-7214-4f1b-ba65-aa85e764c93b.jpg\/original\/DudeSoupPostShowSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fan-show"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/dude-soup-post-show-2018-ps177"}},{"type":"Episode","item":{"title":"FALLOUT
+        76 - WHAT IS VAULT 76? - DUDE SOUP PODCAST #177","caption":"\"You''re my transforming
+        horse.\"","sponsorOnly":false,"description":{"html":"<p>Get a free audiobook
+        with a 30 day free trial at http:\/\/www.audible.com\/DUDESOUP or text DUDESOUP
+        to 500-500.\nGet a free trial membership to Beach Body on Demand when you
+        text Dude to 303030.\nGet the Dollar Shave Club Daily Essentials Starter Set
+        for just five bucks at http:\/\/www.DollarShaveClub.com\/DUDE.<\/p>\n\n<p>This
+        week, Lawrence and the boys discuss every damn little thing in that mysterious
+        new Fallout 76 trailer as well as:\n7:30 - What we know about the game.\n32:35
+        - What we hope the game has in store for us.\n53:00 - Larr Gets Pissed: Red
+        Dead Redemption 2 Edition!\n1:04:40 - Cyberwatch 2077\n1:18:15 - Hard Nettin''.<\/p>\n\n<p>Follow
+        us on Twitter:\nhttp:\/\/twitter.com\/sirlarr\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttps:\/\/twitter.com\/_JacobFullerton<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>\n\n<p>DRUNK
+        E3 STARTS JUNE 9! Schedule &amp; links: https:\/\/roosterteeth.com\/post\/51742614<\/p>\n\n<p>SOURCES:\n[Fallout
+        Wikia] Vault 76: http:\/\/fallout.wikia.com\/wiki\/Vault_76\n[Kotaku] Sources:
+        Fallout 76 Is An Online Survival RPG: https:\/\/goo.gl\/NPsKZp\n[Rockstar]
+        The Red Dead Redemption 2: Special Edition, Ultimate Edition, and Collector''s
+        Box: https:\/\/goo.gl\/aDZERW\n[PlayStation Store] Red Dead Redemption 2:
+        Ultimate Edition: https:\/\/goo.gl\/Tr167G<\/p>\n\n<p>CYBERWATCH:\n[Alt\/Char]
+        CD Projekt Red will show Cyberpunk 2077 gameplay trailer on E3: https:\/\/goo.gl\/46XMwQ<\/p>\n\n<p>HARD
+        NETTIN:\nKlance14: https:\/\/goo.gl\/P6CRRH\nIf WisheRs Were Horses: https:\/\/goo.gl\/JvAL38<\/p>","clean":"Get
+        a free audiobook with a 30 day free trial at http:\/\/www.audible.com\/DUDESOUP
+        or text DUDESOUP to 500-500.\nGet a free trial membership to Beach Body on
+        Demand when you text Dude to 303030.\nGet the Dollar Shave Club Daily Essentials
+        Starter Set for just five bucks at http:\/\/www.DollarShaveClub.com\/DUDE.\n\nThis
+        week, Lawrence and the boys discuss every damn little thing in that mysterious
+        new Fallout 76 trailer as well as:\n7:30 - What we know about the game.\n32:35
+        - What we hope the game has in store for us.\n53:00 - Larr Gets Pissed: Red
+        Dead Redemption 2 Edition!\n1:04:40 - Cyberwatch 2077\n1:18:15 - Hard Nettin''.\n\nFollow
+        us on Twitter:\nhttp:\/\/twitter.com\/sirlarr\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttps:\/\/twitter.com\/_JacobFullerton\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus\n\nDRUNK E3
+        STARTS JUNE 9! Schedule &amp; links: https:\/\/roosterteeth.com\/post\/51742614\n\nSOURCES:\n[Fallout
+        Wikia] Vault 76: http:\/\/fallout.wikia.com\/wiki\/Vault_76\n[Kotaku] Sources:
+        Fallout 76 Is An Online Survival RPG: https:\/\/goo.gl\/NPsKZp\n[Rockstar]
+        The Red Dead Redemption 2: Special Edition, Ultimate Edition, and Collector''s
+        Box: https:\/\/goo.gl\/aDZERW\n[PlayStation Store] Red Dead Redemption 2:
+        Ultimate Edition: https:\/\/goo.gl\/Tr167G\n\nCYBERWATCH:\n[Alt\/Char] CD
+        Projekt Red will show Cyberpunk 2077 gameplay trailer on E3: https:\/\/goo.gl\/46XMwQ\n\nHARD
+        NETTIN:\nKlance14: https:\/\/goo.gl\/P6CRRH\nIf WisheRs Were Horses: https:\/\/goo.gl\/JvAL38"},"slug":"dude-soup-2018-ds177","site":"funhaus","id":37655,"number":177,"length":5304,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4b4c0b7c-18bc-46ba-81d9-74247e7bd385.png\/tb\/fall.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4b4c0b7c-18bc-46ba-81d9-74247e7bd385.png\/sm\/fall.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4b4c0b7c-18bc-46ba-81d9-74247e7bd385.png\/md\/fall.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/4b4c0b7c-18bc-46ba-81d9-74247e7bd385.png\/original\/fall.png"}},"show":{"name":"Dude
+        Soup","summary":{"html":"<p>Jump in the Dude Soup -- all the gaming, nerd
+        culture, and meat-packing industry commentary you can handle.<\/p>","clean":"Jump
+        in the Dude Soup -- all the gaming, nerd culture, and meat-packing industry
+        commentary you can handle."},"id":64,"slug":"dude-soup","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/tb\/1788482-1483655574455-RT_Show_Hero_copy.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/sm\/1788482-1483655574455-RT_Show_Hero_copy.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/md\/1788482-1483655574455-RT_Show_Hero_copy.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/original\/1788482-1483655574455-RT_Show_Hero_copy.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/tb\/DudeSoupSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/sm\/DudeSoupSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/md\/DudeSoupSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/original\/DudeSoupSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/dude-soup"},"season":{"title":"2018","description":"","id":662,"number":4,"slug":"dude-soup-2018","show":{"name":"Dude
+        Soup","summary":{"html":"<p>Jump in the Dude Soup -- all the gaming, nerd
+        culture, and meat-packing industry commentary you can handle.<\/p>","clean":"Jump
+        in the Dude Soup -- all the gaming, nerd culture, and meat-packing industry
+        commentary you can handle."},"id":64,"slug":"dude-soup","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/tb\/1788482-1483655574455-RT_Show_Hero_copy.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/sm\/1788482-1483655574455-RT_Show_Hero_copy.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/md\/1788482-1483655574455-RT_Show_Hero_copy.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/original\/1788482-1483655574455-RT_Show_Hero_copy.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/tb\/DudeSoupSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/sm\/DudeSoupSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/md\/DudeSoupSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/original\/DudeSoupSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/dude-soup"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/dude-soup-2018-ds177","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/beba92dd2f2a19e9c6a9b1e588a8933a-229c1385\/ts\/index.m3u8"}}],"audioFiles":[{"type":"audio","content":{"mp3":"http:\/\/traffic.libsyn.com\/rtpodcast\/20180605DSaudio.mp3"}}],"links":[]}}},{"type":"Episode","item":{"title":"Hitman:
+        Contracts Gameplay Part 10","caption":"","sponsorOnly":true,"description":{"html":"<p>The
+        end is nigh! It''s super climactic. Seriously.<\/p>","clean":"The end is nigh!
+        It''s super climactic. Seriously."},"slug":"fullhaus-2018-hitman-contracts-gameplay-part-10","site":"funhaus","id":37639,"number":48,"length":2668,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bf1fa215-95b4-4dcb-b120-9a9e699cc470.jpg\/tb\/fullhaushitmancontracts10.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bf1fa215-95b4-4dcb-b120-9a9e699cc470.jpg\/sm\/fullhaushitmancontracts10.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bf1fa215-95b4-4dcb-b120-9a9e699cc470.jpg\/md\/fullhaushitmancontracts10.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bf1fa215-95b4-4dcb-b120-9a9e699cc470.jpg\/original\/fullhaushitmancontracts10.jpg"}},"show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"},"season":{"title":"2018","description":"","id":645,"number":3,"slug":"fullhaus-2018","show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/fullhaus-2018-hitman-contracts-gameplay-part-10"}},{"type":"Episode","item":{"title":"WE
+        LOVE INCELS? - Open Haus #172","caption":"\"Speaking of smoking meat...\"","sponsorOnly":false,"description":{"html":"<p>Get
+        this limited-time Fathers Day package for only $49.99 when you go to http:\/\/www.OmahaSteaks.com
+        and type OPENHAUS in the search bar. Don\u2019t wait, this offer ends soon!<\/p>\n\n<p>Ask
+        us questions here!\nhttp:\/\/www.reddit.com\/r\/funhaus<\/p>\n\n<p>I wish
+        we had a cool term like \"incel\" when I was growing up. \"Morbidly Obese
+        with a Ponytail and a Backpack Full of Gummy Bears and Hard Sci Fi\" just
+        doesn''t have the same ring to it.<\/p>\n\n<p>Follow us on Twitter:\nhttp:\/\/twitter.com\/elysewillems\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttps:\/\/twitter.com\/real_rtbones<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Get
+        this limited-time Fathers Day package for only $49.99 when you go to http:\/\/www.OmahaSteaks.com
+        and type OPENHAUS in the search bar. Don\u2019t wait, this offer ends soon!\n\nAsk
+        us questions here!\nhttp:\/\/www.reddit.com\/r\/funhaus\n\nI wish we had a
+        cool term like \"incel\" when I was growing up. \"Morbidly Obese with a Ponytail
+        and a Backpack Full of Gummy Bears and Hard Sci Fi\" just doesn''t have the
+        same ring to it.\n\nFollow us on Twitter:\nhttp:\/\/twitter.com\/elysewillems\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttps:\/\/twitter.com\/real_rtbones\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"open-haus-2018-oh172","site":"funhaus","id":37611,"number":172,"length":756,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/10eda7eb-93a5-482f-889d-0dc5358e79fc.jpg\/tb\/openhausthumbnail172.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/10eda7eb-93a5-482f-889d-0dc5358e79fc.jpg\/sm\/openhausthumbnail172.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/10eda7eb-93a5-482f-889d-0dc5358e79fc.jpg\/md\/openhausthumbnail172.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/10eda7eb-93a5-482f-889d-0dc5358e79fc.jpg\/original\/openhausthumbnail172.jpg"}},"show":{"name":"Open
+        Haus","summary":{"html":"<p>Open Haus takes time every week to answer questions
+        from the Funhaus fans. Ranging from gaming and YouTube questions to waaaaay
+        off-topic queries, Open Haus combines the Q&amp;A format with a highly edited,
+        comedic format.<\/p>","clean":"Open Haus takes time every week to answer questions
+        from the Funhaus fans. Ranging from gaming and YouTube questions to waaaaay
+        off-topic queries, Open Haus combines the Q&amp;A format with a highly edited,
+        comedic format."},"id":67,"slug":"open-haus","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/tb\/1788482-1477675866217-OpenHaus_Hero.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/sm\/1788482-1477675866217-OpenHaus_Hero.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/md\/1788482-1477675866217-OpenHaus_Hero.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/original\/1788482-1477675866217-OpenHaus_Hero.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/tb\/OpenHausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/sm\/OpenHausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/md\/OpenHausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/original\/OpenHausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/open-haus"},"season":{"title":"2018","description":"","id":655,"number":4,"slug":"open-haus-2018","show":{"name":"Open
+        Haus","summary":{"html":"<p>Open Haus takes time every week to answer questions
+        from the Funhaus fans. Ranging from gaming and YouTube questions to waaaaay
+        off-topic queries, Open Haus combines the Q&amp;A format with a highly edited,
+        comedic format.<\/p>","clean":"Open Haus takes time every week to answer questions
+        from the Funhaus fans. Ranging from gaming and YouTube questions to waaaaay
+        off-topic queries, Open Haus combines the Q&amp;A format with a highly edited,
+        comedic format."},"id":67,"slug":"open-haus","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/tb\/1788482-1477675866217-OpenHaus_Hero.png","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/sm\/1788482-1477675866217-OpenHaus_Hero.png","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/md\/1788482-1477675866217-OpenHaus_Hero.png","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/original\/1788482-1477675866217-OpenHaus_Hero.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/tb\/OpenHausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/sm\/OpenHausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/md\/OpenHausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/original\/OpenHausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/open-haus"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/open-haus-2018-oh172","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/84a1a9f1638ea66435088dc20d495695-09ed6a5f\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"GUNGAN
+        STYLE - Demo Disk Gameplay","caption":"\"C''monnnn nipples!\"","sponsorOnly":false,"description":{"html":"<p>Jacob
+        and I had our first fight today. I claimed that Boss Nass was a different
+        species than the rest of the Gungans due to his widened jawline and lack of
+        protruding eye stalks. Jacob insisted that they are all clearly the same species
+        and that Nass''s unique morphology was simply due to weight gained from a
+        lifetime of opulence and leisure. Finally, we compromised by having Omar and
+        Dan beat the christ out of us with some rusted folding chairs we found in
+        a dumpster. <\/p>\n\n<p>Follow us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Jacob
+        and I had our first fight today. I claimed that Boss Nass was a different
+        species than the rest of the Gungans due to his widened jawline and lack of
+        protruding eye stalks. Jacob insisted that they are all clearly the same species
+        and that Nass''s unique morphology was simply due to weight gained from a
+        lifetime of opulence and leisure. Finally, we compromised by having Omar and
+        Dan beat the christ out of us with some rusted folding chairs we found in
+        a dumpster. \n\nFollow us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"demo-disk-2018-dd2018e2","site":"funhaus","id":37626,"number":2,"length":793,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9f9e51fd-089e-41da-8a66-2d116cd2ce09.png\/tb\/demo2.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9f9e51fd-089e-41da-8a66-2d116cd2ce09.png\/sm\/demo2.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9f9e51fd-089e-41da-8a66-2d116cd2ce09.png\/md\/demo2.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/9f9e51fd-089e-41da-8a66-2d116cd2ce09.png\/original\/demo2.png"}},"show":{"name":"Demo
+        Disk","summary":{"html":"<p>After a fan sent us a binder of PC Gamer demo
+        discs of games, we knew what we had to do: play them all, no matter how terrible.
+        Demo Disk showcases 1990s to early 2000s-era games, with running commentary
+        and jokes.<\/p>","clean":"After a fan sent us a binder of PC Gamer demo discs
+        of games, we knew what we had to do: play them all, no matter how terrible.
+        Demo Disk showcases 1990s to early 2000s-era games, with running commentary
+        and jokes."},"id":66,"slug":"demo-disk","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/tb\/demo_disc_cover.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/sm\/demo_disc_cover.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/md\/demo_disc_cover.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/original\/demo_disc_cover.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/tb\/DemoDiskSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/sm\/DemoDiskSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/md\/DemoDiskSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/original\/DemoDiskSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/demo-disk"},"season":{"title":"2018","description":"","id":728,"number":4,"slug":"demo-disk-2018","show":{"name":"Demo
+        Disk","summary":{"html":"<p>After a fan sent us a binder of PC Gamer demo
+        discs of games, we knew what we had to do: play them all, no matter how terrible.
+        Demo Disk showcases 1990s to early 2000s-era games, with running commentary
+        and jokes.<\/p>","clean":"After a fan sent us a binder of PC Gamer demo discs
+        of games, we knew what we had to do: play them all, no matter how terrible.
+        Demo Disk showcases 1990s to early 2000s-era games, with running commentary
+        and jokes."},"id":66,"slug":"demo-disk","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/tb\/demo_disc_cover.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/sm\/demo_disc_cover.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/md\/demo_disc_cover.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/original\/demo_disc_cover.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/tb\/DemoDiskSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/sm\/DemoDiskSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/md\/DemoDiskSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/original\/DemoDiskSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/demo-disk"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/demo-disk-2018-dd2018e2","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/30f63f2872e2ad57f151e89bb72127e6-8de21167\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"BEST
+        OF MILLENNIALS - Best of Funhaus May 2018","caption":"\"I''m a hundred percent
+        going with nipples.\"","sponsorOnly":false,"description":{"html":"<p>Fine.
+        We give up. We''ll put people in their twenties in our videos. We''ll play
+        Fortnite. We''ll vape. I''ll even not vaccinate my baby for you! Happy now?\nFollow
+        us on Twitter: \nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttps:\/\/twitter.com\/ElyseWillems\nhttps:\/\/twitter.com\/MattsEditBay\nhttps:\/\/twitter.com\/_JacobFullerton\nhttps:\/\/twitter.com\/RahulKohli13\nhttps:\/\/twitter.com\/Charalanahzard\nhttps:\/\/twitter.com\/GeoffLRamsey\nhttps:\/\/twitter.com\/jack_p\nhttps:\/\/twitter.com\/idsanty\nhttps:\/\/twitter.com\/JERICHO\nhttps:\/\/twitter.com\/BryanlMarquis<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Fine.
+        We give up. We''ll put people in their twenties in our videos. We''ll play
+        Fortnite. We''ll vape. I''ll even not vaccinate my baby for you! Happy now?\nFollow
+        us on Twitter: \nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttps:\/\/twitter.com\/ElyseWillems\nhttps:\/\/twitter.com\/MattsEditBay\nhttps:\/\/twitter.com\/_JacobFullerton\nhttps:\/\/twitter.com\/RahulKohli13\nhttps:\/\/twitter.com\/Charalanahzard\nhttps:\/\/twitter.com\/GeoffLRamsey\nhttps:\/\/twitter.com\/jack_p\nhttps:\/\/twitter.com\/idsanty\nhttps:\/\/twitter.com\/JERICHO\nhttps:\/\/twitter.com\/BryanlMarquis\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-bestofmay2018","site":"funhaus","id":37624,"number":120,"length":1187,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/323c6741-ebf2-4dd7-b37a-20d6703c57b7.jpg\/tb\/may2018.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/323c6741-ebf2-4dd7-b37a-20d6703c57b7.jpg\/sm\/may2018.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/323c6741-ebf2-4dd7-b37a-20d6703c57b7.jpg\/md\/may2018.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/323c6741-ebf2-4dd7-b37a-20d6703c57b7.jpg\/original\/may2018.jpg"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-bestofmay2018","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/4e3aa8a90bd49f47cdd9ad1b3ff291f6-9f375f0e\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"JESUS
+        DERPS YOU - Pilgrim''s Progress Gameplay","caption":"\"Sin lives in the anus.\"","sponsorOnly":false,"description":{"html":"<p>All
+        the youth pastors I met as a kid were practically identical. They all had
+        the same trimmed goatee, the same acoustic guitar, and the same wife who two
+        years ago was one of their students. <\/p>\n\n<p>Follow us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"All
+        the youth pastors I met as a kid were practically identical. They all had
+        the same trimmed goatee, the same acoustic guitar, and the same wife who two
+        years ago was one of their students. \n\nFollow us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-pilgrim","site":"funhaus","id":37589,"number":117,"length":1042,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/50ba475d-f4a1-46ca-8031-e4f7769d1123.png\/tb\/pilg.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/50ba475d-f4a1-46ca-8031-e4f7769d1123.png\/sm\/pilg.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/50ba475d-f4a1-46ca-8031-e4f7769d1123.png\/md\/pilg.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/50ba475d-f4a1-46ca-8031-e4f7769d1123.png\/original\/pilg.png"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-pilgrim","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/f828bd633a48a87d78f667207f98f34e-9059a63b\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"Funhaus
+        TV - Detroit: Become Human","caption":"\"Is that a garage?!\"","sponsorOnly":false,"description":{"html":"<p>It''s
+        an hour android adventures, featuring Omar and a bunch of late arrivals!<\/p>","clean":"It''s
+        an hour android adventures, featuring Omar and a bunch of late arrivals!"},"slug":"fullhaus-2018-funhaus-tv-detroit-become-human","site":"funhaus","id":37593,"number":46,"length":7860,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c7949360-137c-4253-8031-3a252fe966ce.jpg\/tb\/fhtvdetroit.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c7949360-137c-4253-8031-3a252fe966ce.jpg\/sm\/fhtvdetroit.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c7949360-137c-4253-8031-3a252fe966ce.jpg\/md\/fhtvdetroit.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/c7949360-137c-4253-8031-3a252fe966ce.jpg\/original\/fhtvdetroit.jpg"}},"show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"},"season":{"title":"2018","description":"","id":645,"number":3,"slug":"fullhaus-2018","show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/fullhaus-2018-funhaus-tv-detroit-become-human","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/32a714ae995745e895e8d0c41aa8b926-f6b21bc1\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"FIFTY
+        SHADES OF GRANNIES - Movie Podcast","caption":"","sponsorOnly":false,"description":{"html":"<p>Did
+        you know that 66% of all men lose their hair by age 35? Visit our sponsor
+        today over at https:\/\/www.forhims.com\/filmhaus and take care of yourself
+        with your first month for only $5!<\/p>\n\n<p>Join Jon, Adam, and Bones as
+        they dive deep back into the world of Fifty Shades of Grey and review this
+        year''s biggest septuagenarian sex comedy:  Book Club! And if none of that
+        interests you, you might also catch a glimpse of Adam''s sack. Enjoy.<\/p>\n\n<p>Follow
+        us on Twitter:\nhttp:\/\/twitter.com\/jonsmiff\nhttps:\/\/twitter.com\/adamkovic\nhttps:\/\/twitter.com\/real_rtbones<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Did
+        you know that 66% of all men lose their hair by age 35? Visit our sponsor
+        today over at https:\/\/www.forhims.com\/filmhaus and take care of yourself
+        with your first month for only $5!\n\nJoin Jon, Adam, and Bones as they dive
+        deep back into the world of Fifty Shades of Grey and review this year''s biggest
+        septuagenarian sex comedy:  Book Club! And if none of that interests you,
+        you might also catch a glimpse of Adam''s sack. Enjoy.\n\nFollow us on Twitter:\nhttp:\/\/twitter.com\/jonsmiff\nhttps:\/\/twitter.com\/adamkovic\nhttps:\/\/twitter.com\/real_rtbones\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"filmhaus-podcast-2018-filmbook56","site":"funhaus","id":37609,"number":56,"length":1805,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/fca80bfc-cac9-4b72-af6b-33241cd8e54f.png\/tb\/book.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/fca80bfc-cac9-4b72-af6b-33241cd8e54f.png\/sm\/book.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/fca80bfc-cac9-4b72-af6b-33241cd8e54f.png\/md\/book.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/fca80bfc-cac9-4b72-af6b-33241cd8e54f.png\/original\/book.png"}},"show":{"name":"Filmhaus
+        Podcast","summary":{"html":"<p>It''s like Funhaus but for Movies. Get it??\u00a0Filmhaus...
+        Whatever...<\/p>","clean":"It''s like Funhaus but for Movies. Get it??\u00a0Filmhaus...
+        Whatever..."},"id":276,"slug":"filmhaus-podcast","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/tb\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/sm\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/md\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/original\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/tb\/FilmhausPodcastSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/sm\/FilmhausPodcastSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/md\/FilmhausPodcastSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/original\/FilmhausPodcastSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/filmhaus-podcast"},"season":{"title":"2018","description":"","id":647,"number":3,"slug":"filmhaus-podcast-2018","show":{"name":"Filmhaus
+        Podcast","summary":{"html":"<p>It''s like Funhaus but for Movies. Get it??\u00a0Filmhaus...
+        Whatever...<\/p>","clean":"It''s like Funhaus but for Movies. Get it??\u00a0Filmhaus...
+        Whatever..."},"id":276,"slug":"filmhaus-podcast","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/tb\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/sm\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/md\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/afcfe178-f959-4eaa-ba7f-c9994ad0336c\/original\/1788482-1479403532105-RT_Site_Hero_Filmhaus.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/tb\/FilmhausPodcastSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/sm\/FilmhausPodcastSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/md\/FilmhausPodcastSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/796c20a1-ce57-414e-bd92-bbfc4af79743.jpg\/original\/FilmhausPodcastSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/filmhaus-podcast"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/filmhaus-podcast-2018-filmbook56","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/447ae3f17bb886c6b7479c1f66786443-bd4a32ff\/ts\/index.m3u8"}}],"audioFiles":[{"type":"audio","content":{"mp3":"http:\/\/traffic.libsyn.com\/rtpodcast\/FilmhausBookClubAUDIOv2.mp3"}}],"links":[]}}},{"type":"Episode","item":{"title":"Despicable
+        Me Labyrinth","caption":"\"I hate everything about this.\"","sponsorOnly":false,"description":{"html":"<p>Q:
+        Which are there more of on the internet? Minions flash games, Minions translators,
+        or Minions pornography?\nA: Who cares? Turns out you can masturbate to all
+        3.<\/p>\n\n<p>Follow us on Twitter: \nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/brucegreene\nhttps:\/\/twitter.com\/omarcito<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Q:
+        Which are there more of on the internet? Minions flash games, Minions translators,
+        or Minions pornography?\nA: Who cares? Turns out you can masturbate to all
+        3.\n\nFollow us on Twitter: \nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/brucegreene\nhttps:\/\/twitter.com\/omarcito\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"board-as-hell-season-1-despicable-me-labyrinth","site":"funhaus","id":37469,"number":6,"length":2091,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5ff2f0dd-b26f-4263-a720-f2615f15cd33.png\/tb\/labthumb.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5ff2f0dd-b26f-4263-a720-f2615f15cd33.png\/sm\/labthumb.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5ff2f0dd-b26f-4263-a720-f2615f15cd33.png\/md\/labthumb.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5ff2f0dd-b26f-4263-a720-f2615f15cd33.png\/original\/labthumb.png"}},"show":{"name":"Board
+        as Hell","summary":{"html":"<p>Like a good old fashioned family game night
+        except no one gets divorced at the end.,<\/p>","clean":"Like a good old fashioned
+        family game night except no one gets divorced at the end.,"},"id":377,"slug":"board-as-hell","seasonCount":1,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/tb\/bah_1400x1400.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/sm\/bah_1400x1400.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/md\/bah_1400x1400.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/original\/bah_1400x1400.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/tb\/bah_1400x1400.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/sm\/bah_1400x1400.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/md\/bah_1400x1400.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/original\/bah_1400x1400.png"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/board-as-hell"},"season":{"title":"Season
+        1","description":"","id":724,"number":1,"slug":"board-as-hell-season-1","show":{"name":"Board
+        as Hell","summary":{"html":"<p>Like a good old fashioned family game night
+        except no one gets divorced at the end.,<\/p>","clean":"Like a good old fashioned
+        family game night except no one gets divorced at the end.,"},"id":377,"slug":"board-as-hell","seasonCount":1,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/tb\/bah_1400x1400.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/sm\/bah_1400x1400.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/md\/bah_1400x1400.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/240b8527-0239-4a2f-afd3-0c4d2baa391f.png\/original\/bah_1400x1400.png"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/tb\/bah_1400x1400.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/sm\/bah_1400x1400.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/md\/bah_1400x1400.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0ab41f82-0a30-47c9-a3c2-04a46f9e1be8.png\/original\/bah_1400x1400.png"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/board-as-hell"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/board-as-hell-season-1-despicable-me-labyrinth","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/ce8e289d6f53a218a51f3be0e9d9da84-75b3cc71\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"DRUNK
+        IN SPACE - Planetoid Pioneers Gameplay","caption":"\"Orbs don''t get you laid...\"","sponsorOnly":false,"description":{"html":"<p>Congratulations,
+        Elyse! Your desire for \"Janeane Garofalo t*ts\" is officially the most confusing
+        Funhaus reference of 2018! At least until James inevitably brings up \"Dunston
+        Checks In\" or \"The Pagemaster\" or some garbage.<\/p>\n\n<p>Follow us on
+        Twitter:\nhttp:\/\/twitter.com\/elysewillems\nhttp:\/\/twitter.com\/sirlarr<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Congratulations,
+        Elyse! Your desire for \"Janeane Garofalo t*ts\" is officially the most confusing
+        Funhaus reference of 2018! At least until James inevitably brings up \"Dunston
+        Checks In\" or \"The Pagemaster\" or some garbage.\n\nFollow us on Twitter:\nhttp:\/\/twitter.com\/elysewillems\nhttp:\/\/twitter.com\/sirlarr\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-planetoid","site":"funhaus","id":37588,"number":116,"length":729,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/ea9d5195-fd0b-4624-a1a3-39f3a0aa0fcd.png\/tb\/planet.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/ea9d5195-fd0b-4624-a1a3-39f3a0aa0fcd.png\/sm\/planet.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/ea9d5195-fd0b-4624-a1a3-39f3a0aa0fcd.png\/md\/planet.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/ea9d5195-fd0b-4624-a1a3-39f3a0aa0fcd.png\/original\/planet.png"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-planetoid","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/2c44e9f469b469fc9e0f52d629c319e7-7880d01f\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"MESSY
+        BREAKUP - Viscera Cleanup Detail Gameplay","caption":"\"It''s just like our
+        honeymoon.\"","sponsorOnly":false,"description":{"html":"<p>If any of you
+        out there picked \"Gory Janitorial Simulation Game\" in the \"What Will Eventually
+        Cause James and Elyse''s Divorce\" pool, you''ve got a big payout coming.
+        I had my money on \"Dragonball Fatigue\".<\/p>\n\n<p>Follow us on Twitter:
+        \nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/elysewillems<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"If
+        any of you out there picked \"Gory Janitorial Simulation Game\" in the \"What
+        Will Eventually Cause James and Elyse''s Divorce\" pool, you''ve got a big
+        payout coming. I had my money on \"Dragonball Fatigue\".\n\nFollow us on Twitter:
+        \nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/elysewillems\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-viscera","site":"funhaus","id":37600,"number":118,"length":1007,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a367ce52-b726-4ac0-b676-148b05df13cb.png\/tb\/viscera.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a367ce52-b726-4ac0-b676-148b05df13cb.png\/sm\/viscera.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a367ce52-b726-4ac0-b676-148b05df13cb.png\/md\/viscera.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/a367ce52-b726-4ac0-b676-148b05df13cb.png\/original\/viscera.png"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-viscera","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/b7c57983eff4581711d5a55decf7172f-1aaf21f1\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"Sherlock
+        Holmes: The Devil''s Daughter Gameplay Part 5","caption":"","sponsorOnly":true,"description":{"html":"<p>Sherlock
+        is back and so is Yami!<\/p>","clean":"Sherlock is back and so is Yami!"},"slug":"fullhaus-2018-sherlock-holmes-the-devil-s-daughter-gameplay-part-5","site":"funhaus","id":37580,"number":45,"length":3945,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bd03ec23-478c-45bd-98d0-ad36179b3673.jpg\/tb\/fullhaussherlock1.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bd03ec23-478c-45bd-98d0-ad36179b3673.jpg\/sm\/fullhaussherlock1.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bd03ec23-478c-45bd-98d0-ad36179b3673.jpg\/md\/fullhaussherlock1.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/bd03ec23-478c-45bd-98d0-ad36179b3673.jpg\/original\/fullhaussherlock1.jpg"}},"show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"},"season":{"title":"2018","description":"","id":645,"number":3,"slug":"fullhaus-2018","show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/fullhaus-2018-sherlock-holmes-the-devil-s-daughter-gameplay-part-5"}},{"type":"Episode","item":{"title":"GUTS,
+        NO GLORY - Ben and Ed: Blood Party Gameplay Part 1","caption":"\"I''ll throw
+        my head at you!\"","sponsorOnly":true,"description":{"html":"<p>Man, remember
+        Mo from \"Guts\"? Whatever happened to her? No. Seriously. Where is she? She
+        changed her phone number like five times and that stupid judge says I can''t
+        root through her agent''s trash to find the new one.<\/p>\n\n<p>Follow us
+        on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/jameswillems<\/p>\n\n<p>Tshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Man,
+        remember Mo from \"Guts\"? Whatever happened to her? No. Seriously. Where
+        is she? She changed her phone number like five times and that stupid judge
+        says I can''t root through her agent''s trash to find the new one.\n\nFollow
+        us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/jameswillems\n\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-bloodparty1","site":"funhaus","id":37543,"number":115,"length":759,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/8b6b6b80-615f-4522-9357-cd828019a8b9.png\/tb\/blood1.png","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/8b6b6b80-615f-4522-9357-cd828019a8b9.png\/sm\/blood1.png","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/8b6b6b80-615f-4522-9357-cd828019a8b9.png\/md\/blood1.png","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/8b6b6b80-615f-4522-9357-cd828019a8b9.png\/original\/blood1.png"}},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/tb\/GameplayHero.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/sm\/GameplayHero.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/md\/GameplayHero.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/tb\/GameplaySquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/sm\/GameplaySquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/md\/GameplaySquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-bloodparty1"}},{"type":"Episode","item":{"title":"Funhaus
+        TV - Mario Maker","caption":"\"Did you get another concussion today?\"","sponsorOnly":false,"description":{"html":"<p>The
+        Bungalow Boyz are back and better than ever. Will they master the myriad levels
+        of Mario Maker??<\/p>","clean":"The Bungalow Boyz are back and better than
+        ever. Will they master the myriad levels of Mario Maker??"},"slug":"fullhaus-2018-funhaus-tv-mario-maker","site":"funhaus","id":37563,"number":43,"length":6950,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5c6aa8c5-5b84-4df5-aa6e-0e42a6172175.jpg\/tb\/fhtvmariomaker.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5c6aa8c5-5b84-4df5-aa6e-0e42a6172175.jpg\/sm\/fhtvmariomaker.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5c6aa8c5-5b84-4df5-aa6e-0e42a6172175.jpg\/md\/fhtvmariomaker.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/5c6aa8c5-5b84-4df5-aa6e-0e42a6172175.jpg\/original\/fhtvmariomaker.jpg"}},"show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"},"season":{"title":"2018","description":"","id":645,"number":3,"slug":"fullhaus-2018","show":{"name":"Fullhaus","summary":{"html":"<p>For
+        some reason, you asked for it. For some reason we delivered it. Here are our
+        full, unedited gameplays, so you can see how unfunny we are without clever
+        editing tricks and cheapo animation!<\/p>","clean":"For some reason, you asked
+        for it. For some reason we delivered it. Here are our full, unedited gameplays,
+        so you can see how unfunny we are without clever editing tricks and cheapo
+        animation!"},"id":253,"slug":"fullhaus","seasonCount":3,"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/tb\/1788484-1456786778305-Fullhaus_Hero.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/sm\/1788484-1456786778305-Fullhaus_Hero.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/md\/1788484-1456786778305-Fullhaus_Hero.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/3e4b9f44-9a3f-42d3-b6c4-4c9b87b2525f\/original\/1788484-1456786778305-Fullhaus_Hero.jpg"}},"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/tb\/FullhausSquare.jpg","sm":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/sm\/FullhausSquare.jpg","md":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/md\/FullhausSquare.jpg","lg":"http:\/\/s3.amazonaws.com\/rtv3.image.cdn.roosterteeth.com\/store\/1df6e2b5-326c-4b3c-a157-ece68e75f642.jpg\/original\/FullhausSquare.jpg"}},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fullhaus"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/fullhaus-2018-funhaus-tv-mario-maker","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/b588da99c41e7aed9e589f78385a3c93-1082981c\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}}]'}
     headers:
       Access-Control-Allow-Credentials: ['true']
-      Access-Control-Allow-Headers: ['DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
       Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
       Access-Control-Allow-Origin: ['*']
-      CF-RAY: [332f82772f4c6545-SYD]
       Cache-Control: [public]
       Connection: [keep-alive]
-      Content-Encoding: [gzip]
       Content-Type: [application/json]
-      Date: ['Sat, 18 Feb 2017 06:44:18 GMT']
-      Server: [cloudflare-nginx]
-      Set-Cookie: ['rt_production_session=eyJpdiI6InJXbVFOVkEzUGVVOTBhOHhJZllDZWZGSW91NFJnTng4WnZZV0RSNGdiQzg9IiwidmFsdWUiOiJDVXIzR2FxWHF4aGFISWNVSlBPSlZESG5GV1pVOXBrb28rRFh6QWRlOFkzY2NMZXA0XC9sMU1hTU1PeEpUeUZGdWszVXFXNE9jUEJRUjBEZDdaUHo4Rnc9PSIsIm1hYyI6IjBhMmQ3YjIzYmE3MDAxYzI0NDZjZjBiNTUxNjgxNzY3Y2Y2NWJkYzVjYWU0MmVhODczMTkxM2YxYzIwOGEwZGMifQ%3D%3D;
-          expires=Fri, 19-May-2017 06:44:26 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+      Date: ['Sat, 09 Jun 2018 13:45:30 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlRHOG5acGxMdWo4bjBWUGwrOEl6QllaSG9zR09jcjNqNlVDK2MycnlCNU09IiwidmFsdWUiOiJlXC9VU0J3MlpRSnFFQnZZNHZ1UFMzUEw2bjdWSG1BWUFlOElvRnl0aFcybFcxcnBEUXAxeW1cL1hsd2NaN2dTTE90eHk1aEpTd1ZuZ3E2YWZoSU1nYlpBPT0iLCJtYWMiOiJkYzRhZDBlMmE1OTUwZWM3ZWNmM2U2ZTE1MjUzZDhiY2E2ZmFkNDQxYTAzNzY2MzYyNDlhYWVjNzNjNjY3ZGFjIn0%3D;
+          expires=Fri, 07-Sep-2018 13:45:30 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
           httponly']
-      X-Total-Count: ['930']
+      X-Total-Count: ['1786']
       X-request-uri: ['/api/v1/feed/?page=1&count=20&type=Episode&site=funhaus']
     status: {code: 200, message: OK}
 version: 1
