@@ -43,7 +43,7 @@ with open(os.path.join(this_directory, 'README.rst')) as f:
 
 setup(
     name='rt_api',
-    version='1.1.0',
+    version='1.1.1',
     description='Unofficial python client for the Rooster Teeth api',
     long_description=long_description,
     author='Nicholas Molloy',
