@@ -1,0 +1,348 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/feed/?page=1&count=3&type=Episode
+  response:
+    body: {string: '[{"type":"Episode","item":{"title":"The Battle Of Bull Creek","caption":"Family
+        Lineage stories! No one was related to royalty, but Jack''s great grandfather
+        killed a wild bull one time. So that''s cool.","sponsorOnly":false,"description":{"html":"<p>Family
+        Lineage stories! No one was related to royalty, but Jack''s great grandfather
+        killed a wild bull one time. So that''s cool.<\/p>\n\n<p>Audio from Off Topic
+        Podcast #95\nhttp:\/\/achievementhunter.roosterteeth.com\/episode\/off-topic-the-achievement-hunter-podcast-2017-95-45-h46m\nAnimated
+        by: Gabe Silva\nDirected by: Andrew Lhotsky<\/p>","clean":"Family Lineage
+        stories! No one was related to royalty, but Jack''s great grandfather killed
+        a wild bull one time. So that''s cool.\n\nAudio from Off Topic Podcast #95\nhttp:\/\/achievementhunter.roosterteeth.com\/episode\/off-topic-the-achievement-hunter-podcast-2017-95-45-h46m\nAnimated
+        by: Gabe Silva\nDirected by: Andrew Lhotsky"},"slug":"rt-animated-adventures-2018-337","site":"roosterTeeth","id":37871,"number":337,"length":80,"profilePicture":{"id":"100543842","uuid":"bbcdea49-9863-4161-b97e-27f37619669e","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37871","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a05c5f4e-cd89-41f9-9617-032a7c5bb6d1.jpg\/original\/rtaa337tn.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        19:58:15","updated_at":"2018-06-26 19:58:30","deleted_at":null,"picture_type":"profile"},"show":{"name":"RT
+        Animated Adventures","summary":{"html":"<p>The animated shenanigans of the
+        Rooster Teeth staff. Audio taken from the Rooster Teeth Podcast.<\/p>","clean":"The
+        animated shenanigans of the Rooster Teeth staff. Audio taken from the Rooster
+        Teeth Podcast."},"id":20,"slug":"rt-animated-adventures","seasonCount":8,"coverPicture":{"id":"100498795","uuid":"d14d0572-7872-45bf-bd1a-099c64e12f42","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"20","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/2da8eba7-7704-4d59-b401-10ee70a762eb.png\/original\/rtaacover.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-01-17
+        21:22:01","updated_at":"2018-01-17 21:22:08","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516098","uuid":"08077f38-dac3-4823-9931-6e8ed6660caa","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"20","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/ae987ef5-9ded-45bd-b533-02135b958242.jpg\/original\/RTAASquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:13:58","updated_at":"2018-03-06 19:15:38","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-animated-adventures"},"season":{"title":"2018","description":"","id":646,"number":8,"slug":"rt-animated-adventures-2018","show":{"name":"RT
+        Animated Adventures","summary":{"html":"<p>The animated shenanigans of the
+        Rooster Teeth staff. Audio taken from the Rooster Teeth Podcast.<\/p>","clean":"The
+        animated shenanigans of the Rooster Teeth staff. Audio taken from the Rooster
+        Teeth Podcast."},"id":20,"slug":"rt-animated-adventures","seasonCount":8,"coverPicture":{"id":"100498795","uuid":"d14d0572-7872-45bf-bd1a-099c64e12f42","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"20","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/2da8eba7-7704-4d59-b401-10ee70a762eb.png\/original\/rtaacover.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-01-17
+        21:22:01","updated_at":"2018-01-17 21:22:08","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516098","uuid":"08077f38-dac3-4823-9931-6e8ed6660caa","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"20","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/ae987ef5-9ded-45bd-b533-02135b958242.jpg\/original\/RTAASquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:13:58","updated_at":"2018-03-06 19:15:38","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-animated-adventures"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/rt-animated-adventures-2018-337","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/24ffb82bd6d9469f703f151105bdaf1b-75d554f9\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"Tea
+        Party","caption":"RWBY Chibi is back for a third season of crazy hijinks!
+        More characters! More puns! More RWBY!","sponsorOnly":false,"description":{"html":"<p>RWBY
+        Chibi is back for a third season of crazy hijinks! More characters! More puns!
+        More RWBY!<\/p>","clean":"RWBY Chibi is back for a third season of crazy hijinks!
+        More characters! More puns! More RWBY!"},"slug":"rwby-chibi-season-3-episode-9","site":"roosterTeeth","id":36465,"number":9,"length":251,"profilePicture":{"id":"100543907","uuid":"1c1cc6b4-0106-4d8d-a9b8-3712a5a7c5cb","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"36465","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/2bdb7e0e-fba0-48e4-bae6-3378b825da4f.jpg\/original\/rwbychibi3ep09thumbnail.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        15:47:32","updated_at":"2018-06-27 15:48:40","deleted_at":null,"picture_type":"profile"},"show":{"name":"RWBY
+        Chibi","summary":{"html":"<p>Join the cast of RWBY in cute comedy shorts with
+        infinite possibilities! It''s playing tag! It''s baking cookies! It''s posing
+        as police officers! It''s... really quite absurd. It''s RWBY CHIBI!<\/p>","clean":"Join
+        the cast of RWBY in cute comedy shorts with infinite possibilities! It''s
+        playing tag! It''s baking cookies! It''s posing as police officers! It''s...
+        really quite absurd. It''s RWBY CHIBI!"},"id":260,"slug":"rwby-chibi","seasonCount":3,"coverPicture":{"id":"100414945","uuid":"012bbc57-b96f-4d02-ab09-1f956b087bdd","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"260","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/c4a46546-654d-402d-9feb-f00785019a21\/original\/2013912-1495744246639-RWBYChibi2-hero-rev.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-05-25
+        20:30:53","updated_at":"2018-01-17 17:59:53","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518279","uuid":"87f1f03b-3d6f-4d1c-b657-ad49a7b608f2","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"260","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/28a6f941-b335-4e18-ad67-d785f76c42dc.jpg\/original\/RWBYChibiSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:47:18","updated_at":"2018-03-14 19:47:43","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby-chibi"},"season":{"title":"Season
+        3","description":"","id":672,"number":3,"slug":"rwby-chibi-season-3","show":{"name":"RWBY
+        Chibi","summary":{"html":"<p>Join the cast of RWBY in cute comedy shorts with
+        infinite possibilities! It''s playing tag! It''s baking cookies! It''s posing
+        as police officers! It''s... really quite absurd. It''s RWBY CHIBI!<\/p>","clean":"Join
+        the cast of RWBY in cute comedy shorts with infinite possibilities! It''s
+        playing tag! It''s baking cookies! It''s posing as police officers! It''s...
+        really quite absurd. It''s RWBY CHIBI!"},"id":260,"slug":"rwby-chibi","seasonCount":3,"coverPicture":{"id":"100414945","uuid":"012bbc57-b96f-4d02-ab09-1f956b087bdd","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"260","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/c4a46546-654d-402d-9feb-f00785019a21\/original\/2013912-1495744246639-RWBYChibi2-hero-rev.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-05-25
+        20:30:53","updated_at":"2018-01-17 17:59:53","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518279","uuid":"87f1f03b-3d6f-4d1c-b657-ad49a7b608f2","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"260","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/28a6f941-b335-4e18-ad67-d785f76c42dc.jpg\/original\/RWBYChibiSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:47:18","updated_at":"2018-03-14 19:47:43","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby-chibi"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/rwby-chibi-season-3-episode-9","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/e009cc693d3e6c1d6e311ab0dd826234-dfa93395\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"POISON
+        GAS ESCAPE ROOM \u2022 VR Block Party","caption":"","sponsorOnly":false,"description":{"html":"<p>The
+        boys - and one woman, are back in town! Downing brewskies, catching a tan
+        and escaping fears of their own mortality. That''s right, VIRTUAL REALITY
+        GAMEPLAY (SEO is important) block party.<\/p>","clean":"The boys - and one
+        woman, are back in town! Downing brewskies, catching a tan and escaping fears
+        of their own mortality. That''s right, VIRTUAL REALITY GAMEPLAY (SEO is important)
+        block party."},"slug":"cow-chop-vr-2018-toxic-fume-escape-room-vr-block-party","site":"cowChop","id":37862,"number":1,"length":787,"profilePicture":{"id":"100543759","uuid":"81e1beea-27be-4c65-9330-be8e82143da1","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37862","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/40fdd8e0-98fb-4ce1-b6de-8df017858628.jpg\/original\/toxicfume.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        01:41:26","updated_at":"2018-06-26 18:21:20","deleted_at":null,"picture_type":"profile"},"show":{"name":"Cow
+        Chop VR","summary":{"html":"<p>It''s Cow Chop and it''s VR.<\/p>","clean":"It''s
+        Cow Chop and it''s VR."},"id":311,"slug":"cow-chop-vr","seasonCount":3,"coverPicture":{"id":"100387713","uuid":"7aa68027-0313-498f-bf32-f4fe894cf532","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"311","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/a0fccdd6-156e-4e3a-9e85-b366811b1b77\/original\/2516933-1488827192616-vr1920.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-03-06
+        19:06:59","updated_at":"2018-01-17 20:02:46","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518094","uuid":"e6038f82-d5d7-40e8-9e2a-a7a3b662ad0c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"311","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/b5bf8b1f-5392-430d-8ea3-103b2a4f9638.jpg\/original\/CowChopVRSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        18:59:10","updated_at":"2018-03-14 18:59:21","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/cow-chop-vr"},"season":{"title":"2018","description":"","id":733,"number":3,"slug":"cow-chop-vr-2018","show":{"name":"Cow
+        Chop VR","summary":{"html":"<p>It''s Cow Chop and it''s VR.<\/p>","clean":"It''s
+        Cow Chop and it''s VR."},"id":311,"slug":"cow-chop-vr","seasonCount":3,"coverPicture":{"id":"100387713","uuid":"7aa68027-0313-498f-bf32-f4fe894cf532","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"311","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/a0fccdd6-156e-4e3a-9e85-b366811b1b77\/original\/2516933-1488827192616-vr1920.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-03-06
+        19:06:59","updated_at":"2018-01-17 20:02:46","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518094","uuid":"e6038f82-d5d7-40e8-9e2a-a7a3b662ad0c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"311","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/b5bf8b1f-5392-430d-8ea3-103b2a4f9638.jpg\/original\/CowChopVRSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        18:59:10","updated_at":"2018-03-14 18:59:21","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/cow-chop-vr"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/cow-chop-vr-2018-toxic-fume-escape-room-vr-block-party","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/fda4ce36917cbcc6b3a133c32f21c83b-bfad9fc7\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:35 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkE4R1FFTjNKcHh1ZWhzc1lzbklpWkNMZW4rM2VPOStocmlsTGl0TDQ2dDg9IiwidmFsdWUiOiJQMStsOGJaUDZQcklqOGtpNU84VFVYWmMySkd6RlBVQnFZdEJCMzdFYWFVZjBSXC9FcTlNc3ZYRjVKZldUaEhqaGYrTkhWUXBqdHJCTk1UVDNTZ0dHbXc9PSIsIm1hYyI6ImVkYzVlZjMwMjIzYzczMmEwMjdhYzkwYjFkZWEzZjQzZWU4YjZiMWI4MzZjZDM2Y2I4NTZiNGNmZGU1YTM1NzAifQ%3D%3D;
+          expires=Fri, 12-Oct-2018 13:31:36 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['21801']
+      X-request-uri: ['/api/v1/feed/?page=1&count=3&type=Episode']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/feed/?page=2&count=3&type=Episode
+  response:
+    body: {string: '[{"type":"Episode","item":{"title":"INAPPROPRIATE PUZZLES \u2022
+        Lust for Darkness Gameplay","caption":"","sponsorOnly":false,"description":{"html":"","clean":""},"slug":"cow-chop-gaming-2018-inappropriate-puzzles-lust-for-darkness-gameplay","site":"cowChop","id":37872,"number":97,"length":888,"profilePicture":{"id":"100543846","uuid":"6e303461-4270-4011-b1ef-aabf9608625f","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37872","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/75d96587-e69a-4de8-a8d9-b312266809a7.jpg\/original\/lust-for-darkness.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        21:42:42","updated_at":"2018-06-26 21:42:44","deleted_at":null,"picture_type":"profile"},"show":{"name":"Cow
+        Chop Gaming","summary":{"html":"<p>The Cow Chop crew plays a variety of games.
+        What more can we say?<\/p>","clean":"The Cow Chop crew plays a variety of
+        games. What more can we say?"},"id":305,"slug":"cow-chop-gaming","seasonCount":3,"coverPicture":{"id":"100387168","uuid":"4df9d574-b2c8-4417-aac4-440ffe447b5e","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/8b26b7cd-5ff9-43d2-a9d5-bd41227575d1\/original\/2516933-1488589142040-Gameplay.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-03-04
+        00:59:01","updated_at":"2018-01-07 05:19:52","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515998","uuid":"980c5fd4-779e-45ee-adf7-ae9c5dfe09e7","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/6687010d-4573-4f94-b0c4-be586a8f3475.jpg\/original\/CowChopGamingSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:53:16","updated_at":"2018-03-06 16:53:35","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/cow-chop-gaming"},"season":{"title":"2018","description":"","id":644,"number":3,"slug":"cow-chop-gaming-2018","show":{"name":"Cow
+        Chop Gaming","summary":{"html":"<p>The Cow Chop crew plays a variety of games.
+        What more can we say?<\/p>","clean":"The Cow Chop crew plays a variety of
+        games. What more can we say?"},"id":305,"slug":"cow-chop-gaming","seasonCount":3,"coverPicture":{"id":"100387168","uuid":"4df9d574-b2c8-4417-aac4-440ffe447b5e","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/8b26b7cd-5ff9-43d2-a9d5-bd41227575d1\/original\/2516933-1488589142040-Gameplay.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-03-04
+        00:59:01","updated_at":"2018-01-07 05:19:52","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515998","uuid":"980c5fd4-779e-45ee-adf7-ae9c5dfe09e7","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/6687010d-4573-4f94-b0c4-be586a8f3475.jpg\/original\/CowChopGamingSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:53:16","updated_at":"2018-03-06 16:53:35","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/cow-chop-gaming"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/cow-chop-gaming-2018-inappropriate-puzzles-lust-for-darkness-gameplay","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/4f0a3086d62f207473a79cd7c1e40029-1c45de37\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"The
+        Lounge Post Show - #498","caption":"Join Gus Sorola, Gavin Free, Barbara Dunkelman,
+        and Burnie Burns as they discuss Koko the gorilla, TanaCon, and more!","sponsorOnly":true,"description":{"html":"<p>Join
+        Gus Sorola, Gavin Free, Barbara Dunkelman, and Burnie Burns as they discuss
+        Koko the gorilla, TanaCon, and more!<\/p>","clean":"Join Gus Sorola, Gavin
+        Free, Barbara Dunkelman, and Burnie Burns as they discuss Koko the gorilla,
+        TanaCon, and more!"},"slug":"rooster-teeth-podcast-post-show-2018-498","site":"roosterTeeth","id":37013,"number":498,"length":1040,"profilePicture":{"id":"100543802","uuid":"b8f634fb-5648-4829-a650-63494b40a5fc","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37013","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/1bc37fb6-69e8-4da6-8a0b-a043b75487df.jpg\/original\/rtp498psthumb1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        13:10:06","updated_at":"2018-06-26 13:10:08","deleted_at":null,"picture_type":"profile"},"show":{"name":"Rooster
+        Teeth Podcast Post Show","summary":{"html":"<p>Just for FIRST Members, the
+        RT Podcast crew bring a little extra to each week''s show.<\/p>","clean":"Just
+        for FIRST Members, the RT Podcast crew bring a little extra to each week''s
+        show."},"id":346,"slug":"rooster-teeth-podcast-post-show","seasonCount":5,"coverPicture":{"id":"100488578","uuid":"e026d00e-9e41-478f-8a8a-ef634d671e6a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"346","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/56b1e8b7-51d6-40f2-bd7d-36d792962087.jpg\/original\/RTPPostShowHero1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-20
+        21:25:51","updated_at":"2017-12-21 03:56:45","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516090","uuid":"2e35813f-ceca-416f-b48b-b11ae0d0737b","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"346","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a5d05258-ee16-49eb-837a-d8cd028bc729.jpg\/original\/RTPPostShowSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:12:54","updated_at":"2018-03-06 19:13:07","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rooster-teeth-podcast-post-show"},"season":{"title":"2018","description":"","id":657,"number":5,"slug":"rooster-teeth-podcast-post-show-2018","show":{"name":"Rooster
+        Teeth Podcast Post Show","summary":{"html":"<p>Just for FIRST Members, the
+        RT Podcast crew bring a little extra to each week''s show.<\/p>","clean":"Just
+        for FIRST Members, the RT Podcast crew bring a little extra to each week''s
+        show."},"id":346,"slug":"rooster-teeth-podcast-post-show","seasonCount":5,"coverPicture":{"id":"100488578","uuid":"e026d00e-9e41-478f-8a8a-ef634d671e6a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"346","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/56b1e8b7-51d6-40f2-bd7d-36d792962087.jpg\/original\/RTPPostShowHero1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-20
+        21:25:51","updated_at":"2017-12-21 03:56:45","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516090","uuid":"2e35813f-ceca-416f-b48b-b11ae0d0737b","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"346","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a5d05258-ee16-49eb-837a-d8cd028bc729.jpg\/original\/RTPPostShowSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:12:54","updated_at":"2018-03-06 19:13:07","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rooster-teeth-podcast-post-show"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/rooster-teeth-podcast-post-show-2018-498"}},{"type":"Episode","item":{"title":"GTA
+        V - Nasty Booty - Deluxe Bumper Cars","caption":"Matt grabbed some Deluxos
+        to play Deluxe Bumper Cars. The aim is to ram each other over the edge - no
+        flying allowed. Ready. Set. Go!","sponsorOnly":false,"description":{"html":"<p>Matt
+        grabbed some Deluxos to play Deluxe Bumper Cars. The aim is to ram each other
+        over the edge - no flying allowed. Ready. Set. Go!<\/p>\n\n<p>Check out the
+        map here: http:\/\/rsg.ms\/d86dc75<\/p>","clean":"Matt grabbed some Deluxos
+        to play Deluxe Bumper Cars. The aim is to ram each other over the edge - no
+        flying allowed. Ready. Set. Go!\n\nCheck out the map here: http:\/\/rsg.ms\/d86dc75"},"slug":"things-to-do-in-2018-things-to-do-delux-bumper-cars","site":"achievementHunter","id":37865,"number":22,"length":1488,"profilePicture":{"id":"100543840","uuid":"f08fe6c5-709a-4695-b4e8-a53b59dcaa8f","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37865","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a5102e8b-a6fd-4407-82cf-9916468fc553.jpg\/original\/ttddeluxbumpercarsthumbv2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        19:53:04","updated_at":"2018-06-26 19:53:08","deleted_at":null,"picture_type":"profile"},"show":{"name":"Things
+        to Do In","summary":{"html":"<p>Playing video games the way they definitely
+        weren''t meant to be played.<\/p>","clean":"Playing video games the way they
+        definitely weren''t meant to be played."},"id":25,"slug":"things-to-do-in","seasonCount":8,"coverPicture":{"id":"100035944","uuid":"64239084-09f3-45b5-bc8f-228285a7a1ae","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"25","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/ab5c0bf8-bffa-4e32-91c4-841c11b3f489\/original\/1461653-1441898507475-Thingstodoin_Hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-10
+        15:21:55","updated_at":"2018-01-17 20:02:34","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516132","uuid":"7c618935-1116-4a66-8507-049db7b6513d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"25","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/7b39c061-e62d-4c4f-947f-0f8d9ecb3229.jpg\/original\/ThingsToDoInSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:26:27","updated_at":"2018-03-06 19:26:39","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/things-to-do-in"},"season":{"title":"2018","description":"","id":671,"number":8,"slug":"things-to-do-in-2018","show":{"name":"Things
+        to Do In","summary":{"html":"<p>Playing video games the way they definitely
+        weren''t meant to be played.<\/p>","clean":"Playing video games the way they
+        definitely weren''t meant to be played."},"id":25,"slug":"things-to-do-in","seasonCount":8,"coverPicture":{"id":"100035944","uuid":"64239084-09f3-45b5-bc8f-228285a7a1ae","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"25","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/ab5c0bf8-bffa-4e32-91c4-841c11b3f489\/original\/1461653-1441898507475-Thingstodoin_Hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-10
+        15:21:55","updated_at":"2018-01-17 20:02:34","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516132","uuid":"7c618935-1116-4a66-8507-049db7b6513d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"25","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/7b39c061-e62d-4c4f-947f-0f8d9ecb3229.jpg\/original\/ThingsToDoInSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:26:27","updated_at":"2018-03-06 19:26:39","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/things-to-do-in"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/things-to-do-in-2018-things-to-do-delux-bumper-cars","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/9508d87da487149539e14686efbc3c9d-e7920320\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:36 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Im9vRWl3Z3V6SnZ1MnlyRFwvendydVpDS29Nc05mXC9jNjArdUMreEljbHdlRT0iLCJ2YWx1ZSI6IlhsY2p3a0E2em5iaURiS3ptRUtuNTlxdmpaVFUzcmdKU2tIY1hWcmZPMnlidXdUNjlrekM0QTNjTUhOajNHRnFHN0oxRk9kdzVGVlIwamxydm9QRmRBPT0iLCJtYWMiOiIyNTc2Y2U4YWFlZWYxZDdlNzY4NzgwOGY0NTkyZmIwMWEzNmE4M2RjMjYyMzdiNWY3ODMwZTU0OTliYjdlMjE3In0%3D;
+          expires=Fri, 12-Oct-2018 13:31:37 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['21801']
+      X-request-uri: ['/api/v1/feed/?page=2&count=3&type=Episode']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/feed/?page=3&count=3&type=Episode
+  response:
+    body: {string: '[{"type":"Episode","item":{"title":"Jurassic Park Moments w\/
+        Boomstick","caption":"Boomstick counts down his favorite moments from the
+        Jurassic Park movies","sponsorOnly":false,"description":{"html":"<p>Boomstick
+        counts down his favorite moments from the Jurassic Park movies<\/p>","clean":"Boomstick
+        counts down his favorite moments from the Jurassic Park movies"},"slug":"top-10-season-3-top-10-jurassic-park-moments-w-boomstick","site":"screwAttack","id":37867,"number":27,"length":482,"profilePicture":{"id":"100543819","uuid":"ff7a54a3-67d3-41e9-97b7-50b780859043","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37867","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/737f999f-bd94-4ef5-a998-d0a76cd4b03a.jpg\/original\/jurassicmomentsthumb.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        17:56:59","updated_at":"2018-06-26 17:57:41","deleted_at":null,"picture_type":"profile"},"show":{"name":"Top
+        10","summary":{"html":"<p>The best of the best. The worst of the worst. The
+        choices are all from us and nobody else! If there was a Top 10 list about
+        who makes the best Top 10 lists, we''d be numero uno.<\/p>","clean":"The best
+        of the best. The worst of the worst. The choices are all from us and nobody
+        else! If there was a Top 10 list about who makes the best Top 10 lists, we''d
+        be numero uno."},"id":226,"slug":"top-10s","seasonCount":3,"coverPicture":{"id":"100145434","uuid":"286c07a2-836b-4f2b-8fd1-e4e8cc411dd6","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"226","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/1e2dcefd-0e8c-496b-a6f3-ffa0bddf5093\/original\/2056961-1457246375331-Top10Large.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-06
+        06:33:13","updated_at":"2018-01-17 20:02:42","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516138","uuid":"46bf3246-09d8-47ab-8fa2-20898878e0ae","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"226","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/efc3bc22-44ed-4b24-a48a-60ebe3411d16.jpg\/original\/Top10Square.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:28:00","updated_at":"2018-03-06 19:28:14","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/top-10s"},"season":{"title":"Season
+        3","description":"","id":649,"number":3,"slug":"top-10-s-season-3","show":{"name":"Top
+        10","summary":{"html":"<p>The best of the best. The worst of the worst. The
+        choices are all from us and nobody else! If there was a Top 10 list about
+        who makes the best Top 10 lists, we''d be numero uno.<\/p>","clean":"The best
+        of the best. The worst of the worst. The choices are all from us and nobody
+        else! If there was a Top 10 list about who makes the best Top 10 lists, we''d
+        be numero uno."},"id":226,"slug":"top-10s","seasonCount":3,"coverPicture":{"id":"100145434","uuid":"286c07a2-836b-4f2b-8fd1-e4e8cc411dd6","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"226","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/1e2dcefd-0e8c-496b-a6f3-ffa0bddf5093\/original\/2056961-1457246375331-Top10Large.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-06
+        06:33:13","updated_at":"2018-01-17 20:02:42","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516138","uuid":"46bf3246-09d8-47ab-8fa2-20898878e0ae","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"226","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/efc3bc22-44ed-4b24-a48a-60ebe3411d16.jpg\/original\/Top10Square.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:28:00","updated_at":"2018-03-06 19:28:14","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/top-10s"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/top-10-season-3-top-10-jurassic-park-moments-w-boomstick","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/002b148eb67978d0fb2c7418e3493963-f2e36371\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"The
+        Mechs Generation - Episode 8: Dinosaurs With Guns: Part II","caption":"The
+        party undergo mech combat training on their way to the planet of TreValle.
+        In orbit over the dinosaur sanctuary, they receive a stern warning. Down on
+        the planet, they get to mechin'' and trekkin''!","sponsorOnly":false,"description":{"html":"<p>Download
+        the audio version at http:\/\/bit.ly\/HHs4e8. The party undergo mech combat
+        training on their way to the planet of TreValle. In orbit over the dinosaur
+        sanctuary, they receive a stern warning. Down on the planet, they get to mechin''
+        and trekkin''!<\/p>","clean":"Download the audio version at http:\/\/bit.ly\/HHs4e8.
+        The party undergo mech combat training on their way to the planet of TreValle.
+        In orbit over the dinosaur sanctuary, they receive a stern warning. Down on
+        the planet, they get to mechin'' and trekkin''!"},"slug":"heroes-halfwits-2018-the-mechs-generation-dinosaurs-with-guns-part-ii","site":"achievementHunter","id":37864,"number":48,"length":10699,"profilePicture":{"id":"100543823","uuid":"cd398407-0a81-4f2c-88ac-2267de58e93d","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37864","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/89bba295-f0a2-448d-9fea-2a53f0d42a5b.jpg\/original\/hhs4ep8.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        18:16:33","updated_at":"2018-06-26 18:16:34","deleted_at":null,"picture_type":"profile"},"show":{"name":"Heroes
+        & Halfwits","summary":{"html":"<p>Dare ye cross over into a realm of mystery
+        and intrigue? Methinks ye shall. Join Rooster Teeth for this official Heroes
+        &amp; Halfwits adventure.<\/p>","clean":"Dare ye cross over into a realm of
+        mystery and intrigue? Methinks ye shall. Join Rooster Teeth for this official
+        Heroes &amp; Halfwits adventure."},"id":268,"slug":"heroes-halfwits","seasonCount":3,"coverPicture":{"id":"100226145","uuid":"9b360f4e-ebe1-442b-a891-31c6d7dd87aa","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"268","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/9e960501-dab0-40ca-a03e-1a622339d23c\/original\/2013912-1465485653464-HH-ShowPagebanner-060616.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-06-09
+        15:21:13","updated_at":"2018-01-17 20:02:44","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522579","uuid":"cedd0396-163d-4fed-834d-b7d9a74343af","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"268","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/9e285a31-b6a9-47cd-bbc9-577801a6cfa9.jpg\/original\/HeroesAndHalfwitsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        20:40:16","updated_at":"2018-03-27 20:40:22","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/heroes-halfwits"},"season":{"title":"2018","description":"","id":716,"number":3,"slug":"heroes-halfwits-2018","show":{"name":"Heroes
+        & Halfwits","summary":{"html":"<p>Dare ye cross over into a realm of mystery
+        and intrigue? Methinks ye shall. Join Rooster Teeth for this official Heroes
+        &amp; Halfwits adventure.<\/p>","clean":"Dare ye cross over into a realm of
+        mystery and intrigue? Methinks ye shall. Join Rooster Teeth for this official
+        Heroes &amp; Halfwits adventure."},"id":268,"slug":"heroes-halfwits","seasonCount":3,"coverPicture":{"id":"100226145","uuid":"9b360f4e-ebe1-442b-a891-31c6d7dd87aa","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"268","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/9e960501-dab0-40ca-a03e-1a622339d23c\/original\/2013912-1465485653464-HH-ShowPagebanner-060616.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-06-09
+        15:21:13","updated_at":"2018-01-17 20:02:44","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522579","uuid":"cedd0396-163d-4fed-834d-b7d9a74343af","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"268","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/9e285a31-b6a9-47cd-bbc9-577801a6cfa9.jpg\/original\/HeroesAndHalfwitsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        20:40:16","updated_at":"2018-03-27 20:40:22","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/heroes-halfwits"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/heroes-halfwits-2018-the-mechs-generation-dinosaurs-with-guns-part-ii","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/842fe98e9fa38205a0ff693513402d56-260152ef\/ts\/index.m3u8"}}],"audioFiles":[{"type":"audio","content":{"mp3":"http:\/\/www.podtrac.com\/pts\/redirect.mp3\/traffic.libsyn.com\/rtpodcast\/Heroes__Halfwits_S4_E8.mp3"}}],"links":[]}}},{"type":"Episode","item":{"title":"PETTY
+        REVENGE SAGA \u2022 King of Tokyo Board Game","caption":"MOM, WHERE ARE THE
+        TOSTITOS!??","sponsorOnly":false,"description":{"html":"<p>Welcome to our
+        new underground lair...... or so it would appear. Today the crew gathers for
+        some quality buddy buddy gaming time.<\/p>","clean":"Welcome to our new underground
+        lair...... or so it would appear. Today the crew gathers for some quality
+        buddy buddy gaming time."},"slug":"cow-chop-gaming-2018-petty-revenge-saga-king-of-tokyo-board-game","site":"cowChop","id":37868,"number":96,"length":2639,"profilePicture":{"id":"100543824","uuid":"2d21fa01-dd10-4d32-bc69-06aff16ae6df","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37868","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cb612018-bb7a-43fc-8e00-10a2258751c2.jpg\/original\/king-of-tokyo.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        18:29:56","updated_at":"2018-06-26 23:55:39","deleted_at":null,"picture_type":"profile"},"show":{"name":"Cow
+        Chop Gaming","summary":{"html":"<p>The Cow Chop crew plays a variety of games.
+        What more can we say?<\/p>","clean":"The Cow Chop crew plays a variety of
+        games. What more can we say?"},"id":305,"slug":"cow-chop-gaming","seasonCount":3,"coverPicture":{"id":"100387168","uuid":"4df9d574-b2c8-4417-aac4-440ffe447b5e","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/8b26b7cd-5ff9-43d2-a9d5-bd41227575d1\/original\/2516933-1488589142040-Gameplay.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-03-04
+        00:59:01","updated_at":"2018-01-07 05:19:52","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515998","uuid":"980c5fd4-779e-45ee-adf7-ae9c5dfe09e7","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/6687010d-4573-4f94-b0c4-be586a8f3475.jpg\/original\/CowChopGamingSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:53:16","updated_at":"2018-03-06 16:53:35","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/cow-chop-gaming"},"season":{"title":"2018","description":"","id":644,"number":3,"slug":"cow-chop-gaming-2018","show":{"name":"Cow
+        Chop Gaming","summary":{"html":"<p>The Cow Chop crew plays a variety of games.
+        What more can we say?<\/p>","clean":"The Cow Chop crew plays a variety of
+        games. What more can we say?"},"id":305,"slug":"cow-chop-gaming","seasonCount":3,"coverPicture":{"id":"100387168","uuid":"4df9d574-b2c8-4417-aac4-440ffe447b5e","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/8b26b7cd-5ff9-43d2-a9d5-bd41227575d1\/original\/2516933-1488589142040-Gameplay.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-03-04
+        00:59:01","updated_at":"2018-01-07 05:19:52","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515998","uuid":"980c5fd4-779e-45ee-adf7-ae9c5dfe09e7","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"305","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/6687010d-4573-4f94-b0c4-be586a8f3475.jpg\/original\/CowChopGamingSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:53:16","updated_at":"2018-03-06 16:53:35","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/cow-chop-gaming"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/cow-chop-gaming-2018-petty-revenge-saga-king-of-tokyo-board-game","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/ab5a404b55934a5228458e50199f494b-765929e3\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:37 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Im9wWm1PMjBHeVhHd20yTkhYT1wvR1RnZTBHQlVwYlBpMFBOa1lLN1Q3Y2s4PSIsInZhbHVlIjoibEdhM2ZkdTV3Y2VkSDk1TERWdHdrYjQzK2RoTVFmQlJxYWp3V1NIb3hIekN6QWNXazZFc0V4WGlyTXpwNUd2OTB2VWt1dzZYVDRjRmNFUUl3ZnpNeHc9PSIsIm1hYyI6ImZlOTc3YjUyZjFmNjc1NWQxZDI5MTIxODE4OTI5YTUyMjE1MzM4ZmM4ZTBjYzM3OTEyYzg0N2E5N2I1MmQ5NzUifQ%3D%3D;
+          expires=Fri, 12-Oct-2018 13:31:39 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['21801']
+      X-request-uri: ['/api/v1/feed/?page=3&count=3&type=Episode']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/feed/?page=4&count=3&type=Episode
+  response:
+    body: {string: '[{"type":"Episode","item":{"title":"Michael Gets Cancelled - Worms
+        W.M.D. (#8)","caption":"The crew discusses the intricacies of the classifications
+        of \"sauces\". Also, they fight with worms.","sponsorOnly":false,"description":{"html":"<p>The
+        crew discusses the intricacies of the classifications of \"sauces\". Also,
+        they fight with worms.<\/p>","clean":"The crew discusses the intricacies of
+        the classifications of \"sauces\". Also, they fight with worms."},"slug":"let-s-play-2018-is-ranch-a-sauce-worms-w-m-d-8","site":"achievementHunter","id":37863,"number":161,"length":2351,"profilePicture":{"id":"100543816","uuid":"2ee90ae1-3307-4ea2-a1c2-8d88c7f92b4e","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37863","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64e753ff-b227-4c27-8234-2ecf90e9a435.jpg\/original\/thumbworms053018.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-26
+        15:31:32","updated_at":"2018-06-26 15:31:34","deleted_at":null,"picture_type":"profile"},"show":{"name":"Let''s
+        Play","summary":{"html":"<p>A revolving cast from the Let''s Play Family play
+        video games extremely poorly.<\/p>","clean":"A revolving cast from the Let''s
+        Play Family play video games extremely poorly."},"id":23,"slug":"lets-play","seasonCount":8,"coverPicture":{"id":"100180845","uuid":"4f1079d8-a194-4b0d-9c35-8079c6de1247","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"23","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/297dc522-2edf-4d69-ad38-5de2a6848582\/original\/21-1459367673014-LetsPlay_RT_website.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-30
+        19:54:29","updated_at":"2018-01-17 19:35:29","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522591","uuid":"23b9d038-de46-48e3-a5c2-d3f2c0d46b31","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"23","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a6734c38-9014-4813-96fa-7651f22c706c.jpg\/original\/LetsPlaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        20:43:19","updated_at":"2018-03-27 20:43:39","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/lets-play"},"season":{"title":"2018","description":"","id":703,"number":8,"slug":"let-s-play-2018","show":{"name":"Let''s
+        Play","summary":{"html":"<p>A revolving cast from the Let''s Play Family play
+        video games extremely poorly.<\/p>","clean":"A revolving cast from the Let''s
+        Play Family play video games extremely poorly."},"id":23,"slug":"lets-play","seasonCount":8,"coverPicture":{"id":"100180845","uuid":"4f1079d8-a194-4b0d-9c35-8079c6de1247","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"23","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/297dc522-2edf-4d69-ad38-5de2a6848582\/original\/21-1459367673014-LetsPlay_RT_website.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-30
+        19:54:29","updated_at":"2018-01-17 19:35:29","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522591","uuid":"23b9d038-de46-48e3-a5c2-d3f2c0d46b31","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"23","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a6734c38-9014-4813-96fa-7651f22c706c.jpg\/original\/LetsPlaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        20:43:19","updated_at":"2018-03-27 20:43:39","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/lets-play"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/let-s-play-2018-is-ranch-a-sauce-worms-w-m-d-8","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/b823b92ee86870c8acc072152d32aba3-84eee2d7\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"2
+        DRUNK 2 DRIVE - Drunk GTA 5 Gameplay","caption":"\"Jam it inside the red hole!\"","sponsorOnly":false,"description":{"html":"<p>Don''t
+        let Jacob''s drunken sweetness here fool you. Last year at the RTX he burst
+        into the VIP party, downed two cherry Long Islands, then kicked a family of
+        Syrian refugees down a flight of stairs. <\/p>\n\n<p>Map link: https:\/\/socialclub.rockstargames.com\/games\/gtav\/pc\/jobs\/job\/P6-m6ciwK0auMA2ZTWfQ5Q#<\/p>\n\n<p>Follow
+        us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttps:\/\/twitter.com\/ElyseWillems\nhttps:\/\/twitter.com\/_JacobFullerton\nhttps:\/\/twitter.com\/JoelRubin_\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus<\/p>","clean":"Don''t
+        let Jacob''s drunken sweetness here fool you. Last year at the RTX he burst
+        into the VIP party, downed two cherry Long Islands, then kicked a family of
+        Syrian refugees down a flight of stairs. \n\nMap link: https:\/\/socialclub.rockstargames.com\/games\/gtav\/pc\/jobs\/job\/P6-m6ciwK0auMA2ZTWfQ5Q#\n\nFollow
+        us on Twitter:\nhttp:\/\/twitter.com\/adamkovic\nhttp:\/\/twitter.com\/brucegreene\nhttp:\/\/twitter.com\/jameswillems\nhttp:\/\/twitter.com\/sirlarr\nhttps:\/\/twitter.com\/ElyseWillems\nhttps:\/\/twitter.com\/_JacobFullerton\nhttps:\/\/twitter.com\/JoelRubin_\nTshirts
+        n stuff: https:\/\/store.roosterteeth.com\/collections\/funhaus"},"slug":"gameplay-2018-gtatransformer","site":"funhaus","id":37784,"number":130,"length":793,"profilePicture":{"id":"100543874","uuid":"becfd73a-cba8-46f7-a193-4c1dce638c9e","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37784","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/103600fc-e17a-4f79-9a47-9974d58fc1e9.png\/original\/transaf.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        01:31:36","updated_at":"2018-06-27 01:31:42","deleted_at":null,"picture_type":"profile"},"show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"id":"100516197","uuid":"450d37ea-08f5-4e63-9bef-ccd3c4bfb8c5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"65","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        23:32:21","updated_at":"2018-03-20 16:42:25","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516047","uuid":"75e34401-73c1-4287-a28c-37c7b78a92d3","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"65","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        18:28:29","updated_at":"2018-03-06 18:28:44","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},"season":{"title":"2018","description":"","id":640,"number":4,"slug":"gameplay-2018","show":{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"id":"100516197","uuid":"450d37ea-08f5-4e63-9bef-ccd3c4bfb8c5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"65","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        23:32:21","updated_at":"2018-03-20 16:42:25","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516047","uuid":"75e34401-73c1-4287-a28c-37c7b78a92d3","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"65","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        18:28:29","updated_at":"2018-03-06 18:28:44","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/gameplay-2018-gtatransformer","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/85fc0a75ef41c8a8236737402caa1bf5-8ea9c56a\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}},{"type":"Episode","item":{"title":"Blizzard
+        Patenting Overwatch Play of the Game! Is It Anti-competitive?","caption":"Blizzard
+        wants to patent Overwatch''s \"Play of the Game\" mechanic. Is that an overly
+        broad patent for the feature? Is it anti-competitive?","sponsorOnly":false,"description":{"html":"<p>Blizzard
+        wants to patent Overwatch''s \"Play of the Game\" mechanic. Is that an overly
+        broad patent for the feature? Is it anti-competitive?<\/p>","clean":"Blizzard
+        wants to patent Overwatch''s \"Play of the Game\" mechanic. Is that an overly
+        broad patent for the feature? Is it anti-competitive?"},"slug":"game-news-2018-blizzard-patents-play-of-the-game","site":"theKnow","id":37894,"number":159,"length":380,"profilePicture":{"id":"100543881","uuid":"c2b9d8c4-7f2d-48a7-89e3-6b6bac0bba5e","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"37894","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/43e562fd-c8fe-4b37-8d5d-eedb14a173a9.jpg\/original\/20180626overwatchpatent.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        03:52:20","updated_at":"2018-06-27 03:52:22","deleted_at":null,"picture_type":"profile"},"show":{"name":"Game
+        News","summary":{"html":"<p>The Rooster Teeth crew brings you the biggest
+        news in video games.<\/p>","clean":"The Rooster Teeth crew brings you the
+        biggest news in video games."},"id":77,"slug":"game-news","seasonCount":4,"coverPicture":{"id":"100280757","uuid":"ca53c869-68c2-4646-98a3-3f2ee787e319","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-09-20
+        17:36:07","updated_at":"2018-01-17 20:02:39","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100523636","uuid":"57c73918-e2ce-492a-aec5-b1ca93a20d1f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-30
+        00:06:11","updated_at":"2018-03-30 00:06:28","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/game-news"},"season":{"title":"2018","description":"","id":641,"number":4,"slug":"game-news-2018","show":{"name":"Game
+        News","summary":{"html":"<p>The Rooster Teeth crew brings you the biggest
+        news in video games.<\/p>","clean":"The Rooster Teeth crew brings you the
+        biggest news in video games."},"id":77,"slug":"game-news","seasonCount":4,"coverPicture":{"id":"100280757","uuid":"ca53c869-68c2-4646-98a3-3f2ee787e319","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-09-20
+        17:36:07","updated_at":"2018-01-17 20:02:39","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100523636","uuid":"57c73918-e2ce-492a-aec5-b1ca93a20d1f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-30
+        00:06:11","updated_at":"2018-03-30 00:06:28","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/game-news"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/game-news-2018-blizzard-patents-play-of-the-game","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/553db09a3c2c2e614b3a0e231bc7d391-8d05776f\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:38 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InJPWTBXcm1TZGsxMHpiVVdiV1ZVQzZVbzFoKzE0XC9oWGhzN0VUSzBGMGF3PSIsInZhbHVlIjoiVUhENjJkT1FBb0hQdDVhVlNhcGFyMDNOcGZEWXp2VTgxY3BoTitqOXlFQlwvWTBHZFZ3ZHNIODU2TU9xcW9yRG0wTVwvVzhacjZHbG9lb3FobmV2eFFFQT09IiwibWFjIjoiZDNiMjBjYWU3ZDlmMDJkNTI2OTAxZjk0YzY5YzA5NGQ4N2RlYTM5OWUzNDNlOTRiNjljZTFjY2Q5NmFmZjc4OSJ9;
+          expires=Fri, 12-Oct-2018 13:31:41 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['21801']
+      X-request-uri: ['/api/v1/feed/?page=4&count=3&type=Episode']
+    status: {code: 200, message: OK}
+version: 1

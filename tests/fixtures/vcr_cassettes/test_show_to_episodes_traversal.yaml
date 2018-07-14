@@ -1,0 +1,584 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/52
+  response:
+    body: {string: '{"name":"Minimations","summary":{"html":"<p>Highlights from some
+        of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:07 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjhaWHZYbGR3SEs5TDhFWkpQUGpCOURDb3crdHI2amFUQ2dkSDFPS2g1ek09IiwidmFsdWUiOiIyVUlCTjNXZGFFaE5FSUpPZUFQcXExNGVCS2JvVEJVUVZnS2grZTZ2U0U5YkVSK2FoUWJFeitncGNoMkdCXC9oc29LdVhUcDZQUTd4aGlDdlZWeEN3cUE9PSIsIm1hYyI6IjBlMjFjNGU4YWJmZjE5MzhiZmM4YmY5ZjA0ZWZhOGY0ZjUxNzE5MWVkZTA1NDZiNjEzM2VmYjQ1ZmNjNmEwNjkifQ%3D%3D;
+          expires=Fri, 12-Oct-2018 13:33:06 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/52]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/52/seasons/
+  response:
+    body: {string: '[{"title":"Straight Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:08 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ik1aUGN6NWlJZ243NXJxWFFpOFQrK0JrOVwvdW5seXNJZXF3OE81MzdodXNBPSIsInZhbHVlIjoiRTh0UUZNMDI4c0N5bTJ3bmZVN05iSjVwbTJWa0g1T2xPbWtWOThUS2UrXC9HOEVoOUdydGpVZDF5dWFneGVqRlRSTU81VFlRV2JxRWFKemxNclpPakJRPT0iLCJtYWMiOiI4ZDkzNWE2ODMzZmNkYTcwMDNkMWY4MjE5NjNmOTQyY2M1Zjc2YjBlYmJhN2EyYmY4MDYwODE2MzJiNGIyODQ4In0%3D;
+          expires=Fri, 12-Oct-2018 13:33:08 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['2']
+      X-request-uri: [/api/v1/shows/52/seasons/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/204/episodes?page=1&count=20
+  response:
+    body: {string: '[{"title":"Deconstruction Crew","caption":"It''s metal against
+        metal in an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine
+        witness the construction feud of the century!","sponsorOnly":false,"description":{"html":"<p>It''s
+        metal against metal in an all-out bulldozer demolition derby! Gus, Burnie,
+        Gavin, and Blaine witness the construction feud of the century!<\/p>\n\n<p>Made
+        by the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Audio
+        from <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-373\">The
+        Rooster Teeth Podcast #373<\/a><\/p>","clean":"It''s metal against metal in
+        an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine witness
+        the construction feud of the century!\n\nMade by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.\n\nAudio from The Rooster Teeth Podcast
+        #373"},"slug":"lets-play-minimations-straight-outta-rt-deconstruction-crew","site":"roosterTeeth","id":28661,"number":11,"length":138,"profilePicture":{"id":"100228693","uuid":"353cd07b-edab-4ace-875b-1a03cc1bc87b","title":"","description":"","container_type":"Shows\\Models\\Episode","container_id":"28661","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/original\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-06-13
+        19:09:37","updated_at":"2018-01-17 20:29:41","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-deconstruction-crew","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/43d3ae66-10c3-41d1-88f0-640b8229c4a6\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Gavin''s
+        Driving Dilemma","caption":"\u200bGavin finally explains his fear of driving
+        in America: Deportation!","sponsorOnly":false,"description":{"html":"<p>Gavin
+        finally explains his fear of driving in America: Deportation!<\/p>\n\n<p>Made
+        by the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Audio
+        from <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-season-1-rt-podcast-311\">The
+        Rooster Teeth Podcast #311<\/a><\/p>","clean":"Gavin finally explains his
+        fear of driving in America: Deportation!\n\nMade by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.\n\nAudio from The Rooster Teeth Podcast
+        #311"},"slug":"lets-play-minimations-straight-outta-rt-gavin-s-driving-dilemma","site":"roosterTeeth","id":26547,"number":10,"length":109,"profilePicture":{"id":"100204586","uuid":"16f76ea2-f695-4853-af9d-405f5cf20b06","title":"","description":"","container_type":"Shows\\Models\\Episode","container_id":"26547","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/a71c913f-67eb-481a-b7f9-d910bfbc68aa\/original\/2013912-1462821616632-SoRT_10_THUMBNAIL.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-05-09
+        19:20:34","updated_at":"2018-01-17 20:29:13","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-gavin-s-driving-dilemma","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/4920efe4-a152-4616-8ef2-8113da8a1e31\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Stories
+        for the Road","caption":"The Podcast Crew shares their experiences with the
+        terror that is the open road! Cars, bikes, cars hitting cars, cars hitting
+        bikes, we''ve got it all on this episode of Minimations!","sponsorOnly":false,"description":{"html":"<p>The
+        Podcast Crew shares their experiences with the terror that is the open road!
+        Cars, bikes, cars hitting cars, cars hitting bikes, we''ve got it all on this
+        episode of Minimations!<\/p>\n\n<p>Made by the Rooster Teeth community GTA5
+        machinima team: The Lone Few.<\/p>\n\n<p>Audio from The <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-367\">Rooster
+        Teeth Podcast #367<\/a><\/p>","clean":"The Podcast Crew shares their experiences
+        with the terror that is the open road! Cars, bikes, cars hitting cars, cars
+        hitting bikes, we''ve got it all on this episode of Minimations!\n\nMade by
+        the Rooster Teeth community GTA5 machinima team: The Lone Few.\n\nAudio from
+        The Rooster Teeth Podcast #367"},"slug":"lets-play-minimations-straight-outta-rt-stories-for-the-road","site":"roosterTeeth","id":26279,"number":9,"length":132,"profilePicture":{"id":"100186300","uuid":"7ca0b7cb-2559-4a4a-9220-a0763dd0a4e1","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"26279","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/74d97463-be12-4a17-980a-a39e39cf575a\/original\/2013912-1460398442928-SORT_EP09_THUMB.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-04-11
+        18:14:32","updated_at":"2018-01-17 20:29:03","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-stories-for-the-road","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/2410364b-6d3a-4fc7-9e7c-3f1e78311274\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Static
+        Death and the Crime Switch","caption":"\u200bGavin ponders the inevitability
+        of death, fearing that ''final resting place'' might be more literal than
+        once thought. Gavin also theorizes that being a criminal is simply a ''switch''
+        inside one''s self. Is he correct? Gus demonstrates!","sponsorOnly":false,"description":{"html":"<p>Gavin
+        ponders the inevitability of death, fearing that ''final resting place'' might
+        be more literal than once thought. Gavin also theorizes that being a criminal
+        is simply a ''switch'' inside one''s self. Is he correct? Gus demonstrates!<\/p>\n\n<p><br
+        \/><\/p>\n\n<p>Featuring audio from: <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-357\">The
+        Rooster Teeth Podcast #357<\/a>, done by the community machinima team ''The
+        Lone Few''!<\/p>","clean":"Gavin ponders the inevitability of death, fearing
+        that ''final resting place'' might be more literal than once thought. Gavin
+        also theorizes that being a criminal is simply a ''switch'' inside one''s
+        self. Is he correct? Gus demonstrates!\n\n\n\nFeaturing audio from: The Rooster
+        Teeth Podcast #357, done by the community machinima team ''The Lone Few''!"},"slug":"lets-play-minimations-straight-outta-rt-static-death-and-the-crime-switch","site":"roosterTeeth","id":25985,"number":8,"length":99,"profilePicture":{"id":"100173697","uuid":"78bcb3c0-4f33-4ff0-bddf-052b5e40677c","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"25985","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/b29bea66-3bc3-4158-a1ff-d99faa227d11\/original\/2013912-1457987479693-SoRT_8_THUMBNAIL.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-14
+        20:31:28","updated_at":"2018-01-17 20:28:51","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-static-death-and-the-crime-switch","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/70911821-270e-487f-af2b-fbc551a94e40\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"El
+        Trumpo","caption":"On an On The Spot Edition of Minimations, we join Miles
+        Luna and Shannon McCormick as they share the complex story of the one and
+        only Donald Trump. Vengeance, Romance, and Twists? We have it all!","sponsorOnly":false,"description":{"html":"<p>On
+        an On The Spot Edition of Minimations, we join Miles Luna and Shannon McCormick
+        as they share the complex story of the one and only Donald Trump. Vengeance,
+        Romance, and Twists? We have it all!<\/p>\n\n<p><br \/><\/p>\n\n<p>Made by
+        the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p><br
+        \/><\/p>\n\n<p>Includes audio from: <a href=\"http:\/\/roosterteeth.com\/episode\/on-the-spot-season-3-7\">On
+        The Spot #27<\/a><\/p>","clean":"On an On The Spot Edition of Minimations,
+        we join Miles Luna and Shannon McCormick as they share the complex story of
+        the one and only Donald Trump. Vengeance, Romance, and Twists? We have it
+        all!\n\n\n\nMade by the Rooster Teeth community GTA5 machinima team: The Lone
+        Few.\n\n\n\nIncludes audio from: On The Spot #27"},"slug":"lets-play-minimations-straight-outta-rt-el-trumpo","site":"roosterTeeth","id":21522,"number":7,"length":112,"profilePicture":{"id":"100124356","uuid":"682d59d2-5d8a-4236-8cdb-03ab16643aba","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"21522","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/ca13c920-af04-4ee8-b126-50267d8bd0ad\/original\/2013912-1454949137757-SOORT_EP07_TUMB.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-02-08
+        16:32:21","updated_at":"2018-01-17 20:22:06","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-el-trumpo","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/0d58a762-19c9-4f72-acfc-7fa0224a212c\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Organ
+        Zombie Apocalypse","caption":"This week on \u201cStraight Outta RT\u201d,
+        the zombie apocalypse has ravaged the planet! Jack, Adam, Bruce, Jeremy, and
+        Ryan roam the planet looking for supplies, fixing cars, and trying to stay
+        alive!","sponsorOnly":false,"description":{"html":"<p>This week on \u201cStraight
+        Outta RT\u201d, the zombie apocalypse has ravaged the planet! Jack, Adam,
+        Bruce, Jeremy, and Ryan roam the planet looking for supplies, fixing cars,
+        and trying to stay alive!<\/p>\n\n<p><br \/><\/p>\n\n<p>Made by the Rooster
+        Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p><br \/><\/p>\n\n<p>Includes
+        audio from <a href=\"http:\/\/achievementhunter.com\/episode\/lets-play-let-s-play-2-organ-trail\">Let\u2019s
+        Watch - Organ Trail with Funhaus<\/a>.<\/p>","clean":"This week on \u201cStraight
+        Outta RT\u201d, the zombie apocalypse has ravaged the planet! Jack, Adam,
+        Bruce, Jeremy, and Ryan roam the planet looking for supplies, fixing cars,
+        and trying to stay alive!\n\n\n\nMade by the Rooster Teeth community GTA5
+        machinima team: The Lone Few.\n\n\n\nIncludes audio from Let\u2019s Watch
+        - Organ Trail with Funhaus."},"slug":"lets-play-minimations-straight-outta-rt-oregon-zombie-apocalypse","site":"roosterTeeth","id":21324,"number":6,"length":207,"profilePicture":{"id":"100105610","uuid":"b3afe810-da3b-4b9d-b07f-5ef6811fc2f8","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"21324","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/70916382-ab61-41b3-b9c8-b84639f5c1c5\/original\/2013912-1452539849844-SoRT_EP06_THUMB.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-01-11
+        19:18:23","updated_at":"2018-01-17 20:21:58","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-oregon-zombie-apocalypse","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/06b3cb05-b852-48ef-8fb6-195e6be36787\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Off
+        Topic Mountain Monsters","caption":"This week on \u201cStraight Outta RT\u201d,
+        Michael tells the tale of the legendary Mountain Monsters hunting team. Experience
+        the terror of Bigfoot, The Mothman, and poor trigger finger safety!","sponsorOnly":false,"description":{"html":"<p>This
+        week on Straight Outta RT, Michael tells the tale of the legendary Mountain
+        Monsters hunting team. Experience the terror of Bigfoot, The Mothman, and
+        poor trigger finger safety!<\/p>\n\n<p>Made by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Includes audio from The Off-Topic
+        Podcast #0.1 <a href=\"http:\/\/achievementhunter.com\/episode\/off-topic-the-achievement-hunter-podcast-2015-mountain-monsters-01\">http:\/\/achievementhunter.com\/episode\/off-topic-the...<\/a><\/p>","clean":"This
+        week on Straight Outta RT, Michael tells the tale of the legendary Mountain
+        Monsters hunting team. Experience the terror of Bigfoot, The Mothman, and
+        poor trigger finger safety!\n\nMade by the Rooster Teeth community GTA5 machinima
+        team: The Lone Few.\n\nIncludes audio from The Off-Topic Podcast #0.1 http:\/\/achievementhunter.com\/episode\/off-topic-the..."},"slug":"lets-play-minimations-straight-outta-rt-off-topic-mountain-monsters","site":"roosterTeeth","id":21145,"number":5,"length":141,"profilePicture":{"id":"100094637","uuid":"9c69910e-d520-4ca2-8260-6170f5184973","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"21145","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/0e1dffb8-66c3-4c20-8901-79841c33fd61\/original\/2013912-1450119506651-SoRT_EP05_THUMB.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-12-14
+        18:58:37","updated_at":"2018-01-17 20:21:52","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-off-topic-mountain-monsters","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/dc97ddf1-8708-4c5b-8905-3ac59b09e089\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Straight
+        Outta RT","caption":"Burnie swims for his life, as Gavin, Gus, and Brandon
+        debate if he can make it back to shore. Meanwhile Geoff and Michael become
+        top tier investigators, armed with their new truck technology.","sponsorOnly":false,"description":{"html":"<p>Burnie
+        swims for his life, as Gavin, Gus, and Brandon debate if he can make it back
+        to shore. Meanwhile Geoff and Michael become top tier investigators, armed
+        with their new truck technology. <\/p>\n\n<p>Made by Rooster Teeth community
+        GTA machinima team The Lone Few.<\/p>\n\n<p>Includes audio from The Rooster
+        Teeth Podcast #313 % Sunday Driving - How Muddy do You Like It<\/p>","clean":"Burnie
+        swims for his life, as Gavin, Gus, and Brandon debate if he can make it back
+        to shore. Meanwhile Geoff and Michael become top tier investigators, armed
+        with their new truck technology. \n\nMade by Rooster Teeth community GTA machinima
+        team The Lone Few.\n\nIncludes audio from The Rooster Teeth Podcast #313 %
+        Sunday Driving - How Muddy do You Like It"},"slug":"lets-play-minimations-straight-outta-rt-minimations-straight-outta-rt","site":"roosterTeeth","id":20865,"number":4,"length":111,"profilePicture":{"id":"100072039","uuid":"12abe462-c15a-4429-9301-85cebf77e7ef","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20865","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/e9e672d4-e3dd-4e02-a8ec-a8db78752125\/original\/2013912-1447095266678-SoRT_EP04_THUMB.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-11-09
+        18:54:44","updated_at":"2018-01-17 20:21:40","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-minimations-straight-outta-rt","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/2629eeeb-9f85-436d-ad95-ea3a2f0980b6\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Cards
+        Against Humanity Edition","caption":"This week on \"Straight Outta RT\", we
+        live through the crazy Cards Against Humanity scenarios played by the RT gang
+        and special guests Game Grumps.","sponsorOnly":false,"description":{"html":"<p>This
+        week on \"Straight Outta RT\", we live through the crazy Cards Against Humanity
+        scenarios played by the RT gang and special guests Game Grumps. Like the clips
+        you heard in this video Watch all of the hilarious moments in CAH with a Rooster
+        Teeth sponsorship! On the fence No Problem! Try being a sponsor with a 30-Day
+        trial!<\/p>\n\n<p>Sign up here at: <a href=\"http:\/\/bit.ly\/Become_A_Sponsor\">http:\/\/bit.ly\/Become_A_Sponsor<\/a><\/p>\n\n<p>Made
+        by Rooster Teeth community GTA5 machinima team The Lone Few.<\/p>\n\n<p>Includes
+        audio from RT Sponsor Cut: Cards Against Humanity #1, #8, RTX2014 &amp; RTX2015<\/p>","clean":"This
+        week on \"Straight Outta RT\", we live through the crazy Cards Against Humanity
+        scenarios played by the RT gang and special guests Game Grumps. Like the clips
+        you heard in this video Watch all of the hilarious moments in CAH with a Rooster
+        Teeth sponsorship! On the fence No Problem! Try being a sponsor with a 30-Day
+        trial!\n\nSign up here at: http:\/\/bit.ly\/Become_A_Sponsor\n\nMade by Rooster
+        Teeth community GTA5 machinima team The Lone Few.\n\nIncludes audio from RT
+        Sponsor Cut: Cards Against Humanity #1, #8, RTX2014 &amp; RTX2015"},"slug":"lets-play-minimations-straight-outta-rt-cards-against-humanity-edition","site":"roosterTeeth","id":20615,"number":3,"length":128,"profilePicture":{"id":"100054197","uuid":"c8ded679-3d01-4ced-bc20-5000ffb647f2","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20615","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/273e701c-a2d9-420c-8186-4cd5adf55929\/original\/2013912-1444676634634-MM_SoRT_EP03_THUMB.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-10-12
+        19:03:49","updated_at":"2018-01-17 20:21:30","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-cards-against-humanity-edition","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/eefdcda7-de16-42fd-8c90-ebb447c4e586\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Halo
+        Desynced - Combat Devolved","caption":"\u200bIn this installation of \"Straight
+        Outta RT\", Gavin Free and Daniel Gruchy must deal with themselves from another
+        dimension while surviving the horrors of being split apart!","sponsorOnly":false,"description":{"html":"<p>In
+        this installation of \"Straight Outta RT\", Gavin Free and Daniel Gruchy must
+        deal with themselves from another dimension while surviving the horrors of
+        being split apart! <\/p>\n\n<p>Made by Rooster Teeth community GTA5 machinima
+        team The Lone Few.<\/p>\n\n<p>Includes audio from Rooster Teeth Podcast #322.<\/p>","clean":"In
+        this installation of \"Straight Outta RT\", Gavin Free and Daniel Gruchy must
+        deal with themselves from another dimension while surviving the horrors of
+        being split apart! \n\nMade by Rooster Teeth community GTA5 machinima team
+        The Lone Few.\n\nIncludes audio from Rooster Teeth Podcast #322."},"slug":"lets-play-minimations-straight-outta-rt-halo-desynced-combat-devolved","site":"roosterTeeth","id":20396,"number":2,"length":117,"profilePicture":{"id":"100039626","uuid":"31effe9d-3655-45f8-acf6-9af0fb132dcd","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20396","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/6cd5b8dd-6b79-4b8d-add1-c3edf31f7b04\/original\/2013912-1442250340527-MM-SoRT_e2_THUMBNAIL-LOGO.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-14
+        17:05:54","updated_at":"2018-01-17 20:21:21","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-halo-desynced-combat-devolved","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/e34e6a2b-2712-4ecf-9972-423c183f812d\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Grand
+        Theft of Gus'' Auto","caption":"Minimations continues, with this premiere
+        installment of \"Straight Outta RT!\"","sponsorOnly":false,"description":{"html":"<p>Minimations
+        continues, with this premiere installment of \"Straight Outta RT!\" Made by
+        Rooster Teeth community GTA5 machinima team The Lone Few, this episode showcases
+        the tale of Gus'' car getting stolen, as well as FunHaus'' Lawrence staycation
+        at an \"Air BnB.\"<\/p>\n\n<p>Includes audio from Rooster Teeth Podcast #238:
+        <a href=\"http:\/\/bit.ly\/RTP238\">http:\/\/bit.ly\/RTP238<\/a> and Dude
+        Soup #23: <a href=\"http:\/\/bit.ly\/DS23yt\">http:\/\/bit.ly\/DS23yt<\/a>  ||
+        PEOPLE LIKE GRAPES: <a href=\"http:\/\/bit.ly\/Roosterteeth\">http:\/\/bit.ly\/Roosterteeth<\/a>
+        || Join in on the conversation at: <a href=\"http:\/\/bit.ly\/roosterteethcommunity\">http:\/\/bit.ly\/roosterteethcommunity<\/a><\/p>","clean":"Minimations
+        continues, with this premiere installment of \"Straight Outta RT!\" Made by
+        Rooster Teeth community GTA5 machinima team The Lone Few, this episode showcases
+        the tale of Gus'' car getting stolen, as well as FunHaus'' Lawrence staycation
+        at an \"Air BnB.\"\n\nIncludes audio from Rooster Teeth Podcast #238: http:\/\/bit.ly\/RTP238
+        and Dude Soup #23: http:\/\/bit.ly\/DS23yt  || PEOPLE LIKE GRAPES: http:\/\/bit.ly\/Roosterteeth
+        || Join in on the conversation at: http:\/\/bit.ly\/roosterteethcommunity"},"slug":"lets-play-minimations-straight-outta-rt-grand-theft-of-gus-auto","site":"roosterTeeth","id":20147,"number":1,"length":116,"profilePicture":{"id":"100016715","uuid":"0e38be93-7140-4c11-9656-93bd7036a350","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20147","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/181abcb6-c30d-4bef-a86b-1f1eebc9e627\/original\/1461653-1439234547541-MM-SoRT_e1_THUMBNAIL-LOGO.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-08-10
+        19:23:09","updated_at":"2018-01-17 20:21:11","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-grand-theft-of-gus-auto","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/eb55db52-5b00-4df6-b021-21b09799ea66\/index.m3u8"}}],"audioFiles":[],"links":[]}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:08 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Im1peXJtSzJ4ZXpKNXFHYjRoeGJXR0lxc2NOOU9lakV1RVZrd1d4ZjdTMW89IiwidmFsdWUiOiJxNnFRa1wvN1g3TXFXUTlqRzE2cUNsTXNpcm85TDBVSWdtaFJNdEdVNWZ1M2d6aWNmNk1UV0VHMjVIK0V4aFJCd29wVHBvTGthRERIcXNFRWJsa1dISHc9PSIsIm1hYyI6IjAyNDAyMDlkNTIyNDc4MTE5MWMyMGYzMTA1OTA2ZWMwNDI3ZWI4ZGYyMWNhYTNlNWZlZjY3ZjJkYTc4ZDQyYjIifQ%3D%3D;
+          expires=Fri, 12-Oct-2018 13:33:08 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['11']
+      X-request-uri: ['/api/v1/seasons/204/episodes?page=1&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/204/episodes?page=2&count=20
+  response:
+    body: {string: '[]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:09 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InVTYnVDTnFoNnMwTnFLTU1mVmVPaDdGcjFkZVdPVUVvZFlCUjErQm8rVUE9IiwidmFsdWUiOiJ1TEdjTDB0U1Z3SFZoRjBFcnE3YnBocE55aEpUNVBIaE9PUXpQbjdrdGZ5ZDhwXC9WYkxWSFJZMmc3MVdLMVVBOG45dDVHWkpJeWhZYUlka3NoZjU5QXc9PSIsIm1hYyI6Ijk3NzY0YWIzNWEzMjFkNTVkMDJmMzI2MzNhNDA0MzRjMDk4NjExNzk3Yzg5ZjdjYmE4ZGYxNTY5OTliNDliM2UifQ%3D%3D;
+          expires=Fri, 12-Oct-2018 13:33:11 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['11']
+      X-request-uri: ['/api/v1/seasons/204/episodes?page=2&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/85/episodes?page=1&count=20
+  response:
+    body: {string: '[{"title":"The Birds''n''Bees - Let''s Play Minimations #10","caption":"The
+        Birds''n''Bees","sponsorOnly":false,"description":{"html":"<p>In this final
+        episode, Geoff does his best \"Attack on Titan\" impression, the Hunters play
+        \"Hide the Handgrenade,\" and a couple villagers teach Ryan about the birds''n''bees.
+        The blocky, pixelated birds''n''bees...<\/p>","clean":"In this final episode,
+        Geoff does his best \"Attack on Titan\" impression, the Hunters play \"Hide
+        the Handgrenade,\" and a couple villagers teach Ryan about the birds''n''bees.
+        The blocky, pixelated birds''n''bees..."},"slug":"lets-play-minimations-season-1-lets-play-minimations-10","site":"roosterTeeth","id":11645,"number":10,"length":80,"profilePicture":{"id":"100522957","uuid":"6fa7b79d-cd7d-44a7-9564-a1cf92498ae7","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"11645","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/030a78b0-f4eb-47f2-8f1b-f1ef799bf284.jpg\/original\/maxresdefault.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-28
+        03:23:14","updated_at":"2018-03-28 03:23:16","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-10","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/11645.mp4-7fedf18b\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Technical
+        Difficulties - Let''s Play Minimations #9","caption":"Technical Difficulties","sponsorOnly":false,"description":{"html":"<p>Geoff,
+        Ryan, Jack and the gang form their own \"Glitch Mob\" as they battle game
+        bugs.<\/p>","clean":"Geoff, Ryan, Jack and the gang form their own \"Glitch
+        Mob\" as they battle game bugs."},"slug":"lets-play-minimations-season-1-lets-play-minimations-9","site":"roosterTeeth","id":11510,"number":9,"length":91,"profilePicture":{"id":"5124","uuid":"8b4e78a7-c4ff-44a5-ac47-ae9cf55b614c","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"11510","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/07fff653-7625-4e29-8e05-36c6faeb1d4e\/original\/ep11510.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:33:39","updated_at":"2018-01-17 20:20:59","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-9","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/11510.mp4-e101a0df\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Mind
+        the Gap - Let''s Play Minimations #8","caption":"Mind the Gap","sponsorOnly":false,"description":{"html":"<p>Gavin''s
+        wish is Geoff''s command.... much to Gavin''s regret. Meanwhile, Jack asks
+        \"How does cake\"<\/p>","clean":"Gavin''s wish is Geoff''s command.... much
+        to Gavin''s regret. Meanwhile, Jack asks \"How does cake\""},"slug":"lets-play-minimations-season-1-lets-play-minimations-8","site":"roosterTeeth","id":10867,"number":8,"length":76,"profilePicture":{"id":"557404","uuid":"07613362-b8e2-48db-8131-9ca262ee2adc","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"10867","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/7ff7ca26-4609-4b0d-9e71-3ed0bd529063\/original\/ep10867.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:34:14","updated_at":"2018-01-17 20:20:52","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-8","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10867.mp4-a68e56ef\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Gavin
+        vs. Shelving - Let''s Play Minimations #7","caption":"Gavin vs. Shelving","sponsorOnly":false,"description":{"html":"<p>Achievement
+        Hunter takes on their ancient nemesis, gravity, as Gavin fights a bookshelf,
+        Ryan parachutes, and Geoff jumps around, jumps around, gets up, gets up and
+        gets down. RT 12th ANNIVERSARY SALE! Save 12% on your entire purchase using
+        code RT12YEARS. Hurry... ends April 12th! <a href=\"http:\/\/bit.ly\/1OWSBLe\">http:\/\/bit.ly\/1OWSBLe<\/a><\/p>","clean":"Achievement
+        Hunter takes on their ancient nemesis, gravity, as Gavin fights a bookshelf,
+        Ryan parachutes, and Geoff jumps around, jumps around, gets up, gets up and
+        gets down. RT 12th ANNIVERSARY SALE! Save 12% on your entire purchase using
+        code RT12YEARS. Hurry... ends April 12th! http:\/\/bit.ly\/1OWSBLe"},"slug":"lets-play-minimations-season-1-lets-play-minimations-7","site":"roosterTeeth","id":10621,"number":7,"length":106,"profilePicture":{"id":"557625","uuid":"6412ef23-8b8d-42ad-8f45-484062913c39","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"10621","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/f5f92558-4df3-4ea2-86bb-ab88f538d70c\/original\/ep10621.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:35:24","updated_at":"2018-01-17 20:20:42","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-7","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10621.mp4-e0c26105\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Gavin
+        vs. Ryan - Let''s Play Minimations #6","caption":"Gavin vs. Ryan","sponsorOnly":false,"description":{"html":"<p>Two
+        moments from Minecraft Let''s Plays of Gavin killing Ryan and Ryan killing
+        Gavin. Can''t we all just get a long Gavin kills the king, but Ryan doesn''t
+        \"miss\" an opportunity to get even.<\/p>","clean":"Two moments from Minecraft
+        Let''s Plays of Gavin killing Ryan and Ryan killing Gavin. Can''t we all just
+        get a long Gavin kills the king, but Ryan doesn''t \"miss\" an opportunity
+        to get even."},"slug":"lets-play-minimations-season-1-lets-play-minimations-6","site":"roosterTeeth","id":10497,"number":6,"length":83,"profilePicture":{"id":"557831","uuid":"d5e9b372-c3df-49f5-b4f5-d8d6c73563a1","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"10497","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/7611b774-78d3-432e-9146-1c1c29a08289\/original\/ep10497.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:36:30","updated_at":"2018-01-17 20:20:37","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-6","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10497.mp4-4fe6ef68\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Friendly?
+        Friendly - Let''s Play Minimations #5","caption":"Friendly? Friendly","sponsorOnly":false,"description":{"html":"<p>Ryan
+        gives Gavin a friendly greeting. Later, Jack makes an alliance with Gavin
+        which Ryan quickly cuts short.\n<\/p>","clean":"Ryan gives Gavin a friendly
+        greeting. Later, Jack makes an alliance with Gavin which Ryan quickly cuts
+        short.\n"},"slug":"lets-play-minimations-season-1-lets-play-minimations-5","site":"roosterTeeth","id":10374,"number":5,"length":85,"profilePicture":{"id":"557883","uuid":"70ad7d21-466f-451d-806e-217c7ddfa1c6","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"10374","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/b8232638-8566-4299-b370-a8883fa3f3c2\/original\/ep10374.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:36:47","updated_at":"2018-01-17 20:20:32","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-5","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10374.mp4-2e1d42a0\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Cake
+        and Death - Let''s Play Minimations #4","caption":"Cake and Death","sponsorOnly":false,"description":{"html":"<p>The
+        AH lads and gents learn how deadly eating cake can be.<\/p>","clean":"The
+        AH lads and gents learn how deadly eating cake can be."},"slug":"lets-play-minimations-season-1-lets-play-minimations-4","site":"roosterTeeth","id":10279,"number":4,"length":71,"profilePicture":{"id":"558017","uuid":"85f92635-7dd8-4e65-9e65-79d76d1e97d8","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"10279","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/9f12710d-1f9e-4143-8701-196c7705a981\/original\/ep10279.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:37:29","updated_at":"2018-01-17 20:20:28","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-4","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10279.mp4-8b16d50a\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Bananigans
+        - Let''s Play Minimations #3","caption":"Bananigans","sponsorOnly":false,"description":{"html":"<p>In
+        this let''s play minimation, the gang is on the look out for a British banana
+        on the run!<\/p>\n\n<p>Lets Play - Prop Hunt Part 1\n<\/p>","clean":"In this
+        let''s play minimation, the gang is on the look out for a British banana on
+        the run!\n\nLets Play - Prop Hunt Part 1\n"},"slug":"lets-play-minimations-season-1-lets-play-minimations-3","site":"roosterTeeth","id":10130,"number":3,"length":71,"profilePicture":{"id":"558096","uuid":"41c7d8a1-8c7a-46bf-9b31-74500ae3d112","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"10130","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/f88f1879-7409-484e-8ab1-c8c07ebd6ceb\/original\/ep10130.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:37:54","updated_at":"2018-01-17 20:20:22","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-3","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/10130.mp4-692da352\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Destiny
+        Calls - Let''s Play Minimations #2","caption":"Destiny Calls","sponsorOnly":false,"description":{"html":"<p>The
+        fun never ends in Let''s Play Minimations #2! This time, Ray does some spins,
+        Michael throws an ill-advised grenade, and Gavin wastes his golden gun.<\/p>","clean":"The
+        fun never ends in Let''s Play Minimations #2! This time, Ray does some spins,
+        Michael throws an ill-advised grenade, and Gavin wastes his golden gun."},"slug":"lets-play-minimations-season-1-lets-play-minimations-2","site":"roosterTeeth","id":9978,"number":2,"length":91,"profilePicture":{"id":"558140","uuid":"37d12ee4-d96b-40ec-9d0c-5120dcfa02bf","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"9978","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/0a9f998c-a8b4-4fb6-9f72-8ff4eb507ba2\/original\/ep9978.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:38:07","updated_at":"2018-01-17 20:20:16","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-2","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/9978.mp4-a3852c61\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Capture
+        the Flag Shenanigans - Let''s Play Minimations #1","caption":"Capture the
+        Flag Shenanigans","sponsorOnly":false,"description":{"html":"<p>The Lads and
+        Gents face off in a game of CTF, and hilarity ensues. Check out Let''s Play
+        Minecraft #117: <a href=\"http:\/\/bit.ly\/1qxOZ35\">http:\/\/bit.ly\/1qxOZ35<\/a><\/p>","clean":"The
+        Lads and Gents face off in a game of CTF, and hilarity ensues. Check out Let''s
+        Play Minecraft #117: http:\/\/bit.ly\/1qxOZ35"},"slug":"lets-play-minimations-season-1-lets-play-minimations-1","site":"roosterTeeth","id":9790,"number":1,"length":94,"profilePicture":{"id":"559566","uuid":"891a2a17-8487-4272-a6f1-11095619e794","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"9790","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/ae9ec2a5-bc77-49b9-aa6d-50830444cece\/original\/ep9790.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:35:27","updated_at":"2018-01-17 20:20:09","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Let''s
+        Play","description":"","id":85,"number":1,"slug":"lets-play-minimations-season-1","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-season-1-lets-play-minimations-1","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/9790.mp4-fca88aef\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:10 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjNJZGE3RyttZHo2ZlFuTEM5RVgySEZWQ1M4RFNoMkVGVXltbGd2Nm9pSU09IiwidmFsdWUiOiJUYzlNWkFVamdYSlNac0YxZmNHRnVKQjE3T2JFS0o1Y1dQK1d6UmJkSVI0SXVrT0J2QUIyczl2eEczNlNJc0FFMnVrNW11N3FveGZ5RFwveXQxXC92ZmlRPT0iLCJtYWMiOiI5YjNlMTgxMDE5MWE3N2IzMWY0N2JhNWFhOTlhNzk2OWE5OWI0NjJiYmU3MzA2ZDY5YTcwYWEyZDU5MjBkZGRiIn0%3D;
+          expires=Fri, 12-Oct-2018 13:33:10 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['10']
+      X-request-uri: ['/api/v1/seasons/85/episodes?page=1&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/85/episodes?page=2&count=20
+  response:
+    body: {string: '[]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:10 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImZRSUlHM095N1gzQU5vR2R4dHgrNzRTbU10am5ETXVrZWhwck8rUVppejA9IiwidmFsdWUiOiJ2MzZYY21YV3B0NFF0TmxCZVV0YWJyWFZhKzBzaXF6THNtbERHak4rcnYyTW5WSEVzd09mTXlGXC9iMXNDaHZuMTlJdHBxYlRCSjRjeld4cmJcL2hKTjBnPT0iLCJtYWMiOiI0OGIyODEzNzNhOWM1NWNiYjkwNDcxYTEzMGJmODBjNDdjYmU1NzRjNzViZWZiNTdmNTMxZWNmYzViNTlhYTY1In0%3D;
+          expires=Fri, 12-Oct-2018 13:33:10 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['10']
+      X-request-uri: ['/api/v1/seasons/85/episodes?page=2&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/episodes/28661
+  response:
+    body: {string: '{"title":"Deconstruction Crew","caption":"It''s metal against
+        metal in an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine
+        witness the construction feud of the century!","sponsorOnly":false,"description":{"html":"<p>It''s
+        metal against metal in an all-out bulldozer demolition derby! Gus, Burnie,
+        Gavin, and Blaine witness the construction feud of the century!<\/p>\n\n<p>Made
+        by the Rooster Teeth community GTA5 machinima team: The Lone Few.<\/p>\n\n<p>Audio
+        from <a href=\"http:\/\/roosterteeth.com\/episode\/rt-podcast-2016-373\">The
+        Rooster Teeth Podcast #373<\/a><\/p>","clean":"It''s metal against metal in
+        an all-out bulldozer demolition derby! Gus, Burnie, Gavin, and Blaine witness
+        the construction feud of the century!\n\nMade by the Rooster Teeth community
+        GTA5 machinima team: The Lone Few.\n\nAudio from The Rooster Teeth Podcast
+        #373"},"slug":"lets-play-minimations-straight-outta-rt-deconstruction-crew","site":"roosterTeeth","id":28661,"number":11,"length":138,"profilePicture":{"id":"100228693","uuid":"353cd07b-edab-4ace-875b-1a03cc1bc87b","title":"","description":"","container_type":"Shows\\Models\\Episode","container_id":"28661","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/56e8e0ba-ec5a-4710-a745-102ac9b4d0d5\/original\/2013912-1465844973786-SoRT_11_THUMBNAIL.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-06-13
+        19:09:37","updated_at":"2018-01-17 20:29:41","deleted_at":null,"picture_type":"profile"},"show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"},"season":{"title":"Straight
+        Outta RT","description":"","id":204,"number":2,"slug":"lets-play-minimations-straight-outta-rt","show":{"name":"Minimations","summary":{"html":"<p>Highlights
+        from some of your favorite Let''s Plays, now 3D animated!<\/p>","clean":"Highlights
+        from some of your favorite Let''s Plays, now 3D animated!"},"id":52,"slug":"minimations","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518239","uuid":"3aed3a45-fcfe-404b-9ee3-655178bd0d7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"52","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e763407e-ad29-41cd-ae4e-533ab7085167.jpg\/original\/MinimationsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:39:55","updated_at":"2018-03-14 19:40:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/minimations"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/lets-play-minimations-straight-outta-rt-deconstruction-crew","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/43d3ae66-10c3-41d1-88f0-640b8229c4a6\/index.m3u8"}}],"audioFiles":[],"links":[]}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:10 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlhSVnF6UGZGWGY5WVFkMlVLMXhqc1ZGR1c2cHBsaFJJZU0waWF6cCtcL3RBPSIsInZhbHVlIjoiUXR0ejNEbTlIN2VIUG9XdTVQVVRTZDNXQnNZXC9wMnJVMHBhZk5ucE0rQzVjUSs1YjM0d2xqTlRkeWxIb1RPMDhsK1kzSXFQcjFPWW9kMXpod1FuckhRPT0iLCJtYWMiOiIyOTIyMTBjZWRmZjZlZjc4YTIyYjE0ZjEzZDY1MTAwMTllNmUxM2RiOTc5YmY0YzBkMDg2YWY0MzI2MDIxMTA0In0%3D;
+          expires=Fri, 12-Oct-2018 13:33:13 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/episodes/28661]
+    status: {code: 200, message: OK}
+version: 1

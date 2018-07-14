@@ -1,0 +1,177 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/episodes/20433
+  response:
+    body: {string: '{"title":"Episode 6: It''s a Crazy Mad World","caption":"With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot.","sponsorOnly":false,"description":{"html":"<p>With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot.<\/p>","clean":"With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot."},"slug":"x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","site":"roosterTeeth","id":20433,"number":6,"length":522,"profilePicture":{"id":"100044494","uuid":"761cf2aa-b48f-44a5-95a8-75b2e559ada0","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20433","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/original\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-18
+        22:12:28","updated_at":"2018-01-17 20:21:22","deleted_at":null,"picture_type":"profile"},"show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"},"season":{"title":"Season
+        2","description":"","id":94,"number":2,"slug":"x-ray-and-vav-season-2","show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/85068c91-ad40-4b8b-a25a-8efc22790a57\/index.m3u8"}}],"audioFiles":[],"links":[]}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:32 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjVzTzZXXC9wbnc2UEN0R2NWXC9UejE1d3greHFCejg1MWpaZXVWKzdVdzZ6RT0iLCJ2YWx1ZSI6IkpOa0NqMzFkbE1hQUU5MnpQVjV4OXNxRnhjOTdJc0ZwTFlyU2lcL3oyeW1VTEswZUJtOFFFUkNVQ09VMTUxYlUyd2NvRitvenkwR1Y2a1FZSTMwUlIxZz09IiwibWFjIjoiMzY5YmE5YzY5Zjc4NzE1MmNjYWIwMjE4ODIyODg2NzVhYTZmNWY4NGE3ODJjZmFhNWNhODlhZTUwODM4MGEwNiJ9;
+          expires=Fri, 12-Oct-2018 13:31:31 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/episodes/20433]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/94
+  response:
+    body: {string: '{"title":"Season 2","description":"","id":94,"number":2,"slug":"x-ray-and-vav-season-2","show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:32 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InNtQjJ0Nllyam9WaU83WER0bFlCcmFVK2lLajJ5UWVsdWJlTVdXVDArNkE9IiwidmFsdWUiOiJpeU03Y2pIRlMyNGthRnRydUZVK0huR0lXMDNIOStzUVpvY2ZLWEtmWm0zY2x3elV0OUtWRlZMdm8wbjRmVFVOOHZQRUxhOThLbTVTRUkzTW92Q1hyZz09IiwibWFjIjoiNmJjNTgyMzhkODdkNTNkNzUwZmYwZGRiYjI3MDRjODg0MDQwMjFkZjBlYTliMWU4Yjg2ZGY3N2U0MWJiYWRhOSJ9;
+          expires=Fri, 12-Oct-2018 13:31:33 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/seasons/94]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/54
+  response:
+    body: {string: '{"name":"X-Ray and Vav","summary":{"html":"<p>X-Ray and Vav want
+        to be the greatest super heroes ever, but they''re the last people you''d
+        want to be saved by. Despite their lack of superhero prowess, the duo is ready
+        to take on any thug, robber or villain who stands in the way of justice. And
+        they''ll do it in true X-Ray and Vav fashion; crotch touching and creating
+        chaos to save the day (for the most part)!<\/p>","clean":"X-Ray and Vav want
+        to be the greatest super heroes ever, but they''re the last people you''d
+        want to be saved by. Despite their lack of superhero prowess, the duo is ready
+        to take on any thug, robber or villain who stands in the way of justice. And
+        they''ll do it in true X-Ray and Vav fashion; crotch touching and creating
+        chaos to save the day (for the most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:32 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkdiZVJlRDJQazNIMUdZZVhXTWU0RDFkaU1xK2hqeG00Y295VjlZMVdkdFE9IiwidmFsdWUiOiI0cWQ5SVZiYnJ6NVh5MWxLQ2JQTG1oWUZacVNGdjBhbjhCdVRoZlc5UE9obnJUZlBNeEhFM1YxRWZyTHpRbTIzWWZ1eVdwYUQwTGJmWWRSTFhpcVRyZz09IiwibWFjIjoiNmU0NDc4NzA2NTYyZjUxZjY2ZTk2YjgzOGU1YmNlNDcyZjY2MWJmNjk1ZjBhM2JmODMwOWZlZmQ2NzE0YzUwYyJ9;
+          expires=Fri, 12-Oct-2018 13:31:32 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/54]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/54
+  response:
+    body: {string: '{"name":"X-Ray and Vav","summary":{"html":"<p>X-Ray and Vav want
+        to be the greatest super heroes ever, but they''re the last people you''d
+        want to be saved by. Despite their lack of superhero prowess, the duo is ready
+        to take on any thug, robber or villain who stands in the way of justice. And
+        they''ll do it in true X-Ray and Vav fashion; crotch touching and creating
+        chaos to save the day (for the most part)!<\/p>","clean":"X-Ray and Vav want
+        to be the greatest super heroes ever, but they''re the last people you''d
+        want to be saved by. Despite their lack of superhero prowess, the duo is ready
+        to take on any thug, robber or villain who stands in the way of justice. And
+        they''ll do it in true X-Ray and Vav fashion; crotch touching and creating
+        chaos to save the day (for the most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:33 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Im1xNXB0Rjl6QlhcL255N2VsVkdjU0hkelwvSElFRUQ0cEh1em5Valwvait0K1k9IiwidmFsdWUiOiJnQXJodmtGekh1YWZ3aGFCZFpMU2pZMXkzSFhHZ0Z1QkxCck9xd0hGeml6SWdlakc0TGJrVFlXbElwaDRjeWRyS0JBOEpmTjB6cjZmOWJVV0UybzNRdz09IiwibWFjIjoiMzBlZjc1MTcwMjhhMWQxMDE1NjE1MzVmMjcwNTA5NTBkZDEyOTVmMGJjZDVjZDU2ZGMyMDBjZTQ5NWE0MmY2YiJ9;
+          expires=Fri, 12-Oct-2018 13:31:35 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/54]
+    status: {code: 200, message: OK}
+version: 1

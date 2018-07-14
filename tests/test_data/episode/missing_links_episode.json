@@ -1,0 +1,170 @@
+{
+	"title": "Crytek SHUTS DOWN Studios",
+	"caption": "Dec 20, 2016",
+	"sponsorOnly": false,
+	"description": {
+		"html": "<p>Remember last week we reported on all those Crytek employees who weren't being paid? Now Crytek is shuttering five studios entirely, right before the holidays... not that they'd been paying their devs anyway...<\/p>",
+		"clean": "Remember last week we reported on all those Crytek employees who weren't being paid? Now Crytek is shuttering five studios entirely, right before the holidays... not that they'd been paying their devs anyway..."
+	},
+	"slug": "the-know-game-news-season-1-crytek-shuts-down-studios",
+	"site": "theKnow",
+	"id": 31020,
+	"number": 402,
+	"length": 402,
+	"profilePicture": {
+		"id": "100352308",
+		"uuid": "64bbaf25-7eea-4915-8a4e-0e4c4a06e19a",
+		"title": "",
+		"description": "",
+		"container_type": "Shows\\Models\\Episode",
+		"container_id": "31020",
+		"permission": {
+			"value": 0,
+			"name": null
+		},
+		"aws_bucket": "cdn.roosterteeth.com",
+		"aws_key": "uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/original\/24363-1482281001906-thumbnail.jpg",
+		"weight": "0",
+		"created_by": "1",
+		"updated_by": "1",
+		"deleted_by": null,
+		"censored_at": null,
+		"created_at": "2016-12-21 00:43:28",
+		"updated_at": "2018-01-17 20:31:13",
+		"deleted_at": null,
+		"picture_type": "profile"
+	},
+	"show": {
+		"name": "Game News",
+		"summary": {
+			"html": "<p>The Rooster Teeth crew brings you the biggest news in video games.<\/p>",
+			"clean": "The Rooster Teeth crew brings you the biggest news in video games."
+		},
+		"id": 77,
+		"slug": "game-news",
+		"seasonCount": 4,
+		"coverPicture": {
+			"id": "100280757",
+			"uuid": "ca53c869-68c2-4646-98a3-3f2ee787e319",
+			"title": "",
+			"description": "",
+			"container_type": "Shows\\Models\\Show",
+			"container_id": "77",
+			"permission": {
+				"value": 0,
+				"name": null
+			},
+			"aws_bucket": "cdn.roosterteeth.com",
+			"aws_key": "uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg",
+			"weight": "0",
+			"created_by": "1",
+			"updated_by": "1",
+			"deleted_by": null,
+			"censored_at": null,
+			"created_at": "2016-09-20 17:36:07",
+			"updated_at": "2018-01-17 20:02:39",
+			"deleted_at": null,
+			"picture_type": "cover"
+		},
+		"profilePicture": {
+			"id": "100523636",
+			"uuid": "57c73918-e2ce-492a-aec5-b1ca93a20d1f",
+			"title": null,
+			"description": null,
+			"container_type": "Shows\\Models\\Show",
+			"container_id": "77",
+			"permission": {
+				"value": 0,
+				"name": null
+			},
+			"aws_bucket": "rtv3.image.cdn.roosterteeth.com",
+			"aws_key": "store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg",
+			"weight": "0",
+			"created_by": "1",
+			"updated_by": "1",
+			"deleted_by": null,
+			"censored_at": null,
+			"created_at": "2018-03-30 00:06:11",
+			"updated_at": "2018-03-30 00:06:28",
+			"deleted_at": null,
+			"picture_type": "profile"
+		},
+		"canonicalUrl": "https:\/\/roosterteeth.com\/show\/game-news"
+	},
+	"season": {
+		"title": "2016",
+		"description": "",
+		"id": 114,
+		"number": 2,
+		"slug": "the-know-game-news-season-1",
+		"show": {
+			"name": "Game News",
+			"summary": {
+				"html": "<p>The Rooster Teeth crew brings you the biggest news in video games.<\/p>",
+				"clean": "The Rooster Teeth crew brings you the biggest news in video games."
+			},
+			"id": 77,
+			"slug": "game-news",
+			"seasonCount": 4,
+			"coverPicture": {
+				"id": "100280757",
+				"uuid": "ca53c869-68c2-4646-98a3-3f2ee787e319",
+				"title": "",
+				"description": "",
+				"container_type": "Shows\\Models\\Show",
+				"container_id": "77",
+				"permission": {
+					"value": 0,
+					"name": null
+				},
+				"aws_bucket": "cdn.roosterteeth.com",
+				"aws_key": "uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg",
+				"weight": "0",
+				"created_by": "1",
+				"updated_by": "1",
+				"deleted_by": null,
+				"censored_at": null,
+				"created_at": "2016-09-20 17:36:07",
+				"updated_at": "2018-01-17 20:02:39",
+				"deleted_at": null,
+				"picture_type": "cover"
+			},
+			"profilePicture": {
+				"id": "100523636",
+				"uuid": "57c73918-e2ce-492a-aec5-b1ca93a20d1f",
+				"title": null,
+				"description": null,
+				"container_type": "Shows\\Models\\Show",
+				"container_id": "77",
+				"permission": {
+					"value": 0,
+					"name": null
+				},
+				"aws_bucket": "rtv3.image.cdn.roosterteeth.com",
+				"aws_key": "store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg",
+				"weight": "0",
+				"created_by": "1",
+				"updated_by": "1",
+				"deleted_by": null,
+				"censored_at": null,
+				"created_at": "2018-03-30 00:06:11",
+				"updated_at": "2018-03-30 00:06:28",
+				"deleted_at": null,
+				"picture_type": "profile"
+			},
+			"canonicalUrl": "https:\/\/roosterteeth.com\/show\/game-news"
+		}
+	},
+	"canonicalUrl": "https:\/\/roosterteeth.com\/episode\/the-know-game-news-season-1-crytek-shuts-down-studios",
+	"media": {
+		"videos": [{
+			"type": "video",
+			"content": {
+				"type": "cdn",
+				"url": "https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/ea6d7410-d237-426a-a383-4884d8188f6d\/index.m3u8"
+			}
+		}],
+		"audioFiles": []
+	},
+	"watched": "unwatched"
+}

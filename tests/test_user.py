@@ -1,44 +1,50 @@
-import requests
-from httmock import HTTMock
+import json
+import os
 
 import pytest
+import vcr
+
 from rt_api import models
 
-from .context import mock_users
+from .context import auth
+
+TEST_PREFIX = os.path.join(os.path.dirname(__file__), "test_data/user")
 
 
-@pytest.mark.mocktest
+@pytest.mark.usefixtures("auth")
 class TestUser(object):
 
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/users/test_regular_user.yaml')
     def test_regular_user(self):
-        with HTTMock(mock_users.regular_user_response):
-            user_data = requests.get("https://roosterteeth.com/api/v1/users/2269568")
-            user = models.User(user_data.json())
-            # Test attributes
-            assert user.id_ == 2269568
-            assert user.username == "johnSmith112"
-            assert user.name == "John Smith"
-            assert user.is_sponsor is False
-            assert user.location == "Earth"
-            assert user.occupation == "Accountant"
-            assert user.about == "Blah blah blah"
-            assert user.sex == "m"
-            assert user.display_title == "Stuff here"
-            assert user.has_used_trial is True
-            assert user.canonical_url == "http://roosterteeth.com/user/johnSmith112"
-            assert user.thumbnail == "http://s3.amazonaws.com/cdn.roosterteeth.com/default/tb/user_profile_male.jpg"
-            assert user.get_thumbnail("md") == "http://s3.amazonaws.com/cdn.roosterteeth.com/default/md/user_profile_male.jpg"
+        user_data = self.auth.get("https://roosterteeth.com/api/v1/users/442")
+        user = models.User(user_data.json())
+        # Test attributes
+        assert user.id_ == 442
+        assert user.username == "hobbie"
+        assert user.name == "A"
+        assert user.is_sponsor is True
+        assert user.location == "The Bayou"
+        assert user.occupation == "numbers"
+        assert user.about == "HOBBIE NEVER LEAVES, he just stops posting"
+        assert user.sex == "m"
+        assert user.display_title == "sup, yo"
+        assert user.has_used_trial is False
+        assert user.canonical_url == "https://roosterteeth.com/user/hobbie"
+        assert user.thumbnail == "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/57471ae3-ef5a-417f-9f48-8a82771a093c/tb/hobbie423534014eeb7.jpg"
+        for quality in models.Thumbnail.qualities:
+            assert user.get_thumbnail(quality) == "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/57471ae3-ef5a-417f-9f48-8a82771a093c/{}/hobbie423534014eeb7.jpg".format(quality)
 
     def test_missing_all_thumbnail(self):
-        with HTTMock(mock_users.missing_all_thumbnail_response):
-            user_data = requests.get("https://roosterteeth.com/api/v1/users/2269568")
-            user = models.User(user_data.json())
+        with open(os.path.join(TEST_PREFIX, "missing_all_thumbnail_user.json"), "r") as resp:
+            user_data = json.loads(resp.read())
+            user = models.User(user_data)
             assert user.thumbnail is None
-            assert user.get_thumbnail("lg") is None
+            for quality in models.Thumbnail.qualities:
+                assert user.get_thumbnail(quality) is None
 
     def test_missing_single_thumbnail(self):
-        with HTTMock(mock_users.missing_single_thumbnail_response):
-            user_data = requests.get("https://roosterteeth.com/api/v1/users/2269568")
-            user = models.User(user_data.json())
-            assert user.thumbnail == "http://s3.amazonaws.com/cdn.roosterteeth.com/default/tb/user_profile_male.jpg"
+        with open(os.path.join(TEST_PREFIX, "missing_single_thumbnail_user.json"), "r") as resp:
+            user_data = json.loads(resp.read())
+            user = models.User(user_data)
+            assert user.thumbnail == "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/57471ae3-ef5a-417f-9f48-8a82771a093c/tb/hobbie423534014eeb7.jpg"
             assert user.get_thumbnail("sm") is None

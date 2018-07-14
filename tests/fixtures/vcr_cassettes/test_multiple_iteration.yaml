@@ -1,0 +1,340 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2044162
+  response:
+    body: {string: '{"username":"xxChinasaurxx","displayTitle":"George","name":"NewName","sex":"p","location":"Asdasdasd","occupation":"param4","about":{"html":"","clean":""},"id":2044162,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/user_profile_female.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/user_profile_female.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/user_profile_female.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/user_profile_female.jpg"}},"sponsor":true,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/xxChinasaurxx","hasUsedTrial":true}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:14 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImNcL3VKMWRUaHZtM2Z4M1ExdFwvbnN4RXhRUGpwYWFMRjMrTDZxSFptN1lLND0iLCJ2YWx1ZSI6IlRxR3ByS0J4KytORnJiZFFXT2NkbklvVnJSSGdaVnNGYXBNUHhHbDlQVmxoR0taait1SVcwNWZqNjhpOXYzZjFaeG1aRnlXUFZrMEFubHowV0RNWmxRPT0iLCJtYWMiOiI1MTQzMWQ5MzE2NjkxMTY0MjVkNjA2MTY0ZTE4MGZmNjNkZDkwMmZhZDUyMjFjNGY4YzcwMjE1ZTBmZmRlNmM1In0%3D;
+          expires=Fri, 12-Oct-2018 13:31:14 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/2044162]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2044162/queue?page=1&count=20
+  response:
+    body: {string: '[{"title":"Pi Day with the Cast of Crunch Time \u2013 #51","caption":"Meg
+        forgot to submit an Internet Show and Tell video and someone in Ryan\u2019s
+        home had a little accident. Plus, Meg sits down with the cast of the new Rooster
+        Teeth show Crunch Time. Finally, Crunch Time star Nick Rutherford stops by
+        to test his math skills","sponsorOnly":false,"description":{"html":"<p>It\u2019s
+        Wednesday, my dudes. Meg forgot to submit an Internet Show and Tell video
+        and someone in Ryan\u2019s home had a little accident. Plus, Meg sits down
+        with the cast of the new Rooster Teeth show Crunch Time. Finally, Crunch Time
+        star Nick Rutherford stops by to test his math skills along with the rest
+        of the Free Play gang. <\/p>","clean":"It\u2019s Wednesday, my dudes. Meg
+        forgot to submit an Internet Show and Tell video and someone in Ryan\u2019s
+        home had a little accident. Plus, Meg sits down with the cast of the new Rooster
+        Teeth show Crunch Time. Finally, Crunch Time star Nick Rutherford stops by
+        to test his math skills along with the rest of the Free Play gang. "},"slug":"free-play-season-2-51","site":"roosterTeeth","id":26008,"number":51,"length":1722,"profilePicture":{"id":"100174588","uuid":"cdaafba2-ba35-4718-9d3b-65245033e4f5","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"26008","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/41bcb52d-18ee-4caa-a436-7321c48ef167\/original\/2013912-1458149455854-fp51_-_THUMB_v2.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-16
+        17:31:08","updated_at":"2018-01-17 20:28:52","deleted_at":null,"picture_type":"profile"},"show":{"name":"Free
+        Play","summary":{"html":"<p>Meg Turney and Ryan Haywood bring you a fun dose
+        of outrageous Internet videos, gaming news, and zany challenges.  Plus, interviews
+        and exclusive clips from Rooster Teeth''s latest projects.<\/p>","clean":"Meg
+        Turney and Ryan Haywood bring you a fun dose of outrageous Internet videos,
+        gaming news, and zany challenges.  Plus, interviews and exclusive clips from
+        Rooster Teeth''s latest projects."},"id":82,"slug":"free-play","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518189","uuid":"3d76c23b-659d-410c-a828-8ee678aaeb8d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"82","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/original\/FreePlaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:30:36","updated_at":"2018-03-14 19:30:52","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/free-play"},"season":{"title":"Season
+        2","description":"","id":367,"number":2,"slug":"free-play-season-2","show":{"name":"Free
+        Play","summary":{"html":"<p>Meg Turney and Ryan Haywood bring you a fun dose
+        of outrageous Internet videos, gaming news, and zany challenges.  Plus, interviews
+        and exclusive clips from Rooster Teeth''s latest projects.<\/p>","clean":"Meg
+        Turney and Ryan Haywood bring you a fun dose of outrageous Internet videos,
+        gaming news, and zany challenges.  Plus, interviews and exclusive clips from
+        Rooster Teeth''s latest projects."},"id":82,"slug":"free-play","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518189","uuid":"3d76c23b-659d-410c-a828-8ee678aaeb8d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"82","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/original\/FreePlaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:30:36","updated_at":"2018-03-14 19:30:52","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/free-play"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/free-play-season-2-51","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/fc2647a2-6b82-4ad0-bba7-93b96abb25c4\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"DISLIKE
+        THIS VIDEO - Funhaus Comments #10","caption":"Or mod it. Since we''re not
+        on YouTube here.","sponsorOnly":false,"description":{"html":"<p>They said
+        it was a crazy idea. They said it would never work. They were wrong. The reverse
+        psychology title bait we''re using today is going to revolutionize Funhaus.
+        Just think about it. By asking - DARING - you guys to dislike the video, we''re
+        drawing your eye. Making you think. Suddenly, you start to consider the ramifications
+        of your action on a global scale. \"How will my thumbs down affect the price
+        of millet in sub-Saharan Africa?\" \"Will my college admissions officer see
+        my thumbs down as a reflection of my potential contribution to my residential
+        house?\" \"Maybe my future spouse and I are thumbs-downing together at this
+        exact second.\" <\/p>\n\n<p><br \/><\/p>\n\n<p>See? Really makes you think.
+        Reverse psychology, huh?<\/p>\n\n<p><br \/><\/p>\n\n<p>Anyway, please dislike
+        this video.<\/p>","clean":"They said it was a crazy idea. They said it would
+        never work. They were wrong. The reverse psychology title bait we''re using
+        today is going to revolutionize Funhaus. Just think about it. By asking -
+        DARING - you guys to dislike the video, we''re drawing your eye. Making you
+        think. Suddenly, you start to consider the ramifications of your action on
+        a global scale. \"How will my thumbs down affect the price of millet in sub-Saharan
+        Africa?\" \"Will my college admissions officer see my thumbs down as a reflection
+        of my potential contribution to my residential house?\" \"Maybe my future
+        spouse and I are thumbs-downing together at this exact second.\" \n\n\n\nSee?
+        Really makes you think. Reverse psychology, huh?\n\n\n\nAnyway, please dislike
+        this video."},"slug":"funhaus-your-comments-season-1-dislike-this-video-funhaus-comments-10","site":"funhaus","id":26013,"number":13,"length":749,"profilePicture":{"id":"100174710","uuid":"dd957403-1e19-483e-a3e3-4e81e9f68735","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"26013","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/7c58503d-e213-41ba-9041-76dabc1101d1\/original\/1788484-1458168234516-fh_thumb_9_copy_31.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-16
+        22:43:40","updated_at":"2018-01-17 20:28:53","deleted_at":null,"picture_type":"profile"},"show":{"name":"Your
+        Comments","summary":{"html":"<p>You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you.<\/p>","clean":"You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you."},"id":68,"slug":"your-comments","seasonCount":2,"coverPicture":{"id":"100334282","uuid":"e0fc7eb4-3ddb-4a98-b349-5623745a3de4","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"68","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/original\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-11-17
+        17:29:35","updated_at":"2018-01-17 20:02:38","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100520013","uuid":"86f9b0ce-9435-4bff-9bf7-550712b3f506","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"68","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/original\/YourCommentsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-20
+        16:59:49","updated_at":"2018-03-20 17:00:01","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/your-comments"},"season":{"title":"2015","description":"","id":105,"number":1,"slug":"funhaus-your-comments-season-1","show":{"name":"Your
+        Comments","summary":{"html":"<p>You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you.<\/p>","clean":"You guys leave us tons of comments, on YouTube
+        and Reddit and the RT website and Twitter. We answer them here. Or at least
+        scream at you."},"id":68,"slug":"your-comments","seasonCount":2,"coverPicture":{"id":"100334282","uuid":"e0fc7eb4-3ddb-4a98-b349-5623745a3de4","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"68","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/8dbb385a-1802-4fb6-8a21-8ef9fd6ac069\/original\/1788482-1479403777455-RT_Site_Hero_Your_Comments.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-11-17
+        17:29:35","updated_at":"2018-01-17 20:02:38","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100520013","uuid":"86f9b0ce-9435-4bff-9bf7-550712b3f506","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"68","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/523f1881-2ee8-45ad-90aa-456dbd42994a.jpg\/original\/YourCommentsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-20
+        16:59:49","updated_at":"2018-03-20 17:00:01","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/your-comments"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/funhaus-your-comments-season-1-dislike-this-video-funhaus-comments-10","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/b8b40460-90e2-464a-8193-9a341d3719cb\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Volume
+        3, Chapter 1: Round One","caption":"\u200bThe Vytal Festival Tournament is
+        the ultimate battle of skill, pitting the world''s most powerful Huntsmen
+        and Huntresses in training against one another... and it''s finally here!","sponsorOnly":false,"description":{"html":"<p>The
+        Vytal Festival Tournament is the ultimate battle of skill, pitting the world''s
+        most powerful Huntsmen and Huntresses in training against one another... and
+        it''s finally here! Ruby, Weiss, Blake, and Yang are back for a season of
+        over-the-top action, and they''re not alone. New fighters from around Remnant
+        are ready to bring glory to their kingdom, but there are those among them
+        with a far more sinister goal in mind<\/p>","clean":"The Vytal Festival Tournament
+        is the ultimate battle of skill, pitting the world''s most powerful Huntsmen
+        and Huntresses in training against one another... and it''s finally here!
+        Ruby, Weiss, Blake, and Yang are back for a season of over-the-top action,
+        and they''re not alone. New fighters from around Remnant are ready to bring
+        glory to their kingdom, but there are those among them with a far more sinister
+        goal in mind"},"slug":"rwby-season-3-chapter-1","site":"roosterTeeth","id":20725,"number":1,"length":1023,"profilePicture":{"id":"100058537","uuid":"632ce078-9e57-4212-b66f-89fcff43957e","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20725","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/28805040-8478-4478-baee-01b5df3da024\/original\/2013912-1445642061380-RWBY_THUMB_Ep01.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-10-23
+        23:14:15","updated_at":"2018-01-17 20:21:35","deleted_at":null,"picture_type":"profile"},"show":{"name":"RWBY","summary":{"html":"<p>The
+        future-fantasy world of Remnant is filled with ravenous monsters, treacherous
+        terrain, and more villains than you can shake a sniper-scythe at. Fortunately,
+        Beacon Academy is training Huntsmen and Huntresses to battle the evils of
+        the world, and Ruby, Weiss, Blake, and Yang are ready for their first day
+        of class.<\/p>","clean":"The future-fantasy world of Remnant is filled with
+        ravenous monsters, treacherous terrain, and more villains than you can shake
+        a sniper-scythe at. Fortunately, Beacon Academy is training Huntsmen and Huntresses
+        to battle the evils of the world, and Ruby, Weiss, Blake, and Yang are ready
+        for their first day of class."},"id":34,"slug":"rwby","seasonCount":5,"coverPicture":{"id":"100453986","uuid":"0d42e19e-e8b0-4896-b8a9-2654d640210c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"34","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/original\/RWBY_v5_page_banner_master_updated.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-10-11
+        15:51:05","updated_at":"2018-01-17 20:02:35","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516119","uuid":"11c0946e-1298-45cd-9653-8c7d1d0ebf61","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"34","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/original\/RWBYSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:21:57","updated_at":"2018-03-06 19:22:15","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby"},"season":{"title":"Volume
+        3","description":"","id":229,"number":3,"slug":"rwby-season-3","show":{"name":"RWBY","summary":{"html":"<p>The
+        future-fantasy world of Remnant is filled with ravenous monsters, treacherous
+        terrain, and more villains than you can shake a sniper-scythe at. Fortunately,
+        Beacon Academy is training Huntsmen and Huntresses to battle the evils of
+        the world, and Ruby, Weiss, Blake, and Yang are ready for their first day
+        of class.<\/p>","clean":"The future-fantasy world of Remnant is filled with
+        ravenous monsters, treacherous terrain, and more villains than you can shake
+        a sniper-scythe at. Fortunately, Beacon Academy is training Huntsmen and Huntresses
+        to battle the evils of the world, and Ruby, Weiss, Blake, and Yang are ready
+        for their first day of class."},"id":34,"slug":"rwby","seasonCount":5,"coverPicture":{"id":"100453986","uuid":"0d42e19e-e8b0-4896-b8a9-2654d640210c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"34","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/original\/RWBY_v5_page_banner_master_updated.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-10-11
+        15:51:05","updated_at":"2018-01-17 20:02:35","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516119","uuid":"11c0946e-1298-45cd-9653-8c7d1d0ebf61","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"34","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/original\/RWBYSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:21:57","updated_at":"2018-03-06 19:22:15","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/rwby-season-3-chapter-1","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/d202e540-168f-45da-9dd1-9a030176d21a\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Let''s
+        Play Live: The Documentary","caption":"Let\u2019s Play Live: The Documentary
+        follows Achievement Hunter as it turns online gaming into a first-of-its-kind
+        live event.","sponsorOnly":true,"description":{"html":"<p>Let''s Play Live:
+        The Documentary follows Achievement Hunter as it turns online gaming into
+        a first-of-its-kind live event. The documentary not only explores why Let''s
+        Plays are so popular, but also how the convergence of gaming and community
+        are redefining the stages once reserved for only the biggest of rock stars.<\/p>","clean":"Let''s
+        Play Live: The Documentary follows Achievement Hunter as it turns online gaming
+        into a first-of-its-kind live event. The documentary not only explores why
+        Let''s Plays are so popular, but also how the convergence of gaming and community
+        are redefining the stages once reserved for only the biggest of rock stars."},"slug":"r-t-docs-let-s-play-live-let-s-play-live-the-documentary","site":"roosterTeeth","id":20399,"number":1,"length":1653,"profilePicture":{"id":"100051982","uuid":"df2633f0-5867-4f96-a444-0583f53e933b","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20399","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4cb3b761-81c4-425f-b3a9-57c44f4bd6bc\/original\/2013912-1444159770978-LPLNewThumbnail2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-10-06
+        19:29:27","updated_at":"2018-01-17 20:21:21","deleted_at":null,"picture_type":"profile"},"show":{"name":"RT
+        Docs","summary":{"html":"<p>Rooster Teeth''s Documentaries<\/p>","clean":"Rooster
+        Teeth''s Documentaries"},"id":204,"slug":"rt-docs","seasonCount":9,"coverPicture":{"id":"100518412","uuid":"56c80134-e91e-4e1b-9f77-db632e3d6d85","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"204","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/original\/RTDocsHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:43:12","updated_at":"2018-04-20 15:39:48","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518407","uuid":"01f84ef1-5eb2-4c49-9324-8b5532c4f493","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"204","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/original\/RTDocsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:43:10","updated_at":"2018-03-14 20:43:16","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-docs"},"season":{"title":"RT
+        Docs","description":"","id":212,"number":1,"slug":"r-t-docs-rt-docs","show":{"name":"RT
+        Docs","summary":{"html":"<p>Rooster Teeth''s Documentaries<\/p>","clean":"Rooster
+        Teeth''s Documentaries"},"id":204,"slug":"rt-docs","seasonCount":9,"coverPicture":{"id":"100518412","uuid":"56c80134-e91e-4e1b-9f77-db632e3d6d85","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"204","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/original\/RTDocsHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:43:12","updated_at":"2018-04-20 15:39:48","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518407","uuid":"01f84ef1-5eb2-4c49-9324-8b5532c4f493","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"204","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/original\/RTDocsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:43:10","updated_at":"2018-03-14 20:43:16","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-docs"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/r-t-docs-let-s-play-live-let-s-play-live-the-documentary"},{"title":"Rocketman","caption":"Battle:
+        Los Angeles","sponsorOnly":false,"description":{"html":"<p>Michael and Geoff
+        pretend to be Elton John and grab the Rocketman achievement in Battle: Los
+        Angeles for XBLA.  Fly away with me!<\/p>","clean":"Michael and Geoff pretend
+        to be Elton John and grab the Rocketman achievement in Battle: Los Angeles
+        for XBLA.  Fly away with me!"},"slug":"achievement-hunter-achievement-hunter-rocketman","site":"achievementHunter","id":3000,"number":90,"length":63,"profilePicture":{"id":"2698","uuid":"a6707d4b-2b89-469e-8ddf-4ed25c18541f","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"3000","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/fe9785a9-ee3a-45b8-81bd-5d350175f124\/original\/ep3000.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:36:04","updated_at":"2018-01-17 20:08:25","deleted_at":null,"picture_type":"profile"},"show":{"name":"Achievement
+        Hunter","summary":{"html":"<p>Achievement walkthroughs, hints, tips and tricks
+        for the Xbox 360. Helping you get those achievements, one game at a time.<\/p>","clean":"Achievement
+        walkthroughs, hints, tips and tricks for the Xbox 360. Helping you get those
+        achievements, one game at a time."},"id":7,"slug":"achievement-hunter","seasonCount":11,"coverPicture":{"id":"100485399","uuid":"097ba3fe-e0b7-4aa8-ac94-19bf59a33295","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"7","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/original\/AchievementHunterHero1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-12
+        17:46:04","updated_at":"2018-01-17 16:23:10","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515976","uuid":"b863524c-bf59-433e-b3db-cfc166c37032","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"7","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/original\/AchievementHunterSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:23:52","updated_at":"2018-03-06 16:25:25","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/achievement-hunter"},"season":{"title":"2011","description":"","id":219,"number":2011,"slug":"achievement-hunter-2011","show":{"name":"Achievement
+        Hunter","summary":{"html":"<p>Achievement walkthroughs, hints, tips and tricks
+        for the Xbox 360. Helping you get those achievements, one game at a time.<\/p>","clean":"Achievement
+        walkthroughs, hints, tips and tricks for the Xbox 360. Helping you get those
+        achievements, one game at a time."},"id":7,"slug":"achievement-hunter","seasonCount":11,"coverPicture":{"id":"100485399","uuid":"097ba3fe-e0b7-4aa8-ac94-19bf59a33295","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"7","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/original\/AchievementHunterHero1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-12
+        17:46:04","updated_at":"2018-01-17 16:23:10","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515976","uuid":"b863524c-bf59-433e-b3db-cfc166c37032","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"7","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/original\/AchievementHunterSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:23:52","updated_at":"2018-03-06 16:25:25","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/achievement-hunter"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/achievement-hunter-achievement-hunter-rocketman","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/rebuilds\/3000.mp4-a1169bd7\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"The
+        HYPE is Real","caption":"\u200bWe''re hours away from the biggest party in
+        video games and we are HYPED.","sponsorOnly":false,"description":{"html":"<p>We''re
+        hours away from the biggest party in video games and we are HYPED.<\/p>\n\n<p>\u25baSGC
+        and RTX 2016 is in July! Come hang out with for a weekend: <a href=\"http:\/\/bit.ly\/SGCRTX2016\">http:\/\/bit.ly\/SGCRTX2016<\/a><\/p>\n\n<p>\u25baWe
+        have a book based on the Video Game Vault series! Learn more about it here:
+        <a href=\"http:\/\/bit.ly\/ScrewAttackN64Book\">http:\/\/bit.ly\/ScrewAttackN64Book<\/a><\/p>\n\n<p>\u25baWatch
+        DEATH BATTLE and all our videos early as a Sponsor (it''s like our Patreon):
+        <a href=\"http:\/\/bit.ly\/SponsorSA\">http:\/\/bit.ly\/SponsorSA<\/a><\/p>","clean":"We''re
+        hours away from the biggest party in video games and we are HYPED.\n\n\u25baSGC
+        and RTX 2016 is in July! Come hang out with for a weekend: http:\/\/bit.ly\/SGCRTX2016\n\n\u25baWe
+        have a book based on the Video Game Vault series! Learn more about it here:
+        http:\/\/bit.ly\/ScrewAttackN64Book\n\n\u25baWatch DEATH BATTLE and all our
+        videos early as a Sponsor (it''s like our Patreon): http:\/\/bit.ly\/SponsorSA"},"slug":"sidescrollers-season-1-the-hype-is-real","site":"screwAttack","id":28805,"number":251,"length":3267,"profilePicture":{"id":"100237560","uuid":"f9d61c8c-37e6-4595-97da-f25112712441","title":"","description":"","container_type":"Shows\\Models\\Episode","container_id":"28805","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/7b3ffd12-683b-43e3-852d-e6659f6343a1\/original\/2056961-1467084058486-06_27_16_SideScrollersTHumb.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-06-28
+        03:17:19","updated_at":"2018-01-17 20:29:47","deleted_at":null,"picture_type":"profile"},"show":{"name":"SideScrollers
+        Podcast","summary":{"html":"<p>Craig, Chad and Sam talk stuff. Sometimes games,
+        but mostly just stuff dudes talk about. Fun fact: This is the first show ScrewAttack
+        ever made and it''s still going today.<\/p>","clean":"Craig, Chad and Sam
+        talk stuff. Sometimes games, but mostly just stuff dudes talk about. Fun fact:
+        This is the first show ScrewAttack ever made and it''s still going today."},"id":223,"slug":"sidescrollers","seasonCount":1,"coverPicture":{"id":"100145422","uuid":"4768f79a-34fa-4fbd-96e5-5fe58f0fc8cf","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"223","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/original\/2056961-1457245197081-SideScrollersLarge.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-06
+        06:13:38","updated_at":"2018-01-17 20:02:41","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522857","uuid":"e45d497e-1856-4f38-95b3-ab9d4b1e0ab7","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"223","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/original\/SideScrollersPodcastSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        22:55:14","updated_at":"2018-03-27 22:55:22","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/sidescrollers"},"season":{"title":"Season
+        1","description":"","id":379,"number":1,"slug":"sidescrollers-season-1","show":{"name":"SideScrollers
+        Podcast","summary":{"html":"<p>Craig, Chad and Sam talk stuff. Sometimes games,
+        but mostly just stuff dudes talk about. Fun fact: This is the first show ScrewAttack
+        ever made and it''s still going today.<\/p>","clean":"Craig, Chad and Sam
+        talk stuff. Sometimes games, but mostly just stuff dudes talk about. Fun fact:
+        This is the first show ScrewAttack ever made and it''s still going today."},"id":223,"slug":"sidescrollers","seasonCount":1,"coverPicture":{"id":"100145422","uuid":"4768f79a-34fa-4fbd-96e5-5fe58f0fc8cf","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"223","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/b43e3b40-68ba-4d7f-8758-e31ceb4ff4d4\/original\/2056961-1457245197081-SideScrollersLarge.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-06
+        06:13:38","updated_at":"2018-01-17 20:02:41","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522857","uuid":"e45d497e-1856-4f38-95b3-ab9d4b1e0ab7","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"223","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/71be1838-0ef5-4bf8-919c-e59084fbd0a7.jpg\/original\/SideScrollersPodcastSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        22:55:14","updated_at":"2018-03-27 22:55:22","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/sidescrollers"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/sidescrollers-season-1-the-hype-is-real","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/fcb37fae-121d-4f74-b569-f453a37b2fcd\/index.m3u8"}}],"audioFiles":[{"type":"audio","content":{"mp3":"https:\/\/soundcloud.com\/screwattack\/the-hype-is-real-sidescrollers-541-062716"}}],"links":[]}},{"title":"32
+        POUND MARSHMALLOW BATH \u2022 Behind the Cow Chop","caption":"How many gallons
+        is that? ","sponsorOnly":false,"description":{"html":"<p>Subscribe<a href=\"http:\/\/bit.ly\/1RQtfNf\">
+        http:\/\/bit.ly\/1RQtfNf<\/a>\u00a0\u00a0<\/p>\n\n<p>Cow Chop Merch:<a href=\"http:\/\/bit.ly\/2dY0HrO\">
+        http:\/\/bit.ly\/2dY0HrO<\/a> \u00a0<br \/>RT First:<a href=\"http:\/\/bit.ly\/2b4bWuW\">
+        http:\/\/bit.ly\/2b4bWuW<\/a> \u00a0<br \/>Discuss:<a href=\"http:\/\/bit.ly\/1qvrlLD\">
+        http:\/\/bit.ly\/1qvrlLD<\/a> \u00a0<br \/>Twitter:<a href=\"https:\/\/twitter.com\/CowChop\">
+        https:\/\/twitter.com\/CowChop<\/a> \u00a0<\/p>\n\n\n\n\n\n<p>Beat Boxing
+        Pro:<a href=\"http:\/\/bit.ly\/1NdSvRO\"> http:\/\/bit.ly\/1NdSvRO<\/a> \u00a0<\/p>\n\n\n\n\n\n<p><br
+        \/><\/p>\n\n\n\n\n\n<p>On this weeks Behind the Cow Chop we take you behind
+        the scenes with 32 Pounds of Marshmallows and we setup for our 1000 degree
+        knife video.\u00a0<\/p>\n\n\n\n\n\n<p>Please support our move to LA! \u00a0Click
+        the link to sign up for Rooster Teeth FIRST and use the referral code \"COWCHOP\"<a
+        href=\"https:\/\/goo.gl\/NVZOT8\"> https:\/\/goo.gl\/NVZOT8<\/a><\/p>\n\n\n\n\n\n<p><br
+        \/><\/p>\n\n\n\n\n\n\n\n<p><span class=\"redactor-unlink\">The<\/span> following
+        is for those multicultural.\u00a0<\/p>\n\n\n\n\n\n<p><br \/><\/p>\n\n\n\n\n\n<p>Dame
+        comida, dame marshmallows. Pega esos malvaviscos por mi culo. Se siente tan
+        bien sentir los malvaviscos suaves insertados en mi tope. Oh, s\u00ed, se
+        siente tan bien.<\/p>\n\n\n\n\n\n<p>Jag hoppas att alla snitches f\u00e5r
+        slag i ansiktet. De \u00e4r alla ett g\u00e4ng j\u00e4vla skitst\u00f6vlar.
+        Ocks\u00e5 tack f\u00f6r att titta p\u00e5 dig sexig r\u00f6v kor.<\/p>\n\n\n\n\n\n<p><br
+        \/><\/p>\n\n\n\n\n\n<p>32 POUND MARSHMALLOW BATH \u2022 Behind the Cow Chop\u00a0<br
+        \/>Thank You <\/p>","clean":"Subscribe http:\/\/bit.ly\/1RQtfNf\u00a0\u00a0\n\nCow
+        Chop Merch: http:\/\/bit.ly\/2dY0HrO \u00a0RT First: http:\/\/bit.ly\/2b4bWuW
+        \u00a0Discuss: http:\/\/bit.ly\/1qvrlLD \u00a0Twitter: https:\/\/twitter.com\/CowChop
+        \u00a0\n\n\n\n\n\nBeat Boxing Pro: http:\/\/bit.ly\/1NdSvRO \u00a0\n\n\n\n\n\n\n\n\n\n\n\nOn
+        this weeks Behind the Cow Chop we take you behind the scenes with 32 Pounds
+        of Marshmallows and we setup for our 1000 degree knife video.\u00a0\n\n\n\n\n\nPlease
+        support our move to LA! \u00a0Click the link to sign up for Rooster Teeth
+        FIRST and use the referral code \"COWCHOP\" https:\/\/goo.gl\/NVZOT8\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe
+        following is for those multicultural.\u00a0\n\n\n\n\n\n\n\n\n\n\n\nDame comida,
+        dame marshmallows. Pega esos malvaviscos por mi culo. Se siente tan bien sentir
+        los malvaviscos suaves insertados en mi tope. Oh, s\u00ed, se siente tan bien.\n\n\n\n\n\nJag
+        hoppas att alla snitches f\u00e5r slag i ansiktet. De \u00e4r alla ett g\u00e4ng
+        j\u00e4vla skitst\u00f6vlar. Ocks\u00e5 tack f\u00f6r att titta p\u00e5 dig
+        sexig r\u00f6v kor.\n\n\n\n\n\n\n\n\n\n\n\n32 POUND MARSHMALLOW BATH \u2022
+        Behind the Cow Chop\u00a0Thank You "},"slug":"behind-the-cow-chop-2016-8","site":"cowChop","id":31430,"number":4,"length":603,"profilePicture":{"id":"100372661","uuid":"ae0029a3-9935-4801-9f0a-85a531f3a672","title":"","description":"","container_type":"Shows\\Models\\Episode","container_id":"31430","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/e542a64b-4ed7-414a-a070-c20bdf62605d\/original\/2516933-1485572881956-32_pound_cereal.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-01-28
+        03:08:44","updated_at":"2018-01-17 20:31:29","deleted_at":null,"picture_type":"profile"},"show":{"name":"Behind
+        the Cow Chop","summary":{"html":"<p>Here is where we throw all the strange
+        things that happen behind the scenes with the Cow Chop crew.<\/p>","clean":"Here
+        is where we throw all the strange things that happen behind the scenes with
+        the Cow Chop crew."},"id":308,"slug":"behind-the-cow-chop","seasonCount":3,"coverPicture":{"id":"100518069","uuid":"dadc5ead-3dd7-4369-b6f8-41a483dfb33c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"308","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/original\/BehindTheCowChopHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        18:48:52","updated_at":"2018-03-14 18:48:56","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518065","uuid":"94358c46-5b4c-45bb-b850-1c112a663656","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"308","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/original\/BehindTheCowChopSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        18:43:51","updated_at":"2018-03-14 18:48:23","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/behind-the-cow-chop"},"season":{"title":"2017","description":"","id":532,"number":2,"slug":"behind-the-cow-chop-2016","show":{"name":"Behind
+        the Cow Chop","summary":{"html":"<p>Here is where we throw all the strange
+        things that happen behind the scenes with the Cow Chop crew.<\/p>","clean":"Here
+        is where we throw all the strange things that happen behind the scenes with
+        the Cow Chop crew."},"id":308,"slug":"behind-the-cow-chop","seasonCount":3,"coverPicture":{"id":"100518069","uuid":"dadc5ead-3dd7-4369-b6f8-41a483dfb33c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"308","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/b1ba837f-06e8-4a61-983e-21dbdc3127f0.jpg\/original\/BehindTheCowChopHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        18:48:52","updated_at":"2018-03-14 18:48:56","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518065","uuid":"94358c46-5b4c-45bb-b850-1c112a663656","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"308","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/173c0c1e-7fea-4035-bae0-bd725dcdacd0.jpg\/original\/BehindTheCowChopSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        18:43:51","updated_at":"2018-03-14 18:48:23","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/behind-the-cow-chop"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/behind-the-cow-chop-2016-8","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/dace31f5-b094-414e-858c-540dade0b96e\/index.m3u8"}}],"audioFiles":[],"links":[]}},{"title":"Episode
+        6: It''s a Crazy Mad World","caption":"With his new partner in crime Mogar
+        alongside him, The Mad King stages a coup to get back what was once his, while
+        X-Ray and Vav stumble on to his plot.","sponsorOnly":false,"description":{"html":"<p>With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot.<\/p>","clean":"With
+        his new partner in crime Mogar alongside him, The Mad King stages a coup to
+        get back what was once his, while X-Ray and Vav stumble on to his plot."},"slug":"x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","site":"roosterTeeth","id":20433,"number":6,"length":522,"profilePicture":{"id":"100044494","uuid":"761cf2aa-b48f-44a5-95a8-75b2e559ada0","title":null,"description":null,"container_type":"Shows\\Models\\Episode","container_id":"20433","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/32f4f64e-01ba-4d2e-8f40-f791df560339\/original\/2013912-1442614348809-xv2_ep6_thumbnail.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-18
+        22:12:28","updated_at":"2018-01-17 20:21:22","deleted_at":null,"picture_type":"profile"},"show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"},"season":{"title":"Season
+        2","description":"","id":94,"number":2,"slug":"x-ray-and-vav-season-2","show":{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/x-ray-and-vav-season-2-episode-6-it-s-a-crazy-mad-world","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/85068c91-ad40-4b8b-a25a-8efc22790a57\/index.m3u8"}}],"audioFiles":[],"links":[]}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:15 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ik9ndWx6ZnlNaW5xWEl2c1RuXC9ZZ1h5cWlRTXhJOTJ6UVQrdDlXSlNEWlRvPSIsInZhbHVlIjoiTEdZWFBCaVZJWXM1bWFONzV2ajlwcU95VTZmcUR6a3FaSG1wdlMrXC9DWGRiWlRqdllPU29lbDVrTHZ6SlVaY1V2c1BSQjJZVkZ2eVBiRjB5XC9aQnBGUT09IiwibWFjIjoiZDA2ODcxMzk2MzQ2NmEwNjk2MWNmYzg2MjExZjBjNjRhZGFhNmMwNThiYmNlODYyOTM2ZTEzNjA5NzA1M2U2OSJ9;
+          expires=Fri, 12-Oct-2018 13:31:13 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['8']
+      X-request-uri: ['/api/v1/users/2044162/queue?page=1&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2044162/queue?page=2&count=20
+  response:
+    body: {string: '[]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:15 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlN5RW1tU1wvZjExaGd1dHRBTUlLUG82ZnZHdE9VS3F6Vm5uN1FhcHVkb29vPSIsInZhbHVlIjoiQlllNHRWeXNla0p2dFcxZ1wvMG1KbUVGVjFXRXd6YVFFSDhDTzBmRnUyNjZZYzVlTHlrRFlST1lQdWpCZFA4c21JN2p6aGFtUWoycVNiN2ZLOFFxU2hnPT0iLCJtYWMiOiIyN2QzODlmZjZlOGJmZTE0NDAwODQ2OGVhY2Y4MTlhNWZmYTgxMGI1ODA1NDI4YWEwYWExMmNkYWUwNDdlMzEyIn0%3D;
+          expires=Fri, 12-Oct-2018 13:31:15 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['8']
+      X-request-uri: ['/api/v1/users/2044162/queue?page=2&count=20']
+    status: {code: 200, message: OK}
+version: 1

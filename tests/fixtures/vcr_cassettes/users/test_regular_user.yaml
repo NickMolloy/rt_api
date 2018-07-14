@@ -1,0 +1,33 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer efM5pUzh3C4NAbvgcnJvggtljIFrhtrvU6hTVjAX]
+      Connection: [keep-alive]
+      Cookie: [rt_production_session=eyJpdiI6IlZGUjFtV1VGbW5SXC9pMTlxalV2WW43eFwvWVJnMnVCb2pNbXExdFYxeko3OD0iLCJ2YWx1ZSI6InQyOEFvV0lcLzJQNGNGVGxSalAzdmgzcDdqMWdQcnYybXdhTTJ6UHlMbnlQc2VvOXdOMElBTE9FSTAwYk9MaFlYcEVLbG1WXC8wZHFLQmhraWJ2bWFLeHc9PSIsIm1hYyI6ImYzMWQ2OTUwZTk1MjY0N2VkYjZmZTZiOTdjZDkyNDUyYWM4NGNiMmFhYTk4M2I3YTdhZDBjMGY2MTE2YzE3OWMifQ%3D%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/442
+  response:
+    body: {string: '{"username":"hobbie","displayTitle":"sup, yo","name":"A","sex":"m","location":"The
+        Bayou","occupation":"numbers","about":{"html":"<p>HOBBIE NEVER LEAVES, he
+        just stops posting<br \/><\/p>","clean":"HOBBIE NEVER LEAVES, he just stops
+        posting"},"id":442,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/57471ae3-ef5a-417f-9f48-8a82771a093c\/tb\/hobbie423534014eeb7.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/57471ae3-ef5a-417f-9f48-8a82771a093c\/sm\/hobbie423534014eeb7.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/57471ae3-ef5a-417f-9f48-8a82771a093c\/md\/hobbie423534014eeb7.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/57471ae3-ef5a-417f-9f48-8a82771a093c\/original\/hobbie423534014eeb7.jpg"}},"coverPicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/tb\/hobbie441e28cdcca83.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/sm\/hobbie441e28cdcca83.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/md\/hobbie441e28cdcca83.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/original\/hobbie441e28cdcca83.jpg"}},"sponsor":true,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/hobbie","hasUsedTrial":false}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:58 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlZWZXhpUmF0elwvVHNPV0JBODN5Rjh2V2RqZEpnYVZ4a0RKM2o0TmxkSkFvPSIsInZhbHVlIjoiSXVHV1RNQlJjXC9vSWh4dG9ZUlMzcVlMSElmUU12cTA0WnV2RGtPUWNxdUtHQWlZeG1IRlhYZ0F5UmtaUVNzQ3FwZWhjQ2ZIdmNZb0oxMk5Pb2h1Z2F3PT0iLCJtYWMiOiIzYmY2ZGIxZTNlNzAwZWVmNDk0OTU4MzJjOTYyMzBjMTZkN2JkZjRmMjc0MjM4NDcxNTcyZjJjMGU4YjcyNGFiIn0%3D;
+          expires=Fri, 12-Oct-2018 13:33:57 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/442]
+    status: {code: 200, message: OK}
+version: 1

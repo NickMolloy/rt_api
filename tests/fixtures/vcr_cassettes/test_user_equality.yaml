@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2269567
+  response:
+    body: {string: '{"username":"sithyeti","displayTitle":null,"name":"","sex":"m","location":"","occupation":"","about":{"html":"","clean":""},"id":2269567,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/user_profile_male.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/user_profile_male.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/user_profile_male.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/user_profile_male.jpg"}},"sponsor":false,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/sithyeti","hasUsedTrial":true}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:18 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlwvWTVwaTNCODRQNlZ1YWw5TEpJZEdpeE1pM1gzeCtGeEUxdFQwSUMwSHVRPSIsInZhbHVlIjoiMlIxQkpiVjFISm1vNkNHeEpXVVh5U0pzU29HXC9RYUFodFZuYk5aXC9JQjhtQmdjNU5iN0x1WldlNU9LNTcyRVRSbG56UFBhMGM5eENGUUQ5Vkp3ZzdoUT09IiwibWFjIjoiNDhjODkwODc0OTUzYjkxMzU2YmE5NzQwNjA4MGY0OGFlOGM1Yzk4ODc5MWE1YTc3ZjViZDEzYTMxNzU3MWUxNCJ9;
+          expires=Fri, 12-Oct-2018 13:33:20 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/2269567]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2269569
+  response:
+    body: {string: '{"username":"user-56b5d343c3b1c","displayTitle":null,"name":"Ammy
+        Jackson","sex":null,"location":null,"occupation":null,"about":{"html":"","clean":""},"id":2269569,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/tb\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/sm\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/md\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/93f50d18-1fdc-40e5-8abb-95a7110b9198\/original\/5557246739-1454756674-942810_138950753155036_6942253502447109897_n.jpg"}},"sponsor":false,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/user-56b5d343c3b1c","hasUsedTrial":false}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:18 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InhFZFBTTW5LVCtTUlBaWk01NVoydkYzcW5VeXFsTlN5c1d0UW1VVDBHYnc9IiwidmFsdWUiOiJOT1NmU0lCRmxOTm04RjRnaWVjZ1wvQ0lYQ2o3ZE02cnhtRHVpUmpjSVBQbVNMeUhBaVp2Kzdtb3JxRHhublJaMHZnUUwwMmpTckdqWWpVblp3UkRcL3hRPT0iLCJtYWMiOiIxNjQ3NjY3YmMzYmU2YTU3OWE2NDY2ZjM3ZTk2MGIxZWYwYmQ1MTE1ZTYyNGM1MjE0Y2Y2ODY2NTZhZTM0MTBjIn0%3D;
+          expires=Fri, 12-Oct-2018 13:33:17 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/2269569]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2269567
+  response:
+    body: {string: '{"username":"sithyeti","displayTitle":null,"name":"","sex":"m","location":"","occupation":"","about":{"html":"","clean":""},"id":2269567,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/user_profile_male.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/user_profile_male.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/user_profile_male.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/user_profile_male.jpg"}},"sponsor":false,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/sithyeti","hasUsedTrial":true}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:18 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImNpcXVRWjNlcnB3WjRBWTNVQmhkXC85cGMrbTVpTkJybE5XODZscnZWcEFZPSIsInZhbHVlIjoiVDdhNnhJNlBFaDJYUThremVubTFRRTlVRURralF4aWpNTzdMRWhrNEFDU3dKdzU4YnowZTcwTTlMUzJ4ZEo0N2hXK3NZWHF6cmIxMlI1bytPaWpyTkE9PSIsIm1hYyI6IjdmZmNjODM2NmZjZjRhYjE4OGRhMGMwMzFmY2MxMzkwNTFkN2U4ZWNmMWQ5YmM3NDA4OTM3YWEzOWQwOTEyMTUifQ%3D%3D;
+          expires=Fri, 12-Oct-2018 13:33:18 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/2269567]
+    status: {code: 200, message: OK}
+version: 1

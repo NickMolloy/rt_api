@@ -12,13 +12,27 @@
 	"number": 402,
 	"length": 402,
 	"profilePicture": {
-		"type": "picture",
-		"content": {
-			"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/tb\/24363-1482281001906-thumbnail.jpg",
-			"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/sm\/24363-1482281001906-thumbnail.jpg",
-			"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/md\/24363-1482281001906-thumbnail.jpg",
-			"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/original\/24363-1482281001906-thumbnail.jpg"
-		}
+		"id": "100352308",
+		"uuid": "64bbaf25-7eea-4915-8a4e-0e4c4a06e19a",
+		"title": "",
+		"description": "",
+		"container_type": "Shows\\Models\\Episode",
+		"container_id": "31020",
+		"permission": {
+			"value": 0,
+			"name": null
+		},
+		"aws_bucket": "cdn.roosterteeth.com",
+		"aws_key": "uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/original\/24363-1482281001906-thumbnail.jpg",
+		"weight": "0",
+		"created_by": "1",
+		"updated_by": "1",
+		"deleted_by": null,
+		"censored_at": null,
+		"created_at": "2016-12-21 00:43:28",
+		"updated_at": "2018-01-17 20:31:13",
+		"deleted_at": null,
+		"picture_type": "profile"
 	},
 	"show": {
 		"name": "Game News",
@@ -28,26 +42,54 @@
 		},
 		"id": 77,
 		"slug": "game-news",
-		"seasonCount": 2,
+		"seasonCount": 4,
 		"coverPicture": {
-			"type": "picture",
-			"content": {
-				"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/tb\/24363-1474392969521-Game_News_-_Background.jpg",
-				"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/sm\/24363-1474392969521-Game_News_-_Background.jpg",
-				"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/md\/24363-1474392969521-Game_News_-_Background.jpg",
-				"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg"
-			}
+			"id": "100280757",
+			"uuid": "ca53c869-68c2-4646-98a3-3f2ee787e319",
+			"title": "",
+			"description": "",
+			"container_type": "Shows\\Models\\Show",
+			"container_id": "77",
+			"permission": {
+				"value": 0,
+				"name": null
+			},
+			"aws_bucket": "cdn.roosterteeth.com",
+			"aws_key": "uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg",
+			"weight": "0",
+			"created_by": "1",
+			"updated_by": "1",
+			"deleted_by": null,
+			"censored_at": null,
+			"created_at": "2016-09-20 17:36:07",
+			"updated_at": "2018-01-17 20:02:39",
+			"deleted_at": null,
+			"picture_type": "cover"
 		},
 		"profilePicture": {
-			"type": "picture",
-			"content": {
-				"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/tb\/2013912-1475178816211-Game_News_-_Icon.jpg",
-				"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/sm\/2013912-1475178816211-Game_News_-_Icon.jpg",
-				"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/md\/2013912-1475178816211-Game_News_-_Icon.jpg",
-				"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/original\/2013912-1475178816211-Game_News_-_Icon.jpg"
-			}
+			"id": "100523636",
+			"uuid": "57c73918-e2ce-492a-aec5-b1ca93a20d1f",
+			"title": null,
+			"description": null,
+			"container_type": "Shows\\Models\\Show",
+			"container_id": "77",
+			"permission": {
+				"value": 0,
+				"name": null
+			},
+			"aws_bucket": "rtv3.image.cdn.roosterteeth.com",
+			"aws_key": "store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg",
+			"weight": "0",
+			"created_by": "1",
+			"updated_by": "1",
+			"deleted_by": null,
+			"censored_at": null,
+			"created_at": "2018-03-30 00:06:11",
+			"updated_at": "2018-03-30 00:06:28",
+			"deleted_at": null,
+			"picture_type": "profile"
 		},
-		"canonicalUrl": "http:\/\/roosterteeth.com\/show\/game-news"
+		"canonicalUrl": "https:\/\/roosterteeth.com\/show\/game-news"
 	},
 	"season": {
 		"title": "2016",
@@ -63,29 +105,57 @@
 			},
 			"id": 77,
 			"slug": "game-news",
-			"seasonCount": 2,
+			"seasonCount": 4,
 			"coverPicture": {
-				"type": "picture",
-				"content": {
-					"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/tb\/24363-1474392969521-Game_News_-_Background.jpg",
-					"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/sm\/24363-1474392969521-Game_News_-_Background.jpg",
-					"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/md\/24363-1474392969521-Game_News_-_Background.jpg",
-					"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg"
-				}
+				"id": "100280757",
+				"uuid": "ca53c869-68c2-4646-98a3-3f2ee787e319",
+				"title": "",
+				"description": "",
+				"container_type": "Shows\\Models\\Show",
+				"container_id": "77",
+				"permission": {
+					"value": 0,
+					"name": null
+				},
+				"aws_bucket": "cdn.roosterteeth.com",
+				"aws_key": "uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg",
+				"weight": "0",
+				"created_by": "1",
+				"updated_by": "1",
+				"deleted_by": null,
+				"censored_at": null,
+				"created_at": "2016-09-20 17:36:07",
+				"updated_at": "2018-01-17 20:02:39",
+				"deleted_at": null,
+				"picture_type": "cover"
 			},
 			"profilePicture": {
-				"type": "picture",
-				"content": {
-					"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/tb\/2013912-1475178816211-Game_News_-_Icon.jpg",
-					"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/sm\/2013912-1475178816211-Game_News_-_Icon.jpg",
-					"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/md\/2013912-1475178816211-Game_News_-_Icon.jpg",
-					"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/ecf98af7-626b-44d4-9354-72785ea8081f\/original\/2013912-1475178816211-Game_News_-_Icon.jpg"
-				}
+				"id": "100523636",
+				"uuid": "57c73918-e2ce-492a-aec5-b1ca93a20d1f",
+				"title": null,
+				"description": null,
+				"container_type": "Shows\\Models\\Show",
+				"container_id": "77",
+				"permission": {
+					"value": 0,
+					"name": null
+				},
+				"aws_bucket": "rtv3.image.cdn.roosterteeth.com",
+				"aws_key": "store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg",
+				"weight": "0",
+				"created_by": "1",
+				"updated_by": "1",
+				"deleted_by": null,
+				"censored_at": null,
+				"created_at": "2018-03-30 00:06:11",
+				"updated_at": "2018-03-30 00:06:28",
+				"deleted_at": null,
+				"picture_type": "profile"
 			},
-			"canonicalUrl": "http:\/\/roosterteeth.com\/show\/game-news"
+			"canonicalUrl": "https:\/\/roosterteeth.com\/show\/game-news"
 		}
 	},
-	"canonicalUrl": "http:\/\/roosterteeth.com\/episode\/the-know-game-news-season-1-crytek-shuts-down-studios",
+	"canonicalUrl": "https:\/\/roosterteeth.com\/episode\/the-know-game-news-season-1-crytek-shuts-down-studios",
 	"media": {
 		"audioFiles": [],
 		"links": [{

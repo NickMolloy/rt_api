@@ -14,6 +14,7 @@ needs the api is called.
 """
 
 import os
+import posixpath
 from functools import wraps
 
 import m3u8
@@ -94,12 +95,27 @@ class ApiObject(object):
         Default is defined as the smallest.
 
         """
-        for thumb in ["tb", "sm", "md", "lg"]:
+        for thumb in Thumbnail.qualities:
             try:
                 return self._thumbnail[thumb]
             except KeyError:
                 continue
         return None
+
+    def get_thumbnail(self, quality):
+        """Return the url of the thumbnail of the resource at specified quality.
+
+        Args:
+            quality (str):  possible values are (in order from smallest to largest): "tb", "sm", "md", "lg".
+
+        Returns:
+            str: URL of the thumbnail or ``None`` if thumbnail not available at specified quality.
+
+        """
+        try:
+            return self._thumbnail[quality]
+        except KeyError:
+            return None
 
     def __eq__(self, other):
         """Define equality of two API objects as having the same type and attributes."""
@@ -183,21 +199,6 @@ class Show(ApiObject):
                 self._episodes.extend(season.episodes)
         return self._episodes
 
-    def get_thumbnail(self, quality):
-        """Return the URL of the show's thumbnail at specified quality.
-
-        Args:
-            quality (str):  possible values are (in order from smallest to largest): "tb", "sm", "md", "lg".
-
-        Returns:
-            str: URL of the thumbnail or ``None`` if thumbnail not available at specified quality.
-
-        """
-        try:
-            return self._thumbnail[quality]
-        except KeyError:
-            return None
-
     @property
     def cover_picture(self):
         """Return the default sized cover picture URL.
@@ -211,12 +212,12 @@ class Show(ApiObject):
 
         Examples:
             >>> some_show.cover_picture
-            'http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/14a811b0-b0f1-4b08-a65b-1c565d6d153f/original/21-1458935312881-ots_hero.png'
+            'https://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/14a811b0-b0f1-4b08-a65b-1c565d6d153f/original/21-1458935312881-ots_hero.png'
 
         """
-        for picture in ["lg", "tb", "sm", "md"]:
+        for quality in reversed(Thumbnail.qualities):
             try:
-                return self._cover_picture[picture]
+                return self._cover_picture[quality]
             except KeyError:
                 continue
         return None
@@ -404,20 +405,7 @@ class Episode(ApiObject):
         """Return the show this episode belongs to."""
         return self.season.show
 
-    def get_thumbnail(self, quality):
-        """Return the url of the episode's thumbnail at specified quality.
 
-        Args:
-            quality (str):  possible values are (in order from smallest to largest): "tb", "sm", "md", "lg".
-
-        Returns:
-            str: URL of the thumbnail or ``None`` if thumbnail not available at specified quality.
-
-        """
-        try:
-            return self._thumbnail[quality]
-        except KeyError:
-            return None
 
     @property
     def video(self):
@@ -549,21 +537,6 @@ class User(ApiObject):
         for key, value in params.items():
             params[key] = getattr(self, value)
         self._api.update_user_details(self.id_, **params)
-
-    def get_thumbnail(self, quality):
-        """Return the url of user thumbnail at specified quality.
-
-        Args:
-            quality (str):  possible values are (in order from smallest to largest): "tb", "sm", "md", "lg".
-
-        Returns:
-            str: URL of the thumbnail or ``None`` if thumbnail not available at specified quality.
-
-        """
-        try:
-            return self._thumbnail[quality]
-        except KeyError:
-            return None
 
 
 class Video(object):
@@ -748,10 +721,13 @@ class Thumbnail(dict):
     """Represents the available thumbnails of an API resource.
 
     The keys of the dictionary are the qualities the thumbnail is
-    available in: "tb", "sm", "md", "lg".
+    available in: "original", "tb", "sm", "md", "lg".
     The corresponding values are the URL of the thumbnail at that quality.
 
     """
+
+    qualities = ["tb", "sm", "md", "original"]
+    """Possible qualities of a thumbnail in descending order of size."""
 
     def __init__(self, thumbnail_json):
         """Create a Thumbnail resource.
@@ -761,10 +737,21 @@ class Thumbnail(dict):
 
         """
         super(Thumbnail, self).__init__()
-        if thumbnail_json['type'] == "picture":
+        if thumbnail_json.get("picture_type"):
+            bucket = thumbnail_json["aws_bucket"]
+            base_key = thumbnail_json["aws_key"].replace("/original/", "/{}/")
+            base_url = posixpath.join("https://s3.amazonaws.com", bucket, base_key)
+            for quality in Thumbnail.qualities:
+                self[quality] = base_url.format(quality)
+        elif thumbnail_json.get("type") == "picture":
+            # Old thumbnail format
             items = thumbnail_json['content']
             for key in items.keys():
-                self[key] = items[key]
+                if key == "lg":
+                    # Rename 'lg' to 'original'
+                    self["original"] = items[key]
+                else:
+                    self[key] = items[key]
 
 
 class MediaGroup(object):

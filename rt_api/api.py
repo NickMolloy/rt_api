@@ -25,12 +25,7 @@ from oauthlib.oauth2.rfc6749.errors import (AccessDeniedError,
                                             MissingTokenError)
 from requests_oauthlib import OAuth2Session
 
-from rt_api import models
-
-END_POINT = "https://roosterteeth.com/api/v1/"
-AUTH_URL = "https://roosterteeth.com/authorization/oauth-access-token"
-CLIENT_ID = "aToGIjvJ8Lofqmso"
-CLIENT_SECRET = "oW3CtlpnXRznUUiWLXzmaIQryFBfGmNt"
+from rt_api import models, constants
 
 
 def authenticated(func):
@@ -92,14 +87,14 @@ class Api(object):
             AuthenticationError: if getting token fails.
 
         """
-        client = BackendApplicationClient(client_id=CLIENT_ID)
+        client = BackendApplicationClient(client_id=constants.CLIENT_ID)
         oauth = OAuth2Session(client=client)
         # Retry auth if error (to get around intermittent failures)
         latest_exception = None
         for i in range(3):
             try:
                 token = oauth.fetch_token(
-                    token_url=AUTH_URL, client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+                    token_url=constants.AUTH_URL, client_id=constants.CLIENT_ID, client_secret=constants.CLIENT_SECRET)
                 self.__token = token["access_token"]
                 self.__session = oauth
                 self._me = None
@@ -134,14 +129,14 @@ class Api(object):
         """
         # TODO retry auth if error (to get around intermittent failures)
         payload = {
-            "client_id": CLIENT_ID,
-            "client_secret": CLIENT_SECRET,
+            "client_id": constants.CLIENT_ID,
+            "client_secret": constants.CLIENT_SECRET,
             "grant_type": "password",
             "scope": "user.access",
             "username": username,
             "password": password
         }
-        result = self.__session.post(AUTH_URL, data=payload)
+        result = self.__session.post(constants.AUTH_URL, data=payload)
         try:
             data = result.json()
         except:
@@ -200,7 +195,7 @@ class Api(object):
             return response.json()
         except ValueError:
             # Parsing json response failed
-            pass
+            return None
 
     def __build_response(self, path, model_class):
         """Retrieve data from given path and load it into an object of given model class.
@@ -213,7 +208,7 @@ class Api(object):
             object: Instance of the specified model class.
 
         """
-        data = self.__get_data(posixpath.join(END_POINT, path))
+        data = self.__get_data(posixpath.join(constants.END_POINT, path))
         if not data:
             # TODO raise exception complaining that no data was retrieved from api?
             return None
@@ -232,7 +227,7 @@ class Api(object):
             list: A list containing items of type model_class.
 
         """
-        url = posixpath.join(END_POINT, path)
+        url = posixpath.join(constants.END_POINT, path)
         data = self.__get_data(url, kwargs)
         if not data:
             return None
@@ -422,7 +417,7 @@ class Api(object):
             # This will result in a 401 response, so don't bother sending request.
             raise NotAuthenticatedError
         path = "users/{0}".format(user_id)
-        url = posixpath.join(END_POINT, path)
+        url = posixpath.join(constants.END_POINT, path)
         data = kwargs
         response = self.__session.put(url, data=data)
         response.raise_for_status()
@@ -460,7 +455,7 @@ class Api(object):
 
         """
         path = "episodes/{0}/add-to-queue".format(episode_id)
-        url = posixpath.join(END_POINT, path)
+        url = posixpath.join(constants.END_POINT, path)
         response = self.__session.post(url)
         response.raise_for_status()
         # Mark user queue as needing refresh
@@ -482,7 +477,7 @@ class Api(object):
 
         """
         path = "episodes/{0}/remove-from-queue".format(episode_id)
-        url = posixpath.join(END_POINT, path)
+        url = posixpath.join(constants.END_POINT, path)
         response = self.__session.delete(url)
         response.raise_for_status()
         # Mark user queue as needing refresh
@@ -498,7 +493,7 @@ class Api(object):
 
         """
         path = "episodes/{0}/mark-as-watched".format(episode_id)
-        url = posixpath.join(END_POINT, path)
+        url = posixpath.join(constants.END_POINT, path)
         response = self.__session.put(url)
         response.raise_for_status()
 
@@ -524,7 +519,7 @@ class Api(object):
             list: The search results.
 
         """
-        url = posixpath.join(END_POINT, "search/?q={0}".format(query))
+        url = posixpath.join(constants.END_POINT, "search/?q={0}".format(query))
         data = self.__get_data(url)
         mapping = {
             "episodes": models.Episode,

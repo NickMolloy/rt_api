@@ -1,0 +1,99 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/231
+  response:
+    body: {string: '{"title":"Season 3","description":"","id":231,"number":3,"slug":"on-the-spot-season-3","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:52 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjJ0T1NmdHdsT2tGYTQ3azdYenpmR0Y0QmorYURKc3ZFR1Z0YnA0SmNoOWM9IiwidmFsdWUiOiJhQ3ZNeVd2NmxiZFRFTnhoQ0IzdGRZcHFIelpUUzVqWGN1ZDlhamZsYU1qUlVpSmNCMkpVRDIwb2pZb2Y4TTlLNnJqek5hTytqeUVESlVpZ2J3SG50Zz09IiwibWFjIjoiOWRiMDRiMjI4OTY2MTA0M2M1NTBhYTI4Y2EyMTUzMmQwNDk5NjFlMjZjMWZhNGQ3NGU1YzdiMzYzZDU2MzNmMiJ9;
+          expires=Fri, 12-Oct-2018 13:31:52 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/seasons/231]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/55
+  response:
+    body: {string: '{"name":"On The Spot","summary":{"html":"<p>Rooster Teeth''s official
+        game show!  A live half hour of fast-paced laughs as host Jon Risinger puts
+        two RT teams on the spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s
+        official game show!  A live half hour of fast-paced laughs as host Jon Risinger
+        puts two RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:52 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkJ1dUVMaE1HK3R2TWxRMDhSSWE1NUg4M3gwbWVZQkdSb0M1T3pEYWhlTjQ9IiwidmFsdWUiOiJCcnNKU1h0WmdsWnFPTzQrSFBLdkszeGxucXpZRWkyQ1lWK1VNOGxNOUJURlZQQU02WmJaKzU4Zm9IeHQzZkdzVWN2em5NTWkzRG84emdNMExSTitkQT09IiwibWFjIjoiZWE4MGU2NmVkODhhYTM0OWQ5NzRlMDkyZWNmNDg3M2QxMzU2MDhjNGE4NGZhZDA1MzEwNTc1MWQ4MjlmYTU2OCJ9;
+          expires=Fri, 12-Oct-2018 13:31:53 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/55]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/55
+  response:
+    body: {string: '{"name":"On The Spot","summary":{"html":"<p>Rooster Teeth''s official
+        game show!  A live half hour of fast-paced laughs as host Jon Risinger puts
+        two RT teams on the spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s
+        official game show!  A live half hour of fast-paced laughs as host Jon Risinger
+        puts two RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:52 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ijc1UjF0S3RFUDQ0VGRGZGtDOGpoUzlidWZQM3Y5VzJ2ZXloSU5rRkFuUTA9IiwidmFsdWUiOiJNS0pmZEQ2KzRwdVlZenpUR082RlU2Mk9JbzdCY3FhcG5BakZPZ1hpdW9vQ0hpMlBcL3VFRExFNnVPSVpPVlwvZ0NjdW5cL3ZjVVdYZ3NDaFNSTzI1eHZGUT09IiwibWFjIjoiZDE2ODQyNzUzOGIwMzhlMGIwYjRmYzU5NjNhNzM3OTk5ZjgwZWJiZTIxYTkxYTE2MzZhYTNjYTRkMGIwN2E1OCJ9;
+          expires=Fri, 12-Oct-2018 13:31:52 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/55]
+    status: {code: 200, message: OK}
+version: 1
