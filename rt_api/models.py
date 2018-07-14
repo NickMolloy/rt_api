@@ -727,7 +727,7 @@ class Thumbnail(dict):
     """
 
     qualities = ["tb", "sm", "md", "original"]
-    """Possible qualities of a thumbnail in descending order of size."""
+    """Possible qualities of a thumbnail in ascending order of size."""
 
     def __init__(self, thumbnail_json):
         """Create a Thumbnail resource.

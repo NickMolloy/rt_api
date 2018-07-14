@@ -5,7 +5,7 @@ Welcome to rt_api's documentation!
 
 rt_api is a python client for the Rooster Teeth Api. It allows easy access to resources such as episodes, seasons, shows, and users.
 
-It supports Python 2.6, 2.7, 3.3, 3.4, 3.5, 3.6, and 3.7
+It supports Python 2.7, 3.4, 3.5, 3.6, and 3.7
 
 Quickstart
 ==========
