@@ -1,0 +1,102 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [rtv2-roosterteeth.akamaized.net]
+      User-Agent: [Python-urllib/3.7]
+    method: GET
+    uri: https://rtv2-roosterteeth.akamaized.net/uploads/videos/ea6d7410-d237-426a-a383-4884d8188f6d/index.m3u8
+  response:
+    body: {string: '#EXTM3U
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=11270000,RESOLUTION=1920x1080,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-1080P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5314000,RESOLUTION=1280x720,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-720P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2638000,RESOLUTION=854x480,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-480P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1848000,RESOLUTION=640x360,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-360P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1000000,RESOLUTION=426x240,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-240P.m3u8
+
+        '}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['origin,range,hdntl,hdnts']
+      Access-Control-Allow-Methods: ['GET,POST,OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Access-Control-Expose-Headers: ['Server,range,hdntl,hdnts']
+      Access-Control-Max-Age: ['86400']
+      Akamai-Mon-Iucid-Del: ['681116']
+      Connection: [close]
+      Content-Length: ['593']
+      Content-Type: [application/x-mpegURL]
+      Date: ['Sat, 14 Jul 2018 13:33:58 GMT']
+      ETag: ['"79b85824f41c5125ac54f6e116c98755"']
+      Last-Modified: ['Wed, 21 Dec 2016 00:47:44 GMT']
+      Server: [AmazonS3]
+      Vary: [Accept-Encoding]
+      X-Amz-Cf-Id: [qBAwCFM2-7pXreDxdbQUyuYvLt4hzFkodrDCEzkNNrwwGEg-T8QOAQ==]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [rtv2-roosterteeth.akamaized.net]
+      User-Agent: [Python-urllib/3.7]
+    method: GET
+    uri: https://rtv2-roosterteeth.akamaized.net/uploads/videos/ea6d7410-d237-426a-a383-4884d8188f6d/index.m3u8
+  response:
+    body: {string: '#EXTM3U
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=11270000,RESOLUTION=1920x1080,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-1080P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5314000,RESOLUTION=1280x720,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-720P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2638000,RESOLUTION=854x480,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-480P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1848000,RESOLUTION=640x360,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-360P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1000000,RESOLUTION=426x240,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-240P.m3u8
+
+        '}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['origin,range,hdntl,hdnts']
+      Access-Control-Allow-Methods: ['GET,POST,OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Access-Control-Expose-Headers: ['Server,range,hdntl,hdnts']
+      Access-Control-Max-Age: ['86400']
+      Akamai-Mon-Iucid-Del: ['681116']
+      Connection: [close]
+      Content-Length: ['593']
+      Content-Type: [application/x-mpegURL]
+      Date: ['Sat, 14 Jul 2018 13:33:58 GMT']
+      ETag: ['"79b85824f41c5125ac54f6e116c98755"']
+      Last-Modified: ['Wed, 21 Dec 2016 00:47:44 GMT']
+      Server: [AmazonS3]
+      Vary: [Accept-Encoding]
+      X-Amz-Cf-Id: [qBAwCFM2-7pXreDxdbQUyuYvLt4hzFkodrDCEzkNNrwwGEg-T8QOAQ==]
+    status: {code: 200, message: OK}
+version: 1

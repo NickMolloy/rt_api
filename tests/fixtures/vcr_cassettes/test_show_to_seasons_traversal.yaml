@@ -1,0 +1,189 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/55
+  response:
+    body: {string: '{"name":"On The Spot","summary":{"html":"<p>Rooster Teeth''s official
+        game show!  A live half hour of fast-paced laughs as host Jon Risinger puts
+        two RT teams on the spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s
+        official game show!  A live half hour of fast-paced laughs as host Jon Risinger
+        puts two RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:05 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IlRnNDAzK0VDU1wvVGNTQjVFSkZXRlJhWXN5cDhZRXZvVVR4MjdTOUU0UXhnPSIsInZhbHVlIjoienRBYVpuQlNUdlZJTHdsR3Z5Mk1sTDR5UTFnNzJ4VExCeTF6S3lKcGxGVUI0VSt0U2pOTVI1NlFNU0lhQTRcL0dGeHF6QUpDTk9ZQUdiYzd2RUg1T2NRPT0iLCJtYWMiOiI1MDE2MjlkYzQyYzgyODVhNzhkNjcyMTgzNTlhMWNlMGQzMmEyMjk5ODg4MjhiMjQ3YTM2OGM5NjJmOTM2NWVkIn0%3D;
+          expires=Fri, 12-Oct-2018 13:33:04 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/55]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/55/seasons/
+  response:
+    body: {string: '[{"title":"Season 12","description":"","id":730,"number":12,"slug":"on-the-spot-season-12","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        11","description":"","id":658,"number":11,"slug":"on-the-spot-11","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        10","description":"","id":601,"number":10,"slug":"on-the-spot-season-10","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        9","description":"","id":567,"number":9,"slug":"on-the-spot-season-9","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        8","description":"","id":516,"number":8,"slug":"on-the-spot-season-8","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        7","description":"","id":455,"number":7,"slug":"on-the-spot-season-7","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        6","description":"","id":430,"number":6,"slug":"on-the-spot-season-6","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        5","description":"","id":362,"number":5,"slug":"on-the-spot-season-5","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        4","description":"","id":232,"number":4,"slug":"on-the-spot-season-4","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        3","description":"","id":231,"number":3,"slug":"on-the-spot-season-3","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        2","description":"","id":230,"number":2,"slug":"on-the-spot-season-2","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}},{"title":"Season
+        1","description":"","id":89,"number":1,"slug":"on-the-spot-season-1","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:06 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IkF6WFhQMWpRUndKdjY1eGQ4THIwRlh6V080NDNFUVFPQmloelFxOVNOelU9IiwidmFsdWUiOiJOdXZXTDNVTjNXMXZVRm9NMlU1bThFblVuNHN2TmdHY1p1UHBoaHFoMXNuMzhMWlVGRzB5TGlJZG90XC9ZcWRjekRSMThcLzhVSFFnV0Y1ZHV1NnYwcmdBPT0iLCJtYWMiOiJiMDE0NWU1MWFiMjUzYmUwNDNiODNlMTVkNDk0OGUyZjk0MTc5MmEyZDMzZjhhMzRkMTNmMTUyZGZlZDhiN2Q4In0%3D;
+          expires=Fri, 12-Oct-2018 13:33:05 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['12']
+      X-request-uri: [/api/v1/shows/55/seasons/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/455
+  response:
+    body: {string: '{"title":"Season 7","description":"","id":455,"number":7,"slug":"on-the-spot-season-7","show":{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:06 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImpQT1wvSkY0UXg1N0RZaEtNK3NPRkNYVDFRQlVhSkpmMTRaaHhGSFJ1TFY4PSIsInZhbHVlIjoibG9vc2NiQVViSm1qSHR5N2ZkXC9pek1TTlpxK3FKNGdSaHZZZTE4dEdWTEFaOEdjWUxSS0tDVUx3ODJzMmFTdmp5UXpTV05qRkNtXC9FZGp6QzhJT3ZUQT09IiwibWFjIjoiOTcxYzVjN2EzZjJiYTllNDg0OWNmYzZlOGEyNDcxMTlmMWNjYWU0N2JkYWQ5N2IwYTIzNjc5NjYxOWM4MjAwNiJ9;
+          expires=Fri, 12-Oct-2018 13:33:05 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/seasons/455]
+    status: {code: 200, message: OK}
+version: 1

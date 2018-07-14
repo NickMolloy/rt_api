@@ -1,0 +1,27 @@
+interactions:
+- request:
+    body: client_id=aToGIjvJ8Lofqmso&client_secret=oW3CtlpnXRznUUiWLXzmaIQryFBfGmNt&grant_type=password&scope=user.access&username=usernameForUserThatDoesNotExist&password=passwordForUserThatDoesNotExist
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['193']
+      Content-Type: [application/x-www-form-urlencoded]
+      User-Agent: [python-requests/2.13.0]
+    method: POST
+    uri: https://roosterteeth.com/authorization/oauth-access-token
+  response:
+    body: {string: '{"error":"invalid_credentials","error_message":"The user credentials
+        were incorrect."}'}
+    headers:
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:23 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjlEOVIrazhsK1dCWXIwUk9yMFIwbXBPZ1UweElTQVZaYkswd21aNllkakk9IiwidmFsdWUiOiJKSE1GUDFtNStnY3ZFaDY4R0Zoc01NeFNaUUU5Y08wdlpNUWdhdHRHbzN0dnNGejhQZ3Z5T1I3Tk51cjdBcWY0bk1oV1dKbkI0bTBNMW9JWWpBRzRxQT09IiwibWFjIjoiY2ZmZGJmZWU3Y2ZkNDc5OTVhYWI1ZDFjNDE1MmJiMzYwZDc5MWUzN2JiMmNhMmQyZjcxN2VlYzQ2MzEwM2M0ZSJ9;
+          expires=Fri, 12-Oct-2018 13:33:22 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+    status: {code: 401, message: Unauthorized}
+version: 1

@@ -157,7 +157,13 @@
 	},
 	"canonicalUrl": "https:\/\/roosterteeth.com\/episode\/the-know-game-news-season-1-crytek-shuts-down-studios",
 	"media": {
-		"audioFiles": [],
+		"videos": [{
+			"type": "video",
+			"content": {
+				"type": "cdn",
+				"url": "https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/ea6d7410-d237-426a-a383-4884d8188f6d\/index.m3u8"
+			}
+		}],
 		"links": [{
 			"type": "link",
 			"content": {

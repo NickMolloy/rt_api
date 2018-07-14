@@ -1,16 +1,25 @@
 {
-    "about": {
-        "clean": "Blah blah blah",
-        "html": "<p>Blah blah blah</p>"
-    },
-    "canonicalUrl": "http://roosterteeth.com/user/johnSmith112",
-    "displayTitle": "Stuff here",
-    "hasUsedTrial": true,
-    "id": 2269568,
-    "location": "Earth",
-    "name": "John Smith",
-    "occupation": "Accountant",
-    "sex": "m",
-    "sponsor": false,
-    "username": "johnSmith112"
+	"username": "hobbie",
+	"displayTitle": "sup, yo",
+	"name": "A",
+	"sex": "m",
+	"location": "The Bayou",
+	"occupation": "numbers",
+	"about": {
+		"html": "<p>HOBBIE NEVER LEAVES, he just stops posting<br \/><\/p>",
+		"clean": "HOBBIE NEVER LEAVES, he just stops posting"
+	},
+	"id": 442,
+	"coverPicture": {
+		"type": "picture",
+		"content": {
+			"tb": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/tb\/hobbie441e28cdcca83.jpg",
+			"sm": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/sm\/hobbie441e28cdcca83.jpg",
+			"md": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/md\/hobbie441e28cdcca83.jpg",
+			"lg": "http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/485d4de6-d1d0-43ab-bdc6-4366d054116e\/original\/hobbie441e28cdcca83.jpg"
+		}
+	},
+	"sponsor": true,
+	"canonicalUrl": "https:\/\/roosterteeth.com\/user\/hobbie",
+	"hasUsedTrial": false
 }

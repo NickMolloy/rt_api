@@ -1,0 +1,387 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/?page=2&count=20
+  response:
+    body: {string: '[{"name":"RT Shorts","summary":{"html":"<p>It''s here.<\/p>","clean":"It''s
+        here."},"id":61,"slug":"rt-shorts","seasonCount":7,"coverPicture":{"id":"100485514","uuid":"9dec47a5-bf52-4fb7-9a31-5324b981426a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"61","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/3bc66285-12fb-4156-987e-61140425a822.jpg\/original\/RTShortsHero1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-12
+        17:56:53","updated_at":"2018-01-17 20:02:38","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518448","uuid":"ee8996fb-d6ef-4fb9-8242-424ec6685c74","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"61","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5a45481d-3bf1-4d00-ab22-5807f332a4bc.jpg\/original\/RTShortsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:50:14","updated_at":"2018-03-14 20:50:22","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-shorts"},{"name":"Fan
+        Service","summary":{"html":"<p>Gray Haddock, Kerry Shawcross, Miles Luna,
+        and their friends discuss the latest news, trailers, and episodes from the
+        world of Anime.<\/p>","clean":"Gray Haddock, Kerry Shawcross, Miles Luna,
+        and their friends discuss the latest news, trailers, and episodes from the
+        world of Anime."},"id":251,"slug":"fan-service","seasonCount":3,"coverPicture":{"id":"100522387","uuid":"c490110e-8362-42e5-8a78-bc14a9bf135e","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"251","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/f903ecf3-64a7-4468-b636-fd2fa27c2d6d.jpg\/original\/shrines32018031415vbh1dj.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        15:26:13","updated_at":"2018-03-27 15:26:15","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518172","uuid":"0e19901f-0cb3-4292-8f10-06d02e2a506c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"251","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/de820769-0bf1-4d30-85cf-32f353d499a8.jpg\/original\/FanServiceSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:27:04","updated_at":"2018-03-14 19:27:13","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/fan-service"},{"name":"RT
+        Sponsor Cut","summary":{"html":"<p>Sponsor Only Content.<\/p>","clean":"Sponsor
+        Only Content."},"id":43,"slug":"rt-sponsor-cut","seasonCount":3,"coverPicture":{"id":"100035971","uuid":"c8954bda-665f-4f1a-abff-b570d165d801","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"43","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/11000b0a-3eca-4b8e-9277-c36fa970956d\/original\/1461653-1441900886558-RTSponsorCut_Hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-10
+        16:01:46","updated_at":"2018-01-17 20:02:36","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518458","uuid":"051fc91f-8fd1-465b-b6f6-6da3bf7ab3b8","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"43","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a7c534b5-5039-4558-bf77-9000c114a63d.jpg\/original\/RTSponsorCutSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:51:37","updated_at":"2018-03-14 20:51:49","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-sponsor-cut"},{"name":"Play
+        Pals","summary":{"html":"<p>Two best friends and some of the most ridiculous
+        indie games you''ve never heard of.<\/p>","clean":"Two best friends and some
+        of the most ridiculous indie games you''ve never heard of."},"id":44,"slug":"play-pals","seasonCount":5,"coverPicture":{"id":"100000544","uuid":"5b8d67d7-ee62-4a8d-b903-b76ed495c73a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"44","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/60a24fa1-6661-4a09-aeae-c4dc44aad3d9\/original\/984097-1436298491554-playpals_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-07
+        19:48:19","updated_at":"2018-01-17 20:02:36","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522622","uuid":"d1926be3-fd8b-4a35-8ffb-53a6aecc367f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"44","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cc7b1171-6f51-44ee-a16d-b6b750671cdb.jpg\/original\/PlayPalsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        21:37:57","updated_at":"2018-03-27 21:38:05","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/play-pals"},{"name":"Demo
+        Disk","summary":{"html":"<p>After a fan sent us a binder of PC Gamer demo
+        discs of games, we knew what we had to do: play them all, no matter how terrible.
+        Demo Disk showcases 1990s to early 2000s-era games, with running commentary
+        and jokes.<\/p>","clean":"After a fan sent us a binder of PC Gamer demo discs
+        of games, we knew what we had to do: play them all, no matter how terrible.
+        Demo Disk showcases 1990s to early 2000s-era games, with running commentary
+        and jokes."},"id":66,"slug":"demo-disk","seasonCount":4,"coverPicture":{"id":"100505579","uuid":"fd0f2313-5b99-484f-beeb-d2c6839140c7","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"66","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a2ad943a-63ef-4e72-a2e2-21dc96125da0.png\/original\/demo_disc_cover.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-02-02
+        21:45:52","updated_at":"2018-02-02 21:45:56","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100519954","uuid":"15f2b5d8-82ee-46fb-94ee-25f9c99dda85","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"66","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/f23a7866-e959-459d-bc7f-fb9d8587bcd2.jpg\/original\/DemoDiskSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-20
+        16:45:11","updated_at":"2018-03-20 16:45:37","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/demo-disk"},{"name":"Twits
+        and Crits","summary":{"html":"<p>Follow the Twits through the first three
+        seasons as they save the world from a monstrous invasion.<\/p>","clean":"Follow
+        the Twits through the first three seasons as they save the world from a monstrous
+        invasion."},"id":271,"slug":"twits-crits","seasonCount":3,"coverPicture":{"id":"100257962","uuid":"80c3bbfe-57e8-409d-bc8e-eaf037b06f67","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"271","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/47458887-54fe-435d-aed3-c30446bb2feb\/original\/2371242-1469812178322-RTsite_Hero_copy.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-07-29
+        17:09:50","updated_at":"2018-01-17 18:09:40","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100520008","uuid":"629e52e2-bbac-471d-a086-522336d262fa","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"271","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5c03a87c-98d9-49e9-9bfb-a8ef862fd7ae.jpg\/original\/TwitsAndCritsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-20
+        16:58:52","updated_at":"2018-03-20 16:59:16","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/twits-crits"},{"name":"RT
+        Docs","summary":{"html":"<p>Rooster Teeth''s Documentaries<\/p>","clean":"Rooster
+        Teeth''s Documentaries"},"id":204,"slug":"rt-docs","seasonCount":9,"coverPicture":{"id":"100518412","uuid":"56c80134-e91e-4e1b-9f77-db632e3d6d85","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"204","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5215dc59-6a3b-406a-b5f9-708b3b8b708e.jpg\/original\/RTDocsHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:43:12","updated_at":"2018-04-20 15:39:48","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518407","uuid":"01f84ef1-5eb2-4c49-9324-8b5532c4f493","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"204","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/d38ca76d-dce8-40ad-af7e-de17a3834260.jpg\/original\/RTDocsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:43:10","updated_at":"2018-03-14 20:43:16","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-docs"},{"name":"Social
+        Disorder","summary":{"html":"<p>Chris and Aaron create elaborate social experiments
+        and pranks in order to compete against each other for points. Whoever completes
+        the objective for the experiment \u2013 or gets the most points for creativity,
+        absurdity, style, etc. \u2013 wins that episode.<\/p>","clean":"Chris and
+        Aaron create elaborate social experiments and pranks in order to compete against
+        each other for points. Whoever completes the objective for the experiment
+        \u2013 or gets the most points for creativity, absurdity, style, etc. \u2013
+        wins that episode."},"id":50,"slug":"social-disorder","seasonCount":2,"coverPicture":{"id":"100035690","uuid":"5e1bfb5e-6135-43fc-94cb-41141a90ba32","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"50","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/cc59fc19-7aa5-4950-97cd-e0ec2d3c7dba\/original\/1461653-1441827645428-socialdisorder.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-09
+        19:41:07","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100521078","uuid":"873d4771-67f3-4f32-9569-33e56e656b7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"50","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/87d476ab-f1cd-4d47-a860-0f34599284c0.jpg\/original\/SocialDisorderSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-23
+        19:14:19","updated_at":"2018-03-23 19:14:26","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/social-disorder"},{"name":"Achievement
+        Hunter","summary":{"html":"<p>Achievement walkthroughs, hints, tips and tricks
+        for the Xbox 360. Helping you get those achievements, one game at a time.<\/p>","clean":"Achievement
+        walkthroughs, hints, tips and tricks for the Xbox 360. Helping you get those
+        achievements, one game at a time."},"id":7,"slug":"achievement-hunter","seasonCount":11,"coverPicture":{"id":"100485399","uuid":"097ba3fe-e0b7-4aa8-ac94-19bf59a33295","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"7","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/93e8a72e-7f55-461f-b1df-0cb4a597b864.jpg\/original\/AchievementHunterHero1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-12
+        17:46:04","updated_at":"2018-01-17 16:23:10","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515976","uuid":"b863524c-bf59-433e-b3db-cfc166c37032","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"7","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/040107ee-37b9-4f35-b9dc-05e8b8808fc9.jpg\/original\/AchievementHunterSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:23:52","updated_at":"2018-03-06 16:25:25","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/achievement-hunter"},{"name":"Lazer
+        Team","summary":{"html":"<p>Four unlikely heroes have to save the planet.
+        Whether we like it or not. Catch up on all the behind the scenes video and
+        extra content for the Lazer Team movie! Join in on the conversation at <a
+        href=\"http:\/\/bit.ly\/lazerteam\">http:\/\/bit.ly\/lazerteam<\/a>.<\/p>","clean":"Four
+        unlikely heroes have to save the planet. Whether we like it or not. Catch
+        up on all the behind the scenes video and extra content for the Lazer Team
+        movie! Join in on the conversation at http:\/\/bit.ly\/lazerteam."},"id":56,"slug":"lazer-team","seasonCount":1,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518215","uuid":"19eaabcc-e3d4-40a4-ae77-a8e6e12076cf","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"56","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/d2ae218c-693a-4f5f-ae3c-9417661323b0.jpg\/original\/LazerTeamSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:33:58","updated_at":"2018-03-29 02:21:19","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/lazer-team"},{"name":"Rage
+        Quit","summary":{"html":"<p>Join Michael as he seeks out the most aggravating
+        games out there.<\/p>","clean":"Join Michael as he seeks out the most aggravating
+        games out there."},"id":17,"slug":"rage-quit","seasonCount":7,"coverPicture":{"id":"100035939","uuid":"516a12e2-1bc5-4c2f-95ae-b08c5175929f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"17","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/77401e6e-c7cc-4bc0-96f6-53828a42201c\/original\/1461653-1441898415590-RageQuit_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-10
+        15:20:22","updated_at":"2018-01-17 20:02:34","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522635","uuid":"2d8cdbb0-b57c-4f11-be8a-d5d71862aabe","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"17","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/f72961a0-fd32-41bd-a03c-aeb5c982e4f3.jpg\/original\/RageQuitSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        21:44:58","updated_at":"2018-03-27 21:46:31","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rage-quit"},{"name":"Ten
+        Little Roosters","summary":{"html":"<p>A festive dinner party spirals into
+        an evening of intrigue and murder for the hapless employees of Rooster Teeth.
+        After one guest is mysteriously killed, the remaining nine must find a way
+        to survive the night... and root out the killer among them. Agatha Christie
+        would, like, love this.<\/p>","clean":"A festive dinner party spirals into
+        an evening of intrigue and murder for the hapless employees of Rooster Teeth.
+        After one guest is mysteriously killed, the remaining nine must find a way
+        to survive the night... and root out the killer among them. Agatha Christie
+        would, like, love this."},"id":53,"slug":"ten-little-roosters","seasonCount":1,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518331","uuid":"e06c1396-ea97-4a09-80ea-1b2194a2a7bc","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"53","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/8912ed21-bf12-4ed8-bf1f-691fcbca5c3c.jpg\/original\/10LittleRoostersSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:21:43","updated_at":"2018-03-14 20:22:00","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/ten-little-roosters"},{"name":"Dude
+        Soup","summary":{"html":"<p>Jump in the Dude Soup -- all the gaming, nerd
+        culture, and meat-packing industry commentary you can handle.<\/p>","clean":"Jump
+        in the Dude Soup -- all the gaming, nerd culture, and meat-packing industry
+        commentary you can handle."},"id":64,"slug":"dude-soup","seasonCount":4,"coverPicture":{"id":"100358537","uuid":"97a35033-f008-4165-a460-2fe60e20f7f7","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"64","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/aa9ce4c4-70aa-497f-aaa4-14bc6aa76a4f\/original\/1788482-1483655574455-RT_Show_Hero_copy.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-01-05
+        22:32:58","updated_at":"2018-01-17 20:02:38","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100519957","uuid":"9a51a083-a71d-4e2c-893e-8f7e46a45d3b","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"64","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/9b296134-b3aa-4e01-9ffd-398f204664b5.jpg\/original\/DudeSoupSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-20
+        16:47:12","updated_at":"2018-03-20 16:47:21","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/dude-soup"},{"name":"Open
+        Haus","summary":{"html":"<p>Open Haus takes time every week to answer questions
+        from the Funhaus fans. Ranging from gaming and YouTube questions to waaaaay
+        off-topic queries, Open Haus combines the Q&amp;A format with a highly edited,
+        comedic format.<\/p>","clean":"Open Haus takes time every week to answer questions
+        from the Funhaus fans. Ranging from gaming and YouTube questions to waaaaay
+        off-topic queries, Open Haus combines the Q&amp;A format with a highly edited,
+        comedic format."},"id":67,"slug":"open-haus","seasonCount":4,"coverPicture":{"id":"100311983","uuid":"2e8704b0-479b-4920-a85f-507ffba5716f","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"67","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/b6eb9976-0e53-4742-9a91-82ef388f4f6e\/original\/1788482-1477675866217-OpenHaus_Hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-10-28
+        17:31:07","updated_at":"2018-01-17 20:02:38","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100519998","uuid":"e9ec8d71-76b1-48c0-882f-33a24308b00a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"67","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/3fce947c-a454-4b46-b6ed-a5e649dab20c.jpg\/original\/OpenHausSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-20
+        16:56:33","updated_at":"2018-03-20 16:56:47","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/open-haus"},{"name":"Crunch
+        Time","summary":{"html":"<p>In a highly classified location, four brilliant,
+        jackass grad students are interrogated by government operatives. Why? Because
+        the world is about to end, and it\u2019s all their fucking fault. After using
+        reckless \u201ccutting-edge\u201d science for their own petty purposes, this
+        rag tag team creates a small but potentially world-ending black hole in their
+        college lab. The clock is ticking for this secret government agency to clean
+        up the mess these \u201cwannabe scientists\u201d have made.<\/p>","clean":"In
+        a highly classified location, four brilliant, jackass grad students are interrogated
+        by government operatives. Why? Because the world is about to end, and it\u2019s
+        all their fucking fault. After using reckless \u201ccutting-edge\u201d science
+        for their own petty purposes, this rag tag team creates a small but potentially
+        world-ending black hole in their college lab. The clock is ticking for this
+        secret government agency to clean up the mess these \u201cwannabe scientists\u201d
+        have made."},"id":272,"slug":"crunch-time","seasonCount":1,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518377","uuid":"061bb5cd-087d-44e8-a666-66cfdd9cba0a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"272","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/c17f14b5-cbfe-441e-872e-b71458744c9a.jpg\/original\/CrunchTimeSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:36:42","updated_at":"2018-03-14 20:37:14","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/crunch-time"},{"name":"The
+        Eleven Little Roosters","summary":{"html":"<p>The spiritual successor to Ten
+        Little Roosters, Eleven follows the exploits of the Rooster Corps, an alliance
+        of spy agencies that\u2019s been infiltrated by a mole. And as our saboteur
+        pits the assassins against each other, it\u2019ll be up to you to decipher
+        the clues... And uncover who will be taken out next.<br \/><\/p>\n\n<p><br
+        \/><\/p>\n\n<p><strong>Assassin Superstars 360: An Eleven Little Roosters
+        Prologue<\/strong><br \/>In the grand tradition of The Beatles and One Direction
+        -- if they\u2019d been hitmen -- get ready to meet The Sex von Shaukel Boyz,
+        the world''s premiere boyband assassin team! What started as a Sex Swing cover
+        band soon became a global music-murdering phenomenon -- who now stands as
+        Germany\u2019s representatives to the Rooster Corps.<br \/><\/p>\n\n<p><br
+        \/><\/p>\n\n<p><a href=\"https:\/\/youtu.be\/br-7A6gOvUY\">Prologue Episode
+        1: The Sex von Shaukel Boyz<\/a><\/p>\n\n<p><a href=\"https:\/\/www.youtube.com\/watch?v=Axay_25unBk\">Prologue
+        Episode 2: Trouble in Italy<\/a><br \/><\/p>\n\n<p><a href=\"https:\/\/www.youtube.com\/watch?v=UMdKsDgor0o\">Prologue
+        Episode 3: Solo in Soho<\/a><br \/><\/p>\n\n<p><a href=\"https:\/\/www.youtube.com\/watch?v=hP5qiJVu22U\">Prologue
+        Episode 4:\u00a0Reunion in the UK<\/a><br \/><\/p>","clean":"The spiritual
+        successor to Ten Little Roosters, Eleven follows the exploits of the Rooster
+        Corps, an alliance of spy agencies that\u2019s been infiltrated by a mole.
+        And as our saboteur pits the assassins against each other, it\u2019ll be up
+        to you to decipher the clues... And uncover who will be taken out next.\n\n\n\nAssassin
+        Superstars 360: An Eleven Little Roosters PrologueIn the grand tradition of
+        The Beatles and One Direction -- if they\u2019d been hitmen -- get ready to
+        meet The Sex von Shaukel Boyz, the world''s premiere boyband assassin team!
+        What started as a Sex Swing cover band soon became a global music-murdering
+        phenomenon -- who now stands as Germany\u2019s representatives to the Rooster
+        Corps.\n\n\n\nPrologue Episode 1: The Sex von Shaukel Boyz\n\nPrologue Episode
+        2: Trouble in Italy\n\nPrologue Episode 3: Solo in Soho\n\nPrologue Episode
+        4:\u00a0Reunion in the UK"},"id":298,"slug":"eleven-little-roosters","seasonCount":1,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518156","uuid":"4a2cf1a9-eb50-42cd-94bd-d95e4cf74d17","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"298","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5eaeeef5-8a3e-4ecd-a638-a7eb9062a399.jpg\/original\/ElevenLittleRoostersSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:23:06","updated_at":"2018-03-14 19:23:39","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/eleven-little-roosters"},{"name":"Relationship
+        Goals","summary":{"html":"<p>Geoff and real-life wife Griffon talk about modern
+        relationships and what love is in 2017. Relationship Goals is relationship
+        real-talk (with a pinch of sass).<\/p>","clean":"Geoff and real-life wife
+        Griffon talk about modern relationships and what love is in 2017. Relationship
+        Goals is relationship real-talk (with a pinch of sass)."},"id":304,"slug":"relationship-goals","seasonCount":1,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518400","uuid":"082b9846-f16c-440d-8a91-dda74ff21def","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"304","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/2ce199a5-02c5-4596-9bc5-173a9b322d72.jpg\/original\/Relationship_Goals_square.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:41:34","updated_at":"2018-03-14 20:41:45","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/relationship-goals"},{"name":"GO!","summary":{"html":"<p>The
+        AH crew scramble to be the first one in achieving a goal in order to get a
+        sticker and become the pizza party winner.<\/p>","clean":"The AH crew scramble
+        to be the first one in achieving a goal in order to get a sticker and become
+        the pizza party winner."},"id":41,"slug":"go","seasonCount":4,"coverPicture":{"id":"100035934","uuid":"e1e07bd9-a071-4ce3-962e-2a8cdc8d4c97","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"41","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/263f6908-e180-404d-b73c-5f5d2807d012\/original\/1461653-1441898308282-Go%21_Hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-10
+        15:18:35","updated_at":"2018-01-17 20:02:36","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522573","uuid":"9e20733f-0797-46c8-8be2-9e15b42b7e9e","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"41","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/8136594a-f9b6-4c72-8837-12313a24ffef.jpg\/original\/GoSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        20:39:14","updated_at":"2018-03-27 20:39:22","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/go"},{"name":"Gameplay","summary":{"html":"<p>Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers.<\/p>","clean":"Funhaus
+        plays games. Games that are mostly stupid. Sometimes we play real games people
+        actually like. We poke fun at glitches, voice acting, art, and mechanics,
+        but we can also team up for competitive matches with other YouTubers."},"id":65,"slug":"gameplay","seasonCount":4,"coverPicture":{"id":"100516197","uuid":"450d37ea-08f5-4e63-9bef-ccd3c4bfb8c5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"65","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/0775729d-e08c-4efe-af61-673a2d3b55c4.jpg\/original\/GameplayHero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        23:32:21","updated_at":"2018-03-20 16:42:25","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516047","uuid":"75e34401-73c1-4287-a28c-37c7b78a92d3","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"65","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/6e3d9423-b61b-4c56-b6e9-9273a36322cf.jpg\/original\/GameplaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        18:28:29","updated_at":"2018-03-06 18:28:44","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/gameplay"},{"name":"VS","summary":{"html":"<p>Each
+        week two members of the Achievement Hunter team go head to head in a 1 vs
+        1 let''s play. The winner gets the coveted \"AH Wrestling Belt\" and a week''s
+        worth of bragging rights.<\/p>","clean":"Each week two members of the Achievement
+        Hunter team go head to head in a 1 vs 1 let''s play. The winner gets the coveted
+        \"AH Wrestling Belt\" and a week''s worth of bragging rights."},"id":39,"slug":"vs","seasonCount":5,"coverPicture":{"id":"100035936","uuid":"d996be51-acdd-407b-b04a-ba1463b7f88e","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"39","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/bf94168d-1522-41b3-9156-3800720a6e40\/original\/1461653-1441898349631-VS_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-10
+        15:19:37","updated_at":"2018-01-17 20:02:36","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522679","uuid":"11a97216-2a58-429c-890e-a7e3fe5671a6","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"39","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/353094c8-379c-40a7-b0ee-d4a811739672.jpg\/original\/VSSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        21:59:13","updated_at":"2018-03-27 21:59:32","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/vs"}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:32:09 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjQwMGpOR0hHVHpMYjBMWFpYdVZ4dEhQMUg3QmowNEhkUmdDSDcxd2hLM009IiwidmFsdWUiOiJoQW53dFJtQkY4RVZaS003MDBFQzN6QnRMZ25iK0NPRU1cLzRDbW9DaGhIXC9MMVFVYTZyaWhCU3JiTVg2YzkxVFNheWxhNWRjWTdGWGlWMGt3TkpkYU13PT0iLCJtYWMiOiJkMDFmYzlhMDQ5NWRiMTU1MDUxNDFlYjY2MGRhNTYzNGRlY2FjZmFkN2IxODNlZWRjZDdhMjY2M2Y5YWE4OGZkIn0%3D;
+          expires=Fri, 12-Oct-2018 13:32:12 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['228']
+      X-request-uri: ['/api/v1/shows/?page=2&count=20']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/?page=1&count=20
+  response:
+    body: {string: '[{"name":"RWBY","summary":{"html":"<p>The future-fantasy world
+        of Remnant is filled with ravenous monsters, treacherous terrain, and more
+        villains than you can shake a sniper-scythe at. Fortunately, Beacon Academy
+        is training Huntsmen and Huntresses to battle the evils of the world, and
+        Ruby, Weiss, Blake, and Yang are ready for their first day of class.<\/p>","clean":"The
+        future-fantasy world of Remnant is filled with ravenous monsters, treacherous
+        terrain, and more villains than you can shake a sniper-scythe at. Fortunately,
+        Beacon Academy is training Huntsmen and Huntresses to battle the evils of
+        the world, and Ruby, Weiss, Blake, and Yang are ready for their first day
+        of class."},"id":34,"slug":"rwby","seasonCount":5,"coverPicture":{"id":"100453986","uuid":"0d42e19e-e8b0-4896-b8a9-2654d640210c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"34","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5d0fde54-9506-4477-b9b4-8ddb82a847f3.jpg\/original\/RWBY_v5_page_banner_master_updated.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-10-11
+        15:51:05","updated_at":"2018-01-17 20:02:35","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516119","uuid":"11c0946e-1298-45cd-9653-8c7d1d0ebf61","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"34","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/b45d3df9-52fa-4cbe-be30-0d76756b66d1.jpg\/original\/RWBYSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:21:57","updated_at":"2018-03-06 19:22:15","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby"},{"name":"Red
+        vs. Blue","summary":{"html":"<p>In the distant future, two groups of soldiers
+        battle for control of the least desirable piece of real estate in the known
+        universe: a box canyon in the middle of nowhere.<\/p>","clean":"In the distant
+        future, two groups of soldiers battle for control of the least desirable piece
+        of real estate in the known universe: a box canyon in the middle of nowhere."},"id":1,"slug":"red-vs-blue","seasonCount":16,"coverPicture":{"id":"100528580","uuid":"b237c0f8-cb52-4b3d-91a1-c35f86a9091e","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"1","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5b3d891c-48f4-4cc8-ae02-fa1aadd1e075.jpg\/original\/rvb_season16_hero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-04-13
+        20:38:18","updated_at":"2018-04-13 20:43:53","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"48","uuid":"7da59f82-0582-4fce-9030-a8a3c3b78ea6","title":"","description":null,"container_type":"Shows\\Models\\Show","container_id":"1","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/9a888611-5b17-49ab-ad49-ca0ad6a86ee1\/original\/rvb600.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:50:29","updated_at":"2018-04-13 18:24:53","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/red-vs-blue"},{"name":"Rooster
+        Teeth Podcast","summary":{"html":"<p>On a more or less weekly basis the Rooster
+        Teeth crew discuss gaming, films, and projects that they''re currently working
+        on.<\/p>","clean":"On a more or less weekly basis the Rooster Teeth crew discuss
+        gaming, films, and projects that they''re currently working on."},"id":71,"slug":"rt-podcast","seasonCount":11,"coverPicture":{"id":"100283413","uuid":"8ca26eb0-6b8d-4d9b-8af3-b9465e2ddc94","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"71","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/27c3c726-2f15-4812-a846-8a358f9ab29a\/original\/21-1475093114649-RTP_Hero_1800x650.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-09-28
+        20:04:53","updated_at":"2018-01-17 20:02:39","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516105","uuid":"9cc2d213-bd2d-424b-b2ba-c590f33bd3c2","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"71","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/66afab6f-ef83-456e-be45-054720fc381f.jpg\/original\/RTPodcastSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:17:17","updated_at":"2018-03-06 19:17:38","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-podcast"},{"name":"RWBY
+        Chibi","summary":{"html":"<p>Join the cast of RWBY in cute comedy shorts with
+        infinite possibilities! It''s playing tag! It''s baking cookies! It''s posing
+        as police officers! It''s... really quite absurd. It''s RWBY CHIBI!<\/p>","clean":"Join
+        the cast of RWBY in cute comedy shorts with infinite possibilities! It''s
+        playing tag! It''s baking cookies! It''s posing as police officers! It''s...
+        really quite absurd. It''s RWBY CHIBI!"},"id":260,"slug":"rwby-chibi","seasonCount":3,"coverPicture":{"id":"100414945","uuid":"012bbc57-b96f-4d02-ab09-1f956b087bdd","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"260","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/c4a46546-654d-402d-9feb-f00785019a21\/original\/2013912-1495744246639-RWBYChibi2-hero-rev.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-05-25
+        20:30:53","updated_at":"2018-01-17 17:59:53","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518279","uuid":"87f1f03b-3d6f-4d1c-b657-ad49a7b608f2","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"260","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/28a6f941-b335-4e18-ad67-d785f76c42dc.jpg\/original\/RWBYChibiSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:47:18","updated_at":"2018-03-14 19:47:43","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rwby-chibi"},{"name":"Million
+        Dollars, But...","summary":{"html":"<p>What would you do for a million dollars?
+        Rooster Teeth\u2019s finest would do anything to get rich. Seriously. Anything.
+        In each episode, a rotating cast of hosts challenge each other with their
+        own hypothetical version of the question \"You get a million dollars, but...\".  Participants
+        have to determine if the deal would be worth it for them in exchange for a
+        million dollars.<\/p>","clean":"What would you do for a million dollars? Rooster
+        Teeth\u2019s finest would do anything to get rich. Seriously. Anything. In
+        each episode, a rotating cast of hosts challenge each other with their own
+        hypothetical version of the question \"You get a million dollars, but...\".  Participants
+        have to determine if the deal would be worth it for them in exchange for a
+        million dollars."},"id":75,"slug":"million-dollars-but","seasonCount":6,"coverPicture":{"id":"100253804","uuid":"f25d7d07-7ad5-41b1-a4bb-739eab02cfac","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"75","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/316da01b-cf88-4361-a5e6-6e927ff8f61b\/original\/21-1469049572455-MDB_New_Season_Headers_Website_Banner.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-07-20
+        21:19:36","updated_at":"2018-01-17 20:02:39","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516063","uuid":"946b697b-599a-4917-a64b-055b476f2dc8","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"75","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/88d239ba-8a82-4aa6-abae-3617f3a7113f.jpg\/original\/MillionDollarsButSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        18:33:55","updated_at":"2018-03-06 18:34:37","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/million-dollars-but"},{"name":"RT
+        Animated Adventures","summary":{"html":"<p>The animated shenanigans of the
+        Rooster Teeth staff. Audio taken from the Rooster Teeth Podcast.<\/p>","clean":"The
+        animated shenanigans of the Rooster Teeth staff. Audio taken from the Rooster
+        Teeth Podcast."},"id":20,"slug":"rt-animated-adventures","seasonCount":8,"coverPicture":{"id":"100498795","uuid":"d14d0572-7872-45bf-bd1a-099c64e12f42","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"20","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/2da8eba7-7704-4d59-b401-10ee70a762eb.png\/original\/rtaacover.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-01-17
+        21:22:01","updated_at":"2018-01-17 21:22:08","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516098","uuid":"08077f38-dac3-4823-9931-6e8ed6660caa","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"20","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/ae987ef5-9ded-45bd-b533-02135b958242.jpg\/original\/RTAASquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:13:58","updated_at":"2018-03-06 19:15:38","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-animated-adventures"},{"name":"On
+        The Spot","summary":{"html":"<p>Rooster Teeth''s official game show!  A live
+        half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the
+        spot for points and mayhem.<\/p>","clean":"Rooster Teeth''s official game
+        show!  A live half hour of fast-paced laughs as host Jon Risinger puts two
+        RT teams on the spot for points and mayhem."},"id":55,"slug":"on-the-spot","seasonCount":12,"coverPicture":{"id":"100486522","uuid":"8b69627a-e427-45ca-af46-fe3baf460816","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/64f97401-2a32-4bbb-a9e6-5f9035fa680c.jpg\/original\/OnTheSpotHero2.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-14
+        17:08:45","updated_at":"2018-03-14 20:42:23","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516084","uuid":"31f13166-cc51-4c35-afce-0f991289dbc5","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"55","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:11:56","updated_at":"2018-03-06 19:12:09","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/on-the-spot"},{"name":"Immersion","summary":{"html":"<p>Can
+        you recreate elements of popular video games in real life? Let''s find out.<\/p>","clean":"Can
+        you recreate elements of popular video games in real life? Let''s find out."},"id":10,"slug":"immersion","seasonCount":5,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518205","uuid":"c1d24625-245a-4b72-95db-81fc5ad2f0ce","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"10","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/7d68b9cb-bac9-4d7f-aeb8-b4d1908df8b7.jpg\/original\/ImmersionSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:32:54","updated_at":"2018-03-14 19:33:04","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/immersion"},{"name":"Off
+        Topic","summary":{"html":"<p>The gang congregates each week to discuss the
+        important questions in life... and drink.<\/p>","clean":"The gang congregates
+        each week to discuss the important questions in life... and drink."},"id":208,"slug":"off-topic-the-achievement-hunter-podcast","seasonCount":5,"coverPicture":{"id":"100064531","uuid":"5ae5c841-cfec-49f8-8700-0df1ce5eef29","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"208","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/94ae6d2f-1540-43fc-983b-7ba1fe60cd3c\/original\/2013912-1446152742088-Off_Topic_1920_Logo.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-10-29
+        21:05:56","updated_at":"2018-01-17 20:02:40","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516075","uuid":"9b183b53-4e02-45dd-91d2-70e5372d12b4","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"208","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/f95c4607-13b8-46b6-85fc-9ac4b9ec7bf0.jpg\/original\/OffTopicSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:09:12","updated_at":"2018-03-06 19:09:24","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/off-topic-the-achievement-hunter-podcast"},{"name":"Let''s
+        Play","summary":{"html":"<p>A revolving cast from the Let''s Play Family play
+        video games extremely poorly.<\/p>","clean":"A revolving cast from the Let''s
+        Play Family play video games extremely poorly."},"id":23,"slug":"lets-play","seasonCount":8,"coverPicture":{"id":"100180845","uuid":"4f1079d8-a194-4b0d-9c35-8079c6de1247","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"23","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/297dc522-2edf-4d69-ad38-5de2a6848582\/original\/21-1459367673014-LetsPlay_RT_website.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-03-30
+        19:54:29","updated_at":"2018-01-17 19:35:29","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522591","uuid":"23b9d038-de46-48e3-a5c2-d3f2c0d46b31","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"23","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a6734c38-9014-4813-96fa-7651f22c706c.jpg\/original\/LetsPlaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        20:43:19","updated_at":"2018-03-27 20:43:39","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/lets-play"},{"name":"Theater
+        Mode","summary":{"html":"<p>Achievement Hunter is determined to sit through
+        some of the worst movies ever made, and they want you to suffer with them.<\/p>","clean":"Achievement
+        Hunter is determined to sit through some of the worst movies ever made, and
+        they want you to suffer with them."},"id":258,"slug":"theater-mode","seasonCount":3,"coverPicture":{"id":"100262270","uuid":"5becbfb5-6514-41e0-8dc3-de108b4c0d67","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"258","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/8b98a9c3-7e0b-435c-9550-54790d86cdfa\/original\/2013912-1470426493500-TM-s2-showpg.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-08-05
+        19:48:16","updated_at":"2018-01-17 20:02:44","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100516127","uuid":"be034307-7610-49e1-85e0-15469030203a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"258","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/794c96a3-c912-46d8-ac6a-a456cb3ba45f.jpg\/original\/TheaterModeSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        19:25:03","updated_at":"2018-03-06 19:25:12","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/theater-mode"},{"name":"Camp
+        Camp","summary":{"html":"<p><em>Camp Camp<\/em> tells the story of Max, a
+        jaded ten year old, who finds himself stuck at a dysfunctional summer camp
+        run by a shady business mogul who is looking to turn a profit any way he can.
+        The cynical Max will have to survive annoyingly cheerful counselor David,
+        the weird cast of campers, and bizarre surprises at every turn before he can
+        escape for home.<\/p>","clean":"Camp Camp tells the story of Max, a jaded
+        ten year old, who finds himself stuck at a dysfunctional summer camp run by
+        a shady business mogul who is looking to turn a profit any way he can. The
+        cynical Max will have to survive annoyingly cheerful counselor David, the
+        weird cast of campers, and bizarre surprises at every turn before he can escape
+        for home."},"id":269,"slug":"camp-camp","seasonCount":3,"coverPicture":{"id":"100226151","uuid":"b3b7df36-1c63-45f5-ab29-3ba736dadf01","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"269","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/d27b16d1-21bd-4ea9-9630-1a661cd4dc10\/original\/2013912-1465486487845-CC-ShowPagebanner.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-06-09
+        15:35:05","updated_at":"2018-01-17 18:06:31","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515993","uuid":"5cd646b1-ecaf-48b4-bfde-805dc728ef94","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"269","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/1c5fdcbf-1263-4163-a7f6-cb3f0b93a8b0.jpg\/original\/CampCampSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:49:58","updated_at":"2018-03-06 16:51:34","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/camp-camp"},{"name":"Free
+        Play","summary":{"html":"<p>Meg Turney and Ryan Haywood bring you a fun dose
+        of outrageous Internet videos, gaming news, and zany challenges.  Plus, interviews
+        and exclusive clips from Rooster Teeth''s latest projects.<\/p>","clean":"Meg
+        Turney and Ryan Haywood bring you a fun dose of outrageous Internet videos,
+        gaming news, and zany challenges.  Plus, interviews and exclusive clips from
+        Rooster Teeth''s latest projects."},"id":82,"slug":"free-play","seasonCount":2,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518189","uuid":"3d76c23b-659d-410c-a828-8ee678aaeb8d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"82","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/c002bbb5-d235-4407-9991-9af51f9422cb.jpg\/original\/FreePlaySquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:30:36","updated_at":"2018-03-14 19:30:52","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/free-play"},{"name":"X-Ray
+        and Vav","summary":{"html":"<p>X-Ray and Vav want to be the greatest super
+        heroes ever, but they''re the last people you''d want to be saved by. Despite
+        their lack of superhero prowess, the duo is ready to take on any thug, robber
+        or villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!<\/p>","clean":"X-Ray and Vav want to be the greatest super heroes
+        ever, but they''re the last people you''d want to be saved by. Despite their
+        lack of superhero prowess, the duo is ready to take on any thug, robber or
+        villain who stands in the way of justice. And they''ll do it in true X-Ray
+        and Vav fashion; crotch touching and creating chaos to save the day (for the
+        most part)!"},"id":54,"slug":"x-ray-and-vav","seasonCount":2,"coverPicture":{"id":"100000008","uuid":"99cfedf5-683c-4084-bb1a-07191ef2c93d","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/4f5721e2-8525-4ca5-b3c0-8fb0954e86ae\/original\/984097-1435869288841-XrayandVav_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:52","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518226","uuid":"56d34acc-6881-4d98-b4b4-28ba8e310db9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"54","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/cd73ff68-672f-4eeb-a2a3-edae365a5718.jpg\/original\/XRayAndVavSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:35:40","updated_at":"2018-03-14 19:35:56","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/x-ray-and-vav"},{"name":"Always
+        Open","summary":{"html":"<p>Join Barbara Dunkelman and friends every week
+        as they sit down for a late night chat at their favorite diner to talk about
+        life, love, sex, and everything in between.<\/p>","clean":"Join Barbara Dunkelman
+        and friends every week as they sit down for a late night chat at their favorite
+        diner to talk about life, love, sex, and everything in between."},"id":275,"slug":"always-open","seasonCount":4,"coverPicture":{"id":"100273451","uuid":"84b54b65-704c-4bc9-b2e5-6e079046a95c","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"275","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/a4c92784-d299-4bf0-8644-0e57155008b2\/original\/2013912-1472680297542-alwaysopen_banner_a.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-08-31
+        21:50:18","updated_at":"2018-01-17 20:02:44","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100515988","uuid":"d207e732-4e1d-4842-a2a4-da430d965b5c","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"275","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/841e0be1-6856-428f-8862-7c7a68f53413.jpg\/original\/AlwaysOpenSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-06
+        16:45:07","updated_at":"2018-03-06 16:45:26","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/always-open"},{"name":"Day
+        5","summary":{"html":"<p><em>Day <\/em><em>5<\/em> is the first dramatic series
+        from Rooster Teeth Productions, set in the immediate aftermath of a fatal
+        sleep epidemic. After a fortuitous drug bender saves his life, addict Jake
+        (Jesse C. Boyd) ventures out into the quiet streets\u2026 unaware that most
+        of the world already died in their beds. Now, battling sleepless fatigue and
+        encroaching delirium, Jake teams with a scrappy teenager (Walker Satterwhite),
+        overnight doctor (Stephanie Drapeau) and red-eye pilot (Davi Jay) to search
+        for answers\u2026 and just maybe find a way to sleep again. Set in a world
+        of insomniacs, late-shift workers and roving psychotics, <em>Day 5 <\/em>presents
+        a unique vision of the apocalypse that fuses serial drama and thriller around
+        a human story of survival and redemption.<\/p>\n\n<p><br \/><\/p>\n\n<p><br
+        \/><\/p>","clean":"Day 5 is the first dramatic series from Rooster Teeth Productions,
+        set in the immediate aftermath of a fatal sleep epidemic. After a fortuitous
+        drug bender saves his life, addict Jake (Jesse C. Boyd) ventures out into
+        the quiet streets\u2026 unaware that most of the world already died in their
+        beds. Now, battling sleepless fatigue and encroaching delirium, Jake teams
+        with a scrappy teenager (Walker Satterwhite), overnight doctor (Stephanie
+        Drapeau) and red-eye pilot (Davi Jay) to search for answers\u2026 and just
+        maybe find a way to sleep again. Set in a world of insomniacs, late-shift
+        workers and roving psychotics, Day 5 presents a unique vision of the apocalypse
+        that fuses serial drama and thriller around a human story of survival and
+        redemption.\n\n\n\n"},"id":267,"slug":"day5","seasonCount":2,"coverPicture":{"id":"100435211","uuid":"1cf51d0c-7fd7-4167-8b57-77f78539f947","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"267","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/188136ff-5561-47b0-af84-def6c9f6a7ec\/original\/2013912-1501873175915-day_5_s2_page_banner_master_right_1.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-08-04
+        18:59:43","updated_at":"2018-01-17 20:02:44","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518137","uuid":"b44ba2c9-5324-4223-b976-9cd83668b1d6","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"267","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/0bdd841c-5429-4f43-9e54-6241096ae8e1.jpg\/original\/Day5Square.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:14:40","updated_at":"2018-03-14 19:15:12","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/day5"},{"name":"The
+        Slow Mo Guys","summary":{"html":"<p>Gav and Dan take on the world in Slow
+        Motion!  We shoot all of our videos in HD using high-speed cinema cameras
+        and we highly recommend you watch them that way if you can!<\/p>","clean":"Gav
+        and Dan take on the world in Slow Motion!  We shoot all of our videos in HD
+        using high-speed cinema cameras and we highly recommend you watch them that
+        way if you can!"},"id":36,"slug":"the-slow-mo-guys","seasonCount":1,"coverPicture":{"id":"100000007","uuid":"c26c0127-6995-404c-961e-4c1bb1881609","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"36","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/bf7fcd6f-4094-44c6-b6b2-c60592838c2d\/original\/984097-1435869270555-SlowMoGuys_hero.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-07-02
+        20:34:33","updated_at":"2018-01-17 20:02:35","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518184","uuid":"42f29eb1-1ecd-4f3c-858a-b20a23446c0a","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"36","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/3898a810-9dda-4ad6-993a-0f5dc265e81a.jpg\/original\/TheSlowMoGuysSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:29:51","updated_at":"2018-03-14 19:30:12","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/the-slow-mo-guys"},{"name":"Heroes
+        & Halfwits","summary":{"html":"<p>Dare ye cross over into a realm of mystery
+        and intrigue? Methinks ye shall. Join Rooster Teeth for this official Heroes
+        &amp; Halfwits adventure.<\/p>","clean":"Dare ye cross over into a realm of
+        mystery and intrigue? Methinks ye shall. Join Rooster Teeth for this official
+        Heroes &amp; Halfwits adventure."},"id":268,"slug":"heroes-halfwits","seasonCount":3,"coverPicture":{"id":"100226145","uuid":"9b360f4e-ebe1-442b-a891-31c6d7dd87aa","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"268","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/9e960501-dab0-40ca-a03e-1a622339d23c\/original\/2013912-1465485653464-HH-ShowPagebanner-060616.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-06-09
+        15:21:13","updated_at":"2018-01-17 20:02:44","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522579","uuid":"cedd0396-163d-4fed-834d-b7d9a74343af","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"268","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/9e285a31-b6a9-47cd-bbc9-577801a6cfa9.jpg\/original\/HeroesAndHalfwitsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        20:40:16","updated_at":"2018-03-27 20:40:22","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/heroes-halfwits"},{"name":"RT
+        Life","summary":{"html":"<p>Everything that goes on behind closed doors at
+        Rooster Teeth Productions.<\/p>","clean":"Everything that goes on behind closed
+        doors at Rooster Teeth Productions."},"id":22,"slug":"rt-life","seasonCount":8,"coverPicture":{"id":"100533580","uuid":"a5d28b85-cb50-4a59-acad-d436f1ac1c94","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"22","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/ad0e1d22-dfb5-4aa1-a9ec-b162b09f2ac4.jpg\/original\/rtlifecover.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-05-02
+        22:43:51","updated_at":"2018-05-02 22:44:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100518429","uuid":"1a665f38-5e61-45b1-b54c-72fa136c6a9b","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"22","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/886c5069-27c2-482b-b60c-755ed9a82020.jpg\/original\/RTLifeSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        20:44:20","updated_at":"2018-03-14 20:44:27","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/rt-life"},{"name":"Happy
+        Hour","summary":{"html":"<p>Gavin Free, Geoff Ramsey, and Griffon Ramsey embark
+        on a drunken journey that spans the better part of a decade. Tune in every
+        few weeks to watch them dare and drink their way across the world and time.<\/p>","clean":"Gavin
+        Free, Geoff Ramsey, and Griffon Ramsey embark on a drunken journey that spans
+        the better part of a decade. Tune in every few weeks to watch them dare and
+        drink their way across the world and time."},"id":51,"slug":"happy-hour","seasonCount":3,"coverPicture":{"aws_bucket":"cdn.roosterteeth.com","aws_key":"default\/original\/generic_rt_cover.jpg"},"profilePicture":{"id":"100518194","uuid":"bb0f700d-6171-4b21-9a7f-01f62833b1fd","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"51","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5ccd49a3-1d19-4471-ba34-10ba1d646a34.jpg\/original\/HappyHourSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-14
+        19:31:38","updated_at":"2018-03-14 19:31:57","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/happy-hour"}]'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:32:13 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjJVVGpsYUlWYnFiVk0xNThiaHVkVlwvdDZwWndPUXZERFkyMTRoa1loSkM4PSIsInZhbHVlIjoiclZEeEhJdktDdFJtUVwvUlZ1VEZZYnRTNit6UXg3blJJQWNxU29VRWdrN3BHN2JDblVGRk55eE9PWmtMNEoxRDRiSStPblozWXU4WHBlNHp4ZU8rWFwvZz09IiwibWFjIjoiOTYzMTQ2M2YzNzFkMGFjZDZhOWViZGNhYWFkMzY1NWU0ZDhkOGZmNDUzY2UxMGVhY2M2NmNjMWNjZmYwYWNlOCJ9;
+          expires=Fri, 12-Oct-2018 13:32:12 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-Total-Count: ['228']
+      X-request-uri: ['/api/v1/shows/?page=1&count=20']
+    status: {code: 200, message: OK}
+version: 1

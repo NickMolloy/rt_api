@@ -1,0 +1,144 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer efM5pUzh3C4NAbvgcnJvggtljIFrhtrvU6hTVjAX]
+      Connection: [keep-alive]
+      Cookie: [rt_production_session=eyJpdiI6IlZGUjFtV1VGbW5SXC9pMTlxalV2WW43eFwvWVJnMnVCb2pNbXExdFYxeko3OD0iLCJ2YWx1ZSI6InQyOEFvV0lcLzJQNGNGVGxSalAzdmgzcDdqMWdQcnYybXdhTTJ6UHlMbnlQc2VvOXdOMElBTE9FSTAwYk9MaFlYcEVLbG1WXC8wZHFLQmhraWJ2bWFLeHc9PSIsIm1hYyI6ImYzMWQ2OTUwZTk1MjY0N2VkYjZmZTZiOTdjZDkyNDUyYWM4NGNiMmFhYTk4M2I3YTdhZDBjMGY2MTE2YzE3OWMifQ%3D%3D]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/episodes/31020
+  response:
+    body: {string: '{"title":"Crytek SHUTS DOWN Studios","caption":"Dec 20, 2016","sponsorOnly":false,"description":{"html":"<p>Remember
+        last week we reported on all those Crytek employees who weren''t being paid?
+        Now Crytek is shuttering five studios entirely, right before the holidays...
+        not that they''d been paying their devs anyway...<\/p>","clean":"Remember
+        last week we reported on all those Crytek employees who weren''t being paid?
+        Now Crytek is shuttering five studios entirely, right before the holidays...
+        not that they''d been paying their devs anyway..."},"slug":"the-know-game-news-season-1-crytek-shuts-down-studios","site":"theKnow","id":31020,"number":402,"length":402,"profilePicture":{"id":"100352308","uuid":"64bbaf25-7eea-4915-8a4e-0e4c4a06e19a","title":"","description":"","container_type":"Shows\\Models\\Episode","container_id":"31020","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/c50badea-baa8-48c1-a2e3-09920504a27e\/original\/24363-1482281001906-thumbnail.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-12-21
+        00:43:28","updated_at":"2018-01-17 20:31:13","deleted_at":null,"picture_type":"profile"},"show":{"name":"Game
+        News","summary":{"html":"<p>The Rooster Teeth crew brings you the biggest
+        news in video games.<\/p>","clean":"The Rooster Teeth crew brings you the
+        biggest news in video games."},"id":77,"slug":"game-news","seasonCount":4,"coverPicture":{"id":"100280757","uuid":"ca53c869-68c2-4646-98a3-3f2ee787e319","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-09-20
+        17:36:07","updated_at":"2018-01-17 20:02:39","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100523636","uuid":"57c73918-e2ce-492a-aec5-b1ca93a20d1f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-30
+        00:06:11","updated_at":"2018-03-30 00:06:28","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/game-news"},"season":{"title":"2016","description":"","id":114,"number":2,"slug":"the-know-game-news-season-1","show":{"name":"Game
+        News","summary":{"html":"<p>The Rooster Teeth crew brings you the biggest
+        news in video games.<\/p>","clean":"The Rooster Teeth crew brings you the
+        biggest news in video games."},"id":77,"slug":"game-news","seasonCount":4,"coverPicture":{"id":"100280757","uuid":"ca53c869-68c2-4646-98a3-3f2ee787e319","title":"","description":"","container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/f19e256c-736c-445f-aee8-30c3cb667358\/original\/24363-1474392969521-Game_News_-_Background.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2016-09-20
+        17:36:07","updated_at":"2018-01-17 20:02:39","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100523636","uuid":"57c73918-e2ce-492a-aec5-b1ca93a20d1f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"77","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/a0c62e30-78b9-4e4e-8ab2-42ad29296eb3.jpg\/original\/GameNewsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-30
+        00:06:11","updated_at":"2018-03-30 00:06:28","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/game-news"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/the-know-game-news-season-1-crytek-shuts-down-studios","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv2-video.roosterteeth.com\/uploads\/videos\/ea6d7410-d237-426a-a383-4884d8188f6d\/index.m3u8"}}],"audioFiles":[],"links":[{"type":"link","content":{"picture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"}},"title":"Crytek''s
+        press release","link":" http:\/\/crytek.com\/news\/crytek-outlines-future-plans-and-focuses-on-return-to-core-competencies"}},{"type":"link","content":{"picture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"}},"title":"Legal
+        advice Reddit thread","link":"https:\/\/www.reddit.com\/r\/legaladvice\/comments\/5hg94d\/crytek_hasnt_paid_me_or_my_coworkers_for_almost_6\/"}},{"type":"link","content":{"picture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"}},"title":"Reports
+        state Crytek is all out of money","link":"http:\/\/www.kitguru.net\/gaming\/matthew-wilson\/source-crytek-is-sinking-wages-are-unpaid-talent-leaving-on-a-daily-basis\/"}},{"type":"link","content":{"picture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"}},"title":"Crytek
+        managed to pay Frankfurt employees","link":"http:\/\/kotaku.com\/1790185053"}},{"type":"link","content":{"picture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/linkdump.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/linkdump.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/linkdump.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/linkdump.jpg"}},"title":"Obsidian
+        laid of employees","link":"http:\/\/www.gamasutra.com\/view\/news\/287266\/Obsidian_lays_off_some_Armored_Warfare_devs_as_project_moves_to_Moscow.php"}}]}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:52 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6InVxbXRpTkhXXC9ZR3A3WlJjTUtuUEx2T2dQSGVNRjZXa2VtcmJIV0xOb2l3PSIsInZhbHVlIjoid3lSQnlyVjlraDlROFp3VEZnajVQVXdXTTQwVFwvbXJoRnRcLytnMmVhUm8yUzRhRitYXC9RaXFJZWVyRjc4ME5nS3lJVzlTZmFJZUltSFowRzlkWWZpc2c9PSIsIm1hYyI6ImJjMWVmMDM0YTAwOTkyMDQ4MzFjMzQ0ZWUwMGQ4NmY5ODllNzk2ZGIxYmNjZjczOGM2OTc3NDhkZDIwNmYxNjAifQ%3D%3D;
+          expires=Fri, 12-Oct-2018 13:33:50 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/episodes/31020]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [rtv2-video.roosterteeth.com]
+      User-Agent: [Python-urllib/3.7]
+    method: GET
+    uri: https://rtv2-video.roosterteeth.com/uploads/videos/ea6d7410-d237-426a-a383-4884d8188f6d/index.m3u8
+  response:
+    body: {string: '#EXTM3U
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=11270000,RESOLUTION=1920x1080,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-1080P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5314000,RESOLUTION=1280x720,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-720P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2638000,RESOLUTION=854x480,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-480P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1848000,RESOLUTION=640x360,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-360P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1000000,RESOLUTION=426x240,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-240P.m3u8
+
+        '}
+    headers:
+      Accept-Ranges: [bytes]
+      Age: ['3669']
+      Connection: [close]
+      Content-Length: ['593']
+      Content-Type: [application/x-mpegURL]
+      Date: ['Sat, 14 Jul 2018 12:32:45 GMT']
+      ETag: ['"79b85824f41c5125ac54f6e116c98755"']
+      Last-Modified: ['Wed, 21 Dec 2016 00:47:44 GMT']
+      Server: [AmazonS3]
+      Via: [1.1 e76ebf90f4498e87542fa9fde4ca109f.cloudfront.net (CloudFront)]
+      X-Amz-Cf-Id: [NcLUzxHYZUzcttuu7fCW0Zx9d2fYHe4vTbk9BRqyuYqiNhiQvY3Iiw==]
+      X-Cache: [Hit from cloudfront]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [rtv2-video.roosterteeth.com]
+      User-Agent: [Python-urllib/3.7]
+    method: GET
+    uri: https://rtv2-video.roosterteeth.com/uploads/videos/ea6d7410-d237-426a-a383-4884d8188f6d/index.m3u8
+  response:
+    body: {string: '#EXTM3U
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=11270000,RESOLUTION=1920x1080,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-1080P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5314000,RESOLUTION=1280x720,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-720P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2638000,RESOLUTION=854x480,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-480P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1848000,RESOLUTION=640x360,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-360P.m3u8
+
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1000000,RESOLUTION=426x240,CODECS="avc1.4d001f,mp4a.40.2"
+
+        NewHLS-240P.m3u8
+
+        '}
+    headers:
+      Accept-Ranges: [bytes]
+      Age: ['3669']
+      Connection: [close]
+      Content-Length: ['593']
+      Content-Type: [application/x-mpegURL]
+      Date: ['Sat, 14 Jul 2018 12:32:45 GMT']
+      ETag: ['"79b85824f41c5125ac54f6e116c98755"']
+      Last-Modified: ['Wed, 21 Dec 2016 00:47:44 GMT']
+      Server: [AmazonS3]
+      Via: [1.1 2789801ae3a48d82c133f9b7d9690609.cloudfront.net (CloudFront)]
+      X-Amz-Cf-Id: [97-DEPUDQpiQCltl4gYCuuzh5kyvALkt0SIu5zvNrjDWliRDQjPwjQ==]
+      X-Cache: [Hit from cloudfront]
+    status: {code: 200, message: OK}
+version: 1

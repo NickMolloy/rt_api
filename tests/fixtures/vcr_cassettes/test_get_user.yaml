@@ -1,0 +1,28 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/2044162
+  response:
+    body: {string: '{"username":"xxChinasaurxx","displayTitle":"George","name":"NewName","sex":"p","location":"Asdasdasd","occupation":"param4","about":{"html":"","clean":""},"id":2044162,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/tb\/user_profile_female.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/sm\/user_profile_female.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/md\/user_profile_female.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/default\/original\/user_profile_female.jpg"}},"sponsor":true,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/xxChinasaurxx","hasUsedTrial":true}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:33:13 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ik41T1BUUlNWaGExN3JNUlFUa3ZTazZJRzR3UENYd1JNTnZKSEFZb0hcL1wvND0iLCJ2YWx1ZSI6InhQQzNKVnhkZ2pkUEhQVEhnOFNVZzFnZjJMWDBLcTRNcUdITVlvVlF2T3FpVUN5VlJDbWtFQXM5TUJIS2pNVXZER1ZreFV4WHl3ZURtUWpTMVVteWF3PT0iLCJtYWMiOiI4N2RlNGFlNWNhMWFkZmJmMmFhZTI1YjQ0NDA3ZmYxMjEzMzBiMDg4NThlYzQ1ZGNlMTEyNzg5MzFjOTg5OWI2In0%3D;
+          expires=Fri, 12-Oct-2018 13:33:13 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/2044162]
+    status: {code: 200, message: OK}
+version: 1

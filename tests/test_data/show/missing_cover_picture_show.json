@@ -1,20 +1,34 @@
 {
-    "canonicalUrl": "http://roosterteeth.com/show/on-the-spot",
-    "id": 55,
-    "name": "On The Spot",
-    "profilePicture": {
-        "content": {
-            "lg": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/original/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg",
-            "md": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/md/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg",
-            "sm": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/sm/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg",
-            "tb": "http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/51f48d21-5c15-4211-b3e8-837386bf1b1a/tb/2037887-1467141869039-On_the_Spot_Podcast_Thumbnail.jpg"
-        },
-        "type": "picture"
-    },
-    "seasonCount": 7,
-    "slug": "on-the-spot",
-    "summary": {
-        "clean": "Rooster Teeth's official game show!  A live half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the spot for points and mayhem.",
-        "html": "<p>Rooster Teeth's official game show!  A live half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the spot for points and mayhem.</p>"
-    }
+	"name": "On The Spot",
+	"summary": {
+		"html": "<p>Rooster Teeth's official game show!  A live half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the spot for points and mayhem.<\/p>",
+		"clean": "Rooster Teeth's official game show!  A live half hour of fast-paced laughs as host Jon Risinger puts two RT teams on the spot for points and mayhem."
+	},
+	"id": 55,
+	"slug": "on-the-spot",
+	"seasonCount": 12,
+	"profilePicture": {
+		"id": "100516084",
+		"uuid": "31f13166-cc51-4c35-afce-0f991289dbc5",
+		"title": null,
+		"description": null,
+		"container_type": "Shows\\Models\\Show",
+		"container_id": "55",
+		"permission": {
+			"value": 0,
+			"name": null
+		},
+		"aws_bucket": "rtv3.image.cdn.roosterteeth.com",
+		"aws_key": "store\/e8d10356-958f-47c7-b66b-924d5bab5554.jpg\/original\/OnTheSpotSquare.jpg",
+		"weight": "0",
+		"created_by": "1",
+		"updated_by": "1",
+		"deleted_by": null,
+		"censored_at": null,
+		"created_at": "2018-03-06 19:11:56",
+		"updated_at": "2018-03-06 19:12:09",
+		"deleted_at": null,
+		"picture_type": "profile"
+	},
+	"canonicalUrl": "https:\/\/roosterteeth.com\/show\/on-the-spot"
 }

@@ -1,0 +1,142 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/episodes/50
+  response:
+    body: {string: '{"title":"Episode 35: What''s Mine is Yours","caption":"What''s
+        Mine is Yours","sponsorOnly":false,"description":{"html":"<p>Simmons and Grif
+        bicker over surgery while Sarge discloses that Lopez is hiding secret plans.<\/p>","clean":"Simmons
+        and Grif bicker over surgery while Sarge discloses that Lopez is hiding secret
+        plans."},"slug":"red-vs-blue-season-2-episode-35","site":"roosterTeeth","id":50,"number":17,"length":280,"profilePicture":{"id":"89","uuid":"2f5db8fb-55a9-418e-ba0f-2e9e3307470a","title":"","description":null,"container_type":"Shows\\Models\\Episode","container_id":"50","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/b877be1c-ecce-45b5-ba3e-d203697699d7\/original\/ep50.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:32:22","updated_at":"2018-01-17 20:05:38","deleted_at":null,"picture_type":"profile"},"show":{"name":"Red
+        vs. Blue","summary":{"html":"<p>In the distant future, two groups of soldiers
+        battle for control of the least desirable piece of real estate in the known
+        universe: a box canyon in the middle of nowhere.<\/p>","clean":"In the distant
+        future, two groups of soldiers battle for control of the least desirable piece
+        of real estate in the known universe: a box canyon in the middle of nowhere."},"id":1,"slug":"red-vs-blue","seasonCount":16,"coverPicture":{"id":"100528580","uuid":"b237c0f8-cb52-4b3d-91a1-c35f86a9091e","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"1","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5b3d891c-48f4-4cc8-ae02-fa1aadd1e075.jpg\/original\/rvb_season16_hero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-04-13
+        20:38:18","updated_at":"2018-04-13 20:43:53","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"48","uuid":"7da59f82-0582-4fce-9030-a8a3c3b78ea6","title":"","description":null,"container_type":"Shows\\Models\\Show","container_id":"1","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/9a888611-5b17-49ab-ad49-ca0ad6a86ee1\/original\/rvb600.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:50:29","updated_at":"2018-04-13 18:24:53","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/red-vs-blue"},"season":{"title":"Season
+        2","description":"","id":2,"number":2,"slug":"red-vs-blue-season-2","show":{"name":"Red
+        vs. Blue","summary":{"html":"<p>In the distant future, two groups of soldiers
+        battle for control of the least desirable piece of real estate in the known
+        universe: a box canyon in the middle of nowhere.<\/p>","clean":"In the distant
+        future, two groups of soldiers battle for control of the least desirable piece
+        of real estate in the known universe: a box canyon in the middle of nowhere."},"id":1,"slug":"red-vs-blue","seasonCount":16,"coverPicture":{"id":"100528580","uuid":"b237c0f8-cb52-4b3d-91a1-c35f86a9091e","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"1","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/5b3d891c-48f4-4cc8-ae02-fa1aadd1e075.jpg\/original\/rvb_season16_hero.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-04-13
+        20:38:18","updated_at":"2018-04-13 20:43:53","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"48","uuid":"7da59f82-0582-4fce-9030-a8a3c3b78ea6","title":"","description":null,"container_type":"Shows\\Models\\Show","container_id":"1","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/9a888611-5b17-49ab-ad49-ca0ad6a86ee1\/original\/rvb600.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-06-27
+        17:50:29","updated_at":"2018-04-13 18:24:53","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/red-vs-blue"}},"canonicalUrl":"https:\/\/roosterteeth.com\/episode\/red-vs-blue-season-2-episode-35","media":{"videos":[{"type":"video","content":{"type":"cdn","url":"https:\/\/rtv3-video.roosterteeth.com\/store\/b7604878404b155e3eea6e447e9f72b5-1d066bd1\/ts\/index.m3u8"}}],"audioFiles":[],"links":[]}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:12 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6IjQyYW1Rb3JuelhiUCtmTGxMTHByODZEVHBjQXBiMzE5NEozZE9tN2NcL2tnPSIsInZhbHVlIjoiVkxjOGY3OWhUbDRUQ0pKVlwvSjJvV3BtZ3VFQ1B6NEtDVm9uZUZvNnlPXC9GVUM4UTNmQTJIZ3ArRFRUczJjUUZLV3BHYWJLeFNFSWN4dGZ2TldpNTZMUT09IiwibWFjIjoiZWE0YTgwNDAxYWZlMGQ1NDM2YzI3MmQ1MTBiZGExZDRkMTNlMTYyYzVhYWMwNGRiYzgxYTlkZDczZWQwNTI4MSJ9;
+          expires=Fri, 12-Oct-2018 13:31:11 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/episodes/50]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/seasons/50
+  response:
+    body: {string: '{"title":"Season 1","description":"","id":50,"number":1,"slug":"quick-bits-season-1","show":{"name":"Quick
+        Bits","summary":{"html":"<p>Think of it as baby Let''s Play!<\/p>","clean":"Think
+        of it as baby Let''s Play!"},"id":31,"slug":"quick-bits","seasonCount":1,"coverPicture":{"id":"100485847","uuid":"52e70f42-1483-414f-b850-8386be43afe9","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"31","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/0d123429-e843-4ae4-9be5-f1bf45b3faf0.jpg\/original\/QuickBitsHero3.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2017-12-12
+        18:56:55","updated_at":"2018-01-17 16:37:42","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100522630","uuid":"0b83483d-4be6-4b49-8449-158bc45657da","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"31","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/2adf4b3e-3bc7-4c72-9a0f-03f4fcec757c.jpg\/original\/QuickBitsSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-27
+        21:43:52","updated_at":"2018-03-27 21:44:08","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/quick-bits"}}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:12 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImhsaUdZanE1b0pEWU16bjZJRVFybHF0WVNQcXBRcFNrMFBZb01FOURBdUU9IiwidmFsdWUiOiJxeGJOVU9IQ3dFbVp3UFZaNms1Z0J6eW55NDlnMmtybzIxT0lLWlhqd2ZCaEV5dWRGXC9rUzVKXC9BbVpDWGZZemVmbFlQd3dUWE1LNnNwcGJmNUtkdGlnPT0iLCJtYWMiOiIxZDdmZTM2YTdlYWNiODFkYWEzNDk3MWZlMWFkZDcxZWJkYzVlZjMxOTUzNTA3NmYzODgxNzAxYzg2ZTc3ZGE4In0%3D;
+          expires=Fri, 12-Oct-2018 13:31:13 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/seasons/50]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/shows/50
+  response:
+    body: {string: '{"name":"Social Disorder","summary":{"html":"<p>Chris and Aaron
+        create elaborate social experiments and pranks in order to compete against
+        each other for points. Whoever completes the objective for the experiment
+        \u2013 or gets the most points for creativity, absurdity, style, etc. \u2013
+        wins that episode.<\/p>","clean":"Chris and Aaron create elaborate social
+        experiments and pranks in order to compete against each other for points.
+        Whoever completes the objective for the experiment \u2013 or gets the most
+        points for creativity, absurdity, style, etc. \u2013 wins that episode."},"id":50,"slug":"social-disorder","seasonCount":2,"coverPicture":{"id":"100035690","uuid":"5e1bfb5e-6135-43fc-94cb-41141a90ba32","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"50","permission":{"value":0,"name":null},"aws_bucket":"cdn.roosterteeth.com","aws_key":"uploads\/images\/cc59fc19-7aa5-4950-97cd-e0ec2d3c7dba\/original\/1461653-1441827645428-socialdisorder.png","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2015-09-09
+        19:41:07","updated_at":"2018-01-17 20:02:37","deleted_at":null,"picture_type":"cover"},"profilePicture":{"id":"100521078","uuid":"873d4771-67f3-4f32-9569-33e56e656b7f","title":null,"description":null,"container_type":"Shows\\Models\\Show","container_id":"50","permission":{"value":0,"name":null},"aws_bucket":"rtv3.image.cdn.roosterteeth.com","aws_key":"store\/87d476ab-f1cd-4d47-a860-0f34599284c0.jpg\/original\/SocialDisorderSquare.jpg","weight":"0","created_by":"1","updated_by":"1","deleted_by":null,"censored_at":null,"created_at":"2018-03-23
+        19:14:19","updated_at":"2018-03-23 19:14:26","deleted_at":null,"picture_type":"profile"},"canonicalUrl":"https:\/\/roosterteeth.com\/show\/social-disorder"}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:13 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6ImpBU2dpUUdoNmVzTDZxV0Vid3lWY3hOOHNkcXF0QlRHOUNrVE9wd1RYVlk9IiwidmFsdWUiOiIzbnBsNmpITlwvQXR1RTNcL2JxaDBNaGNaSmtnbDFzM2JnQTlERHR5RU5HWG5EY0p3SDgyMHVRREVJMmMwZXl3NGRjK0o3UENPUkhjY01kTHBDUDM1cUdBPT0iLCJtYWMiOiJkZTA3MGEwYzI0Yjc4NDViMjQzNzllMjk4YzRjMjc3NDc0ZjczZWJhMTgwYjY4YjIxMTc0MThjZjMzMmY4N2M1In0%3D;
+          expires=Fri, 12-Oct-2018 13:31:15 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/shows/50]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.13.0]
+    method: GET
+    uri: https://roosterteeth.com/api/v1/users/50
+  response:
+    body: {string: '{"username":"Turiya","displayTitle":"","name":"Jon","sex":"m","location":"Lewisville,
+        TX","occupation":"System Center Engineer, Presidio","about":{"html":"<p><img
+        width=\"460\" height=\"50\" src=\"http:\/\/www.sloganizer.net\/en\/style3,Turiya.png\"
+        alt=\"style3,Turiya.png\" \/><\/p>","clean":""},"id":50,"profilePicture":{"type":"picture","content":{"tb":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/735a195d-5f4e-4bff-bd87-b1c9e0de99fe\/tb\/Turiya4235332738efc.jpg","sm":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/735a195d-5f4e-4bff-bd87-b1c9e0de99fe\/sm\/Turiya4235332738efc.jpg","md":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/735a195d-5f4e-4bff-bd87-b1c9e0de99fe\/md\/Turiya4235332738efc.jpg","lg":"http:\/\/s3.amazonaws.com\/cdn.roosterteeth.com\/uploads\/images\/735a195d-5f4e-4bff-bd87-b1c9e0de99fe\/original\/Turiya4235332738efc.jpg"}},"sponsor":false,"canonicalUrl":"https:\/\/roosterteeth.com\/user\/Turiya","hasUsedTrial":false}'}
+    headers:
+      Access-Control-Allow-Credentials: ['true']
+      Access-Control-Allow-Headers: ['Authorization,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type']
+      Access-Control-Allow-Methods: ['GET, POST, OPTIONS']
+      Access-Control-Allow-Origin: ['*']
+      Cache-Control: [public]
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      Date: ['Sat, 14 Jul 2018 13:31:13 GMT']
+      Server: [nginx/1.10.1]
+      Set-Cookie: ['rt_production_session=eyJpdiI6Ikk4RzVqOUZXaTV3VHFyaHVkZEI4TmtiOXNzRFRTQkdiUnBxelplY2ZGelk9IiwidmFsdWUiOiJoVHBCSm1VQ01jODc3bVFHYmtzOU93OHhFXC9NenBmbnBhWitOalwvNDlIYUo4MnFxRm51TjFVZXJpWHFMZVhEbTk3bGQwYlwvakduMlhsalhnaVFKMEU4QT09IiwibWFjIjoiYmI0ZTQwNmVmMjViMTlkZDZlNTJiOTBiOTk4ZDhiZTFkODIzMDc0Y2JjMWU1M2RmYmRkMmNiNGJiMmE4NWRkYiJ9;
+          expires=Fri, 12-Oct-2018 13:31:12 GMT; Max-Age=7776000; path=/; domain=.roosterteeth.com;
+          httponly']
+      X-request-uri: [/api/v1/users/50]
+    status: {code: 200, message: OK}
+version: 1
